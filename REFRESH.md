@@ -15,7 +15,7 @@ Ellis is in the UK (Europe region) and is choosing a main before WoW: Forever la
 
 ## Steps
 
-1. Get the repo: call the `add_repo` tool with owner `EllisKOsborn`, repo `forever-codex`, access `push`, then clone it as that tool says. Copy `data/` to a scratch folder as "yesterday" for the digest.
+1. Get the repo with push access. It is attached to the scheduled task as a repository source, so use the existing clone in the working directory (or clone https://github.com/EllisKOsborn/forever-codex). If an `add_repo` tool is available you may use it. Run `git push --dry-run origin main` before researching; if it fails, stop and report the exact error. Copy `data/` to a scratch folder as "yesterday" for the digest.
 2. Research (below), following the accuracy protocol.
 3. Update `data/*.json`, write today's digest last, set `meta.app.lastRefreshed` (ISO with Europe/London offset) and `meta.app.build`.
 4. Run `python3 scripts/check_data.py`. If it prints any FAIL, fix the data and run it again. **Never push data that fails.** Warnings are fine but mention them in the digest.
