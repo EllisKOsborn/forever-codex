@@ -1,0 +1,101 @@
+{
+ "2026-10-13": {
+  "date": "2026-10-13",
+  "labels": {
+   "warlock": "MythicSim Affliction trinket board, engine 944a791, client 70338"
+  },
+  "values": {
+   "affliction-warlock": 734
+  }
+ },
+ "2026-10-15": {
+  "date": "2026-10-15",
+  "labels": {
+   "mage": "MythicSim tier list before the 16 Oct update (client 70374)",
+   "priest": "Tier list, Undead preset, engine b113724",
+   "warlock": "MythicSim tier list, engine b113724, 15 Oct"
+  },
+  "values": {
+   "affliction-warlock": 725,
+   "arcane-mage": 726,
+   "demonology-warlock": 839,
+   "destruction-warlock": 699,
+   "fire-mage": 696,
+   "frost-mage": 667,
+   "frostfire-mage": 717,
+   "shadow-priest": 704
+  }
+ },
+ "2026-10-16": {
+  "date": "2026-10-16",
+  "labels": {
+   "mage": "MythicSim trinket-board baselines, engine 5af1303, client 70425",
+   "priest": "Race board, Undead, engine 1007c66 (build 70425)",
+   "warlock": "MythicSim Warlock page, engine 12ffe58, client 70425"
+  },
+  "values": {
+   "affliction-warlock": 756,
+   "arcane-mage": 776,
+   "demonology-warlock": 852,
+   "destruction-warlock": 704,
+   "fire-mage": 777,
+   "frost-mage": 651,
+   "frostfire-mage": 743,
+   "shadow-priest": 739.7
+  }
+ },
+ "2026-10-17": {
+  "date": "2026-10-17",
+  "labels": {
+   "mage": "MythicSim tier list, engine 5af1303, client 70425",
+   "priest": "MythicSim Priest page baseline, engine 12ffe58, client 70425",
+   "warlock": "MythicSim tier list, engine 5af1303, client 70425"
+  },
+  "values": {
+   "affliction-warlock": 756,
+   "arcane-mage": 776,
+   "demonology-warlock": 852,
+   "destruction-warlock": 704,
+   "fire-mage": 777,
+   "frost-mage": 651,
+   "frostfire-mage": 743,
+   "shadow-priest": 745
+  }
+ },
+ "2026-10-18": {
+  "date": "2026-10-18",
+  "labels": {
+   "mage": "MythicSim Mage page, engine 0d17668, client 70425 (17 Oct)",
+   "priest": "MythicSim Priest page, engine 12ffe58, client 70425 (16 Oct)",
+   "warlock": "MythicSim Warlock page, engine 0d17668, client 70425 (17 Oct)"
+  },
+  "values": {
+   "affliction-warlock": 757,
+   "arcane-mage": 837,
+   "demonology-warlock": 853,
+   "destruction-warlock": 704,
+   "fire-mage": 797,
+   "frost-mage": 673,
+   "frostfire-mage": 743,
+   "shadow-priest": 745
+  }
+ },
+ "2026-10-19": {
+  "date": "2026-10-19",
+  "labels": {
+   "mage": "MythicSim Mage page, engine 24c66df, client 70425 (19 Oct)",
+   "priest": "MythicSim Shadow trinket board, engine 37c2dfb, client 70425 (18 Oct)",
+   "warlock": "MythicSim Warlock page, engine 24c66df, client 70425 (19 Oct)"
+  },
+  "values": {
+   "affliction-warlock": 776,
+   "arcane-mage": 861,
+   "demonology-warlock": 873,
+   "destruction-warlock": 721,
+   "fire-mage": 851,
+   "frost-mage": 690,
+   "frostfire-mage": 765,
+   "shadow-priest": 774
+  }
+ }
+}

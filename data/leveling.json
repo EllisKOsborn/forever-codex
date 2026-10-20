@@ -1,0 +1,444 @@
+{
+ "mage": {
+  "bands": [
+   {
+    "dungeons": "None needed.",
+    "gear": "Quest cloth with Intellect or spell damage. Weapons give real spell damage from about level 10.",
+    "pulls": "One mob at a time. Frostbolt to slow, Fire Blast to finish.",
+    "range": "1–10",
+    "spec": "No talents",
+    "spells": "Fireball and Frost Armor (1), Arcane Intellect (1), Frostbolt and Conjure Water (4), Fire Blast and Conjure Food (6), Arcane Missiles and Polymorph (8), Frost Nova (10). Comprehend Scroll at 6.",
+    "talents": "None until 10.",
+    "tip": "Pick up the Camping 101 quest around level 5–6 and keep a stack of conjured water before every pull.",
+    "title": "Fireball, Frostbolt, conjured food and water",
+    "wand": "Novice's Practice Wand or any early wand; stand still 0.5 sec before it fires.",
+    "zonesA": "Elwynn Forest, Dun Morogh, Teldrassil",
+    "zonesH": "Durotar, Tirisfal Glades"
+   },
+   {
+    "dungeons": "Ragefire Chasm or The Deadmines, Wailing Caverns, Shadowfang Keep, Ruins of Lordaeron (new).",
+    "gear": "Staff of Westfall (Deadmines quest, Alliance). Tailoring: Novice Arcanist's Sash, Double-Stitched Woolen Shoulders.",
+    "pulls": "Two mobs: Frostbolt one, Frost Nova when both reach you, step back and finish them. Arcane Explosion once you have it for small packs.",
+    "range": "10–20",
+    "spec": "Frost",
+    "spells": "Slow Fall and Dampen Magic (12), Arcane Explosion (14), Flamestrike (16), Amplify Magic and Remove Lesser Curse (18).",
+    "talents": "Improved Frostbolt 5/5 (10–14), Ice Shards 5/5 (15–19).",
+    "tip": "Mage class quests at 10 and 15 reward a staff, off-hand or robe. Do them.",
+    "title": "Improved Frostbolt, then Ice Shards",
+    "wand": "Lesser Magic Wand, then Greater Magic Wand (Enchanting or the Auction House).",
+    "zonesA": "Westfall, Loch Modan, Darkshore",
+    "zonesH": "The Barrens, Silverpine Forest"
+   },
+   {
+    "dungeons": "Shadowfang Keep, Blackfathom Deeps, Excavation Site: Wetlands (new), City of Dalaran (new; Frothing Slippers pattern drops from Unstable Sentinel), Razorfen Kraul.",
+    "gear": "Swinetusk Shank and Stygian Bone Amulet (Razorfen Kraul), Frothing Slippers and Azure Silk Cloak (Tailoring), Philanthropist's Ring (Library books quest).",
+    "pulls": "Frost Nova then spam Ice Lance: every Lance is a Shatter crit while the Nova holds. Frost Blast replaces rank 1 Frostbolt for cheap slows.",
+    "range": "20–30",
+    "spec": "Frost",
+    "spells": "Blink, Blizzard, Evocation, Mana Shield, Fire Ward and city teleports (20), Frost Ward and Scorch (22), Frost Blast and Counterspell (24), Cone of Cold (26), Conjure Mana Agate (28).",
+    "talents": "Frostbite 3/3 (20–22), Improved Frost Nova 2/2 (23–24), Ice Lance (25), Shatter 3/3 (26–28), Ice Block (29).",
+    "tip": "Class quest at 26 rewards a robe. Start Comprehension scroll drops and the Library book quests now.",
+    "title": "Ice Lance and Shatter come online",
+    "wand": "Thunderwood or Wand of Eventide (world drops) until your level-30 quest wand.",
+    "zonesA": "Redridge, Duskwood, Wetlands, Ashenvale",
+    "zonesH": "Stonetalon, Ashenvale, Hillsbrad"
+   },
+   {
+    "dungeons": "Scarlet Monastery (Library book for the wand quest), Razorfen Kraul, Gnomeregan, Uldaman, Razorfen Downs.",
+    "gear": "Berylline Pads (shoulder quest), Spellpower Goggles Xtreme (Engineering 225), 'of Frozen Wrath' greens on the Auction House.",
+    "pulls": "Fingers of Frost lets you Ice Lance at range without a Nova. For packs: Frost Nova, Flamestrike, Arcane Explosion; Blizzard only when a tank holds them.",
+    "range": "30–40",
+    "spec": "Frost",
+    "spells": "Ice Armor (30), Mage Armor (34), Conjure Mana Jade (38), teleports to Darnassus and Thunder Bluff (30).",
+    "talents": "Permafrost 3/3 (30–32), Fingers of Frost 2/2 (33–34), Arctic Reach 2/2 (35–36), Cold Snap (37), Piercing Ice 2/3 (38–39).",
+    "tip": "Mage Armor at 34 cuts drinking a lot. Swap to Frost Armor only when melee hit you.",
+    "title": "Fingers of Frost and Cold Snap",
+    "wand": "Icefury Wand (Mage's Wand quest from 30, needs a Scarlet Monastery book). Alternatives: Burning Sliver (Alliance) or Dancing Flame (Horde), Master Hunter's Wand (Stranglethorn, hard at 30).",
+    "zonesA": "Arathi, Desolace, Stranglethorn; Riverglades (new) from 35",
+    "zonesH": "Thousand Needles, Desolace, Arathi, Stranglethorn; Riverglades (new) from 35"
+   },
+   {
+    "dungeons": "Zul'Farrak, Maraudon, Sunken Temple. Krol'dok Stronghold (new) and Alcaz Prison (new) when their loot is known.",
+    "gear": "Spell damage and Intellect greens, dungeon blues from Zul'Farrak and Maraudon.",
+    "pulls": "Ice Barrier before each pull lets you cast through hits. Dual spec at 40: set a Fire or Arcane spec for dungeons and keep Frost for questing.",
+    "range": "40–50",
+    "spec": "Frost",
+    "spells": "Frostfire Bolt and portals (40), mount and dual specialisation (40), Conjure Mana Citrine (48).",
+    "talents": "Ice Barrier (40), Improved Channeling 5/5 (41–45), Arcane Concentration 4/5 (46–49).",
+    "tip": "Sell portals in cities between quests for easy gold.",
+    "title": "Ice Barrier, Frostfire Bolt and portals",
+    "wand": "Best quest or dungeon wand you find. Forever adds new wands such as Greater Eternal Wand (source not confirmed yet).",
+    "zonesA": "Tanaris, Feralas, Hinterlands, Badlands",
+    "zonesH": "Tanaris, Feralas, Hinterlands, Badlands"
+   },
+   {
+    "dungeons": "Blackrock Depths, Blackrock Spire, Scholomance, Stratholme. Raids open 9 December.",
+    "gear": "Pre-raid: Blackrock Spire trinkets (Draconic Infused Emblem, Briarwood Reed), Dire Maul and Scholomance cloth. See the Gear tab.",
+    "pulls": "Same Frost toolkit. Stop big kites near other players: the Forever slows were cut to stop bot farming.",
+    "range": "50–60",
+    "spec": "Frost → raid spec",
+    "spells": "Teleport: Dalaran and the last portals (50), Arcane Brilliance (56), Conjure Mana Ruby (58).",
+    "talents": "No agreed order past 49 yet. Most builds add Arcane Concentration 5/5, Improved Counterspell, Arcane Geometry and Missile Barrage.",
+    "tip": "Respec to Fire or Arcane at 60 for raids opening 9 December. Check the Today tab for which one sims higher that week.",
+    "title": "Finish Frost, set up your raid spec",
+    "wand": "Keep the best wand you have; raid presets in MythicSim use level-60 wands.",
+    "zonesA": "Un'Goro, Felwood, Burning Steppes, Winterspring, Eastern Plaguelands",
+    "zonesH": "Un'Goro, Felwood, Burning Steppes, Winterspring, Eastern Plaguelands"
+   }
+  ],
+  "cards": [
+   {
+    "items": [
+     "Frost Nova, then Flamestrike plus Arcane Explosion is Warcraft Tavern's pack combo at 30.",
+     "Cone of Cold now slows 40% for 6 sec, with an extra 10% for 3 sec on the first 4 targets hit. Big Classic-style kites are harder.",
+     "Improved Blizzard slows 15/25/40% by rank (Classic was 30/50/65%). Blizzard is safest when a tank holds the pack.",
+     "Only one Flamestrike can be on the ground per Mage.",
+     "Always keep enough Mana for one Frost Nova and one Blink in case the pull goes wrong."
+    ],
+    "title": "AoE pulls"
+   },
+   {
+    "items": [
+     "Fire: lowest Mana use and strong at high levels, but leans on crit for Heating Up procs. Improved Fireball 5/5, Ignite 5/5, then Burning Soul, Pyroblast, Improved Scorch, Heating Up.",
+     "Arcane: Improved Channeling 5/5, Arcane Concentration 5/5, then Arcane Blast at 20. Strong in groups, Mana-hungry solo; cast only 1–2 Blasts before Missiles early on.",
+     "Both are easier in dungeons than in the open world. Dual spec at 40 lets you keep Frost for questing."
+    ],
+    "title": "Levelling as Fire or Arcane"
+   }
+  ],
+  "cls": "mage",
+  "gearRules": [
+   "Spell damage first while levelling, then Intellect; Stamina and Spirit after.",
+   "Weapons give large spell damage in Forever, so a weapon upgrade beats most armour upgrades.",
+   "'of Frozen Wrath' (Frost) and 'of Fiery Wrath' (Fire) greens are the levelling staples.",
+   "Arcane levellers want more Spirit and Mp5 than Frost or Fire."
+  ],
+  "habits": [
+   "Conjure a stack of water before you go out, and again before dungeons.",
+   "Keep Arcane Intellect and an Armor up at all times.",
+   "Polymorph the dangerous mob in any pull of three or more.",
+   "Use mana gems on cooldown in long fights; they're free.",
+   "Stand still for half a second before the wand fires."
+  ],
+  "legacy": [
+   "Legacy unlocks when your first character reaches 25 and is shared account-wide, so your Priest's points count.",
+   "Thrill of Adventure 5/5: kills outside dungeons restore 5% health and Mana over 10 sec. Less drinking.",
+   "Talented: talent points up to 5 levels earlier. Needs Well Rested 5/5.",
+   "Reagent Economy (10 in Resourcefulness) removes vendor reagents, so free teleports and Arcane Brilliance."
+  ],
+  "professions": [
+   "Tailoring + Enchanting is the classic Mage pair: cloth caster gear, wand materials and enchant income.",
+   "Engineering is Icy Veins' top pick for most Mages: Spellpower Goggles Xtreme, Minor Recombobulator and explosives for AoE.",
+   "If your Priest keeps Tailoring + Enchanting, Engineering + Tailoring on the Mage avoids doubling up.",
+   "Cooking for XP food and your own campfire; First Aid now also makes Healing Potions.",
+   "Crafting professions give a Legacy point at 150, 225 and 300."
+  ],
+  "summary": "Level as Frost. 45% of Mage levelling builds on TalentsForever lead with Frost, and Warcraft Tavern calls Ice Lance with Fingers of Frost the fastest way to kill mobs in the beta. Switch to your raid spec (Fire or Arcane) at 60; respecs are cheap. Talents below follow TalentsForever's most-planned Frost order; the Legacy perk Talented gives each point up to 5 levels earlier.",
+  "tables": []
+ },
+ "priest": {
+  "bands": [
+   {
+    "dungeons": "None needed.",
+    "gear": "Anything with Intellect or spell power. Strength and Agility do nothing for you.",
+    "range": "1–10",
+    "spec": "No talents",
+    "spells": "Shadow Word: Pain at 4 (tags a mob instantly, so open with it when others compete). Power Word: Shield at 6.",
+    "talents": "None until 10.",
+    "tip": "Smite, then melee to finish. From 4: Smite, Shadow Word: Pain, Smite.",
+    "title": "Smite, Shadow Word: Pain, get a wand",
+    "wand": "Lesser Magic Wand from level 5. No vendor sells wands at launch: make one via Tailoring + Enchanting, or ask a guild Blacksmith to disenchant Copper Shortswords for Lesser Magic Essence.",
+    "zonesA": "Elwynn Forest, Dun Morogh, Teldrassil",
+    "zonesH": "Durotar, Tirisfal Glades"
+   },
+   {
+    "dungeons": "Ragefire Chasm or The Deadmines, Wailing Caverns, Shadowfang Keep, Ruins of Lordaeron (new).",
+    "gear": "Spell power greens. Black Slippers (Tailoring 150) later.",
+    "range": "10–20",
+    "spec": "Hybrid",
+    "spells": "Mind Blast and Resurrection at 10, plus your first racial Priest spell (see the Races tab). Inner Fire at 12. Psychic Scream at 14. Dispel Magic at 18.",
+    "talents": "2 points Wand Specialization, then 5/5 Spirit Tap and 2/2 Improved Shadow Word: Pain.",
+    "tip": "Shield, Mind Blast, Shadow Word: Pain, then wand. Stand still: the wand now waits 0.5 sec after you move.",
+    "title": "Wand loop with Spirit Tap",
+    "wand": "Greater Magic Wand at 13 (about 50% more damage). Wands no longer scale with spell power, so the wand itself is your damage.",
+    "zonesA": "Westfall, Loch Modan, Darkshore",
+    "zonesH": "The Barrens, Silverpine Forest"
+   },
+   {
+    "dungeons": "Blackfathom Deeps (essential), Excavation Site: Wetlands (new), City of Dalaran (new), Razorfen Kraul.",
+    "gear": "'of Shadow Wrath' greens. Satchel of Potions trinket (Horde quest in Excavation Site: Wetlands, from 24).",
+    "range": "20–30",
+    "spec": "Hybrid",
+    "spells": "Devouring Plague and Fear Ward at 20 for every race, plus your second racial spell. Mind Blast rank 3 at 22. Shadow Word: Pain rank 4 at 26. Mind Blast rank 4 at 28.",
+    "talents": "Improved Power Word: Shield, Martyrdom, Meditation.",
+    "tip": "Pull 3–4 mobs: Shadow Word: Pain on each, burst one to trigger Spirit Tap, wand the rest.",
+    "title": "Back into Discipline, Blackfathom wand",
+    "wand": "Gravestone Scepter from the Blackfathom Deeps quest (18–25). It boosts Shadow Word: Pain.",
+    "zonesA": "Redridge, Duskwood, Wetlands, Ashenvale",
+    "zonesH": "Stonetalon, Ashenvale, Hillsbrad"
+   },
+   {
+    "dungeons": "Scarlet Monastery, Razorfen Kraul, Uldaman, Razorfen Downs.",
+    "gear": "Level-30 picks: Stygian Bone Amulet and Swinetusk Shank (Razorfen Kraul), Blighted Leggings (Scarlet Monastery Graveyard), Reedknot Ring (quest).",
+    "range": "30–40",
+    "spec": "Hybrid or Penance",
+    "spells": "Divine Spirit (now baseline), Holy Fire rank 3, Inner Fire rank 3 and Power Word: Shield rank 5 at 30. Shadow Word: Death at 32.",
+    "talents": "Stay hybrid for solo questing. If you heal dungeons a lot, respec 21 Discipline points for Penance.",
+    "tip": "Dungeon XP is far below Classic. Run dungeons for gear and quests, not experience.",
+    "title": "Optional Penance respec for healing",
+    "wand": "Lesser Mystic Wand as a fallback from 26. Aim for Master Hunter's Wand (Big Game Hunter chain in Stranglethorn, level 43 elite).",
+    "zonesA": "Arathi, Desolace, Stranglethorn; Riverglades (new) from 35",
+    "zonesH": "Thousand Needles, Desolace, Arathi, Stranglethorn; Riverglades (new) from 35"
+   },
+   {
+    "dungeons": "Zul'Farrak, Maraudon, Sunken Temple.",
+    "gear": "Around 40–50 spell power, Spirit becomes as valuable as spell power because Spirit Tap doubles it after kills.",
+    "range": "40–50",
+    "spec": "Full Shadow",
+    "spells": "Shadowform, Mind Flay rank 3, Mind Blast rank 6 at 40. Power Word: Shield rank 7 and Shadow Word: Pain rank 6 at 42. Mind Blast rank 7 at 46. Prayer of Fortitude at 48.",
+    "talents": "Full Shadow: Improved Mind Blast, Mind Flay, Vampiric Embrace, Shadow Weaving, Darkness, Shadowform. Keep Discipline mana talents with the rest.",
+    "tip": "Shield and Mind Blast to pull, Shadow Word: Pain, Shadow Word: Death and Mind Blast on cooldown, Mind Flay to fill.",
+    "title": "Respec into Shadowform",
+    "wand": "Keep your best wand for finishing, but Mind Flay now does most of the work.",
+    "zonesA": "Tanaris, Feralas, Hinterlands, Badlands",
+    "zonesH": "Tanaris, Feralas, Hinterlands, Badlands"
+   },
+   {
+    "dungeons": "Blackrock Depths, Blackrock Spire, Scholomance, Stratholme. Raids open 9 December.",
+    "gear": "Start chasing the pre-raid trinkets: Draconic Infused Emblem and Briarwood Reed from Blackrock Spire.",
+    "range": "50–60",
+    "spec": "Full Shadow",
+    "spells": "Shadow Word: Pain rank 7 at 50. Mind Blast rank 8 at 52. Mind Blast rank 9 and Shadow Word: Pain rank 8 at 58.",
+    "talents": "Finish the Shadow tree, then Discipline mana talents.",
+    "tip": "Psychic Scream in open areas only, or feared mobs pull more.",
+    "title": "Push to 60 and start pre-raid gear",
+    "wand": "Upgrade from dungeon drops when you see one.",
+    "zonesA": "Un'Goro, Felwood, Burning Steppes, Winterspring, Eastern Plaguelands",
+    "zonesH": "Un'Goro, Felwood, Burning Steppes, Winterspring, Eastern Plaguelands"
+   }
+  ],
+  "cards": [],
+  "cls": "priest",
+  "gearRules": [
+   "Wand upgrades beat armour upgrades until 40.",
+   "Spell power first, then Spirit once you reach about 40–50 spell power.",
+   "Then Intellect and Stamina.",
+   "Look for 'of Shadow Wrath' greens on the Auction House."
+  ],
+  "habits": [
+   "Shield before every pull.",
+   "Stop casting when a mob is low and let the wand finish it.",
+   "Open with Shadow Word: Pain when other players are tagging the same mobs.",
+   "Move on while Spirit Tap is active.",
+   "Carry level-appropriate water into dungeons."
+  ],
+  "legacy": [
+   "Legacy unlocks when your first character reaches level 25. Plan it on the Legacy tab.",
+   "Thrill of Adventure 5/5: kills outside dungeons restore 5% health and Mana over 10 sec. Stacks with Spirit Tap.",
+   "Talented: talent points arrive up to 5 levels earlier. Needs Well Rested at 5/5 first. No effect at 60.",
+   "Well Rested: rested XP builds up to 20% faster.",
+   "Respecs are cheap, so swapping hybrid to Shadow at 40 costs little."
+  ],
+  "professions": [
+   "Tailoring + Enchanting is the best pair: your own wands, cloth caster gear, and disenchanting. Some patterns need a Spinning Wheel or Loom camp feature.",
+   "Herbalism or Skinning if you'd rather make gold.",
+   "Engineering is an option for Shadow: Spellpower Goggles Xtreme and Minor Recombobulator are on the level-30 Shadow list.",
+   "Cooking: XP food gives 5% more experience for 15 minutes.",
+   "Crafting professions give a Legacy point at 150, 225 and 300."
+  ],
+  "summary": "Use the wand-heavy Discipline/Shadow hybrid to 40, then respec into full Shadow for Shadowform. Upgrade your wand before anything else. Spell power gear arrives earlier than in Classic, so swap quest rewards often. Levels 31–60 are based on beta data and may change after launch.",
+  "tables": []
+ },
+ "warlock": {
+  "bands": [
+   {
+    "dungeons": "None needed.",
+    "gear": "Anything with Intellect or spell power.",
+    "pet": "Imp: keep it out. Blood Pact adds Stamina.",
+    "pulls": "Imp attacks, Immolate, then wand. From 4: Corruption and wand. From 8: Bane of Agony and Corruption, then wand.",
+    "range": "1–10",
+    "spec": "No talents",
+    "spells": "Shadow Bolt, Immolate, Demon Skin and Summon Imp at 1. Corruption and Curse of Weakness at 4. Life Tap at 6. Bane of Agony and Fear at 8.",
+    "talents": "None until 10.",
+    "tip": "Life Tap after kills and eat instead of drinking.",
+    "title": "DoTs, Imp, get a wand",
+    "wand": "Lesser Magic Wand from 5. No vendor sells wands at launch: make one with Enchanting or buy it.",
+    "zonesA": "Elwynn Forest, Dun Morogh",
+    "zonesH": "Durotar (Orc, Troll), Tirisfal Glades (Undead)"
+   },
+   {
+    "dungeons": "Ragefire Chasm or The Deadmines, Wailing Caverns, Shadowfang Keep, Hall of Thanes and Ruins of Lordaeron (both new).",
+    "gear": "Spell power greens.",
+    "pet": "Voidwalker at 10 from a class quest. Horde: do it in Undercity, the Orgrimmar version sends you into Skull Rock. Alliance: Stormwind is a little quicker than Ironforge.",
+    "pulls": "Voidwalker holds one mob; DoT a second and Drain Life it from 14.",
+    "range": "10–20",
+    "spec": "Affliction",
+    "spells": "Drain Soul, Create Healthstone and Summon Voidwalker at 10. Health Funnel at 12. Drain Life and Curse of Recklessness at 14. Create Soulstone and Searing Pain at 18.",
+    "talents": "Improved Corruption 5/5 (instant cast), then Suppression 5/5 for hit. Old guides put 5 points in Malediction here; it was removed on 15 Oct.",
+    "tip": "Keep 3–5 Soul Shards: Drain Soul the last few percent of a mob.",
+    "title": "Instant Corruption and a Voidwalker",
+    "wand": "Greater Magic Wand at 13.",
+    "zonesA": "Westfall, Loch Modan, Darkshore",
+    "zonesH": "The Barrens, Silverpine Forest"
+   },
+   {
+    "dungeons": "Blackfathom Deeps (wand, plus Soran'ruk fragments), Excavation Site and City of Dalaran (both new), Stormwind Stockade, Razorfen Kraul.",
+    "gear": "'of Shadow Wrath' greens, Black Slippers (Tailoring 150), Orb of Soran'ruk (Warlock quest off-hand).",
+    "pet": "Incubus or Succubus at 20 (the Incubus quest is easier) for damage. Keep the Voidwalker for big pulls.",
+    "pulls": "Two or three mobs: Voidwalker tanks, DoTs on all, Drain Life on one.",
+    "range": "20–30",
+    "spec": "Affliction",
+    "spells": "Curse of the Elements, Demon Armor, Rain of Fire, Ritual of Summoning and Succubus/Incubus at 20. Eye of Kilrogg at 22. Drain Mana at 24. Curse of Tongues at 26. Banish and Create Firestone at 28.",
+    "talents": "Pandemic 3/3, Nightfall 2/2, Amplify Curse, Improved Bane of Agony 2/2. Improved Drains and Fel Concentration if you drain tank a lot.",
+    "tip": "Legacy unlocks when this first character reaches 25. Put the first points into Thrill of Adventure.",
+    "title": "Succubus, Pandemic and drain tanking",
+    "wand": "Gravestone Scepter from the Blackfathom Deeps quest \"Blackfathom Villainy\". Its bonus is for Priests, but the wand itself is strong.",
+    "zonesA": "Redridge, Duskwood, Wetlands, Ashenvale",
+    "zonesH": "Stonetalon, Ashenvale, Hillsbrad"
+   },
+   {
+    "dungeons": "Scarlet Monastery, Razorfen Kraul, Razorfen Downs, Uldaman, Drowned City (new, 35–40).",
+    "gear": "Stygian Bone Amulet and Swinetusk Shank (Razorfen Kraul), Blighted Leggings and Bloodmage Mantle (Scarlet Monastery Graveyard).",
+    "pet": "Felhunter at 30 for interrupts and dispels; Succubus for raw damage.",
+    "pulls": "DoT three mobs, let the Voidwalker or Felhunter hold one, drain the rest.",
+    "range": "30–40",
+    "spec": "Affliction",
+    "spells": "Hellfire, Summon Felhunter and Subjugate Demon at 30. Shadow Ward at 32. Create Spellstone at 36. Howl of Terror at 40.",
+    "talents": "Siphon Life at 30, Malevolence 5/5, Soul Siphon 3/3, then Shadow Mastery 5/5 as soon as it opens (now 10% Shadow damage).",
+    "tip": "Dungeon XP is far below Classic. Run dungeons for gear and quests, not experience.",
+    "title": "Siphon Life, Shadow Mastery and the Felhunter",
+    "wand": "Master Hunter's Wand (Big Game Hunter chain, Stranglethorn). Burning Sliver (Alliance) or Dancing Flame (Horde, Thousand Needles) on the way.",
+    "zonesA": "Arathi, Desolace, Stranglethorn; Riverglades (new) from 35",
+    "zonesH": "Thousand Needles, Desolace, Arathi, Stranglethorn; Riverglades (new) from 35"
+   },
+   {
+    "dungeons": "Zul'Farrak, Maraudon, Sunken Temple, Krol'dok Stronghold (new, 40–45).",
+    "gear": "Spell power first, then Stamina and Spirit for Life Tap.",
+    "pet": "Succubus or Felhunter. Voidwalker for risky pulls.",
+    "pulls": "DoTs, then Wrack: it also makes your other Shadow DoTs hit 10% harder. Fel Concentration keeps the channel going under attack.",
+    "range": "40–50",
+    "spec": "Affliction",
+    "spells": "Incinerate and Wrack (talents) at 40. Death Coil at 42. Soul Fire at 48.",
+    "talents": "Wrack at 40 (needs Siphon Life), then Demonic Embrace and Fel Vitality from Demonology.",
+    "tip": "Levels 31–60 are untested in the beta (cap 30). Expect changes after launch.",
+    "title": "Wrack",
+    "wand": "Keep your best wand for finishing; DoTs do most of the work.",
+    "zonesA": "Tanaris, Feralas, Hinterlands, Badlands",
+    "zonesH": "Tanaris, Feralas, Hinterlands, Badlands"
+   },
+   {
+    "dungeons": "Blackrock Depths, Blackrock Spire, Dire Maul, Scholomance, Stratholme, Alcaz Prison, Blackmaw Hold and Shaper's Terrace (new). Raids open 9 December.",
+    "gear": "Start the pre-raid trinkets: Draconic Infused Emblem and Briarwood Reed from Blackrock Spire.",
+    "pet": "Infernal for emergencies. At 60, Imp to sacrifice plus Succubus for Demonology.",
+    "pulls": "Same DoT-and-drain loop; Howl of Terror for emergencies in open areas.",
+    "range": "50–60",
+    "spec": "Affliction, then Demonology",
+    "spells": "Inferno at 50 (class quest). Bane of Doom and Ritual of Doom at 60.",
+    "talents": "Finish Affliction and spread into Demonology (Demonic Aegis, Fel Vitality). At 60, respec Demonology 2/31/18 for raids.",
+    "tip": "Demonology sims about 13% above Affliction at 60, so the respec is worth it for raids.",
+    "title": "Finish Affliction, respec for raids",
+    "wand": "Upgrade from dungeon drops when you see one.",
+    "zonesA": "Un'Goro, Felwood, Burning Steppes, Winterspring, Eastern Plaguelands",
+    "zonesH": "Un'Goro, Felwood, Burning Steppes, Winterspring, Eastern Plaguelands"
+   }
+  ],
+  "cards": [
+   {
+    "items": [
+     "Send the Voidwalker in, put Bane of Agony and Corruption on two or three mobs, then channel Drain Life on one.",
+     "Fel Concentration stops damage from pushing back Drain Life and Wrack; without it the channel gets interrupted.",
+     "Improved Drains adds up to 20% to Drain Life, Drain Soul and Wrack; Siphon Life and Soul Siphon heal more per Affliction effect.",
+     "Stamina gear and Demon Armor make it safer. Life Tap the mana back between pulls instead of drinking.",
+     "Thrill of Adventure 5/5 (Legacy) restores 5% health and mana after each kill outside dungeons."
+    ],
+    "title": "Drain tanking"
+   },
+   {
+    "items": [
+     "Demonology is the safer alternative: a tougher demon and better pull safety, but it comes online around 26 and costs more mana. Open with Searing Pain to brand the target for your demon.",
+     "Destruction is the weakest levelling spec: Immolate, Conflagrate, Immolate, then Shadow Bolt or wand, and Shadowburn to finish and get the shard back.",
+     "TalentsForever's beta builds: 44% level Affliction, 36% Demonology, 21% Destruction. At 41+ points Demonology is the most common."
+    ],
+    "title": "Levelling as Demonology or Destruction"
+   }
+  ],
+  "cls": "warlock",
+  "gearRules": [
+   "Wand upgrades beat armour upgrades until 40.",
+   "Spell power first, then hit up to what Suppression doesn't cover, then crit (DoTs can crit).",
+   "Stamina and Spirit both feed Life Tap, so they matter more for you than for other casters.",
+   "Look for 'of Shadow Wrath' greens on the Auction House."
+  ],
+  "habits": [
+   "Make a Healthstone and a Soulstone before every dungeon.",
+   "Let DoTs finish a mob while you start the next one.",
+   "Life Tap after a kill, not mid-pull.",
+   "Keep 5 Soul Shards for demons, stones and summons.",
+   "Summon your next demon between pulls: the current one is stunned while you cast."
+  ],
+  "legacy": [
+   "Legacy unlocks when your first character reaches 25, so this Warlock levels 1–24 without perks.",
+   "Thrill of Adventure 5/5 first: 5% health and mana back after each kill outside dungeons.",
+   "Well Rested speeds up rested XP. Talented only moves your first talent point earlier, so it does nothing for a character that's already past 10.",
+   "Reagent Economy needs 10 points in Resourcefulness. It skips vendor-bought reagents, but Soul Shards still apply.",
+   "Novice, Experienced and Master Warlock (25, 45, 60) are worth a point each."
+  ],
+  "professions": [
+   "Tailoring + Enchanting is the standard pair: cloth caster gear, your own wands, and disenchanting what you make.",
+   "Tailoring patterns: Filigreed Shadow Gown for Affliction, Filigreed Flame Gown for Demonology and Destruction.",
+   "Engineering is an option: Spellpower Goggles Xtreme and Minor Recombobulator are on the level-30 Warlock list.",
+   "First Aid for bandages between drains; Cooking for XP food.",
+   "Each crafting profession gives a Legacy point at 150, 225 and 300."
+  ],
+  "summary": "Level as Affliction: instant Corruption, Banes and Drain Life let you kill on the move with almost no drinking, and every guide and the beta's own build data agree. Malediction was removed on 15 Oct, so older guides' points move into Suppression. This is your first character, so Legacy perks only start at 25. Respec Demonology at 60 for raids. Levels 31–60 come from beta data and may change after launch.",
+  "tables": [
+   {
+    "columns": [
+     "Level",
+     "Demon",
+     "How you get it",
+     "Use it for"
+    ],
+    "rows": [
+     [
+      "1",
+      "Imp",
+      "Your first demon",
+      "Blood Pact Stamina, ranged Firebolt. Demonology sacrifices it in raids."
+     ],
+     [
+      "10",
+      "Voidwalker",
+      "Class quest from your trainer (Horde: Undercity is easier than Orgrimmar)",
+      "Tanking while you level; Sacrifice shield."
+     ],
+     [
+      "20",
+      "Succubus or Incubus",
+      "Class quest; the Incubus quest is easier",
+      "Best single-target damage and Seduction. Identical abilities."
+     ],
+     [
+      "30",
+      "Felhunter",
+      "Class quest",
+      "Spell Lock and Devour Magic; damage close to the Succubus."
+     ],
+     [
+      "50",
+      "Infernal",
+      "Class quest for Inferno",
+      "Temporary demon: AoE stun and Fire damage, under your control for 5 min."
+     ],
+     [
+      "60",
+      "Doomguard",
+      "Ritual of Doom",
+      "Not tested in the beta yet."
+     ]
+    ],
+    "title": "Demons by level"
+   }
+  ]
+ }
+}

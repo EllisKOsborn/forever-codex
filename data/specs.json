@@ -1,0 +1,840 @@
+{
+ "affliction-warlock": {
+  "build": "33/0/18",
+  "cards": [
+   {
+    "items": [
+     "Succubus or Incubus for damage (the sim's pet), with Demon Armor on you.",
+     "Felhunter is a close second and brings Spell Lock and Devour Magic.",
+     "Turn Torment off auto-cast on a Voidwalker so it doesn't steal threat in dungeons."
+    ],
+    "title": "Pet"
+   },
+   {
+    "items": [
+     "You're the natural curse Warlock: Amplify Curse boosts your next curse or bane.",
+     "Bane of Doom only pays off with 60+ sec left; the sim switches to Agony after that.",
+     "Curse of Exhaustion (Amplify Curse now makes it 50% stronger, found in the 15 Oct files) is for kiting, not raids."
+    ],
+    "title": "Your curse and banes"
+   }
+  ],
+  "cls": "warlock",
+  "consumables": [
+   "Flask of Supreme Power and Greater Arcane Elixir",
+   "Elixir of Shadow Power (Shadow Bolt, DoTs and Drains are all Shadow)",
+   "Mageblood Elixir and Cerebral Cortex Compound",
+   "Spellstone on your weapon (the sims use it); Brilliant Wizard Oil",
+   "Spell damage food (MythicSim uses Lobster Stew for Demonology)",
+   "Major Mana Potion and Demonic Rune, plus your Healthstone",
+   "World buffs don't work in Forever raids, so don't plan around them."
+  ],
+  "dungeonTips": [
+   "Spread Bane of Agony and Corruption across the pack while the tank holds it; mouseover macros help.",
+   "Fear only in open rooms: Curse of Recklessness stops a feared mob from fleeing into the next pack.",
+   "Drain Soul the last mob of a pull to top up Soul Shards. Since 1 Oct it stops if you cast anything else."
+  ],
+  "experimental": false,
+  "id": "affliction-warlock",
+  "key": "affliction",
+  "name": "Affliction",
+  "newDps": 776,
+  "newNote": "MythicSim Warlock page, engine 24c66df on client 70425, 19 Oct (tier list and trinket board both 776 on 37c2dfb, 18 Oct)",
+  "race": "Human",
+  "raceBoard": {
+   "note": "Human 774.8, Orc 769.3 and Gnome 767.2 are within 1%; Undead and Troll are 1.1 to 1.4% back.",
+   "snapshot": "Engine 24c66df, 19 Oct (client 70425)"
+  },
+  "raidRotation": [
+   "Curse of the Elements (or your assigned curse) kept up.",
+   "Bane of Doom while 60+ sec remain. When Doom isn't up, Amplify Curse then Bane of Agony.",
+   "Corruption (instant with Improved Corruption), Immolate and Siphon Life, each refreshed within one cast of falling off. DoTs crit, and Pandemic doubles their crit damage at 3/3.",
+   "Shadow Bolt as filler. Cast it straight away when Nightfall gives you Shadow Trance (instant).",
+   "Life Tap below 10% mana; potion and Demonic Rune in long fights.",
+   "Last 1.5 sec: Shadowburn. Last 3.5 sec: Searing Pain. Both dump damage you'd otherwise lose.",
+   "Wrack (the 31-point capstone) isn't in the ranking preset yet, so its value is unknown."
+  ],
+  "stats": [
+   "Hit first: Forever merged spell and melee hit into one stat. Suppression (Affliction tier 1) gives up to 5% and cuts threat.",
+   "Spell power, then crit. DoTs can crit in Forever, so crit counts for every spec now.",
+   "Intellect, then Spirit: Life Tap scales with Spirit, which is why Human's +5% Spirit helps.",
+   "Haste speeds up casts but not DoT or channel ticks.",
+   "Stamina matters more than for other casters: it fuels Life Tap and keeps you alive under Soul Link."
+  ],
+  "summary": "Second in the sims at 776 DPS on the newest engine (#12 of 24 and B band on the tier list). The 15 Oct build doubled Shadow Mastery to 10% but replaced Malediction (+5% periodic damage) with Grim Reach, which only adds range. Still the best levelling spec and the most mobile in raids.",
+  "talentNotes": [
+   "Shadow Mastery: 2/4/6/8/10% Shadow damage (doubled on 15 Oct).",
+   "Malediction (+1–5% to all your periodic damage) was removed on 15 Oct. Grim Reach takes its place: +10/20% Affliction spell range.",
+   "Pandemic: +33/67/100% crit damage bonus on Corruption, Banes, Drains, Siphon Life and Wrack.",
+   "Malevolence: +1–5% Shadow crit. Soul Siphon: drains get stronger per Affliction effect on the target.",
+   "Wrack (capstone, needs Siphon Life): a 6 sec channel that also makes your other Shadow DoTs hit 10% harder.",
+   "Shadow Weaving is now a personal Priest buff, so a Shadow Priest no longer raises your damage."
+  ],
+  "threatMana": [
+   "Suppression cuts your threat by up to 20% and gives up to 5% hit.",
+   "Soul Harvest: Drain Soul kills raise your mana regen by 50/100% for 10 sec.",
+   "Life Tap around 40% mana between pulls and Drain Life the health back; aim to end boss fights near zero mana.",
+   "Grim Reach (+20% Affliction range) lets you stand further out of cleaves and void zones."
+  ],
+  "tierBand": "B",
+  "tierDps": 776,
+  "tierRank": 12,
+  "trinketSnapshot": "MythicSim Affliction board, engine 37c2dfb on client 70425, 18 Oct (baseline 776)",
+  "trinkets": [
+   {
+    "gain": "+25 (3.25%)",
+    "name": "Cleansed Vilebranch Icon",
+    "source": "Quest"
+   },
+   {
+    "gain": "+25 (3.25%)",
+    "name": "Jewel of the Guard Captain",
+    "source": "Quest"
+   },
+   {
+    "gain": "+23 (3.00%)",
+    "name": "Draconic Infused Emblem",
+    "source": "General Drakkisath, Blackrock Spire"
+   },
+   {
+    "gain": "+22 (2.85%)",
+    "name": "Talisman of Ephemeral Power",
+    "source": "Magmadar, Molten Core (not on Forever's raid schedule)"
+   },
+   {
+    "gain": "+19 (2.49%)",
+    "name": "Briarwood Reed",
+    "source": "Jed Runewatcher, Blackrock Spire"
+   },
+   {
+    "gain": "+16 (2.04%)",
+    "name": "Burst of Knowledge",
+    "source": "Ambassador Flamelash, Blackrock Depths"
+   },
+   {
+    "gain": "+15 (1.97%)",
+    "name": "Royal Seal of Eldre'Thalas",
+    "source": "Quest: Harnessing Shadows"
+   },
+   {
+    "gain": "+14 (1.89%)",
+    "name": "Weakness Analyzer",
+    "source": "Vendor: Pix Xizzix"
+   }
+  ]
+ },
+ "arcane-mage": {
+  "build": "32/3/16",
+  "cards": [],
+  "cls": "mage",
+  "consumables": [
+   "Flask of Supreme Power and Greater Arcane Elixir",
+   "Elixir of Frost Power",
+   "Mageblood Elixir and Cerebral Cortex Compound",
+   "Brilliant Wizard Oil on your weapon",
+   "Spell damage food (MythicSim uses Lobster Stew)",
+   "Major Mana Potion, Demonic Rune and your mana gem",
+   "World buffs don't work in Forever raids, so don't plan around them."
+  ],
+  "dungeonTips": [
+   "Arcane Explosion is your pack spell; Arcane Impact adds 6% Arcane crit at 3/3.",
+   "Arcane Subtlety cuts Arcane threat by 15% per rank, 30% at 2/2. Take it for dungeons.",
+   "Don't over-stack Arcane Blast on trash: each cast costs 175% more than the last.",
+   "Improved Channeling makes Missiles uninterruptible and protects Blast and Wrath 70%."
+  ],
+  "experimental": false,
+  "id": "arcane-mage",
+  "key": "arcane",
+  "name": "Arcane",
+  "newDps": 861,
+  "newNote": "MythicSim Mage page, engine 24c66df on client 70425, 19 Oct (tier list also 861, engine 37c2dfb, 18 Oct; Arcane trinket board still 837 on 0e457ac, 17 Oct; 20 Oct race board on engine 15b7435 tops out at 785.7)",
+  "race": "Human",
+  "raceBoard": {
+   "note": "Skyborne 785.7 and Gnome 784.7 tie at the top; Human (0.20% back) and Orc (0.40%) are also S; Undead and Troll are 1.4 to 1.6% back. This 20 Oct board runs about 9% below the 861 on the Mage page.",
+   "snapshot": "Engine 15b7435, 20 Oct (client 70425)"
+  },
+  "raidRotation": [
+   "Pre-cast Arcane Blast.",
+   "Arcane Power with trinkets and racial on the pull.",
+   "Arcane Missiles whenever Missile Barrage procs (free and twice as fast).",
+   "At 4 Arcane Blast stacks: Presence of Mind into Pyroblast if it's ready, otherwise Arcane Missiles to spend the stacks.",
+   "When Mana runs low, spend stacks earlier: at 3 stacks under 30% Mana, at 2 under 20%.",
+   "Evocation under 15% Mana if the fight has more than 20 sec left.",
+   "Arcane Blast as the builder. Arcane Wrath (6 sec cooldown) is untested in the sim; try it as a stack spender on long fights."
+  ],
+  "stats": [
+   "Hit first. Arcane Focus gives 5% at 5/5.",
+   "Intellect is worth more for Arcane than any other spec: Arcane Blast stacks turn it into spell damage and Arcane Wrath scales with max Mana.",
+   "Then spell power and crit; Arcane Mind at 5/5 gives 10% Intellect and the same crit damage boost Ice Shards gives Frost.",
+   "Spirit/Mp5 for long fights."
+  ],
+  "summary": "Arcane Blast is now a setup spell: each cast turns 15% of your Intellect into spell damage for 15 sec, then you cash the stacks with Arcane Missiles or a Presence of Mind Pyroblast. It is the top Mage spec on MythicSim's 19 Oct engine at 861 DPS, but only about 1% ahead of Fire, and #6 of 24 (A band) on the 18 Oct tier list. Earlier MythicSim presets didn't cast the new Arcane Wrath, and the site hasn't said whether that has changed.",
+  "talentNotes": [
+   "Arcane Blast and Arcane Wrath are one-point talents; Wrath needs Blast.",
+   "Missile Barrage is in row 1 now and needs 2 points for the full 40% from Blast.",
+   "Arcane Mind gives 2% Intellect and 20% more Arcane crit damage bonus per rank (was max Mana).",
+   "Arcane Instability: +3% spell damage and crit at 3/3.",
+   "Magic Attunement is the only removed Mage talent; Arcane Geometry adds 6 yd Arcane range in its place."
+  ],
+  "threatMana": [
+   "Arcane is the hungriest spec. Arcane Meditation keeps 50% of regen going while casting, Mage Armor another 50%.",
+   "Spirit and Mp5 matter more for Arcane than for the other specs.",
+   "Clearcasting (Arcane Concentration, 10% at 5/5) makes your next spell free; a free Missiles or Blast is ideal."
+  ],
+  "tierBand": "A",
+  "tierDps": 861,
+  "tierRank": 6,
+  "trinketSnapshot": "MythicSim Arcane board, simmed 17 Oct (baseline 837), top five shown",
+  "trinkets": [
+   {
+    "gain": "+3.16%",
+    "name": "Talisman of Ephemeral Power",
+    "source": "Magmadar, Molten Core (not in Forever's raid schedule yet)"
+   },
+   {
+    "gain": "+2.60%",
+    "name": "Cleansed Vilebranch Icon",
+    "source": "Quest / world"
+   },
+   {
+    "gain": "+2.60%",
+    "name": "Jewel of the Guard Captain",
+    "source": "Quest / world"
+   },
+   {
+    "gain": "+2.36%",
+    "name": "Draconic Infused Emblem",
+    "source": "General Drakkisath, Blackrock Spire"
+   },
+   {
+    "gain": "+1.99%",
+    "name": "Briarwood Reed",
+    "source": "Jed Runewatcher, Blackrock Spire"
+   }
+  ]
+ },
+ "demonology-warlock": {
+  "build": "2/31/18",
+  "cards": [
+   {
+    "items": [
+     "Succubus or Incubus: the sim's pet. They're identical apart from looks; the Incubus quest is easier.",
+     "Sacrifice the Imp first for the Shadow buff. Without Demonic Pact you'd lose the buff as soon as you summon again.",
+     "Master Demonologist gives a different bonus for each demon, up to 10%.",
+     "Felhunter if a fight needs Spell Lock or Devour Magic; its damage is close to the Succubus.",
+     "Send the pet in after the tank has a few seconds of threat. Since 8 Oct, Demonic Brand only causes high threat when it deals Shadow damage."
+    ],
+    "title": "Pet"
+   },
+   {
+    "items": [
+     "Bane of Doom or Bane of Agony always: banes don't use the curse slot.",
+     "Plus one curse from the raid's assignment, usually Curse of the Elements.",
+     "Amplify Curse isn't in this build; that's an Affliction talent."
+    ],
+    "title": "Your curse and banes"
+   }
+  ],
+  "cls": "warlock",
+  "consumables": [
+   "Flask of Supreme Power and Greater Arcane Elixir",
+   "Elixir of Shadow Power (Shadow Bolt, DoTs and Drains are all Shadow)",
+   "Mageblood Elixir and Cerebral Cortex Compound",
+   "Spellstone on your weapon (the sims use it); Brilliant Wizard Oil",
+   "Spell damage food (MythicSim uses Lobster Stew for Demonology)",
+   "Major Mana Potion and Demonic Rune, plus your Healthstone",
+   "World buffs don't work in Forever raids, so don't plan around them."
+  ],
+  "dungeonTips": [
+   "Seduction is reliable crowd control on humanoids; mark one for your Succubus before the pull.",
+   "Hellfire can crit since 1 Oct and hits hard on packs, but it burns your own health and pulls threat. Wait for the tank.",
+   "Rain of Fire from range on 4+ mobs.",
+   "Soul Link (now castable on your pet again) moves 30% of the damage you take onto the demon."
+  ],
+  "experimental": false,
+  "id": "demonology-warlock",
+  "key": "demonology",
+  "name": "Demonology",
+  "newDps": 873,
+  "newNote": "MythicSim Warlock page, engine 24c66df on client 70425, 19 Oct (tier list and trinket board both 873 on 37c2dfb, 18 Oct)",
+  "race": "Human",
+  "raceBoard": {
+   "note": "Human 875.4 leads; Orc 868.4 (0.80% back) and Gnome 866.2 (1.05%) follow; Undead and Troll are within 1.6%.",
+   "snapshot": "Engine c7c423b, 19 Oct (client 70425)"
+  },
+  "raidRotation": [
+   "Before the pull: summon your Imp and Demonic Sacrifice it for the 2-hour Shadow damage buff, then summon a Succubus or Incubus. Demonic Pact keeps the buff because it's a different demon. Fel Domination makes the resummon quick.",
+   "Curse of the Elements if you hold that assignment (the sim keeps it up 99.9% of the fight).",
+   "Bane of Doom while 60+ sec of the fight remain; otherwise Bane of Agony.",
+   "Searing Pain whenever Demonic Brand is missing from the target, so your demon's attacks stay branded.",
+   "Corruption and Immolate, refreshed within one cast of falling off.",
+   "Shadow Bolt as filler. It's 38% of the sim's damage.",
+   "Life Tap when mana drops below 10%; Major Mana Potion and Demonic Rune when you're below 75% and 60%.",
+   "Hellfire on 3+ stacked targets in melee range, Rain of Fire on 4+."
+  ],
+  "stats": [
+   "Hit first: Forever merged spell and melee hit into one stat. Suppression (Affliction tier 1) gives up to 5% and cuts threat.",
+   "Spell power, then crit. DoTs can crit in Forever, so crit counts for every spec now.",
+   "Intellect, then Spirit: Life Tap scales with Spirit, which is why Human's +5% Spirit helps.",
+   "Haste speeds up casts but not DoT or channel ticks.",
+   "Stamina matters more than for other casters: it fuels Life Tap and keeps you alive under Soul Link."
+  ],
+  "summary": "The strongest Warlock spec in every MythicSim run: 873 DPS on the newest engine (19 Oct), about 12% ahead of Affliction and 21% ahead of Destruction, and #5 of 24 specs on the tier list. You sacrifice your Imp for a 2-hour Shadow buff, then fight with a Succubus thanks to Demonic Pact. The 15 Oct build only fixed Soul Link for this spec, so the lead comes from the pet tree itself.",
+  "talentNotes": [
+   "Demonic Pact (31-point capstone, needs Soul Link): summoning a different demon doesn't cancel Demonic Sacrifice.",
+   "Demonic Sacrifice is a 2-hour buff now, and each demon gives something different (the Imp gives Shadow damage).",
+   "Unholy Power boosts all demon damage by up to 10% (it used to be melee only).",
+   "Demonic Knowledge adds spell damage while a demon is out.",
+   "Decimation: Soul Fire cooldown and cast time drop against targets below 35% health.",
+   "The sim build puts 18 points in Destruction for Bane, Ruin and Shadowburn."
+  ],
+  "threatMana": [
+   "Demonic Brand at 3/3 cuts Searing Pain threat by 50%; without it Searing Pain is a threat trap.",
+   "Demonic Energies heals your demon for part of your spell damage and gives it 100% of your Life Tap mana at 2/2.",
+   "Each resummon of a Succubus, Felhunter or Voidwalker costs a Soul Shard, so bring a few to every raid.",
+   "The current demon is stunned while you summon a new one (8 Oct), so swap pets between pulls."
+  ],
+  "tierBand": "A",
+  "tierDps": 873,
+  "tierRank": 5,
+  "trinketSnapshot": "MythicSim Demonology board, engine 37c2dfb, simmed 18 Oct (baseline 873)",
+  "trinkets": [
+   {
+    "gain": "+3.00%",
+    "name": "Cleansed Vilebranch Icon",
+    "source": "Quest"
+   },
+   {
+    "gain": "+3.00%",
+    "name": "Jewel of the Guard Captain",
+    "source": "Quest"
+   },
+   {
+    "gain": "+2.79%",
+    "name": "Draconic Infused Emblem",
+    "source": "General Drakkisath, Blackrock Spire"
+   },
+   {
+    "gain": "+2.43%",
+    "name": "Talisman of Ephemeral Power",
+    "source": "Magmadar, Molten Core (not on Forever's raid schedule)"
+   },
+   {
+    "gain": "+2.31%",
+    "name": "Briarwood Reed",
+    "source": "Jed Runewatcher, Blackrock Spire"
+   },
+   {
+    "gain": "+1.99%",
+    "name": "Burst of Knowledge",
+    "source": "Ambassador Flamelash, Blackrock Depths"
+   },
+   {
+    "gain": "+1.84%",
+    "name": "Royal Seal of Eldre'Thalas",
+    "source": "Quest: Harnessing Shadows (Dire Maul tribute)"
+   },
+   {
+    "gain": "+1.78%",
+    "name": "Mindtap Talisman",
+    "source": "Magister Kalendris, Dire Maul"
+   }
+  ]
+ },
+ "destruction-warlock": {
+  "build": "11/11/29",
+  "cards": [
+   {
+    "items": [
+     "Sacrifice the Imp for the Shadow buff in raids, as the sim does.",
+     "In dungeons a Succubus does the most damage and a Voidwalker keeps you safest.",
+     "The Imp is the weakest pet, but Demonic Energies refills its mana when you Life Tap."
+    ],
+    "title": "Pet"
+   },
+   {
+    "items": [
+     "Bane of Havoc (row 5) is your extra bane for cleave; it lasts 5 min on one target.",
+     "Banes don't use the curse slot, so you can still hold Curse of the Elements or Recklessness.",
+     "Recklessness only counts once per target since 15 Oct, so agree who casts it."
+    ],
+    "title": "Your curse and banes"
+   }
+  ],
+  "cls": "warlock",
+  "consumables": [
+   "Flask of Supreme Power and Greater Arcane Elixir",
+   "Elixir of Shadow Power (Shadow Bolt, DoTs and Drains are all Shadow)",
+   "Mageblood Elixir and Cerebral Cortex Compound",
+   "Spellstone on your weapon (the sims use it); Brilliant Wizard Oil",
+   "Spell damage food (MythicSim uses Lobster Stew for Demonology)",
+   "Major Mana Potion and Demonic Rune, plus your Healthstone",
+   "World buffs don't work in Forever raids, so don't plan around them."
+  ],
+  "dungeonTips": [
+   "Bane of Havoc on the boss or the healthiest mob, then AoE the pack.",
+   "Searing Pain and Hellfire are high threat. Let the tank build a lead first.",
+   "Molten Skin cuts all damage you take by up to 10%."
+  ],
+  "experimental": false,
+  "id": "destruction-warlock",
+  "key": "destruction",
+  "name": "Destruction",
+  "newDps": 721,
+  "newNote": "MythicSim Warlock page, engine 24c66df on client 70425, 19 Oct (tier list 721 on 37c2dfb, 18 Oct; trinket board is from 28 Sep)",
+  "race": "Human",
+  "raceBoard": {
+   "note": "Human 721.4 leads; Orc (0.70% back), Gnome (0.83%) and Undead (0.98%) are all within 1% and share S; Troll is 1.5% back.",
+   "snapshot": "Engine 24c66df, 19 Oct (client 70425)"
+  },
+  "raidRotation": [
+   "Before the pull: Demonic Sacrifice your Imp (the sim fights without a pet after that).",
+   "Curse of the Elements if assigned; Bane of Doom while 60+ sec remain, otherwise Bane of Agony.",
+   "Keep Corruption and Immolate up.",
+   "Conflagrate while Immolate is on the target. Shadow and Flame can keep Immolate from being consumed.",
+   "Shadow Bolt as filler; Bane cuts its cast time.",
+   "Shadowburn in the last moments of the fight or on a dying target (it refunds the shard if the target dies within 8 sec).",
+   "Hellfire on 3+ targets in melee, Rain of Fire on 4+. Put Bane of Havoc on a high-health target in multi-target fights."
+  ],
+  "stats": [
+   "Hit first: Forever merged spell and melee hit into one stat. Suppression (Affliction tier 1) gives up to 5% and cuts threat.",
+   "Spell power, then crit. DoTs can crit in Forever, so crit counts for every spec now.",
+   "Intellect, then Spirit: Life Tap scales with Spirit, which is why Human's +5% Spirit helps.",
+   "Haste speeds up casts but not DoT or channel ticks.",
+   "Stamina matters more than for other casters: it fuels Life Tap and keeps you alive under Soul Link."
+  ],
+  "summary": "The weakest Warlock spec in the sims: 721 DPS on the newest engine, B band on the tier list. The reference build stops at 29 Destruction points, so it doesn't take Incinerate yet and may undersell the tree. Its strength is cleave: Bane of Havoc copies 15% of your damage on other targets to one cursed target. The 15 Oct build only changed Destructive Reach to Destruction spells.",
+  "talentNotes": [
+   "Destructive Reach now only extends Destruction spells' range by 10/20% (15 Oct).",
+   "Incinerate (31-point capstone, needs Bane of Havoc): a Fire filler that hits 25% harder with Immolate up.",
+   "Ruin is 5 points for +100% crit damage on Destruction spells.",
+   "Fire and Brimstone adds up to 25% crit to Conflagrate.",
+   "Shadow and Flame: Conflagrate and Shadowburn grant a 2–10% Shadow or Fire buff, with chances to keep Immolate or refund a shard.",
+   "TalentsForever reports conflicting Incinerate damage numbers; check the tooltip in game."
+  ],
+  "threatMana": [
+   "Cataclysm cuts Destruction spell costs by up to 10%.",
+   "Shadow and Flame gives Shadowburn a chance to refund its Soul Shard.",
+   "Only Life Tap when your health can take it; Drain Life to recover between pulls."
+  ],
+  "tierBand": "B",
+  "tierDps": 721,
+  "tierRank": 16,
+  "trinketSnapshot": "MythicSim Destruction board, old run (28 Sep, client 70009)",
+  "trinkets": [
+   {
+    "gain": "+23 (4.46%)",
+    "name": "Talisman of Ephemeral Power",
+    "source": "Magmadar, Molten Core (not on Forever's raid schedule)"
+   },
+   {
+    "gain": "+20 (3.91%)",
+    "name": "Draconic Infused Emblem",
+    "source": "General Drakkisath, Blackrock Spire"
+   },
+   {
+    "gain": "+16 (3.24%)",
+    "name": "Briarwood Reed",
+    "source": "Jed Runewatcher, Blackrock Spire"
+   },
+   {
+    "gain": "+13 (2.57%)",
+    "name": "Royal Seal of Eldre'Thalas",
+    "source": "Quest: Harnessing Shadows"
+   },
+   {
+    "gain": "+13 (2.51%)",
+    "name": "Burst of Knowledge",
+    "source": "Ambassador Flamelash, Blackrock Depths"
+   },
+   {
+    "gain": "+12 (2.46%)",
+    "name": "Weakness Analyzer",
+    "source": "Vendor: Pix Xizzix"
+   }
+  ]
+ },
+ "fire-mage": {
+  "build": "14/32/5",
+  "cards": [],
+  "cls": "mage",
+  "consumables": [
+   "Flask of Supreme Power and Greater Arcane Elixir",
+   "Elixir of Fire Power",
+   "Mageblood Elixir and Cerebral Cortex Compound",
+   "Brilliant Wizard Oil on your weapon",
+   "Spell damage food (MythicSim uses Lobster Stew)",
+   "Major Mana Potion, Demonic Rune and your mana gem",
+   "World buffs don't work in Forever raids, so don't plan around them."
+  ],
+  "dungeonTips": [
+   "Packs: Flamestrike first (only one can be active), Blast Wave, then Arcane Explosion if you're safe in melee range.",
+   "Ignite crits can rip threat off a fresh tank. Give the tank a second or two on big pulls.",
+   "Frost Nova and Blink are your exit. Keep Mana for both on any pull you start yourself.",
+   "Fire Blast has 8 more yards with Improved Fire Blast, handy for finishing runners."
+  ],
+  "experimental": false,
+  "id": "fire-mage",
+  "key": "fire",
+  "name": "Fire",
+  "newDps": 851,
+  "newNote": "MythicSim Mage page, engine 24c66df on client 70425, 19 Oct (tier list 851 on 37c2dfb, 18 Oct; Fire trinket board still 777 on 5af1303, 16 Oct; 20 Oct race board on engine 15b7435 tops out at 844.8)",
+  "race": "Human",
+  "raceBoard": {
+   "note": "Human 844.8 and Skyborne 843.9 tie at the top; Orc (0.39% back) and Gnome (0.65%) are also S; Troll and Undead are about 1.4% back.",
+   "snapshot": "Engine 15b7435, 20 Oct (client 70425)"
+  },
+  "raidRotation": [
+   "Pre-cast Fireball about 3.5 sec before the pull.",
+   "Scorch until you have 5 Improved Scorch stacks, and refresh when 5 sec or less remain.",
+   "Once you have 5 stacks: Combustion, trinkets and racial (Blood Fury, Berserking) together.",
+   "Pyroblast when Heating Up reaches 3 stacks (it's a much shorter cast, not instant).",
+   "Fire Blast on cooldown while you have 30%+ Mana and no Clearcasting. Each one adds a Heating Up stack.",
+   "Arcane Missiles when Missile Barrage procs (the sim build takes it 2/2 from Arcane).",
+   "Fireball as your filler. Mana gem below 80% Mana, Evocation below 10%."
+  ],
+  "stats": [
+   "Hit first: Forever merged spell and melee hit into one stat, and Elemental Precision gives 5% at 5/5.",
+   "Spell power, then crit. Crit feeds Ignite, Heating Up, Master of Elements and Critical Mass.",
+   "Fire-only spell damage gear works for Fire and Frostfire, not for Arcane Missiles procs.",
+   "Intellect and Spirit after that; Stamina for dangerous fights."
+  ],
+  "summary": "LFCarry's raid default. On MythicSim's 19 Oct engine it sims 851 DPS, about 1% behind Arcane, and it is #7 of 24 (A band) on the 18 Oct tier list. Fire Power now rewards keeping your own Fire effects on the boss, and Critical Mass at 5 ranks plus Fire Blast feeding Heating Up means more short Pyroblasts. Improved Scorch only buffs you now, so every Fire Mage keeps their own 5 stacks.",
+  "talentNotes": [
+   "Heating Up (was Hot Streak): crits from Fireball, Frostfire Bolt, Fire Blast and Scorch cut your next Pyroblast's cast by 25%, up to 3 stacks.",
+   "Incineration (was Incinerate) sits in row 1 and now covers Ice Lance and Arcane Blast too.",
+   "Combustion ends after 3 non-periodic crits.",
+   "Ignite is unchanged at 40% over 4 sec; DoTs can crit in Forever.",
+   "The sim build is now 14/32/5 (was 16/31/4), so it puts 14 points into Arcane."
+  ],
+  "threatMana": [
+   "Burning Soul: 10% less Fire threat and 23% pushback protection per rank (30% and 69% at 3/3).",
+   "Master of Elements refunds 30% of base cost on Fire and Frost crits at 3/3, so crit is also Mana.",
+   "Mage Armor lets 50% of regen continue while casting. Use it in raids over Molten or Frost Armor."
+  ],
+  "tierBand": "A",
+  "tierDps": 851,
+  "tierRank": 7,
+  "trinketSnapshot": "MythicSim, 117 trinkets, 16 Oct",
+  "trinkets": [
+   {
+    "gain": "+3.26%",
+    "name": "Talisman of Ephemeral Power",
+    "source": "Molten Core (not in Forever's raid schedule yet)"
+   },
+   {
+    "gain": "+2.99%",
+    "name": "Cleansed Vilebranch Icon",
+    "source": "Quest / world"
+   },
+   {
+    "gain": "+2.99%",
+    "name": "Jewel of the Guard Captain",
+    "source": "Quest / world"
+   },
+   {
+    "gain": "+2.73%",
+    "name": "Draconic Infused Emblem",
+    "source": "General Drakkisath, UBRS"
+   },
+   {
+    "gain": "+2.30%",
+    "name": "Briarwood Reed",
+    "source": "Jed Runewatcher, UBRS"
+   },
+   {
+    "gain": "+1.74%",
+    "name": "Weakness Analyzer",
+    "source": "Vendor: Pix Xizzix"
+   },
+   {
+    "gain": "+1.47%",
+    "name": "Burst of Knowledge",
+    "source": "Ambassador Flamelash, BRD"
+   }
+  ]
+ },
+ "frost-mage": {
+  "build": "16/3/32",
+  "cards": [],
+  "cls": "mage",
+  "consumables": [
+   "Flask of Supreme Power and Greater Arcane Elixir",
+   "Elixir of Frost Power",
+   "Mageblood Elixir and Cerebral Cortex Compound",
+   "Brilliant Wizard Oil on your weapon",
+   "Spell damage food (MythicSim uses Lobster Stew)",
+   "Major Mana Potion, Demonic Rune and your mana gem",
+   "World buffs don't work in Forever raids, so don't plan around them."
+  ],
+  "dungeonTips": [
+   "Frost Nova then Ice Lance spam: every Lance is a Shatter crit while the Nova holds.",
+   "Winter's Chill stacks now feed one big Cone of Cold, so build stacks with Frostbolt and Frost Blast, then Cone.",
+   "Cone of Cold slows 40% for 6 sec, the first 4 targets get an extra 10% for 3 more seconds. Big kites are harder than Classic.",
+   "Ice Block and Ice Barrier keep you alive when a pull goes wrong; Cold Snap resets both."
+  ],
+  "experimental": false,
+  "id": "frost-mage",
+  "key": "frost",
+  "name": "Frost",
+  "newDps": 690,
+  "newNote": "MythicSim Mage page, engine 24c66df on client 70425, 19 Oct (tier list 690 on 37c2dfb, 18 Oct; Frost trinket board still 651 on 5af1303, 16 Oct)",
+  "race": "Skyborne",
+  "raceBoard": {
+   "note": "Skyborne leads Human by 0.98%; the other four are 1.15 to 1.87% back.",
+   "snapshot": "Engine 0d17668, 17 Oct (client 70425)"
+  },
+  "raidRotation": [
+   "Pre-cast Frostbolt about 3 sec before the pull.",
+   "Ice Lance when Fingers of Frost has 2 charges, or while a Frostbolt is already in the air so both count as frozen.",
+   "Arcane Missiles when Missile Barrage procs.",
+   "Frostbolt as your filler.",
+   "Cooldowns and trinkets on the pull. Mana gem below 80% Mana, Evocation below 20% with 25+ sec left.",
+   "Adds: Cone of Cold at 3+ targets in range, Blizzard at 4+."
+  ],
+  "stats": [
+   "Hit first; Elemental Precision gives 5% at 5/5.",
+   "Spell power, then crit (Ice Shards doubles Frost crit damage bonus at 5/5).",
+   "Frost-only spell damage gear is fine for pure Frost and Frostfire."
+  ],
+  "summary": "The best levelling and trash spec, but last of the four on a raid boss. Bosses can't be frozen, so Frost leans on Fingers of Frost procs for Ice Lance and Shatter, and the Oct 15 build cut Ice Lance to +200% vs frozen and turned Winter's Chill into a Cone of Cold buff.",
+  "talentNotes": [
+   "Shatter is 3 ranks for 50% crit vs frozen and no longer needs Improved Frost Nova.",
+   "Ice Lance is a one-point talent at 20; Fingers of Frost (2 ranks) needs it.",
+   "Winter's Chill: each stack makes your next Cone of Cold 40% stronger, up to 5.",
+   "Cold Snap moved down two rows and Ice Barrier now hangs off it.",
+   "Improved Blizzard slows less than Classic (15/25/40%)."
+  ],
+  "threatMana": [
+   "Frost Channeling cuts Frost threat 10% and cost 5% per rank (30% and 15% at 3/3). Its threat part was bugged until Oct 15.",
+   "Frost gets expensive if you spam. Frost Channeling and Mage Armor are the fixes.",
+   "Frostbite and Fingers of Frost can now proc from Frost and Ice Armor when you're hit."
+  ],
+  "tierBand": "B",
+  "tierDps": 690,
+  "tierRank": 18,
+  "trinketSnapshot": "MythicSim, 117 trinkets, 16 Oct",
+  "trinkets": [
+   {
+    "gain": "+3.04%",
+    "name": "Talisman of Ephemeral Power",
+    "source": "Molten Core (not in Forever's raid schedule yet)"
+   },
+   {
+    "gain": "+2.70%",
+    "name": "Cleansed Vilebranch Icon",
+    "source": "Quest / world"
+   },
+   {
+    "gain": "+2.70%",
+    "name": "Jewel of the Guard Captain",
+    "source": "Quest / world"
+   },
+   {
+    "gain": "+2.54%",
+    "name": "Draconic Infused Emblem",
+    "source": "General Drakkisath, UBRS"
+   },
+   {
+    "gain": "+2.14%",
+    "name": "Briarwood Reed",
+    "source": "Jed Runewatcher, UBRS"
+   },
+   {
+    "gain": "+1.62%",
+    "name": "Weakness Analyzer",
+    "source": "Vendor: Pix Xizzix"
+   },
+   {
+    "gain": "+1.29%",
+    "name": "Frozen Heart of the Mountain",
+    "source": "Enchanting"
+   }
+  ]
+ },
+ "frostfire-mage": {
+  "build": "0/29/22",
+  "cards": [],
+  "cls": "mage",
+  "consumables": [
+   "Flask of Supreme Power and Greater Arcane Elixir",
+   "Elixir of Fire Power",
+   "Mageblood Elixir and Cerebral Cortex Compound",
+   "Brilliant Wizard Oil on your weapon",
+   "Spell damage food (MythicSim uses Lobster Stew)",
+   "Major Mana Potion, Demonic Rune and your mana gem",
+   "World buffs don't work in Forever raids, so don't plan around them."
+  ],
+  "dungeonTips": [
+   "Frostfire Bolt slows 40%, so you keep some Frost-style control while levelling past 40.",
+   "Flamestrike and Cone of Cold for packs; Fire Power doesn't count Frostfire as a Fire effect."
+  ],
+  "experimental": true,
+  "id": "frostfire-mage",
+  "key": "frostfire",
+  "name": "Frostfire",
+  "newDps": 765,
+  "newNote": "MythicSim Mage page, engine 24c66df on client 70425, 19 Oct (tier list 765 on 37c2dfb, 18 Oct; trinket board still 743 on 5af1303, 16 Oct)",
+  "race": "Human",
+  "raceBoard": {
+   "note": "Skyborne and Human tie; Undead is the only race in B tier (2.35% behind).",
+   "snapshot": "Engine 1007c66, 16 Oct (client 70425)"
+  },
+  "raidRotation": [
+   "Scorch until you have 5 Improved Scorch stacks; refresh at 5 sec or less.",
+   "Cooldowns and trinkets once the 5 stacks are up.",
+   "Pyroblast at 3 Heating Up stacks.",
+   "Arcane Missiles on Missile Barrage procs.",
+   "Frostfire Bolt as your filler.",
+   "Mana gem below 80% Mana, Evocation below 10%."
+  ],
+  "stats": [
+   "Hit first (Elemental Precision 5/5).",
+   "Spell power and crit; Fire or Frost school damage both work since the bolt uses the higher one.",
+   "Crit is worth more here than for pure Frost because of Ignite plus Ice Shards."
+  ],
+  "summary": "An experimental Fire/Frost hybrid built on Frostfire Bolt (trained at 40). It uses your higher of Fire or Frost spell damage, is checked against the lower resist, and gets talents from both trees: Ignite plus Ice Shards makes its crits very large. MythicSim says the dual-school bonuses still need combat-log checks.",
+  "talentNotes": [
+   "Improved Fireball also speeds Frostfire Bolt.",
+   "Heating Up and Missile Barrage both name Frostfire Bolt.",
+   "Blizzard's example hybrid: Ignite plus Ice Shards for 280% damage on a crit.",
+   "Experimental in MythicSim: it never moves the tier boundaries."
+  ],
+  "threatMana": [
+   "Burning Soul and Frost Channeling both apply to Frostfire Bolt, per the game files.",
+   "Master of Elements refunds Mana on its crits."
+  ],
+  "tierBand": "B",
+  "tierDps": 765,
+  "tierRank": 13,
+  "trinketSnapshot": "MythicSim, 117 trinkets, 16 Oct",
+  "trinkets": [
+   {
+    "gain": "+3.69%",
+    "name": "Cleansed Vilebranch Icon",
+    "source": "Quest / world"
+   },
+   {
+    "gain": "+3.69%",
+    "name": "Jewel of the Guard Captain",
+    "source": "Quest / world"
+   },
+   {
+    "gain": "+3.65%",
+    "name": "Talisman of Ephemeral Power",
+    "source": "Molten Core (not in Forever's raid schedule yet)"
+   },
+   {
+    "gain": "+3.29%",
+    "name": "Draconic Infused Emblem",
+    "source": "General Drakkisath, UBRS"
+   },
+   {
+    "gain": "+2.74%",
+    "name": "Briarwood Reed",
+    "source": "Jed Runewatcher, UBRS"
+   },
+   {
+    "gain": "+2.08%",
+    "name": "Weakness Analyzer",
+    "source": "Vendor: Pix Xizzix"
+   }
+  ]
+ },
+ "shadow-priest": {
+  "build": "18/0/33",
+  "cards": [],
+  "cls": "priest",
+  "consumables": [
+   "Flask of Supreme Power",
+   "Elixir of Shadow Power and Greater Arcane Elixir",
+   "Brilliant Wizard Oil",
+   "Mageblood Elixir, Major Mana Potion, Demonic Rune",
+   "Spell damage food (Lobster Stew in the sim)",
+   "World buffs do not work in Forever raids."
+  ],
+  "dungeonTips": [
+   "Only DoT mobs that will live long enough for it to tick.",
+   "Put Devouring Plague on the mob that will die first. When it dies, Contagion jumps the remaining duration to up to 2 enemies within 5 yards, free of Mana and cooldown.",
+   "Shadow can still heal a dungeon in an emergency, but you must drop Shadowform to heal.",
+   "Save Silence for casters you are assigned to interrupt."
+  ],
+  "experimental": false,
+  "id": "shadow-priest",
+  "key": "shadow",
+  "name": "Shadow",
+  "newDps": 774,
+  "newNote": "MythicSim Shadow trinket board baseline, engine 37c2dfb on client 70425, 18 Oct (tier list also 774 on 37c2dfb, 18 Oct; Priest page still 745 on 12ffe58, 16 Oct)",
+  "race": "Undead",
+  "raceBoard": {
+   "note": "Human 775.0 leads; Night Elf (0.56% back), Dwarf (0.71%) and Undead (0.98%) are within 1%; Gnome and Troll are 1.1 to 1.4% back.",
+   "snapshot": "Engine 24c66df, 19 Oct (client 70425)"
+  },
+  "raidRotation": [
+   "Keep Shadow Word: Pain on the boss. Improved Shadow Word: Pain lengthens it.",
+   "Devouring Plague on cooldown (now every 24 sec). Its damage heals you.",
+   "Mind Blast on cooldown.",
+   "Shadow Word: Death on cooldown when you can afford the backlash (10% of max health if it doesn't kill). Under 20% boss health, Early Demise adds crit.",
+   "Mind Flay as filler. Let channels finish: later ticks hit harder and a full channel triggers Dark Inspiration.",
+   "Vampiric Embrace every 30 sec for party healing."
+  ],
+  "stats": [
+   "Spell power (Shadow damage) first.",
+   "Crit is stronger than in Classic. DoTs can crit and Shadowform doubles the crit damage bonus.",
+   "Spell hit matters for a raid boss three levels higher. Shadow Focus gives some.",
+   "Intellect for Mana, Stamina to survive Shadow Word: Death backlash.",
+   "'of Shadow Wrath' greens dominate early Shadow gear lists. Grab them from the Auction House while levelling.",
+   "Healing gear gives one-third of its healing as spell damage. Keep a separate healing set only if you off-heal a lot."
+  ],
+  "summary": "Priest's only DPS spec: damage over time, Mind Blast and Mind Flay. Shadowform halves the Mana cost of Shadow spells and doubles their crit bonus, but you must leave it to heal.",
+  "talentNotes": [
+   "Shadowform needs 31 Shadow points plus Vampiric Embrace. That leaves 20 points for Discipline mana talents.",
+   "New: Improved Mind Flay, Dark Inspiration, Devouring Contagion, Early Demise.",
+   "Removed: Shadow Affinity, Improved Fade, Improved Vampiric Embrace.",
+   "Shadow Weaving is now a personal buff (up to 10% Shadow damage). It no longer boosts Warlocks.",
+   "Devouring Plague and Fear Ward are baseline for every Priest at 20, Divine Spirit at 30 and Shadow Word: Death at 32."
+  ],
+  "threatMana": [
+   "Shadow Affinity is gone, so you have no talent threat reduction. Let the tank build threat before you open up.",
+   "Ask a Paladin for Salvation. Blizzard says it will stop being a blessing in a future beta build, so you can then have Salvation and a damage blessing together.",
+   "Shadowform halves the Mana cost of Shadow spells.",
+   "Vampiric Embrace can proc Spirit Tap for extra Mana regeneration."
+  ],
+  "tierBand": "B",
+  "tierDps": 774,
+  "tierRank": 14,
+  "trinketSnapshot": "MythicSim Shadow board, engine 37c2dfb on client 70425, 18 Oct (baseline 774)",
+  "trinkets": [
+   {
+    "gain": "+2.44%",
+    "name": "Cleansed Vilebranch Icon",
+    "source": "Quest"
+   },
+   {
+    "gain": "+2.44%",
+    "name": "Jewel of the Guard Captain",
+    "source": "Quest"
+   },
+   {
+    "gain": "+2.43%",
+    "name": "Talisman of Ephemeral Power",
+    "source": "Magmadar, Molten Core. Molten Core isn't on Forever's announced raid schedule."
+   },
+   {
+    "gain": "+2.18%",
+    "name": "Draconic Infused Emblem",
+    "source": "General Drakkisath, Blackrock Spire"
+   },
+   {
+    "gain": "+1.83%",
+    "name": "Briarwood Reed",
+    "source": "Jed Runewatcher, Blackrock Spire"
+   },
+   {
+    "gain": "+1.39%",
+    "name": "Weakness Analyzer",
+    "source": "Quest; vendor Pix Xizzix"
+   }
+  ]
+ }
+}

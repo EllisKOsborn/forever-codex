@@ -1,0 +1,853 @@
+{
+ "app": {
+  "build": "1.60.1.70450",
+  "compareNote": "Sim DPS is the newest MythicSim run for each spec: 2-minute single-target fight, reference gear, no trinkets. Population is from beta samples and will change at launch.",
+  "defaultClass": "warlock",
+  "dungeonNote": "Enter your level to highlight dungeons around it. Dungeon XP is far below Classic, so run them for gear and quests.",
+  "facts": [
+   "Included with any WoW subscription or Game Time. The Skyborne race needs an upgrade pack.",
+   "Launch 4 November at 11pm UK. No raids at launch: Barrow Deeps (10), Hyjal Summit (20) and Onyxia's Lair (40) open 9 December.",
+   "Two more raids are planned for spring 2027 and a revamped classic raid plus a new one for summer 2027. Molten Core isn't on the announced schedule.",
+   "Level cap 60. No flying and no level scaling. No traditional realms.",
+   "Hardcore won't be available at launch.",
+   "World buffs don't work in Forever raids.",
+   "Dungeon XP is far below Classic, so quest in the open world and run dungeons for gear.",
+   "Wands and Auto Shot need you to stand still for 0.5 sec before firing.",
+   "Early name reservation (27 October) is for players who bought an upgrade pack."
+  ],
+  "gearNote": "Levelling picks come from the level-30 beta lists. Trinket gains are MythicSim results and differ by spec. Items marked unverified are level-60 loot whose Forever drop tables aren't confirmed yet (the beta stops at 30). \"Also wanted by\" shows which of your other classes would compete for the same item.",
+  "lastRefreshed": "2026-10-20T09:30:00+01:00",
+  "raidFacts": [
+   "Onyxia's Lair keeps its Classic-style attunement chain, done per character at least at launch (Blizzard podcast, 8 October). Barrow Deeps and Hyjal Summit have no attunement chain, though Blizzard hints at extra steps for the full experience.",
+   "No lockout length has been announced for any raid.",
+   "Every raid boss drops a chase item. Every class gets a new tier set, and the first new legendary is tied to the Hyjal Summit tier.",
+   "Crafted tier pieces are Bind on Equip and you can wear only one at launch; a Guardians of Hyjal reputation reward raises that to two, enough for the 2-piece bonus. Each needs 3 Malleable Essence of Nature, which only comes from disenchanting Barrow Deeps or Hyjal Summit items.",
+   "World buffs don't work in Forever raids. Four new Natural flasks work only in Mount Hyjal, Hyjal Summit and Barrow Deeps.",
+   "Eight group buffs became raid-wide on 15 October (Battle Shout, Trueshot Aura, several totems, Moonkin Aura for spell crit, Leader of the Pack).",
+   "An epic raid item unlocks its transmog only for the player who loots it.",
+   "About 8,000 items still ship without stats, including most Tier 1 and Tier 2 pieces and later dungeon loot, so level-60 gear lists are educated guesses until launch."
+  ],
+  "raidNote": "All three open 9 December",
+  "sources": [
+   {
+    "name": "MythicSim tier list",
+    "url": "https://mythicsim.com/wow-forever/tier-list"
+   },
+   {
+    "name": "MythicSim race sims",
+    "url": "https://mythicsim.com/wow-forever/races?class=priest&spec=shadow-priest"
+   },
+   {
+    "name": "MythicSim trinkets",
+    "url": "https://mythicsim.com/wow-forever/best-trinkets/shadow-priest"
+   },
+   {
+    "name": "TalentsForever",
+    "url": "https://talentsforever.com/priest"
+   },
+   {
+    "name": "Blizzard beta notes",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696/6"
+   },
+   {
+    "name": "Kami Labs Oct 15 breakdown",
+    "url": "https://kami-labs.fr/en/wow-forever/patch-notes-15-octobre-races-refaites/"
+   },
+   {
+    "name": "Conquest Capped levelling",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-priest-leveling/"
+   },
+   {
+    "name": "Method levelling",
+    "url": "https://www.method.gg/wow-forever/wow-forever-priest-leveling-guide-and-talents"
+   },
+   {
+    "name": "ForeverChanges BiS",
+    "url": "https://foreverchanges.pro/bis/priest"
+   },
+   {
+    "name": "Warcraft Tavern roadmap",
+    "url": "https://www.warcrafttavern.com/forever/news/world-of-warcraft-forever-roadmap-beta-launch-date-raids/"
+   },
+   {
+    "name": "Wowhead Forever changes",
+    "url": "https://www.wowhead.com/forever/changes"
+   },
+   {
+    "name": "Bind on Forever",
+    "url": "https://bindonforever.com/dungeons"
+   },
+   {
+    "name": "Daybreak Forever",
+    "url": "https://daybreakforever.com/skills/priest"
+   },
+   {
+    "name": "WoWVendor Priest BiS",
+    "url": "https://wowvendor.com/media/wow-forever/priest-bis/"
+   },
+   {
+    "name": "Warcraft Tavern tailoring",
+    "url": "https://www.warcrafttavern.com/forever/guides/tailoring/"
+   },
+   {
+    "name": "Blizzard Priest deep dive",
+    "url": "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior"
+   },
+   {
+    "name": "Method Legacy builds",
+    "url": "https://www.method.gg/wow-forever/the-best-way-to-spend-your-legacy-points-in-wow-forever-best-legacy-talent-builds"
+   },
+   {
+    "name": "MythicSim Mage page",
+    "url": "https://mythicsim.com/wow-forever/mage"
+   },
+   {
+    "name": "MythicSim Mage races",
+    "url": "https://mythicsim.com/wow-forever/races?class=mage&spec=fire-mage"
+   },
+   {
+    "name": "MythicSim Fire trinkets",
+    "url": "https://mythicsim.com/wow-forever/best-trinkets/fire-mage"
+   },
+   {
+    "name": "MythicSim Arcane trinkets",
+    "url": "https://mythicsim.com/wow-forever/best-trinkets/arcane-mage"
+   },
+   {
+    "name": "MythicSim Frost trinkets",
+    "url": "https://mythicsim.com/wow-forever/best-trinkets/frost-mage"
+   },
+   {
+    "name": "MythicSim Frostfire trinkets",
+    "url": "https://mythicsim.com/wow-forever/best-trinkets/frostfire-mage"
+   },
+   {
+    "name": "TalentsForever Mage changes",
+    "url": "https://talentsforever.com/mage/changes"
+   },
+   {
+    "name": "TalentsForever Mage levelling",
+    "url": "https://talentsforever.com/mage/leveling"
+   },
+   {
+    "name": "Blizzard Mage deep dive",
+    "url": "https://news.blizzard.com/en-us/article/24302097/"
+   },
+   {
+    "name": "Daybreak Forever",
+    "url": "https://daybreakforever.com/skills/mage"
+   },
+   {
+    "name": "Warcraft Tavern Mage levelling",
+    "url": "https://www.warcrafttavern.com/forever/guides/mage-leveling/"
+   },
+   {
+    "name": "Icy Veins Fire Mage",
+    "url": "https://www.icy-veins.com/wow-forever/fire-mage-ranged-dps-pve-guide"
+   },
+   {
+    "name": "ForeverChanges Mage BiS",
+    "url": "https://foreverchanges.pro/bis/mage"
+   },
+   {
+    "name": "LFCarry Mage PvE",
+    "url": "https://lfcarry.com/guides/wow-forever-mage-pve"
+   },
+   {
+    "name": "RankedBoost tier list",
+    "url": "https://rankedboost.com/world-of-warcraft/forever/tier-list/"
+   },
+   {
+    "name": "Method scroll guide",
+    "url": "https://www.method.gg/wow-forever/mage-comprehension-and-study-guide-in-wow-forever-how-scrolls-work-and-all-scroll-effects"
+   },
+   {
+    "name": "MythicSim Warlock page",
+    "url": "https://mythicsim.com/wow-forever/warlock"
+   },
+   {
+    "name": "MythicSim Warlock races",
+    "url": "https://mythicsim.com/wow-forever/races?class=warlock&spec=demonology-warlock"
+   },
+   {
+    "name": "MythicSim Demonology trinkets",
+    "url": "https://mythicsim.com/wow-forever/best-trinkets/demonology-warlock"
+   },
+   {
+    "name": "MythicSim Affliction trinkets",
+    "url": "https://mythicsim.com/wow-forever/best-trinkets/affliction-warlock"
+   },
+   {
+    "name": "MythicSim Destruction trinkets",
+    "url": "https://mythicsim.com/wow-forever/best-trinkets/destruction-warlock"
+   },
+   {
+    "name": "TalentsForever Warlock changes",
+    "url": "https://talentsforever.com/warlock/changes"
+   },
+   {
+    "name": "TalentsForever Warlock levelling",
+    "url": "https://talentsforever.com/warlock/leveling"
+   },
+   {
+    "name": "Blizzard beta notes",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696"
+   },
+   {
+    "name": "Kami Labs Demonology build",
+    "url": "https://kami-labs.fr/en/wow-forever/build-demoniste-demonologie-wow-forever/"
+   },
+   {
+    "name": "ForeverChanges patch notes",
+    "url": "https://foreverchanges.pro/patch-notes"
+   },
+   {
+    "name": "ForeverChanges Warlock BiS",
+    "url": "https://foreverchanges.pro/bis/warlock"
+   },
+   {
+    "name": "Bind on Forever Legacy",
+    "url": "https://bindonforever.com/legacy"
+   },
+   {
+    "name": "Daybreak Forever",
+    "url": "https://daybreakforever.com/skills/warlock"
+   },
+   {
+    "name": "Conquest Capped levelling",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-warlock-leveling/"
+   },
+   {
+    "name": "Conquest Capped talents",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-warlock-talents/"
+   },
+   {
+    "name": "Conquest Capped tier set",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-warlock-tier-set/"
+   },
+   {
+    "name": "Method levelling",
+    "url": "https://www.method.gg/wow-forever/wow-forever-warlock-leveling-guide-and-talents"
+   },
+   {
+    "name": "Mobalytics Warlock overview",
+    "url": "https://mobalytics.gg/wow-forever/guides/warlock-class-overview"
+   },
+   {
+    "name": "Mobalytics Affliction",
+    "url": "https://mobalytics.gg/wow-forever/classes/affliction-warlock-guide"
+   },
+   {
+    "name": "Icy Veins Destruction",
+    "url": "https://www.icy-veins.com/wow-forever/destruction-warlock-ranged-dps-pve-guide"
+   },
+   {
+    "name": "Warcraft Tavern Warlock",
+    "url": "https://www.warcrafttavern.com/forever/guides/warlock/"
+   },
+   {
+    "name": "RankedBoost tier list",
+    "url": "https://rankedboost.com/world-of-warcraft/forever/tier-list/dps/"
+   },
+   {
+    "name": "Overgear DPS ranking",
+    "url": "https://overgear.com/guides/wow-forever/dps-ranking/"
+   },
+   {
+    "name": "ClassicPlus census",
+    "url": "https://classicplus.io/"
+   },
+   {
+    "name": "Kami Labs census",
+    "url": "https://kami-labs.fr/en/wow-forever/wow-forever-census-beta-races-classes-populaires/"
+   },
+   {
+    "name": "Blizzard stress test",
+    "url": "https://news.blizzard.com/en-us/article/24302072/updated-oct-16-join-the-world-of-warcraft-forever-stress-test"
+   },
+   {
+    "name": "Warcraft Tavern raids",
+    "url": "https://www.warcrafttavern.com/forever/guides/raids/"
+   },
+   {
+    "name": "Conquest Capped Hyjal Summit",
+    "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-hyjal-summit-guide/"
+   },
+   {
+    "name": "The Forever Era Barrow Deeps",
+    "url": "https://theforeverera.com/en/raids/barrow-deeps/"
+   },
+   {
+    "name": "LFCarry raids",
+    "url": "https://lfcarry.com/guides/wow-forever-raids"
+   },
+   {
+    "name": "Icy Veins crafted tier sets",
+    "url": "https://www.icy-veins.com/wow-forever/news/wow-forever-crafted-tier-sets-datamined-recipes-costs-and-set-bonuses/"
+   },
+   {
+    "name": "Wowhead Forever item sets",
+    "url": "https://www.wowhead.com/forever/item-set=2098/manaflare-regalia"
+   },
+   {
+    "name": "Icy Veins hidden items",
+    "url": "https://www.icy-veins.com/wow-forever/news/wow-forever-hid-over-12500-items-from-dataminers-heres-whats-still-secret/"
+   },
+   {
+    "name": "Icy Veins addons",
+    "url": "https://www.icy-veins.com/wow-forever/news/set-up-your-wow-forever-ui-before-launch-with-these-9-addons/"
+   },
+   {
+    "name": "Kami Labs levelling addons",
+    "url": "https://kami-labs.fr/en/wow-forever/addons-leveling-wow-forever/"
+   },
+   {
+    "name": "LFCarry realmless guide",
+    "url": "https://lfcarry.com/guides/wow-forever-realmless"
+   },
+   {
+    "name": "LFCarry tier list",
+    "url": "https://lfcarry.com/guides/wow-forever-tier-list"
+   },
+   {
+    "name": "Icy Veins Forever Open results",
+    "url": "https://www.icy-veins.com/wow-forever/news/warlocks-dominate-the-100000-forever-dueling-tournament/"
+   },
+   {
+    "name": "Kami Labs RestedXP dungeon routes",
+    "url": "https://kami-labs.fr/wow-forever/guide-donjons-restedxp-wow-forever/"
+   },
+   {
+    "name": "Blizzard economy holds",
+    "url": "https://us.forums.blizzard.com/en/wow/t/temporary-economy-holds-for-rmt/2381433"
+   }
+  ],
+  "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight. The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Frostfire above Shadow, Frost above Elehance). The three Hunter rows are MythicSim's 19 Oct run (engine 24c66df, client 70425); the 21 rows marked older, including every Warlock, Mage and Priest row, are on the 18 Oct snapshot (37c2dfb). The change column is MythicSim's printed change since 16 October, not since yesterday. Bands are set from the median core spec: S is 20%+ above it, A above it, B within 15% below, C further down. Specs for the classes you're weighing are highlighted."
+ },
+ "crafting": {
+  "camping": {
+   "features": [
+    {
+     "buff": "Mana every 5 sec (+29 at 60)",
+     "name": "Mana Well",
+     "note": "Best for you; clashes with Blessing of Wisdom",
+     "notes": {
+      "mage": "Best for every Mage spec; clashes with Blessing of Wisdom",
+      "priest": "Best for you; clashes with Blessing of Wisdom",
+      "warlock": "Clashes with Blessing of Wisdom"
+     },
+     "prof": "Alchemy"
+    },
+    {
+     "buff": "Intellect (+25 at 60)",
+     "name": "Incense Candle",
+     "note": "Clashes with Arcane Intellect",
+     "notes": {
+      "mage": "Clashes with your own Arcane Intellect, so skip it",
+      "priest": "Clashes with Arcane Intellect",
+      "warlock": "Clashes with Arcane Intellect"
+     },
+     "prof": "Herbalism"
+    },
+    {
+     "buff": "Stamina (+56 at 60)",
+     "name": "First Aid Kit",
+     "note": "Clashes with Power Word: Fortitude",
+     "notes": {
+      "mage": "Clashes with Power Word: Fortitude",
+      "priest": "Clashes with Power Word: Fortitude",
+      "warlock": "Clashes with Power Word: Fortitude; extra Stamina helps Life Tap"
+     },
+     "prof": "First Aid"
+    },
+    {
+     "buff": "Spirit (+32 at 60)",
+     "name": "Faction Banner",
+     "note": "Same slot as Divine Spirit",
+     "notes": {
+      "mage": "Spirit helps Arcane most; same slot as Divine Spirit",
+      "priest": "Same slot as Divine Spirit",
+      "warlock": "Spirit makes Life Tap stronger; same slot as Divine Spirit"
+     },
+     "prof": "Tailoring"
+    },
+    {
+     "buff": "Armour, all stats, resistances",
+     "name": "Enchanted Lute",
+     "note": "",
+     "notes": {
+      "mage": "",
+      "priest": "",
+      "warlock": ""
+     },
+     "prof": "Enchanting"
+    },
+    {
+     "buff": "Rested XP top-up to 5% of a level",
+     "name": "Camp Tent",
+     "note": "Levelling",
+     "notes": {
+      "mage": "Levelling",
+      "priest": "Levelling",
+      "warlock": "Levelling"
+     },
+     "prof": "Leatherworking"
+    },
+    {
+     "buff": "+2% crit",
+     "name": "Camp Chair",
+     "note": "",
+     "notes": {
+      "mage": "Good for Fire and Frostfire",
+      "priest": "",
+      "warlock": "Spell crit; clashes with Moonkin Aura"
+     },
+     "prof": "Skinning"
+    },
+    {
+     "buff": "+8% stats",
+     "name": "Fish Bowl",
+     "note": "",
+     "notes": {
+      "mage": "Weaker than Blessing of Kings",
+      "priest": "",
+      "warlock": "Clashes with Blessing of Kings"
+     },
+     "prof": "Fishing"
+    },
+    {
+     "buff": "Melee buff",
+     "name": "Sharpening Wheel",
+     "note": "Not for you",
+     "notes": {
+      "mage": "Not for you",
+      "priest": "Not for you",
+      "warlock": "Not for you"
+     },
+     "prof": "Blacksmithing"
+    },
+    {
+     "buff": "Utility",
+     "name": "Reagent Bot",
+     "note": "",
+     "notes": {
+      "mage": "",
+      "priest": "",
+      "warlock": ""
+     },
+     "prof": "Engineering"
+    },
+    {
+     "buff": "Utility",
+     "name": "Lodestone",
+     "note": "",
+     "notes": {
+      "mage": "",
+      "priest": "",
+      "warlock": ""
+     },
+     "prof": "Mining"
+    }
+   ],
+   "rules": [
+    "A basic campfire holds 3 features, Journeyman 5, Expert 10.",
+    "Placing any feature starts a 60-minute cooldown on all your features. The Field Guide Legacy perk cuts it to 45 minutes.",
+    "Upgraded features come from blueprints at 140 and 300 skill.",
+    "Every feature needs a campfire nearby."
+   ],
+   "summary": "Build a campfire with Cooking, then place profession features around it. Sit or craft nearby for about a minute to get hour-long buffs that scale with your level. Learn it from the Camping 101 quest in your starting zone around level 5–6."
+  },
+  "tailoring": {
+   "bands": [
+    {
+     "cloth": "Linen",
+     "note": "Brown Linen Robes to disenchant for wand materials.",
+     "range": "1–19"
+    },
+    {
+     "cloth": "Wool",
+     "note": "Woolen shoulders now have spell power variants.",
+     "range": "15–30"
+    },
+    {
+     "cloth": "Silk",
+     "note": "Azure Silk Hood now has a spell power variant.",
+     "range": "26–40"
+    },
+    {
+     "cloth": "Mageweave",
+     "note": "",
+     "range": "41–50"
+    },
+    {
+     "cloth": "Runecloth",
+     "note": "",
+     "range": "51–60"
+    },
+    {
+     "cloth": "Felcloth",
+     "note": "From demons.",
+     "range": "50–60"
+    }
+   ],
+   "whatsNew": [
+    "Red Linen Bag is now 8 slots.",
+    "New Linen and Woolen Reagent Bags for the new reagent bag slot.",
+    "Merchant's Favor from crates buys patterns.",
+    "Fishing can catch crates with bolts of cloth."
+   ]
+  }
+ },
+ "dates": {
+  "events": [
+   {
+    "iso": "2026-10-21T18:00:00+01:00",
+    "label": "Server Slam",
+    "note": "Free stress test, open to anyone. Moved from 19 October. Europe opens 19:00 CEST (6pm UK); North America 2pm PDT. Blizzard gives no end time.",
+    "showTime": true
+   },
+   {
+    "iso": "2026-10-21T23:59:00-07:00",
+    "label": "Beta ends",
+    "note": "Blizzard's shop says the beta runs through 21 October. Some sites say 22 October."
+   },
+   {
+    "iso": "2026-10-27T00:00:00+00:00",
+    "label": "Name reservation",
+    "note": "Early name reservation and character creation for upgrade-pack owners, until 3 November"
+   },
+   {
+    "iso": "2026-11-04T23:00:00+00:00",
+    "label": "Launch",
+    "note": "3pm PST / 11pm UK",
+    "showTime": true
+   },
+   {
+    "iso": "2026-12-09T00:00:00+00:00",
+    "label": "Raids open",
+    "note": "Barrow Deeps (10), Hyjal Summit (20), Onyxia's Lair (40)"
+   }
+  ]
+ },
+ "launch": {
+  "addonNote": "Install from CurseForge or Wago. During the beta, support claims come from changelogs rather than testing, so try them on Server Slam night.",
+  "addons": [
+   {
+    "cat": "Levelling",
+    "name": "Questie",
+    "status": "Forever support since 12.0.1. New Forever quests have no markers yet, because its data comes from Classic.",
+    "url": "https://www.curseforge.com/wow/addons/questie",
+    "use": "Quest markers on the map and minimap."
+   },
+   {
+    "cat": "Levelling",
+    "name": "Guidelime + TUGs guide",
+    "status": "Initial Forever support. Guide covers 12–30 in the beta; 30–60 after launch.",
+    "use": "Free step-by-step levelling route."
+   },
+   {
+    "cat": "Levelling",
+    "name": "RestedXP",
+    "status": "1–20 free, the rest paid. The beta guide now routes through dungeons from 1 to 30; Forever routes for 35–60 arrive after launch.",
+    "use": "Route arrow, auto quest accept and turn-in, level timer."
+   },
+   {
+    "cat": "Raid",
+    "name": "Details!",
+    "status": "Community staple. Threat matters more now that Shadow lost Shadow Affinity.",
+    "use": "Damage and healing meter with a threat meter."
+   },
+   {
+    "cat": "Planning",
+    "name": "Talents Forever",
+    "status": "Made for Forever.",
+    "use": "Plan, test and share talent builds in game."
+   },
+   {
+    "cat": "Planning",
+    "name": "Forever Dungeon Journal",
+    "status": "Made for Forever.",
+    "use": "Retail-style journal: drops from dungeons and quests, related quests, unlock levels."
+   },
+   {
+    "cat": "Maps",
+    "name": "HandyNotes: Forever Instances",
+    "status": "Made for Forever. Needs HandyNotes.",
+    "url": "https://www.curseforge.com/wow/addons/forever-instances-dungeons-raids",
+    "use": "Dungeon and raid entrances on the map with level ranges."
+   },
+   {
+    "cat": "Maps",
+    "name": "Leatrix Maps",
+    "status": "Not confirmed.",
+    "use": "Coordinates, instance icons, bigger map."
+   },
+   {
+    "cat": "Interface",
+    "name": "Baganator",
+    "status": "Being updated for Forever.",
+    "use": "One combined bag, sort by category."
+   },
+   {
+    "cat": "Interface",
+    "name": "Ellesmere UI",
+    "status": "Officially on Forever.",
+    "use": "Full interface replacement with a cooldown manager."
+   },
+   {
+    "cat": "Interface",
+    "name": "Platynator",
+    "status": "Not confirmed.",
+    "use": "Nameplates that flag mobs you need for quests."
+   },
+   {
+    "cat": "Interface",
+    "name": "BugSack + BugGrabber",
+    "status": "Worth having while addons catch up.",
+    "use": "Catch and store Lua errors from other addons."
+   }
+  ],
+  "cards": [
+   {
+    "items": [
+     "Normal: world PvP only when both players opt in. Easiest for mixed friend groups.",
+     "PvP: contested zones stay dangerous and levelling there is slower. One faction per account on this ruleset, with faction-balance systems like Season of Discovery.",
+     "Roleplaying: Normal rules with an RP community.",
+     "Hardcore: after launch, no date yet. Fully closed off; a dead character can transfer out.",
+     "Battlegrounds are the only place rulesets mix."
+    ],
+    "title": "Choosing a ruleset"
+   }
+  ],
+  "checklist": [
+   {
+    "id": "ruleset",
+    "text": "Pick a ruleset: Normal, PvP or Roleplaying. Hardcore comes later.",
+    "why": "There are no realms. You can only group, run dungeons and raid with players on your ruleset and faction, and characters can't move between rulesets."
+   },
+   {
+    "id": "friends",
+    "text": "Agree region, ruleset and faction with anyone you'll raid with.",
+    "why": "UK players are in the Europe region and there's no cross-region play."
+   },
+   {
+    "id": "slam",
+    "text": "Join the Server Slam to test your UI, addons and keybinds.",
+    "when": "2026-10-21",
+    "why": "6pm UK. Free for anyone. Characters are wiped afterwards."
+   },
+   {
+    "id": "names",
+    "text": "Pick your character name plus two backups.",
+    "when": "2026-10-27",
+    "why": "Names are two-part and unique across the whole region. Reservation runs 27 Oct – 3 Nov and needs an upgrade pack."
+   },
+   {
+    "id": "main",
+    "text": "Decide your main using the Compare tab.",
+    "why": "Re-check after the last beta builds; tuning still changes weekly."
+   },
+   {
+    "id": "legacy",
+    "text": "Plan your Legacy points.",
+    "why": "The tree opens when your first character reaches 25. Load the suggested build in the planner below."
+   },
+   {
+    "id": "profs",
+    "text": "Choose professions.",
+    "why": "Tailoring makes crafted tier pieces and caster gear; Enchanting pairs with it and turns raid drops into Malleable Essence."
+   },
+   {
+    "id": "addons",
+    "text": "Install and update addons the day before launch.",
+    "why": "Many are still adding Forever support; see the list below."
+   },
+   {
+    "id": "launch",
+    "text": "Launch night: be logged in early.",
+    "when": "2026-11-04",
+    "why": "11pm UK. Expect queues."
+   },
+   {
+    "id": "sixty",
+    "text": "Aim for 60 in about three weeks.",
+    "why": "That leaves time for dungeon gear, gold for consumables and the Onyxia chain before raids open on 9 December."
+   },
+   {
+    "id": "ony",
+    "text": "Start the Onyxia attunement chain as soon as you can.",
+    "why": "Per character, so every alt needs it too."
+   }
+  ],
+  "summary": "Things to settle before 4 November. Most can't be changed once your main exists, so do the ruleset and name first."
+ },
+ "legacy": {
+  "budget": 16,
+  "summary": "Every character spends up to 16 points across three trees. Points come from 65 account-wide challenges, including Novice, Experienced and Master for each class, so levelling one class helps the others. Legacy unlocks when your first character reaches level 25. Your plan is saved on this device for each class.",
+  "trees": [
+   {
+    "name": "Adventure",
+    "perks": [
+     {
+      "effect": "Rested XP builds 4–20% faster with a higher cap.",
+      "id": "rested",
+      "name": "Well Rested",
+      "ranks": 5,
+      "req": 0
+     },
+     {
+      "effect": "Kills restore 1–5% health and Mana over 10 sec. Not in dungeons.",
+      "id": "thrill",
+      "name": "Thrill of Adventure",
+      "ranks": 5,
+      "req": 0
+     },
+     {
+      "effect": "Talent points up to 5 levels earlier. No effect at 60.",
+      "id": "talented",
+      "name": "Talented",
+      "prereq": "rested",
+      "ranks": 5,
+      "req": 5
+     },
+     {
+      "effect": "Better stealth detection. Not in battlegrounds.",
+      "id": "highalert",
+      "name": "High Alert",
+      "ranks": 2,
+      "req": 5
+     },
+     {
+      "effect": "Camp feature cooldown cut by 8/17/25%.",
+      "id": "fieldguide",
+      "name": "Field Guide",
+      "ranks": 3,
+      "req": 5
+     },
+     {
+      "effect": "5 or 10 sec off Recently Bandaged.",
+      "id": "fieldmed",
+      "name": "Field Medicine",
+      "ranks": 2,
+      "req": 5
+     },
+     {
+      "effect": "50% cheaper, 20% faster flight paths.",
+      "id": "flier",
+      "name": "Frequent Flier",
+      "ranks": 1,
+      "req": 10
+     }
+    ]
+   },
+   {
+    "name": "Resourcefulness",
+    "perks": [
+     {
+      "effect": "Food buffs last 33/67/100% longer.",
+      "id": "gourmand",
+      "name": "Gourmand",
+      "ranks": 3,
+      "req": 0
+     },
+     {
+      "effect": "Faster while dead; free helpful spells after a resurrection.",
+      "id": "quickdead",
+      "name": "The Quick and the Dead",
+      "ranks": 2,
+      "req": 0
+     },
+     {
+      "effect": "8–40% less durability loss on death.",
+      "id": "reinforce",
+      "name": "Reinforce",
+      "ranks": 5,
+      "req": 0
+     },
+     {
+      "effect": "2–10% more Honor.",
+      "id": "honor",
+      "name": "For Great Honor",
+      "ranks": 5,
+      "req": 5
+     },
+     {
+      "effect": "Long party, raid and camp buffs last 50/100% longer.",
+      "id": "permanence",
+      "name": "Permanence",
+      "ranks": 2,
+      "req": 5
+     },
+     {
+      "effect": "2–10% more reputation.",
+      "id": "diplomat",
+      "name": "Diplomat",
+      "ranks": 5,
+      "req": 5
+     },
+     {
+      "effect": "Class abilities need no vendor-bought reagents (e.g. Mage teleports and Arcane Brilliance). Soul Shards still apply.",
+      "id": "reagent",
+      "name": "Reagent Economy",
+      "ranks": 1,
+      "req": 10
+     }
+    ]
+   },
+   {
+    "name": "Professions",
+    "perks": [
+     {
+      "effect": "4–20% better skill-up chance.",
+      "id": "overtime",
+      "name": "Working Overtime",
+      "ranks": 5,
+      "req": 0
+     },
+     {
+      "effect": "20–100% more scarce gathering materials.",
+      "id": "harvest",
+      "name": "Bountiful Harvest",
+      "ranks": 5,
+      "req": 0
+     },
+     {
+      "effect": "Chance for extra cooking results.",
+      "id": "chef",
+      "name": "Master Chef",
+      "ranks": 5,
+      "req": 5
+     },
+     {
+      "effect": "5 or 10% lower vendor prices.",
+      "id": "bartering",
+      "name": "Bartering",
+      "ranks": 2,
+      "req": 5
+     },
+     {
+      "effect": "Chance of double Merchant's Favor on crate turn-ins.",
+      "id": "performance",
+      "name": "Performance Bonus",
+      "ranks": 3,
+      "req": 5
+     },
+     {
+      "effect": "Chance of an extra fish with a lure.",
+      "id": "luremaster",
+      "name": "Luremaster",
+      "ranks": 2,
+      "req": 5
+     },
+     {
+      "effect": "Daily +1 skill to your lowest profession.",
+      "id": "study",
+      "name": "Dedicated Study",
+      "ranks": 1,
+      "req": 10
+     }
+    ]
+   }
+  ]
+ }
+}

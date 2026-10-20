@@ -1,0 +1,905 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Forever Codex</title>
+<meta name="description" content="WoW Forever news, sims, gear, levelling and raid prep for Warlock, Mage and Shadow Priest, refreshed daily.">
+<meta name="theme-color" content="#161a21">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%23161a21%27/%3E%3Ctext x=%2716%27 y=%2723%27 font-size=%2720%27 text-anchor=%27middle%27 fill=%27%238fdc5c%27 font-family=%27Georgia%27%3EF%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: sticky header (countdowns, class picker, tabs) over a single reading column (max 760px). Tier colours borrow WoW item-quality hues; the accent follows the class you pick, from colours stored with each class */
+:root{
+  --bg:#eceef2; --surface:#f8f9fb; --sunk:#e1e4eb; --ink:#161a21; --muted:#575e6c; --line:#d2d6df;
+  --accent:#5b3fa6; --accent-soft:#e6e0f5;
+  --up:#1f7a3a; --down:#b3261e; --warn:#8a5a00;
+  --q-s:#b8590a; --q-a:#7a2fb8; --q-b:#0a5bb5; --q-c:#2c7a17; --q-d:#6b6f78;
+  --tip-bg:#13161e; --tip-ink:#eef0f5; --tip-line:#474e60; --tip-muted:#9aa0b0; --tip-grid:#2a303c; --tip-name:#c27cf4;
+  --f-display:"Marcellus","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --f-body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  --r:10px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1116; --surface:#161921; --sunk:#1d212b; --ink:#e6e8ee; --muted:#959aa8; --line:#292d39;
+  --accent:#a993ff; --accent-soft:#272140;
+  --up:#5fd38a; --down:#ff7b72; --warn:#e6b450;
+  --q-s:#ff9f40; --q-a:#c27cf4; --q-b:#4da3ff; --q-c:#4fd36a; --q-d:#9da3ad;
+  --tip-bg:#0a0c11; --tip-line:#3b4152; --tip-grid:#252a35; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1116; --surface:#161921; --sunk:#1d212b; --ink:#e6e8ee; --muted:#959aa8; --line:#292d39;
+  --accent:#a993ff; --accent-soft:#272140;
+  --up:#5fd38a; --down:#ff7b72; --warn:#e6b450;
+  --q-s:#ff9f40; --q-a:#c27cf4; --q-b:#4da3ff; --q-c:#4fd36a; --q-d:#9da3ad;
+  --tip-bg:#0a0c11; --tip-line:#3b4152; --tip-grid:#252a35; color-scheme:dark}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 48px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:760px;margin:0 auto}
+h1,h2,h3{font-family:var(--f-display);font-weight:400;text-wrap:balance;margin:0;letter-spacing:.01em}
+h2{font-size:1.45rem}
+h3{font-size:1.1rem}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+.mono,.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+.eyebrow{font-size:.72rem;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);font-weight:600}
+p{margin:0}
+
+/* Header */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-top:14px;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.brand h1{font-size:1.6rem}
+.brand h1 span{color:var(--accent)}
+.fresh{font-size:.78rem;color:var(--muted)}
+.clocks{display:flex;gap:8px;overflow-x:auto;padding:10px 0 4px;scrollbar-width:none}
+.clocks::-webkit-scrollbar{display:none}
+.clock{flex:0 0 auto;border:1px solid var(--line);border-radius:8px;padding:6px 10px;background:var(--surface);min-width:116px}
+.clock b{display:block;font-family:var(--f-mono);font-size:.95rem;font-weight:600}
+.clock small{font-size:.72rem;color:var(--muted)}
+.clock.past{opacity:.55}
+.clock.next{border-color:var(--accent)}
+.classbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:8px 0 2px}
+.classbar .lbl{font-size:.72rem;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);font-weight:600}
+.cpick{display:inline-flex;gap:4px;flex-wrap:wrap}
+.cpick button{font:inherit;font-size:.88rem;font-weight:700;padding:6px 14px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);color:var(--muted);cursor:pointer}
+.cpick button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+nav.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;margin-top:4px}
+nav.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;font:inherit;font-size:.9rem;font-weight:600;background:none;border:0;color:var(--muted);padding:10px 12px;cursor:pointer;border-bottom:2px solid transparent}
+.tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+
+main{padding-top:20px;display:flex;flex-direction:column;gap:28px}
+section.panel{display:flex;flex-direction:column;gap:24px}
+.block{display:flex;flex-direction:column;gap:12px;min-width:0}
+.block-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+/* Tooltip-style verdict card */
+.tooltip{background:var(--tip-bg);color:var(--tip-ink);border:1px solid var(--tip-line);outline:1px solid var(--tip-bg);box-shadow:0 0 0 3px var(--tip-line) inset;border-radius:6px;padding:18px 18px 16px;display:flex;flex-direction:column;gap:10px}
+.tooltip .t-name{font-family:var(--f-display);font-size:1.35rem;color:var(--tip-name)}
+.tooltip .t-sub{color:#ffd100;font-size:.82rem}
+.tooltip .t-body{color:#cfd3de;font-size:.93rem}
+.tooltip .t-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;border-top:1px solid var(--tip-line);padding-top:10px}
+.tooltip .t-stats div{display:flex;flex-direction:column;gap:2px;min-width:0}
+.tooltip .t-stats b{font-family:var(--f-mono);font-size:1.15rem;color:#fff}
+.tooltip .t-stats small{color:var(--tip-muted);font-size:.74rem}
+.tooltip .t-stats .lbl{font-size:.78rem;font-weight:600}
+.tooltip .t-stats .best b::after{content:" ★";color:#ffd100;font-size:.8rem}
+.tooltip .t-flavour{color:#1eff00;font-size:.82rem}
+.spark{display:block;width:100%;height:64px}
+.spk-legend{display:flex;gap:12px;flex-wrap:wrap;font-size:.72rem;color:var(--tip-muted)}
+.spk-legend i{display:inline-block;width:10px;height:3px;border-radius:2px;margin-right:5px;vertical-align:3px}
+
+/* Lists */
+.list{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.row{display:grid;gap:4px 12px;padding:12px 0;border-bottom:1px solid var(--line);min-width:0}
+.news-row{grid-template-columns:72px 1fr}
+.news-row .d{font-family:var(--f-mono);font-size:.78rem;color:var(--muted);padding-top:2px}
+.news-row h3{font-family:var(--f-body);font-weight:600;font-size:.98rem}
+.news-row p{color:var(--muted);font-size:.9rem}
+.meta-line{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:.78rem;color:var(--muted)}
+.chip{display:inline-flex;align-items:center;gap:4px;font-size:.72rem;font-weight:600;letter-spacing:.03em;padding:2px 8px;border-radius:999px;background:var(--sunk);color:var(--muted);white-space:nowrap}
+.chip.sp{background:var(--accent-soft);color:var(--accent)}
+.chip.cl{background:transparent;border:1.5px solid var(--c,var(--line));color:var(--c,var(--muted))}
+.chip.unv{background:transparent;border:1px solid var(--line)}
+.chip.dm{background:var(--accent);color:var(--surface)}
+.chip.new{background:var(--accent-soft);color:var(--accent)}
+.chip.here{background:var(--ink);color:var(--bg)}
+.filters{display:flex;gap:6px;flex-wrap:wrap}
+.fbtn{font:inherit;font-size:.8rem;font-weight:600;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--muted);cursor:pointer}
+.fbtn[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+
+/* Change list */
+.changes{display:flex;flex-direction:column;gap:8px;margin:0;padding:0;list-style:none}
+.changes li{display:grid;grid-template-columns:22px 1fr;gap:8px;font-size:.93rem}
+.changes .sym{font-family:var(--f-mono);font-weight:700;text-align:center}
+.changes .chip{margin-right:6px;vertical-align:1px}
+.k-buff .sym{color:var(--up)} .k-nerf .sym{color:var(--down)} .k-neutral .sym{color:var(--muted)}
+
+/* Tier list */
+.tier-row{grid-template-columns:28px 34px 1fr auto;align-items:center}
+.tier-row .rk{font-family:var(--f-mono);color:var(--muted);font-size:.85rem}
+.tier-row.mine{background:var(--cs,var(--accent-soft));border-radius:8px;padding-inline:8px;border-bottom-color:transparent;box-shadow:inset 3px 0 0 var(--c,var(--accent))}
+.q{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:6px;font-family:var(--f-display);font-size:1rem;border:1.5px solid currentColor}
+.q-S{color:var(--q-s)} .q-A{color:var(--q-a)} .q-B{color:var(--q-b)} .q-C{color:var(--q-c)} .q-D{color:var(--q-d)}
+.specname{font-weight:600;min-width:0}
+.specname small{display:block;font-weight:400;color:var(--muted);font-size:.78rem}
+.bar{height:5px;background:var(--sunk);border-radius:3px;margin-top:5px;overflow:hidden}
+.bar i{display:block;height:100%;background:currentColor;border-radius:3px}
+.dps{text-align:right;font-family:var(--f-mono);font-variant-numeric:tabular-nums;font-size:.92rem}
+.dps small{display:block;color:var(--muted);font-size:.72rem}
+.old{font-size:.7rem;color:var(--warn);font-weight:600}
+.opinions{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}
+.op{border:1px solid var(--line);border-radius:var(--r);padding:12px;background:var(--surface);display:flex;flex-direction:column;gap:6px;min-width:0}
+.op a{font-weight:600;text-decoration:none}
+.op .grades{display:flex;gap:6px;flex-wrap:wrap}
+
+/* Pickers */
+.seg{display:inline-flex;flex-wrap:wrap;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.seg button{font:inherit;font-size:.8rem;font-weight:600;border:0;background:var(--surface);color:var(--muted);padding:5px 12px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.specbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.specbar .muted{font-size:.82rem}
+
+/* Compare */
+.cbars{display:flex;flex-direction:column;gap:8px}
+.cbar{display:grid;grid-template-columns:150px 1fr 70px;gap:10px;align-items:center}
+.cbar .nm{font-weight:600;font-size:.9rem;min-width:0}
+.cbar .nm small{display:block;font-weight:400;color:var(--muted);font-size:.74rem}
+.cbar .tr{height:14px;background:var(--sunk);border-radius:4px;overflow:hidden}
+.cbar .tr i{display:block;height:100%;background:var(--c);border-radius:4px}
+.cbar .tr i.exp{background:repeating-linear-gradient(45deg,var(--c),var(--c) 4px,transparent 4px,transparent 7px)}
+.cbar .v{font-family:var(--f-mono);font-size:.88rem;text-align:right}
+.cbar .v small{display:block;color:var(--muted);font-size:.7rem}
+.ccards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+.ccard{border:1px solid var(--line);border-top:4px solid var(--c);border-radius:var(--r);background:var(--surface);padding:14px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.ccard h3{color:var(--c)}
+.ccard .big{font-family:var(--f-mono);font-size:1.5rem;font-weight:600;line-height:1.1}
+.ccard .big small{display:block;font-family:var(--f-body);font-size:.78rem;font-weight:400;color:var(--muted)}
+.ccard dl{margin:0;display:flex;flex-direction:column;gap:8px}
+.ccard dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600}
+.ccard dd{margin:0;font-size:.88rem}
+.ccard ul{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:3px}
+.ccard .pros li::marker{content:"+ ";color:var(--up)}
+.ccard .cons li::marker{content:"− ";color:var(--down)}
+.pop{display:flex;gap:12px;font-family:var(--f-mono);font-size:.88rem}
+.chart{width:100%;height:auto;display:block}
+
+/* Races */
+.dotplot{display:flex;flex-direction:column;gap:2px}
+.dp-row{display:grid;grid-template-columns:110px 1fr 64px;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--line)}
+.dp-row .rn{font-weight:600;font-size:.92rem;min-width:0}
+.dp-row .rn small{display:block;font-weight:400;color:var(--muted);font-size:.72rem}
+.track{position:relative;height:20px}
+.track::before{content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:var(--line)}
+.dot{position:absolute;top:50%;width:12px;height:12px;border-radius:50%;transform:translate(-50%,-50%);background:var(--accent)}
+.dot.h{background:var(--q-s)}
+.axis{display:grid;grid-template-columns:110px 1fr 64px;gap:10px;font-family:var(--f-mono);font-size:.7rem;color:var(--muted)}
+.axis .ticks{position:relative;height:16px}
+.axis .ticks span{position:absolute;transform:translateX(-50%)}
+.legend{display:flex;gap:14px;font-size:.78rem;color:var(--muted);flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+
+/* Cards / notes */
+.note{border-left:3px solid var(--accent);background:var(--surface);padding:10px 14px;border-radius:0 8px 8px 0;font-size:.92rem}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.card{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);padding:14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+ol.prio{margin:0;padding-left:1.3em;display:flex;flex-direction:column;gap:6px}
+ul.plain{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:5px}
+table.t{width:100%;border-collapse:collapse;font-size:.9rem}
+table.t th{text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600;padding:6px 8px;border-bottom:1px solid var(--line)}
+table.t td{padding:8px;border-bottom:1px solid var(--line);vertical-align:top}
+.tscroll{overflow-x:auto}
+.spec-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.spec-head .pill{font-family:var(--f-mono);font-size:.8rem;padding:3px 10px;border-radius:999px;border:1px solid var(--line);background:var(--surface)}
+
+/* Levelling */
+.band{display:grid;grid-template-columns:64px 1fr;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
+.lvl{font-family:var(--f-mono);font-weight:600;font-size:.95rem;color:var(--accent);line-height:1.2}
+.lvl small{display:block;color:var(--muted);font-weight:400;font-size:.7rem;margin-top:2px}
+.band-body{display:flex;flex-direction:column;gap:10px;min-width:0}
+.band-body h3{font-family:var(--f-body);font-weight:700;font-size:1rem}
+.kv{display:grid;grid-template-columns:84px 1fr;gap:4px 10px;font-size:.9rem;margin:0}
+.kv dt{color:var(--muted);font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;padding-top:2px}
+.kv dd{margin:0;min-width:0}
+
+/* Gear & dungeons */
+.gear-row{grid-template-columns:1fr auto;align-items:start}
+.gear-row .gname{font-weight:600}
+.gear-row .gsrc{color:var(--muted);font-size:.86rem}
+.gear-row .glvl{font-family:var(--f-mono);font-size:.82rem;color:var(--muted);text-align:right;white-space:nowrap}
+.dg-row{grid-template-columns:70px 1fr;align-items:start}
+.dg-lv{font-family:var(--f-mono);font-size:.85rem;font-weight:600}
+.dg-lv small{display:block;font-weight:400;color:var(--muted);font-size:.7rem}
+.dg-row h3{font-family:var(--f-body);font-weight:600;font-size:.98rem;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.dg-row .dg-note{font-size:.88rem}
+.dg-row .dg-loot{font-size:.84rem;color:var(--muted)}
+.raid-more{border-top:1px solid var(--line);padding-top:6px;margin-top:2px}
+.raid-more summary{cursor:pointer;font-size:.86rem;font-weight:600;color:var(--accent);padding:4px 0}
+.raid-more[open] summary{margin-bottom:4px}
+.raid-more p{font-size:.88rem;margin:4px 0}
+ol.bosses{margin:6px 0 6px 1.3em;padding:0;columns:2;column-gap:28px;font-size:.88rem}
+ol.bosses li{break-inside:avoid;padding:1px 0}
+@media (max-width:520px){ol.bosses{columns:1}}
+.chk{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line);cursor:pointer}
+.chk:last-child{border-bottom:0}
+.chk input{margin-top:2px;width:20px;height:20px;accent-color:var(--accent);flex:none;cursor:pointer}
+.chk .ct{font-size:.93rem}
+.chk.done .ct{text-decoration:line-through;color:var(--muted)}
+.chk .cw{font-size:.8rem;color:var(--muted)}
+.digest{border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:var(--r);background:var(--surface);padding:14px 16px}
+.digest .src{font-size:.78rem;color:var(--muted);margin-left:6px;white-space:nowrap}
+.digest .chip.unv{margin-left:6px}
+.checkline{font-size:.8rem;color:var(--muted);display:flex;gap:8px;align-items:flex-start;padding-top:8px;border-top:1px solid var(--line)}
+.checkline b{color:var(--up);font-family:var(--f-mono)}
+.checkline.warn b{color:var(--warn)}
+.digest details summary{cursor:pointer;font-size:.85rem;font-weight:600;color:var(--accent)}
+.digest .old-day{margin-top:10px}
+.health{font-size:.8rem;color:var(--muted)}
+.health summary{cursor:pointer}
+.health.warn summary{color:var(--warn);font-weight:600}
+.health ul{margin:6px 0 0 1.1em;padding:0}
+.lvl-input{display:flex;align-items:center;gap:8px;font-size:.88rem;color:var(--muted)}
+.lvl-input input{width:64px;font:inherit;font-family:var(--f-mono);padding:5px 8px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+
+/* Legacy planner */
+.lg-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.lg-budget{font-family:var(--f-mono);font-size:1.1rem;font-weight:600}
+.lg-budget small{font-family:var(--f-body);font-size:.78rem;color:var(--muted);font-weight:400;margin-left:6px}
+.lg-trees{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+.lg-tree{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);padding:12px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.lg-tree h3 span{font-family:var(--f-mono);font-size:.85rem;color:var(--muted);margin-left:6px}
+.perk{display:grid;grid-template-columns:1fr auto;gap:4px 10px;padding:8px 0;border-top:1px solid var(--line);align-items:center}
+.perk.locked .pn{color:var(--muted)}
+.pn{font-weight:600;font-size:.9rem}
+.pn small{display:block;font-weight:400;color:var(--muted);font-size:.78rem;line-height:1.35}
+.stepper{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.stepper button{font:inherit;width:30px;height:30px;border:0;background:var(--sunk);color:var(--ink);cursor:pointer;font-weight:700}
+.stepper button:disabled{opacity:.35;cursor:not-allowed}
+.stepper b{font-family:var(--f-mono);min-width:38px;text-align:center;font-size:.85rem}
+.btn{font:inherit;font-size:.85rem;font-weight:600;padding:7px 14px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+
+/* Macros & notes */
+.macro{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);padding:12px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.macro-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.macro pre{margin:0;background:var(--sunk);border-radius:6px;padding:10px;font-family:var(--f-mono);font-size:.8rem;overflow-x:auto;white-space:pre}
+textarea.notes{width:100%;min-height:180px;font:inherit;font-size:.92rem;padding:12px;border-radius:var(--r);border:1px solid var(--line);background:var(--surface);color:var(--ink);resize:vertical}
+
+.empty{border:1px dashed var(--line);border-radius:var(--r);padding:18px;color:var(--muted);font-size:.92rem}
+.sources{font-size:.8rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 14px}
+footer{margin-top:32px;padding-top:16px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
+
+@media (max-width:480px){
+  .news-row{grid-template-columns:1fr}
+  .band{grid-template-columns:1fr;gap:6px}
+  .lvl small{display:inline;margin-left:8px}
+  .kv{grid-template-columns:1fr}
+  .dp-row,.axis{grid-template-columns:86px 1fr 56px}
+  .cbar{grid-template-columns:110px 1fr 58px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+<style id="cls-tokens"></style>
+</head>
+<body>
+
+<div class="wrap">
+<header class="top">
+  <div class="brand">
+    <h1>Forever <span>Codex</span></h1>
+    <div class="fresh" id="fresh">Waiting for the latest data…</div>
+  </div>
+  <div class="clocks" id="clocks" aria-label="Key dates"></div>
+  <div class="classbar"><span class="lbl">Class</span><div class="cpick" id="cpick" role="group" aria-label="Class"></div></div>
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab" role="tab" data-tab="today" id="t-today">Today</button>
+    <button class="tab" role="tab" data-tab="compare" id="t-compare">Compare</button>
+    <button class="tab" role="tab" data-tab="tiers" id="t-tiers">Tier list</button>
+    <button class="tab" role="tab" data-tab="races" id="t-races">Races</button>
+    <button class="tab" role="tab" data-tab="spec" id="t-spec">Spec guide</button>
+    <button class="tab" role="tab" data-tab="gear" id="t-gear">Gear</button>
+    <button class="tab" role="tab" data-tab="dungeons" id="t-dungeons">Raids &amp; dungeons</button>
+    <button class="tab" role="tab" data-tab="level" id="t-level">Levelling 1–60</button>
+    <button class="tab" role="tab" data-tab="craft" id="t-craft">Crafting &amp; camping</button>
+    <button class="tab" role="tab" data-tab="kit" id="t-kit">Launch kit</button>
+  </nav>
+</header>
+
+<main>
+  <section class="panel" data-panel="today" id="p-today"></section>
+  <section class="panel" data-panel="compare" id="p-compare" hidden></section>
+  <section class="panel" data-panel="tiers" id="p-tiers" hidden></section>
+  <section class="panel" data-panel="races" id="p-races" hidden></section>
+  <section class="panel" data-panel="spec" id="p-spec" hidden></section>
+  <section class="panel" data-panel="gear" id="p-gear" hidden></section>
+  <section class="panel" data-panel="dungeons" id="p-dungeons" hidden></section>
+  <section class="panel" data-panel="level" id="p-level" hidden></section>
+  <section class="panel" data-panel="craft" id="p-craft" hidden></section>
+  <section class="panel" data-panel="kit" id="p-kit" hidden></section>
+</main>
+
+<footer>
+  <div class="eyebrow">Sources</div>
+  <div class="sources" id="sources"></div>
+  <div class="health" id="health"></div>
+  <p class="muted" style="font-size:.78rem">Beta data changes often. Sim numbers are MythicSim reference builds on a 2-minute single-target fight, not raid logs. Refreshed daily by Claude.</p>
+</footer>
+</div>
+
+<script>
+(function(){
+  const S={app:null,dates:null,legacy:null,craft:null,launch:null,digests:[],classes:{},specs:{},lev:{},tiers:[],races:[],news:[],history:[],gear:[],dungeons:[]};
+  function ls0(k){try{return localStorage.getItem('fx.'+k)}catch(e){return null}}
+  const ls={get:ls0,set(k,v){try{localStorage.setItem('fx.'+k,v)}catch(e){}}};
+  let cls=ls0('cls')||null;
+  let tab=(location.hash||'').slice(1)||ls0('tab')||'today';
+  let newsFilter=ls0('nf')||'mine';
+  let faction=ls0('fac')||'both';
+  let tierFilter=ls0('tf')||'all';
+  let gearFilter=ls0('gf')||'all';
+  let myLevel=parseInt(ls0('lvl')||'',10)||null;
+  let loaded=false;
+
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const fmtDate=iso=>{if(!iso)return'';const d=new Date(iso.length<=10?iso+'T12:00:00':iso);if(isNaN(d))return esc(iso);return d.toLocaleDateString('en-GB',{day:'numeric',month:'short'})};
+  const fmtDT=iso=>{const d=new Date(iso);if(isNaN(d))return'';return d.toLocaleString('en-GB',{weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})};
+  const link=(u,t)=>u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a>`:esc(t);
+  const qClass=t=>'q q-'+(String(t||'').toUpperCase().charAt(0)||'D');
+  const li=a=>(a||[]).map(x=>`<li>${esc(x)}</li>`).join('');
+  const sym=k=>k==='buff'?'+':k==='nerf'?'−':'~';
+  const safeId=s=>String(s||'').replace(/[^a-z0-9-]/gi,'');
+  const okHex=h=>/^#[0-9a-f]{3,8}$/i.test(h||'')?h:null;
+
+  /* ---------- Class registry ---------- */
+  const classList=()=>Object.values(S.classes).filter(c=>c&&c.id).sort((a,b)=>(a.order??9)-(b.order??9));
+  const C=()=>S.classes[cls]||null;
+  const cName=id=>S.classes[id]?.name||id;
+  const cVar=id=>`var(--cls-${safeId(id)},var(--accent))`;
+  const cSoft=id=>`var(--cls-${safeId(id)}-soft,var(--accent-soft))`;
+  const clsChip=id=>`<span class="chip cl" style="--c:${cVar(id)}">${esc(cName(id))}</span>`;
+  function specsOf(id){return (S.classes[id]?.specs||[])}
+  function specMeta(sid){for(const c of classList())for(const s of c.specs||[])if(s.id===sid)return {...s,cls:c.id};return null}
+  const specName=sid=>specMeta(sid)?.name||S.specs[sid]?.name||sid;
+  const specColor=sid=>okHex(specMeta(sid)?.color)||'#9aa0b0';
+  const specChip=sid=>{if(!sid||sid==='all')return `<span class="chip">All ${esc(cName(cls))}s</span>`;const m=specMeta(sid);return m?`<span class="chip" style="color:var(--ink);border:1px solid ${specColor(sid)}">${esc(m.name)}</span>`:''};
+
+  function applyTheme(){
+    const list=classList();
+    const light=list.map(c=>{const a=c.accent||{};return `--cls-${safeId(c.id)}:${okHex(a.light)||'#5b3fa6'};--cls-${safeId(c.id)}-soft:${okHex(a.lightSoft)||'#e6e0f5'}`}).join(';');
+    const dark=list.map(c=>{const a=c.accent||{};return `--cls-${safeId(c.id)}:${okHex(a.dark)||'#a993ff'};--cls-${safeId(c.id)}-soft:${okHex(a.darkSoft)||'#272140'}`}).join(';');
+    const sel=list.map(c=>`:root[data-class="${safeId(c.id)}"]{--accent:var(--cls-${safeId(c.id)});--accent-soft:var(--cls-${safeId(c.id)}-soft);--tip-name:${okHex(c.accent?.tip)||'#c27cf4'}}`).join('\n');
+    document.getElementById('cls-tokens').textContent=`:root{${light}}\n@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){${dark}}}\n:root[data-theme="dark"]{${dark}}\n${sel}`;
+    if(cls)document.documentElement.setAttribute('data-class',safeId(cls));
+  }
+  function ensureClass(){
+    const list=classList();if(!list.length)return;
+    if(!cls||!S.classes[cls])cls=(S.app?.defaultClass&&S.classes[S.app.defaultClass])?S.app.defaultClass:list[0].id;
+  }
+  function renderClassPicker(){
+    const list=classList();const el=document.getElementById('cpick');
+    if(!list.length){el.innerHTML='<span class="muted" style="font-size:.85rem">Classes load here</span>';return}
+    el.innerHTML=list.map(c=>`<button data-cls="${esc(c.id)}" aria-pressed="${c.id===cls}">${esc(c.name)}</button>`).join('');
+    el.querySelectorAll('[data-cls]').forEach(b=>b.addEventListener('click',()=>{cls=b.dataset.cls;ls.set('cls',cls);applyTheme();renderAll()}));
+  }
+
+  /* spec picker per class */
+  function bestSpec(id){
+    const c=S.classes[id];if(!c)return null;
+    const b=c.verdict?.best;if(b&&S.specs[b])return b;
+    let best=null,v=-1;for(const s of c.specs||[]){const x=S.specs[s.id];if(x&&!s.experimental&&(x.newDps||0)>v){v=x.newDps;best=s.id}}
+    return best||(c.specs||[])[0]?.id||null;
+  }
+  const pickKey=()=>'sp.'+cls;
+  const specPick=()=>ls0(pickKey())||'auto';
+  const activeSpec=()=>{const p=specPick();return (p==='auto'||!specsOf(cls).some(s=>s.id===p))?bestSpec(cls):p};
+  function specPicker(){
+    const sp=specsOf(cls);if(sp.length<2)return '';
+    const p=specPick();
+    return `<div class="specbar"><div class="seg" role="group" aria-label="Spec">${[{id:'auto',name:'Best now'},...sp].map(s=>`<button data-sp="${esc(s.id)}" aria-pressed="${p===s.id}">${esc(s.name)}</button>`).join('')}</div>
+      ${p==='auto'?`<span class="muted">Showing ${esc(specName(bestSpec(cls)))}, the top spec in today's sims</span>`:''}</div>`;
+  }
+  function bindPicker(){document.querySelectorAll('[data-sp]').forEach(b=>b.addEventListener('click',()=>{ls.set(pickKey(),b.dataset.sp);renderRaces();renderSpec()}))}
+
+  /* ---------- Tabs ---------- */
+  function setTab(t){
+    if(!document.getElementById('p-'+t))t='today';
+    tab=t;ls.set('tab',t);
+    document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-selected',b.dataset.tab===t?'true':'false'));
+    document.querySelectorAll('.panel').forEach(p=>p.hidden=p.dataset.panel!==t);
+  }
+  document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{setTab(b.dataset.tab);window.scrollTo({top:0})}));
+
+  /* ---------- Header ---------- */
+  function renderHeader(){
+    const a=S.app;
+    document.getElementById('fresh').textContent=a?.lastRefreshed?`Updated ${fmtDT(a.lastRefreshed)} · build ${a.build||'?'}`:(loaded?'No refresh recorded yet':'Waiting for the latest data…');
+    document.getElementById('sources').innerHTML=(a?.sources||[]).map(s=>link(s.url,s.name)).join('')||'<span>Sources appear after the first refresh.</span>';
+    renderClocks();renderHealth();
+  }
+  function renderClocks(){
+    const el=document.getElementById('clocks');
+    const ev=(S.dates?.events||[]).slice().sort((x,y)=>x.iso.localeCompare(y.iso));
+    if(!ev.length){el.innerHTML='<div class="clock"><small>Key dates load here</small></div>';return}
+    const now=Date.now();let nextSet=false;
+    el.innerHTML=ev.map(e=>{
+      const t=new Date(e.iso).getTime();const diff=t-now;let txt,c='clock';
+      if(diff<=0){txt='Done';c+=' past'}
+      else{const d=Math.floor(diff/864e5),h=Math.floor(diff%864e5/36e5),m=Math.floor(diff%36e5/6e4);txt=d>0?`${d}d ${h}h`:`${h}h ${m}m`;if(!nextSet){c+=' next';nextSet=true}}
+      return `<div class="${c}" title="${esc(e.note||'')}"><small>${esc(e.label)}</small><b>${txt}</b><small>${esc(new Date(e.iso).toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short'})+(e.showTime?' · '+new Date(e.iso).toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'}):''))}</small></div>`;
+    }).join('');
+  }
+  setInterval(renderClocks,60000);
+
+  /* ---------- Today ---------- */
+  const hist=()=>S.history.slice().filter(h=>h&&h.date).sort((a,b)=>a.date.localeCompare(b.date));
+  function sparkline(){
+    const h=hist();const sp=specsOf(cls).map(s=>s.id);
+    if(h.length<2||!sp.length)return '';
+    const w=300,ht=64,pad=8;
+    const vals=h.flatMap(p=>sp.map(k=>p.values?.[k]).filter(v=>typeof v==='number'));
+    if(!vals.length)return '';
+    const mn=Math.min(...vals)-5,mx=Math.max(...vals)+5;
+    const x=i=>pad+i*(w-2*pad)/(h.length-1),y=d=>ht-pad-(d-mn)/(mx-mn)*(ht-2*pad);
+    const lines=sp.map(k=>{
+      const pts=h.map((p,i)=>typeof p.values?.[k]==='number'?`${x(i).toFixed(1)},${y(p.values[k]).toFixed(1)}`:null).filter(Boolean);
+      if(pts.length<2)return '';
+      const last=h[h.length-1].values?.[k];
+      return `<polyline points="${pts.join(' ')}" fill="none" stroke="${specColor(k)}" stroke-width="2" vector-effect="non-scaling-stroke"/>${typeof last==='number'?`<circle cx="${x(h.length-1)}" cy="${y(last)}" r="3" fill="${specColor(k)}"/>`:''}`;
+    }).join('');
+    if(!lines)return '';
+    const grid=[0.25,0.5,0.75].map(f=>`<line x1="${pad}" x2="${w-pad}" y1="${(pad+f*(ht-2*pad)).toFixed(1)}" y2="${(pad+f*(ht-2*pad)).toFixed(1)}" stroke="var(--tip-grid)" stroke-width="1" vector-effect="non-scaling-stroke"/>`).join('');
+    return `<svg class="spark" viewBox="0 0 ${w} ${ht}" preserveAspectRatio="none" role="img" aria-label="${esc(cName(cls))} spec sim DPS over time">${grid}${lines}</svg>
+      <div style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap" class="spk-legend mono"><span>${fmtDate(h[0].date)} → ${fmtDate(h[h.length-1].date)} · ${Math.round(mn+5)}–${Math.round(mx-5)} DPS</span>
+      <span>${sp.map(k=>`<span style="margin-left:10px"><i style="background:${specColor(k)}"></i>${esc(specName(k))}</span>`).join('')}</span></div>`;
+  }
+  function verdictCard(){
+    const c=C();const v=c?.verdict;
+    if(!v)return `<div class="empty">The class verdict appears here once the data loads.</div>`;
+    const best=bestSpec(cls);
+    const tiles=(c.specs||[]).filter(s=>S.specs[s.id]).map(s=>{const x=S.specs[s.id];return `<div class="${s.id===best?'best':''}"><span class="lbl" style="color:${specColor(s.id)}">${esc(s.name)}${s.experimental?' <small>(hybrid)</small>':''}</span><b>${esc(x.newDps??'—')}</b><small>Tier list #${esc(x.tierRank??'?')} · ${esc(x.tierDps??'—')} · ${esc(x.tierBand||'')}</small></div>`}).join('');
+    return `<div class="tooltip" aria-label="${esc(c.name)} verdict">
+      <div class="t-name">${esc(c.name)}</div>
+      <div class="t-sub">${esc(v.headline)}</div>
+      <p class="t-body">${esc(v.body)}</p>
+      <div class="t-stats">${tiles}</div>
+      <small style="color:var(--tip-muted);font-size:.74rem">${esc(v.statsNote||'Big number: newest MythicSim result. Below: rank, DPS and band on the tier list.')}</small>
+      ${sparkline()}
+      ${v.flavour?`<div class="t-flavour">${esc(v.flavour)}</div>`:''}
+    </div>`;
+  }
+  const TAGS={mine:'For you',everything:'All classes',datamine:'Datamined',patch:'Patch notes',sim:'Sims',talents:'Talents',blizzard:'Blizzard'};
+  const relevant=n=>!(n.classes||[]).length||(n.classes||[]).includes(cls);
+  function newsList(limit){
+    let items=S.news.slice().sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+    if(newsFilter!=='everything')items=items.filter(relevant);
+    if(!['mine','everything'].includes(newsFilter))items=items.filter(n=>n.tag===newsFilter);
+    if(limit)items=items.slice(0,limit);
+    if(!items.length)return `<div class="empty">${S.news.length?'Nothing under this filter yet.':'News lands here after each daily refresh: patch notes, datamines, sim updates and Blizzard posts.'}</div>`;
+    return `<div class="list">${items.map(n=>`<article class="row news-row">
+      <div class="d">${fmtDate(n.date)}</div>
+      <div style="display:flex;flex-direction:column;gap:4px;min-width:0">
+        <h3>${n.url?link(n.url,n.title):esc(n.title)}</h3>
+        <p>${esc(n.summary)}</p>
+        <div class="meta-line"><span class="chip${n.tag==='datamine'?' dm':''}">${esc(TAGS[n.tag]||n.tag)}</span>${(n.classes||[]).map(clsChip).join('')}<span>${esc(n.source||'')}</span></div>
+      </div></article>`).join('')}</div>`;
+  }
+  const changeList=items=>`<ul class="changes">${items.map(c=>`<li class="k-${esc(c.kind)}"><span class="sym">${sym(c.kind)}</span><span>${specsOf(cls).length>1?specChip(c.spec):''}${esc(c.text)}</span></li>`).join('')}</ul>`;
+  /* ---------- Since yesterday ---------- */
+  function digestItems(d){
+    const mine=i=>!(i.classes||[]).length||(i.classes||[]).includes(cls);
+    const items=(d.items||[]).slice().sort((a,b)=>(mine(b)?1:0)-(mine(a)?1:0));
+    if(!items.length)return '<p class="muted" style="font-size:.88rem">Nothing changed.</p>';
+    return `<ul class="changes">${items.map(i=>`<li class="k-${esc(i.kind||'neutral')}"><span class="sym">${sym(i.kind)}</span><span>${(i.classes||[]).map(clsChip).join('')}${esc(i.text)}${i.url?`<a class="src" href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source||'source')}</a>`:i.source?`<span class="src">${esc(i.source)}</span>`:''}${i.confidence==='single'?'<span class="chip unv" title="Only one source reports this so far">One source</span>':''}</span></li>`).join('')}</ul>`;
+  }
+  function digestCard(){
+    const ds=S.digests.filter(d=>d&&d.date).sort((a,b)=>b.date.localeCompare(a.date));
+    if(!ds.length)return '';
+    const d=ds[0];const ck=d.checks||{};const fl=ck.flagged||[];const co=ck.corrected||[];
+    return `<div class="block digest">
+      <div class="block-head"><h2>Since yesterday</h2><span class="muted" style="font-size:.82rem">${esc(d.at?fmtDT(d.at):fmtDate(d.date))}</span></div>
+      ${d.headline?`<p style="font-size:.95rem;margin:0">${esc(d.headline)}</p>`:''}
+      ${digestItems(d)}
+      ${(d.unchecked||[]).length?`<p class="muted" style="font-size:.82rem;margin:0"><b>Couldn't check:</b> ${esc(d.unchecked.join('; '))}</p>`:''}
+      <div class="checkline${fl.length?' warn':''}"><b>${fl.length?'!':'✓'}</b><span>${typeof ck.verified==='number'?`${ck.verified} claims re-checked against their sources${ck.method?` (${esc(ck.method)})`:''}.`:'No accuracy check recorded for this update.'}
+        ${co.length?` Corrected: ${esc(co.join('; '))}.`:''}
+        ${fl.length?` Held back until confirmed: ${esc(fl.join('; '))}.`:' Nothing held back.'}</span></div>
+      ${ds.length>1?`<details><summary>Earlier days</summary>${ds.slice(1,7).map(o=>`<div class="old-day"><div class="eyebrow">${esc(fmtDate(o.date))}</div>${o.headline?`<p style="font-size:.9rem;margin:4px 0">${esc(o.headline)}</p>`:''}${digestItems(o)}</div>`).join('')}</details>`:''}
+    </div>`;
+  }
+
+  /* ---------- Data checks (run in the page) ---------- */
+  function dataChecks(){
+    const warn=[];let n=0;const chk=(ok,msg)=>{n++;if(!ok)warn.push(msg)};
+    const known=new Set(classList().map(c=>c.id));
+    for(const c of classList()){
+      const rows=(c.specs||[]).map(s=>({s,x:S.specs[s.id]}));
+      rows.forEach(r=>{chk(r.x&&typeof r.x.newDps==='number',`${c.name}: ${r.s.name} has no sim number`)});
+      const b=c.verdict?.best;chk(!b||S.specs[b],`${c.name}: the verdict names a spec with no data`);
+      const scored=rows.filter(r=>r.x&&typeof r.x.newDps==='number');
+      if(b&&S.specs[b]&&scored.length){const top=scored.reduce((a,r)=>r.x.newDps>a.x.newDps?r:a);
+        chk(S.specs[b].newDps>=top.x.newDps*0.99,`${c.name}: the verdict picks ${specName(b)} but ${specName(top.s.id)} sims higher (${Math.round(top.x.newDps)} vs ${Math.round(S.specs[b].newDps)})`)}
+      for(const r of rows){if(!r.x)continue;const t=S.tiers.find(t=>t.clsId===c.id&&String(t.spec).toLowerCase()===String(r.x.name||r.s.name).toLowerCase());
+        if(t){chk(t.rank===r.x.tierRank&&t.dps===r.x.tierDps&&t.tier===r.x.tierBand,`${r.s.name} ${c.name}: tier list says #${t.rank}, ${t.dps}, ${t.tier} but the spec page says #${r.x.tierRank}, ${r.x.tierDps}, ${r.x.tierBand}`)}}
+      for(const o of c.opinions||[])for(const g of o.grades||[])chk(/^[SABCDF]$/.test(g.grade)&&S.specs[g.spec],`${c.name}: ${o.site} has an unreadable grade`);
+    }
+    const ranks=S.tiers.map(t=>t.rank).sort((a,b)=>a-b);chk(ranks.every((r,i)=>r===i+1),'Tier list ranks have gaps or repeats');
+    S.tiers.forEach(t=>chk(typeof t.dps==='number'&&t.dps>0,`Tier list: ${t.spec} ${t.cls} has no DPS`));
+    for(const r of S.races){for(const [sid,bd] of Object.entries(r.boards||{}))chk(typeof bd.dps==='number',`${r.race}: ${specName(sid)} race sim has no number`)}
+    const sids=new Set(S.races.flatMap(r=>Object.keys(r.boards||{})));
+    for(const sid of sids){const best=S.races.filter(r=>r.boards?.[sid]&&!r.boards[sid].gap);const top=S.races.filter(r=>r.boards?.[sid]).sort((a,b)=>b.boards[sid].dps-a.boards[sid].dps)[0];
+      chk(best.length===1&&best[0]===top,`Race sims for ${specName(sid)}: the race marked best isn't the highest number`)}
+    S.gear.forEach(g=>Object.keys(g.forClass||{}).forEach(k=>chk(known.has(k),`Gear "${g.name}" mentions an unknown class (${k})`)));
+    S.news.forEach(x=>chk(x.date&&x.source,`News "${x.title}" has no date or source`));
+    (S.dates?.events||[]).forEach(e=>chk(!isNaN(new Date(e.iso)),`Date "${e.label}" isn't a valid date`));
+    (S.app?.sources||[]).forEach(s=>chk(/^https:\/\//.test(s.url||''),`Source "${s.name}" has no link`));
+    const lr=S.app?.lastRefreshed?new Date(S.app.lastRefreshed):null;chk(lr&&Date.now()-lr<36*36e5,`The daily refresh hasn't run since ${lr?fmtDT(S.app.lastRefreshed):'—'}`);
+    const h=hist();for(let i=1;i<h.length;i++)for(const [k,v] of Object.entries(h[i].values||{})){const p=h[i-1].values?.[k];if(typeof p==='number'&&typeof v==='number')chk(Math.abs(v-p)/p<=0.15,`${specName(k)} jumped ${Math.round((v-p)/p*100)}% on ${fmtDate(h[i].date)}; worth a second look`)}
+    return {n,warn};
+  }
+  function renderHealth(){
+    const el=document.getElementById('health');if(!loaded){el.innerHTML='';return}
+    const {n,warn}=dataChecks();
+    el.className='health'+(warn.length?' warn':'');
+    el.innerHTML=warn.length?`<details><summary>Data checks: ${warn.length} of ${n} need a look</summary><ul>${li(warn)}</ul></details>`:`Data checks: all ${n} passed (numbers agree across tabs, links present, refresh on time).`;
+  }
+
+  function renderToday(){
+    const c=C();const ch=c?.latestChanges||[];
+    const facts=[...(S.app?.facts||[]),...(c?.facts||[])];
+    document.getElementById('p-today').innerHTML=`
+      ${digestCard()}
+      ${verdictCard()}
+      ${facts.length?`<div class="block"><h2>Forever at a glance</h2><ul class="plain">${li(facts)}</ul></div>`:''}
+      <div class="block">
+        <div class="block-head"><h2>What changed for ${esc(c?.name||'you')}s</h2><span class="muted" style="font-size:.82rem">${esc(c?.latestLabel||'')}</span></div>
+        ${ch.length?changeList(ch):'<div class="empty">Changes from the newest build appear here.</div>'}
+      </div>
+      <div class="block">
+        <div class="block-head"><h2>News</h2>
+          <div class="filters" role="group" aria-label="Filter news">${Object.entries(TAGS).map(([k,l])=>`<button class="fbtn" data-nf="${k}" aria-pressed="${newsFilter===k}">${l}</button>`).join('')}</div>
+        </div>
+        ${newsList(25)}
+      </div>`;
+    document.querySelectorAll('[data-nf]').forEach(b=>b.addEventListener('click',()=>{newsFilter=b.dataset.nf;ls.set('nf',newsFilter);renderToday()}));
+  }
+
+  /* ---------- Compare ---------- */
+  function historyChart(){
+    const h=hist();const list=classList();
+    const series=list.map(c=>{const b=bestSpec(c.id);return {c,b,pts:h.map(p=>({date:p.date,v:p.values?.[b]})).filter(p=>typeof p.v==='number')}}).filter(s=>s.pts.length);
+    if(h.length<2||!series.length)return '';
+    const W=640,H=220,L=44,R=34,T=12,Bm=28;
+    const vals=series.flatMap(s=>s.pts.map(p=>p.v));
+    let lo=Math.floor((Math.min(...vals)-10)/25)*25,hi=Math.ceil((Math.max(...vals)+10)/25)*25;if(hi-lo<50)hi=lo+50;
+    const dates=h.map(p=>p.date);
+    const x=d=>L+(dates.indexOf(d))*(W-L-R)/Math.max(1,dates.length-1);
+    const y=v=>T+(hi-v)/(hi-lo)*(H-T-Bm);
+    const step=(hi-lo)>150?50:25;const ticks=[];for(let t=lo;t<=hi;t+=step)ticks.push(t);
+    const grid=ticks.map(t=>`<line x1="${L}" x2="${W-R}" y1="${y(t)}" y2="${y(t)}" stroke="var(--line)" stroke-width="1"/><text x="${L-6}" y="${y(t)+4}" text-anchor="end" font-size="11" fill="var(--muted)" font-family="JetBrains Mono,monospace">${t}</text>`).join('');
+    const xl=dates.map(d=>`<text x="${x(d)}" y="${H-8}" text-anchor="middle" font-size="11" fill="var(--muted)" font-family="JetBrains Mono,monospace">${esc(fmtDate(d))}</text>`).join('');
+    const lines=series.map(s=>{const col=cVar(s.c.id);const pts=s.pts.map(p=>`${x(p.date).toFixed(1)},${y(p.v).toFixed(1)}`).join(' ');const last=s.pts[s.pts.length-1];
+      return `${s.pts.length>1?`<polyline points="${pts}" fill="none" stroke="${col}" stroke-width="2.5"/>`:''}${s.pts.map(p=>`<circle cx="${x(p.date)}" cy="${y(p.v)}" r="3.5" fill="${col}"/>`).join('')}<text x="${Math.min(x(last.date)+6,W-R)}" y="${y(last.v)-8}" text-anchor="end" font-size="11" font-weight="600" fill="${col}" font-family="Figtree,sans-serif">${esc(specName(s.b))} ${Math.round(last.v)}</text>`}).join('');
+    return `<div class="block"><h2>Best spec over time</h2>
+      <div class="tscroll"><svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Sim DPS of each class's best spec over time">${grid}${xl}${lines}</svg></div>
+      <p class="muted" style="font-size:.8rem">Each line is that class's current best spec. Points before a spec was re-simmed come from older engine runs, so early jumps can be sim changes rather than game changes.</p></div>`;
+  }
+  function renderCompare(){
+    const list=classList();const el=document.getElementById('p-compare');
+    if(!list.length){el.innerHTML='<div class="empty">Class comparisons appear here once the data loads.</div>';return}
+    const rows=list.flatMap(c=>(c.specs||[]).map(s=>({c,s,x:S.specs[s.id]}))).filter(r=>r.x&&typeof r.x.newDps==='number').sort((a,b)=>b.x.newDps-a.x.newDps);
+    const top=Math.max(1,...rows.map(r=>r.x.newDps));
+    el.innerHTML=`
+      <div class="block"><div class="block-head"><h2>Which class?</h2></div>
+        <p class="muted" style="font-size:.88rem">${esc(S.app?.compareNote||'')}</p>
+        <div class="cbars" role="img" aria-label="Newest sim DPS for every spec of the classes you're weighing">
+        ${rows.map(r=>`<div class="cbar" style="--c:${cVar(r.c.id)}"><div class="nm">${esc(r.s.name)} ${esc(r.c.name)}<small>Tier list #${esc(r.x.tierRank??'?')} · ${esc(r.x.tierBand||'')}${r.s.experimental?' · hybrid':''}</small></div>
+          <div class="tr"><i class="${r.s.experimental?'exp':''}" style="width:${(100*r.x.newDps/top).toFixed(1)}%"></i></div>
+          <div class="v">${Math.round(r.x.newDps)}<small>${(100*r.x.newDps/top).toFixed(0)}%</small></div></div>`).join('')}
+        </div>
+        <p class="muted" style="font-size:.78rem">Bars start at zero. Striped bars are experimental hybrid builds.</p>
+      </div>
+      <div class="ccards">${list.map(c=>{const k=c.compare||{};const b=bestSpec(c.id);const x=S.specs[b]||{};const p=k.population||{};
+        return `<div class="ccard" style="--c:${cVar(c.id)}">
+          <h3>${esc(c.name)}</h3>
+          <div class="big">${esc(x.newDps!=null?Math.round(x.newDps):'—')}<small>${esc(specName(b))}, best spec now · tier list #${esc(x.tierRank??'?')} (${esc(x.tierBand||'')})</small></div>
+          <dl>
+            ${k.role?`<div><dt>Role</dt><dd>${esc(k.role)}</dd></div>`:''}
+            ${k.levelling?`<div><dt>Levelling</dt><dd>${esc(k.levelling)}</dd></div>`:''}
+            ${(k.utility||[]).length?`<div><dt>Brings to a raid</dt><dd><ul>${li(k.utility)}</ul></dd></div>`:''}
+            ${(k.pros||[]).length?`<div><dt>For</dt><dd><ul class="pros">${li(k.pros)}</ul></dd></div>`:''}
+            ${(k.cons||[]).length?`<div><dt>Against</dt><dd><ul class="cons">${li(k.cons)}</ul></dd></div>`:''}
+            ${p.alliance||p.horde?`<div><dt>How many play it</dt><dd><div class="pop"><span>Alliance ${esc(p.alliance||'—')}</span><span>Horde ${esc(p.horde||'—')}</span></div><small class="muted">${esc(p.note||'')}</small></dd></div>`:''}
+          </dl>
+          <button class="btn" data-open="${esc(c.id)}">Open ${esc(c.name)}</button>
+        </div>`}).join('')}</div>
+      ${historyChart()}`;
+    el.querySelectorAll('[data-open]').forEach(b=>b.addEventListener('click',()=>{cls=b.dataset.open;ls.set('cls',cls);applyTheme();renderAll();setTab('today');window.scrollTo({top:0})}));
+  }
+
+  /* ---------- Tiers ---------- */
+  function renderTiers(){
+    const rows=S.tiers.slice().sort((a,b)=>a.rank-b.rank);
+    const top=Math.max(1,...rows.map(r=>r.dps||0));
+    const tracked=new Set(classList().map(c=>c.id));
+    let view=rows;
+    if(tierFilter==='casters')view=rows.filter(r=>r.ranged);
+    if(tierFilter==='mine')view=rows.filter(r=>tracked.has(r.clsId));
+    const ops=C()?.opinions||[];
+    document.getElementById('p-tiers').innerHTML=`
+      <div class="block">
+        <div class="block-head"><h2>DPS sim ranking</h2>
+          <div class="filters" role="group" aria-label="Filter specs">
+            <button class="fbtn" data-tf="all" aria-pressed="${tierFilter==='all'}">All specs</button>
+            <button class="fbtn" data-tf="casters" aria-pressed="${tierFilter==='casters'}">Ranged only</button>
+            <button class="fbtn" data-tf="mine" aria-pressed="${tierFilter==='mine'}">Your classes</button>
+          </div></div>
+        <p class="muted" style="font-size:.88rem">${esc(S.app?.tierNote||'')}</p>
+        ${view.length?`<div class="list">${view.map(r=>{const mine=tracked.has(r.clsId);return `<div class="row tier-row${mine?' mine':''}" ${mine?`style="--c:${cVar(r.clsId)};--cs:${cSoft(r.clsId)}"`:''}>
+          <span class="rk">${r.rank}</span><span class="${qClass(r.tier)}">${esc(r.tier)}</span>
+          <div class="specname"><span>${esc(r.spec)}</span><small>${esc(r.cls)}${r.build?' · '+esc(r.build):''}${r.experimental?' · experimental':''}</small>
+            <div class="bar ${'q-'+String(r.tier).charAt(0)}"><i style="width:${(100*(r.dps||0)/top).toFixed(1)}%"></i></div></div>
+          <div class="dps">${r.dps??'—'}<small>${r.older?'<span class="old">older sim</span>':esc(r.change||'')}</small></div>
+        </div>`}).join('')}</div>`:'<div class="empty">The sim ranking fills in after the first refresh.</div>'}
+      </div>
+      <div class="block">
+        <h2>What other tier lists say about ${esc(C()?.name||'your class')}</h2>
+        ${ops.length?`<div class="opinions">${ops.map(o=>`<div class="op"><div>${link(o.url,o.site)}</div><div class="grades">${(o.grades||[]).map(g=>`<span style="display:inline-flex;align-items:center;gap:4px;font-size:.78rem"><span class="${qClass(g.grade)}" style="width:22px;height:22px;font-size:.85rem">${esc(g.grade)}</span>${esc(specName(g.spec))}</span>`).join('')}</div><small class="muted">${esc(o.date)}</small><span style="font-size:.86rem">${esc(o.note)}</span></div>`).join('')}</div>`:'<div class="empty">Other sites\' grades appear here.</div>'}
+      </div>`;
+    document.querySelectorAll('[data-tf]').forEach(b=>b.addEventListener('click',()=>{tierFilter=b.dataset.tf;ls.set('tf',tierFilter);renderTiers()}));
+  }
+
+  /* ---------- Races ---------- */
+  function renderRaces(){
+    const c=C();const sp=activeSpec();const el=document.getElementById('p-races');
+    if(!c||!sp){el.innerHTML='<div class="empty">Race sims appear here once the data loads.</div>';return}
+    const mine=S.races.filter(r=>(r.classes||[]).includes(cls)).sort((a,b)=>(a.order??9)-(b.order??9));
+    const rows=mine.filter(r=>typeof r.boards?.[sp]?.dps==='number').sort((a,b)=>b.boards[sp].dps-a.boards[sp].dps);
+    const board=S.specs[sp]?.raceBoard||{};
+    let body=`<div class="empty">Race sims for ${esc(specName(sp))} ${esc(c.name)} appear here after the next refresh.</div>`;
+    if(rows.length){
+      const d=r=>r.boards[sp].dps;
+      const lo=Math.floor((Math.min(...rows.map(d))-2)/5)*5,hi=Math.ceil((Math.max(...rows.map(d))+2)/5)*5;
+      const pos=v=>(100*(v-lo)/(hi-lo)).toFixed(2);
+      const step=hi-lo>30?10:5;const ticks=[];for(let t=lo;t<=hi;t+=step)ticks.push(t);
+      body=`<div class="dotplot" role="img" aria-label="${esc(specName(sp))} ${esc(c.name)} DPS by race">
+        ${rows.map(r=>{const b=r.boards[sp];return `<div class="dp-row"><div class="rn">${esc(r.race)}<small>${esc(r.faction)} · ${esc(b.tier||'')}</small></div>
+          <div class="track"><span class="dot${r.faction==='Horde'?' h':''}" style="left:${pos(b.dps)}%"></span></div>
+          <div class="dps">${b.dps.toFixed(1)}<small>${b.gap?'−'+esc(b.gap):'best'}</small></div></div>`}).join('')}
+        <div class="axis"><span></span><div class="ticks">${ticks.map(t=>`<span style="left:${pos(t)}%">${t}</span>`).join('')}</div><span></span></div>
+      </div>
+      <div class="legend"><span><i style="background:var(--accent)"></i>Alliance</span><span><i style="background:var(--q-s)"></i>Horde</span><span>Axis starts at ${lo} DPS to show small gaps</span></div>`;
+    }
+    const multi=specsOf(cls).length>1;
+    const hasSpells=mine.some(r=>(r.classSpells?.[cls]||[]).length);
+    el.innerHTML=`<div class="block"><div class="block-head"><h2>${esc(specName(sp))} ${esc(c.name)} by race</h2><span class="muted" style="font-size:.82rem">${esc(board.snapshot||c.raceSnapshot||'')}</span></div>
+      ${specPicker()}
+      ${c.raceNote?`<div class="note">${esc(c.raceNote)}</div>`:''}${board.note?`<p class="muted" style="font-size:.88rem">${esc(board.note)}</p>`:''}${body}</div>
+      ${multi&&mine.length?`<div class="block"><h3>Every spec at a glance</h3>
+        <div class="tscroll"><table class="t"><thead><tr><th>Race</th>${specsOf(cls).map(s=>`<th class="num">${esc(s.name)}</th>`).join('')}</tr></thead><tbody>
+        ${mine.map(r=>`<tr><td><b>${esc(r.race)}</b><br><small class="muted">${esc(r.faction)}</small></td>${specsOf(cls).map(s=>{const b=r.boards?.[s.id];return `<td class="num">${b?`${b.dps.toFixed(1)}<br><small class="muted">${b.gap?'−'+esc(b.gap):'best'}</small>`:'—'}</td>`}).join('')}</tr>`).join('')}
+        </tbody></table></div></div>`:''}
+      ${mine.length?`<div class="block"><h3>Racials</h3>
+      <div class="tscroll"><table class="t"><thead><tr><th>Race</th><th>What the sim counts</th><th>Racials</th>${hasSpells?`<th>${esc(c.name)} racial spells</th>`:''}</tr></thead><tbody>
+        ${mine.map(r=>`<tr><td><b>${esc(r.race)}</b><br><small class="muted">${esc(r.faction)}${r.notes?.[cls]?' · '+esc(r.notes[cls]):''}</small></td><td>${esc(r.simText?.[cls]||'')}</td>
+          <td>${(r.abilities||[]).map(s=>`<div style="margin-bottom:4px"><b>${esc(s.name)}</b>${s.effect?`<br><span style="font-size:.85rem">${esc(s.effect)}</span>`:''}</div>`).join('')||'<span class="muted">—</span>'}</td>
+          ${hasSpells?`<td>${(r.classSpells?.[cls]||[]).map(s=>`<div style="margin-bottom:4px"><b>${esc(s.name)}</b> <span class="muted mono" style="font-size:.75rem">${s.level?'L'+esc(s.level):''}</span><br><span style="font-size:.85rem">${esc(s.effect)}</span></div>`).join('')||'<span class="muted">—</span>'}</td>`:''}</tr>`).join('')}</tbody></table></div></div>`:''}`;
+    bindPicker();
+  }
+
+  /* ---------- Raid & dungeons ---------- */
+  const cardGrid=cards=>(cards||[]).length?`<div class="grid2">${cards.map(k=>`<div class="card"><h3>${esc(k.title)}</h3><ul class="plain">${li(k.items)}</ul></div>`).join('')}</div>`:'';
+  const tableBlock=t=>`<div class="block">${t.title?`<h2>${esc(t.title)}</h2>`:''}<div class="tscroll"><table class="t"><thead><tr>${(t.columns||[]).map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${(t.rows||[]).map(r=>`<tr>${r.map((v,i)=>`<td${i===0?' class="num"':''}>${i===1?`<b>${esc(v)}</b>`:esc(v)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div>`;
+  function renderSpec(){
+    const c=C();const sp=activeSpec();const s=S.specs[sp];const el=document.getElementById('p-spec');
+    if(!c||!s){el.innerHTML=`${specPicker()}<div class="empty">Raid and dungeon guidance appears here once the data loads.</div>`;bindPicker();return}
+    const log=(c.changeLog||[]).map(g=>({label:g.label,items:(g.items||[]).filter(i=>!i.spec||i.spec===sp||i.spec==='all')})).filter(g=>g.items.length);
+    el.innerHTML=`
+      ${specPicker()}
+      <div class="block">
+        <div class="spec-head"><h2>${esc(s.name||specName(sp))} ${esc(c.name)}</h2>
+          ${s.build?`<span class="pill">${esc(s.build)}</span>`:''}${s.race?`<span class="chip">Sim race: ${esc(s.race)}</span>`:''}${s.experimental?'<span class="chip">Experimental hybrid</span>':''}</div>
+        ${s.summary?`<div class="note">${esc(s.summary)}</div>`:''}
+      </div>
+      <div class="block"><h2>Raid priority</h2><ol class="prio">${li(s.raidRotation)}</ol></div>
+      ${cardGrid([...(s.cards||[]),{title:'Dungeons and AoE',items:s.dungeonTips},{title:'Threat and mana',items:s.threatMana}].filter(k=>(k.items||[]).length))}
+      ${cardGrid(c.classCards)}
+      <div class="block"><h2>Stats and gear</h2><ul class="plain">${li(s.stats)}</ul></div>
+      <div class="block"><div class="block-head"><h2>Best trinkets (sim)</h2><span class="muted" style="font-size:.82rem">${esc(s.trinketSnapshot||'')}</span></div>
+        <div class="tscroll"><table class="t"><thead><tr><th>Trinket</th><th>DPS gain</th><th>Where</th></tr></thead><tbody>
+        ${(s.trinkets||[]).map(t=>`<tr><td><b>${esc(t.name)}</b></td><td class="num">${esc(t.gain)}</td><td>${esc(t.source)}</td></tr>`).join('')}</tbody></table></div></div>
+      ${cardGrid([{title:'Raid consumables',items:s.consumables},{title:'Talent notes',items:s.talentNotes}].filter(k=>(k.items||[]).length))}
+      <div class="block"><h2>Change log for ${esc(specName(sp))}</h2>
+        ${log.length?log.map(g=>`<div class="block" style="gap:8px"><div class="eyebrow">${esc(g.label)}</div>${changeList(g.items)}</div>`).join(''):'<div class="empty">Changes for this spec appear here.</div>'}
+      </div>`;
+    bindPicker();
+  }
+
+  /* ---------- Gear ---------- */
+  const GCATS={all:'All',wand:'Wands',levelling:'Levelling',crafted:'Crafted',preraid:'Pre-raid 60',raid:'Raid & tier',trinket:'Trinkets'};
+  function renderGear(){
+    const c=C();
+    let rows=S.gear.filter(g=>g.forClass&&g.forClass[cls]).sort((a,b)=>(a.order??99)-(b.order??99)||(a.level??0)-(b.level??0));
+    if(gearFilter!=='all')rows=rows.filter(g=>g.category===gearFilter);
+    document.getElementById('p-gear').innerHTML=`<div class="block">
+      <div class="block-head"><h2>${esc(c?.name||'')} gear</h2>
+        <div class="filters" role="group" aria-label="Filter gear">${Object.entries(GCATS).map(([k,l])=>`<button class="fbtn" data-gf="${k}" aria-pressed="${gearFilter===k}">${l}</button>`).join('')}</div></div>
+      ${S.app?.gearNote?`<p class="muted" style="font-size:.88rem">${esc(S.app.gearNote)}</p>`:''}
+      ${rows.length?`<div class="list">${rows.map(g=>{const f=g.forClass[cls]||{};const others=Object.keys(g.forClass).filter(k=>k!==cls&&S.classes[k]);
+        return `<div class="row gear-row">
+        <div style="display:flex;flex-direction:column;gap:4px;min-width:0">
+          <span class="gname">${g.url?link(g.url,g.name):esc(g.name)}</span>
+          <span class="gsrc">${esc(g.source)}</span>
+          ${f.notes?`<span style="font-size:.86rem">${esc(f.notes)}</span>`:''}
+          <div class="meta-line"><span class="chip">${esc(g.slot)}</span>${g.category!=='wand'?`<span class="chip">${esc(GCATS[g.category]||g.category)}</span>`:''}${specsOf(cls).length>1?(f.specs||[]).map(specChip).join(''):''}${g.verified===false?'<span class="chip unv">Unverified for Forever</span>':''}${others.length?`<span>Also wanted by</span>${others.map(clsChip).join('')}`:''}</div>
+        </div>
+        <div class="glvl">${g.level?'Lvl '+esc(g.level):''}</div></div>`}).join('')}</div>`:`<div class="empty">${S.gear.length?'Nothing in this category yet.':'Gear targets appear here after the first refresh.'}</div>`}
+    </div>`;
+    document.querySelectorAll('[data-gf]').forEach(b=>b.addEventListener('click',()=>{gearFilter=b.dataset.gf;ls.set('gf',gearFilter);renderGear()}));
+  }
+
+  /* ---------- Dungeons ---------- */
+  function renderDungeons(){
+    const all=S.dungeons.slice().sort((a,b)=>(a.min??0)-(b.min??0)||(a.name||'').localeCompare(b.name||''));
+    const dgs=all.filter(d=>d.type!=='raid'),raids=all.filter(d=>d.type==='raid');
+    const inRange=d=>myLevel&&d.min<=myLevel+2&&d.max>=myLevel;
+    const row=d=>{const f=d.forClass?.[cls]||{};return `<div class="row dg-row"><div class="dg-lv">${esc(d.levels)}<small>${esc(d.location||'')}</small></div>
+      <div style="display:flex;flex-direction:column;gap:4px;min-width:0">
+        <h3>${d.url?link(d.url,d.name):esc(d.name)}${d.isNew?'<span class="chip new">New</span>':''}${inRange(d)?'<span class="chip here">Your level</span>':''}</h3>
+        ${d.note?`<p class="dg-note">${esc(d.note)}</p>`:''}
+        ${f.note?`<p class="dg-note">${esc(f.note)}</p>`:''}
+        ${f.loot?`<p class="dg-loot">For ${esc(C()?.name||'you')}: ${esc(f.loot)}</p>`:''}
+        <div class="meta-line">${d.bosses?`<span>${esc(d.bosses)} ${d.bosses==1?'boss':'bosses'}</span>`:''}${d.size?`<span>${esc(d.size)}-player</span>`:''}</div>
+        ${d.type==='raid'&&((d.bossList||[]).length||d.attunement||d.comp||d.entrance)?`<details class="raid-more"><summary>Bosses, entry and group size</summary>
+          ${d.attunement?`<p><b>Attunement:</b> ${esc(d.attunement)}</p>`:''}
+          ${d.entrance?`<p><b>Entrance:</b> ${esc(d.entrance)}</p>`:''}
+          ${d.comp?`<p><b>Group:</b> ${esc(d.comp)}</p>`:''}
+          ${(d.bossList||[]).length?`<ol class="bosses">${li(d.bossList)}</ol>`:''}
+          ${d.bossNote?`<p class="muted" style="font-size:.8rem">${esc(d.bossNote)}</p>`:''}
+        </details>`:''}
+      </div></div>`};
+    const rf=S.app?.raidFacts||[];
+    document.getElementById('p-dungeons').innerHTML=`
+    ${raids.length?`<div class="block"><div class="block-head"><h2>Raids</h2><span class="muted" style="font-size:.82rem">${esc(S.app?.raidNote||'')}</span></div>
+      ${rf.length?`<div class="card"><h3>What we know about raiding</h3><ul class="plain">${li(rf)}</ul></div>`:''}
+      <div class="list">${raids.map(row).join('')}</div></div>`:''}
+    <div class="block">
+      <div class="block-head"><h2>Dungeons</h2>
+        <label class="lvl-input" for="mylvl">Your level <input id="mylvl" type="number" min="1" max="60" inputmode="numeric" value="${myLevel||''}" placeholder="—"></label></div>
+      ${S.app?.dungeonNote?`<p class="muted" style="font-size:.88rem">${esc(S.app.dungeonNote)}</p>`:''}
+      ${dgs.length?`<div class="list">${dgs.map(row).join('')}</div>`:'<div class="empty">The dungeon list appears here after the first refresh.</div>'}
+    </div>`;
+    const inp=document.getElementById('mylvl');
+    inp.addEventListener('change',()=>{const v=parseInt(inp.value,10);myLevel=v>=1&&v<=60?v:null;ls.set('lvl',myLevel||'');renderDungeons()});
+  }
+
+  /* ---------- Levelling ---------- */
+  const BANDKEYS=[['talents','Talents'],['spells','Train'],['pet','Pet'],['pulls','Pulls'],['wand','Wand'],['gear','Gear'],['zones','Zones'],['dungeons','Dungeons'],['tip','Tip']];
+  function renderLevel(){
+    const c=C();const L=S.lev[cls];const el=document.getElementById('p-level');
+    if(!L){el.innerHTML=`<div class="empty">The 1–60 ${esc(c?.name||'')} levelling plan appears here once the data loads.</div>`;return}
+    const zones=b=>{const A=b.zonesA||'',H=b.zonesH||'';return faction==='Alliance'?A:faction==='Horde'?(H||A):(A===H||!H?A:`Alliance: ${A}. Horde: ${H}`)};
+    el.innerHTML=`
+      <div class="block">
+        <div class="block-head"><h2>${esc(c.name)} levelling plan</h2>
+          <div class="seg" role="group" aria-label="Faction">${['both','Alliance','Horde'].map(f=>`<button data-fac="${f}" aria-pressed="${faction===f}">${f==='both'?'Both':f}</button>`).join('')}</div></div>
+        ${L.summary?`<div class="note">${esc(L.summary)}</div>`:''}
+        <div>${(L.bands||[]).map(b=>`<div class="band">
+          <div class="lvl">${esc(b.range)}<small>${esc(b.spec||'')}</small></div>
+          <div class="band-body"><h3>${esc(b.title)}</h3>
+            <dl class="kv">${BANDKEYS.map(([k,l])=>{const v=k==='zones'?zones(b):b[k];return v?`<dt>${l}</dt><dd>${esc(v)}</dd>`:''}).join('')}</dl></div></div>`).join('')}</div>
+      </div>
+      ${(L.tables||[]).map(tableBlock).join('')}
+      ${cardGrid([...(L.cards||[]),{title:'Professions',items:L.professions},{title:'Legacy perks',items:L.legacy},{title:'Gear rules of thumb',items:L.gearRules},{title:'Habits that save time',items:L.habits}].filter(k=>(k.items||[]).length))}`;
+    document.querySelectorAll('[data-fac]').forEach(b=>b.addEventListener('click',()=>{faction=b.dataset.fac;ls.set('fac',faction);renderLevel()}));
+  }
+
+  /* ---------- Crafting & camping ---------- */
+  function renderCraft(){
+    const c=C();const sh=S.craft;const cc=c?.crafting||{};const el=document.getElementById('p-craft');
+    if(!sh){el.innerHTML='<div class="empty">Profession and camping guidance appears here once the data loads.</div>';return}
+    const t=sh.tailoring||{},k=sh.camping||{};
+    el.innerHTML=`
+      <div class="block"><h2>Tailoring</h2>${cc.tailoringSummary?`<div class="note">${esc(cc.tailoringSummary)}</div>`:''}
+        <div class="tscroll"><table class="t"><thead><tr><th>Levels</th><th>Cloth</th><th>Notes</th></tr></thead><tbody>
+        ${(t.bands||[]).map(b=>`<tr><td class="num">${esc(b.range)}</td><td><b>${esc(b.cloth)}</b></td><td>${esc(b.note||'')}</td></tr>`).join('')}</tbody></table></div></div>
+      ${cardGrid([{title:`${c?.name||''} items worth making`,items:cc.tailoringItems},...(cc.cards||[]),{title:'New in Forever',items:t.whatsNew}].filter(x=>(x.items||[]).length))}
+      ${(cc.sections||[]).map(s=>`<div class="block"><h2>${esc(s.title)}</h2>${s.summary?`<div class="note">${esc(s.summary)}</div>`:''}${s.cards?cardGrid(s.cards):''}${s.table?tableBlock({columns:s.table.columns,rows:s.table.rows}):''}</div>`).join('')}
+      <div class="block"><h2>Camping</h2>${k.summary?`<div class="note">${esc(k.summary)}</div>`:''}
+        ${(cc.campPicks||[]).length?`<div class="card"><h3>Best picks for a ${esc(c?.name||'')}</h3><ul class="plain">${li(cc.campPicks)}</ul></div>`:''}
+        <div class="tscroll"><table class="t"><thead><tr><th>Feature</th><th>From</th><th>Buff</th><th>For you</th></tr></thead><tbody>
+        ${(k.features||[]).map(f=>`<tr><td><b>${esc(f.name)}</b></td><td>${esc(f.prof)}</td><td>${esc(f.buff)}</td><td>${esc(f.notes?.[cls]||'')}</td></tr>`).join('')}</tbody></table></div>
+        <div class="card"><h3>Rules to know</h3><ul class="plain">${li(k.rules)}</ul></div>
+      </div>`;
+  }
+
+  /* ---------- Legacy, macros, notes ---------- */
+  const allocKey=()=>'legacy.'+cls;
+  function chkGet(){try{return JSON.parse(ls0('chk')||'{}')||{}}catch(e){return{}}}
+  function getAlloc(){try{return JSON.parse(ls0(allocKey())||'{}')||{}}catch(e){return{}}}
+  function treePts(tree,a,skip){return tree.perks.reduce((s,p)=>s+(p.id===skip?0:(a[p.id]||0)),0)}
+  function totalPts(a){return Object.values(a).reduce((s,v)=>s+(v||0),0)}
+  function perkById(L,id){for(const t of L.trees)for(const p of t.perks)if(p.id===id)return p;return null}
+  function prereqMet(L,a,p){if(!p.prereq)return true;const q=perkById(L,p.prereq);return q?(a[q.id]||0)>=q.ranks:true}
+  function validAlloc(a,L){
+    if(totalPts(a)>(L.budget||16))return false;
+    return L.trees.every(t=>t.perks.every(p=>!(a[p.id]>0)||(treePts(t,a,p.id)>=(p.req||0)&&prereqMet(L,a,p))));
+  }
+  function renderKit(){
+    const L=S.legacy;const c=C();const cl=c?.legacy||{};const M=c?.macros||{};
+    let alloc=getAlloc();
+    let legacyHtml='<div class="empty">The Legacy planner appears here once the data loads.</div>';
+    if(L&&L.trees){
+      const used=totalPts(alloc),budget=L.budget||16;
+      legacyHtml=`<div class="lg-head"><div class="lg-budget">${used} / ${budget}<small>points spent · ${esc(c?.name||'')} plan</small></div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">${cl.recommended?`<button class="btn primary" id="lg-rec">${esc(cl.recommendedLabel||'Load suggested build')}</button>`:''}${cl.alternate?`<button class="btn" id="lg-alt">${esc(cl.alternateLabel||'Load alternative')}</button>`:''}<button class="btn" id="lg-reset">Clear</button></div></div>
+        ${L.summary?`<p class="muted" style="font-size:.88rem">${esc(L.summary)}</p>`:''}
+        ${cl.recommendedNote?`<div class="note">${esc(cl.recommendedNote)}</div>`:''}
+        <div class="lg-trees">${L.trees.map(t=>`<div class="lg-tree"><h3>${esc(t.name)}<span>${treePts(t,alloc)}</span></h3>
+          ${t.perks.map(p=>{const r=alloc[p.id]||0;const locked=treePts(t,alloc,p.id)<(p.req||0)||!prereqMet(L,alloc,p);const pq=p.prereq?perkById(L,p.prereq):null;
+            const canInc=!locked&&r<p.ranks&&used<budget;
+            const dec={...alloc,[p.id]:r-1};const canDec=r>0&&validAlloc(dec,L);
+            return `<div class="perk${locked&&!r?' locked':''}"><div class="pn">${esc(p.name)}<small>${esc(p.effect)}${p.req?` · needs ${p.req} in tree`:''}${pq?` · needs ${esc(pq.name)} ${pq.ranks}/${pq.ranks}`:''}</small></div>
+              <div class="stepper"><button data-lg="${esc(p.id)}" data-d="-1" ${canDec?'':'disabled'} aria-label="Remove a point from ${esc(p.name)}">−</button><b>${r}/${p.ranks}</b><button data-lg="${esc(p.id)}" data-d="1" ${canInc?'':'disabled'} aria-label="Add a point to ${esc(p.name)}">+</button></div></div>`}).join('')}
+        </div>`).join('')}</div>`;
+    }
+    const macros=M.macros||[];
+    const LN=S.launch||{};const chk=chkGet();
+    const items=(LN.checklist||[]).filter(i=>!(i.classes||[]).length||i.classes.includes(cls));
+    const doneN=items.filter(i=>chk[i.id]).length;
+    const addons=LN.addons||[];
+    document.getElementById('p-kit').innerHTML=`
+      <div class="block"><div class="block-head"><h2>Before launch</h2>${items.length?`<span class="muted" style="font-size:.82rem">${doneN} of ${items.length} done · ticks saved on this device</span>`:''}</div>
+        ${LN.summary?`<div class="note">${esc(LN.summary)}</div>`:''}
+        ${items.length?`<div>${items.map(i=>`<label class="chk${chk[i.id]?' done':''}"><input type="checkbox" data-chk="${esc(i.id)}" ${chk[i.id]?'checked':''}><span style="display:flex;flex-direction:column;gap:2px"><span class="ct">${esc(i.text)}</span>${i.when||i.why?`<span class="cw">${esc([i.when?fmtDate(i.when):'',i.why].filter(Boolean).join(' · '))}</span>`:''}</span></label>`).join('')}</div>`:'<div class="empty">The launch checklist appears here once the data loads.</div>'}
+        ${cardGrid(LN.cards)}
+      </div>
+      ${addons.length?`<div class="block"><h2>Addons</h2>${LN.addonNote?`<p class="muted" style="font-size:.88rem">${esc(LN.addonNote)}</p>`:''}
+        <div class="list">${addons.map(a=>`<div class="row" style="display:flex;flex-direction:column;gap:4px">
+          <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><span class="gname">${a.url?link(a.url,a.name):esc(a.name)}</span><span class="chip">${esc(a.cat||'')}</span></div>
+          <span style="font-size:.9rem">${esc(a.use)}</span>${a.status?`<span class="muted" style="font-size:.84rem">${esc(a.status)}</span>`:''}</div>`).join('')}</div></div>`:''}
+      <div class="block"><h2>Legacy planner</h2>${legacyHtml}</div>
+      <div class="block"><h2>${esc(c?.name||'')} macros</h2>${M.note?`<p class="muted" style="font-size:.88rem">${esc(M.note)}</p>`:''}
+        ${macros.length?`<div class="grid2">${macros.map((m,i)=>`<div class="macro"><div class="macro-top"><h3 style="font-family:var(--f-body);font-weight:700;font-size:.95rem">${esc(m.name)}</h3><button class="btn" data-copy="${i}">Copy</button></div>
+          <pre id="macro-${i}">${esc(m.text)}</pre>${m.note?`<span class="muted" style="font-size:.84rem">${esc(m.note)}</span>`:''}</div>`).join('')}</div>`:'<div class="empty">Macros appear here once the data loads.</div>'}
+      </div>
+      <div class="block"><div class="block-head"><h2>${esc(c?.name||'')} notes</h2><span class="muted" id="notes-state" style="font-size:.8rem">Saved on this device only</span></div>
+        <label for="notes" class="muted" style="font-size:.85rem">Character names, guild plans, things to do on launch night. Each class keeps its own notes.</label>
+        <textarea id="notes" class="notes" placeholder="e.g. Reserve name on 27 Oct."></textarea></div>`;
+    const ta=document.getElementById('notes');const nk='notes.'+cls;ta.value=ls0(nk)||'';let tmr;
+    ta.addEventListener('input',()=>{clearTimeout(tmr);tmr=setTimeout(()=>{ls.set(nk,ta.value);document.getElementById('notes-state').textContent='Saved on this device'},500)});
+    document.querySelectorAll('[data-chk]').forEach(b=>b.addEventListener('change',()=>{const c2=chkGet();if(b.checked)c2[b.dataset.chk]=1;else delete c2[b.dataset.chk];ls.set('chk',JSON.stringify(c2));renderKit()}));
+    const save=a=>{ls.set(allocKey(),JSON.stringify(a));renderKit()};
+    document.querySelectorAll('[data-lg]').forEach(b=>b.addEventListener('click',()=>{const id=b.dataset.lg;const n={...alloc,[id]:Math.max(0,(alloc[id]||0)+Number(b.dataset.d))};if(validAlloc(n,L))save(n)}));
+    document.getElementById('lg-rec')?.addEventListener('click',()=>save({...(cl.recommended||{})}));
+    document.getElementById('lg-alt')?.addEventListener('click',()=>save({...(cl.alternate||{})}));
+    document.getElementById('lg-reset')?.addEventListener('click',()=>save({}));
+    document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{const pre=document.getElementById('macro-'+b.dataset.copy);const txt=macros[b.dataset.copy].text;
+      const sel=()=>{const r=document.createRange();r.selectNodeContents(pre);const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected, copy it'};
+      try{navigator.clipboard.writeText(txt).then(()=>{b.textContent='Copied';setTimeout(()=>b.textContent='Copy',1500)},sel)}catch(e){sel()}}));
+  }
+
+  function renderAll(){ensureClass();applyTheme();renderClassPicker();renderHeader();renderToday();renderCompare();renderTiers();renderRaces();renderSpec();renderGear();renderDungeons();renderLevel();renderCraft();renderKit();setTab(tab)}
+  renderAll();
+
+  /* ---------- Data (static JSON in /data, rewritten by the daily refresh) ---------- */
+  const COLS=['meta','classes','specs','leveling','tiers','races','news','history','gear','dungeons','digests'];
+  const bust=Math.floor(Date.now()/6e4);
+  Promise.all(COLS.map(c=>fetch(`data/${c}.json?v=${bust}`,{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error(c+' '+r.status);return r.json()})))
+    .then(([meta,classes,specs,lev,tiers,races,news,history,gear,dungeons,digests])=>{
+      const arr=o=>Object.values(o||{});
+      S.app=meta.app||null;S.dates=meta.dates||null;S.legacy=meta.legacy||null;S.craft=meta.crafting||null;S.launch=meta.launch||null;
+      S.classes=classes||{};S.specs=specs||{};S.lev=lev||{};
+      S.tiers=arr(tiers);S.races=arr(races);S.news=arr(news);S.history=arr(history);S.gear=arr(gear);S.dungeons=arr(dungeons);S.digests=arr(digests);
+      loaded=true;renderAll();
+    })
+    .catch(e=>{document.getElementById('fresh').textContent='The data could not load ('+e.message+'). Reload to try again.'});
+})();
+</script>
+</body>
+</html>

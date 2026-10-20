@@ -1,0 +1,542 @@
+{
+ "alcaz-prison": {
+  "bosses": 1,
+  "forClass": {},
+  "isNew": true,
+  "levels": "48–53",
+  "location": "Dustwallow Marsh",
+  "max": 53,
+  "min": 48,
+  "name": "Alcaz Prison",
+  "note": "New. One boss with kill-count objectives.",
+  "type": "dungeon"
+ },
+ "barrow-deeps": {
+  "attunement": "No quest chain. The Brooch of the Wardens appears in the files as an access item, but how you get it is unknown.",
+  "bossList": [
+   "Chillhowl",
+   "Elder Tangleclaw",
+   "Khalith the Dreadspinner",
+   "Well of Sorrow",
+   "Amethrax",
+   "Del'lynar Songwood",
+   "Ravus and Darlissa",
+   "Sonya Darkhallow"
+  ],
+  "bossNote": "Names from the game files (Legacy achievement list), not a confirmed fight order. Warcraft Tavern lists Deepscar Matriarch where the files show Chillhowl.",
+  "bosses": 8,
+  "comp": "Starting point: 2 tanks, 2–3 healers, 5–6 damage dealers.",
+  "entrance": "Mount Hyjal. LFCarry reports two more entrances, one possibly through Blackmaw Hold.",
+  "forClass": {
+   "mage": {
+    "loot": "Readable so far: Torch of Light (ilvl 65), Malleable Essence of Nature, Brooch of the Wardens and boss shards. Its 20 weapons are still sealed. Manaflare Regalia pieces are expected from the new raids.",
+    "note": "New 10-player raid. Opens 9 December. Encounter rows and weapons are still sealed in the files."
+   },
+   "priest": {
+    "loot": "Tier pieces for Raiments of Conviction (Shadow) are expected from the new raids; which boss drops what isn't known."
+   },
+   "warlock": {
+    "loot": "Demonheart Raiment pieces (found in the files)"
+   }
+  },
+  "isNew": true,
+  "levels": "60",
+  "location": "Raid",
+  "max": 60,
+  "min": 60,
+  "name": "Barrow Deeps",
+  "note": "New 10-player raid with 8 bosses. Opens 9 December. Loot and encounter data are still sealed in the files.",
+  "size": 10,
+  "type": "raid"
+ },
+ "blackfathom-deeps": {
+  "bosses": 7,
+  "forClass": {
+   "priest": {
+    "loot": "Gravestone Scepter (quest)",
+    "note": "Essential: the quest here rewards Gravestone Scepter, a wand that boosts Shadow Word: Pain."
+   },
+   "warlock": {
+    "loot": "Gravestone Scepter (quest), Soran'ruk fragments",
+    "note": "Essential: Gravestone Scepter from the quest, and Twilight cultists here drop the Soran'ruk fragments for the Warlock off-hand quest (Classic steps)."
+   }
+  },
+  "isNew": false,
+  "levels": "24–32",
+  "location": "Ashenvale",
+  "max": 32,
+  "min": 24,
+  "name": "Blackfathom Deeps",
+  "note": "",
+  "type": "dungeon"
+ },
+ "blackmaw-hold": {
+  "forClass": {},
+  "isNew": true,
+  "levels": "55–60",
+  "location": "Azshara",
+  "max": 60,
+  "min": 55,
+  "name": "Blackmaw Hold",
+  "note": "New. Boss data still encrypted; loot unknown.",
+  "type": "dungeon"
+ },
+ "blackrock-depths": {
+  "bosses": 21,
+  "forClass": {
+   "mage": {
+    "loot": "Burst of Knowledge (Ambassador Flamelash)"
+   },
+   "warlock": {
+    "loot": "Burst of Knowledge (Ambassador Flamelash)"
+   }
+  },
+  "isNew": false,
+  "levels": "52–60",
+  "location": "Blackrock Mountain",
+  "max": 60,
+  "min": 52,
+  "name": "Blackrock Depths",
+  "note": "",
+  "type": "dungeon"
+ },
+ "blackrock-spire": {
+  "bosses": 14,
+  "forClass": {
+   "mage": {
+    "loot": "Draconic Infused Emblem (Drakkisath), Briarwood Reed (Jed Runewatcher)",
+    "note": "Two of the top five Mage trinkets in MythicSim drop here."
+   },
+   "priest": {
+    "loot": "Draconic Infused Emblem (Drakkisath), Briarwood Reed (Jed Runewatcher)",
+    "note": "Two of the top five Shadow trinkets in MythicSim drop here."
+   },
+   "warlock": {
+    "loot": "Draconic Infused Emblem (Drakkisath), Briarwood Reed (Jed Runewatcher)",
+    "note": "Draconic Infused Emblem and Briarwood Reed are top-five Warlock trinkets in every MythicSim board."
+   }
+  },
+  "isNew": false,
+  "levels": "55–60",
+  "location": "Blackrock Mountain",
+  "max": 60,
+  "min": 55,
+  "name": "Blackrock Spire",
+  "note": "",
+  "type": "dungeon"
+ },
+ "city-of-dalaran": {
+  "bosses": 9,
+  "forClass": {
+   "mage": {
+    "loot": "Frothing Slippers pattern (Unstable Sentinel); Vine Pruner's Cloak (Alliance quest), Enchanted Sandals (Horde quest)"
+   },
+   "warlock": {
+    "loot": "Spine of the Devourer (Mana Devourer), Ephemeral Grips (Arcane Anomaly), Black Slippers blueprint (Unstable Sentinel)"
+   }
+  },
+  "isNew": true,
+  "levels": "28–35",
+  "location": "Alterac Mountains",
+  "max": 35,
+  "min": 28,
+  "name": "City of Dalaran",
+  "note": "New, opened in beta on 8 October. Horde are now attacked on sight in the open-world city.",
+  "type": "dungeon"
+ },
+ "deadmines": {
+  "bosses": 8,
+  "forClass": {
+   "mage": {
+    "loot": "Staff of Westfall (Alliance quest)"
+   }
+  },
+  "isNew": false,
+  "levels": "17–26",
+  "location": "Westfall",
+  "max": 26,
+  "min": 17,
+  "name": "Deadmines",
+  "note": "",
+  "type": "dungeon"
+ },
+ "dire-maul": {
+  "bosses": 19,
+  "forClass": {
+   "mage": {
+    "loot": "Mindtap Talisman (Magister Kalendris); West wing caster gear (Classic loot, unconfirmed)"
+   },
+   "priest": {
+    "loot": "Bracers of the Eclipse, Fluctuating Cloak (Prince Tortheldrin; Classic loot, unconfirmed)"
+   },
+   "warlock": {
+    "loot": "Mindtap Talisman (Magister Kalendris); Royal Seal of Eldre'Thalas from the tribute quest; Bracers of the Eclipse and Fluctuating Cloak (Classic loot, unconfirmed)"
+   }
+  },
+  "isNew": false,
+  "levels": "54–60",
+  "location": "Feralas",
+  "max": 60,
+  "min": 54,
+  "name": "Dire Maul",
+  "note": "Pre-raid caster gear in the West wing.",
+  "type": "dungeon"
+ },
+ "drowned-city": {
+  "forClass": {},
+  "isNew": true,
+  "levels": "35–40",
+  "location": "Gillijim's Isle",
+  "max": 40,
+  "min": 35,
+  "name": "Drowned City",
+  "note": "New. Boss data is still encrypted in the game files.",
+  "type": "dungeon"
+ },
+ "excavation-site": {
+  "bosses": 4,
+  "forClass": {
+   "mage": {
+    "loot": "Satchel of Potions (Horde quest)"
+   },
+   "priest": {
+    "loot": "Satchel of Potions (Horde quest)"
+   },
+   "warlock": {
+    "loot": "Satchel of Potions (Horde quest)"
+   }
+  },
+  "isNew": true,
+  "levels": "26–33",
+  "location": "Wetlands",
+  "max": 33,
+  "min": 26,
+  "name": "Excavation Site",
+  "note": "New. Horde quest Changing Tastes rewards Satchel of Potions.",
+  "type": "dungeon"
+ },
+ "gnomeregan": {
+  "bosses": 5,
+  "forClass": {},
+  "isNew": false,
+  "levels": "29–38",
+  "location": "Dun Morogh",
+  "max": 38,
+  "min": 29,
+  "name": "Gnomeregan",
+  "note": "",
+  "type": "dungeon"
+ },
+ "hall-of-thanes": {
+  "bosses": 4,
+  "forClass": {},
+  "isNew": true,
+  "levels": "13–20",
+  "location": "Dun Morogh",
+  "max": 20,
+  "min": 13,
+  "name": "Hall of Thanes",
+  "note": "New Forever dungeon.",
+  "type": "dungeon"
+ },
+ "hyjal-summit": {
+  "attunement": "No quest chain announced.",
+  "bossList": [
+   "Bandalar",
+   "Time-Lost Battalion",
+   "Old Gloomlurker",
+   "Kathris the Haunted",
+   "Elder Minderel",
+   "Council of Thorns",
+   "The Wild King",
+   "Ancient of Decay",
+   "Sylvestris Dusksong",
+   "Gharalis the Abyssal",
+   "Anara Chillwind",
+   "Tracker Stillwind",
+   "Nythus the Dreadbound"
+  ],
+  "bossNote": "Datamined roster (Conquest Capped, 7 October). Blizzard hasn't published a boss list.",
+  "bosses": 13,
+  "comp": "Starting point: 2–3 tanks, 4–5 healers, the rest damage dealers. Blizzard calls it Forever's largest raid.",
+  "entrance": "Mount Hyjal, a zone that was closed in Classic.",
+  "forClass": {
+   "mage": {
+    "loot": "Manaflare Regalia pieces are expected from the new raids."
+   },
+   "priest": {
+    "loot": "Tier pieces for Raiments of Conviction (Shadow) are expected from the new raids."
+   },
+   "warlock": {
+    "loot": "Demonheart Raiment pieces (found in the files)"
+   }
+  },
+  "isNew": true,
+  "levels": "60",
+  "location": "Raid",
+  "max": 60,
+  "min": 60,
+  "name": "Hyjal Summit",
+  "note": "New 20-player raid with 13 bosses. Opens 9 December. Tied to the first new legendary.",
+  "size": 20,
+  "type": "raid"
+ },
+ "krol-dok-stronghold": {
+  "forClass": {},
+  "isNew": true,
+  "levels": "40–45",
+  "location": "Riverglades",
+  "max": 45,
+  "min": 40,
+  "name": "Krol'dok Stronghold",
+  "note": "New, in the new Riverglades zone. Boss data still encrypted.",
+  "type": "dungeon"
+ },
+ "maraudon": {
+  "bosses": 8,
+  "forClass": {},
+  "isNew": false,
+  "levels": "46–55",
+  "location": "Desolace",
+  "max": 55,
+  "min": 46,
+  "name": "Maraudon",
+  "note": "",
+  "type": "dungeon"
+ },
+ "onyxia-s-lair": {
+  "attunement": "Classic-style quest chain, per character at launch. Start it as soon as you're in range so it doesn't hold up raid night.",
+  "bossList": [
+   "Onyxia"
+  ],
+  "bosses": 1,
+  "comp": "Starting point: 3–4 tanks, 10–12 healers, the rest damage dealers. The only 40-player raid until summer 2027.",
+  "entrance": "Dustwallow Marsh.",
+  "forClass": {},
+  "isNew": false,
+  "levels": "60",
+  "location": "Raid",
+  "max": 60,
+  "min": 60,
+  "name": "Onyxia's Lair",
+  "note": "Classic 40-player raid. Opens 9 December.",
+  "size": 40,
+  "type": "raid"
+ },
+ "ragefire-chasm": {
+  "bosses": 4,
+  "forClass": {},
+  "isNew": false,
+  "levels": "13–18",
+  "location": "Orgrimmar",
+  "max": 18,
+  "min": 13,
+  "name": "Ragefire Chasm",
+  "note": "",
+  "type": "dungeon"
+ },
+ "razorfen-downs": {
+  "bosses": 6,
+  "forClass": {},
+  "isNew": false,
+  "levels": "37–46",
+  "location": "The Barrens",
+  "max": 46,
+  "min": 37,
+  "name": "Razorfen Downs",
+  "note": "",
+  "type": "dungeon"
+ },
+ "razorfen-kraul": {
+  "bosses": 6,
+  "forClass": {
+   "mage": {
+    "loot": "Swinetusk Shank (Agathelos), Stygian Bone Amulet (Blind Hunter)",
+    "note": "Two level-30 Mage upgrades drop here."
+   },
+   "priest": {
+    "loot": "Stygian Bone Amulet (Blind Hunter), Swinetusk Shank (Agathelos), Staff of the Shade (trash)",
+    "note": "Three level-30 Shadow upgrades drop here."
+   },
+   "warlock": {
+    "loot": "Stygian Bone Amulet (Blind Hunter), Swinetusk Shank (Agathelos)",
+    "note": "Two level-30 Warlock upgrades drop here."
+   }
+  },
+  "isNew": false,
+  "levels": "29–38",
+  "location": "The Barrens",
+  "max": 38,
+  "min": 29,
+  "name": "Razorfen Kraul",
+  "note": "",
+  "type": "dungeon"
+ },
+ "ruins-of-lordaeron": {
+  "bosses": 7,
+  "forClass": {},
+  "isNew": true,
+  "levels": "15–22",
+  "location": "Tirisfal Glades",
+  "max": 22,
+  "min": 15,
+  "name": "Ruins of Lordaeron",
+  "note": "New Forever dungeon.",
+  "type": "dungeon"
+ },
+ "scarlet-monastery": {
+  "bosses": 7,
+  "forClass": {
+   "mage": {
+    "note": "The Library holds the book for the Icefury Wand (Mage's Wand) and Dancing Flame quests."
+   },
+   "priest": {
+    "loot": "Blighted Leggings (Azshir, Graveyard)"
+   },
+   "warlock": {
+    "loot": "Blighted Leggings (Azshir), Bloodmage Mantle (Bloodmage Thalnos), Graveyard"
+   }
+  },
+  "isNew": false,
+  "levels": "30–46",
+  "location": "Tirisfal Glades",
+  "max": 46,
+  "min": 30,
+  "name": "Scarlet Monastery",
+  "note": "",
+  "type": "dungeon"
+ },
+ "scholomance": {
+  "bosses": 14,
+  "forClass": {
+   "mage": {
+    "loot": "Don Mauricio's Band of Domination (Gandling; Classic loot, unconfirmed)"
+   },
+   "priest": {
+    "loot": "Don Mauricio's Band of Domination (Gandling; Classic loot, unconfirmed)"
+   },
+   "warlock": {
+    "loot": "Don Mauricio's Band of Domination (Gandling; Classic loot, unconfirmed)"
+   }
+  },
+  "isNew": false,
+  "levels": "58–60",
+  "location": "Western Plaguelands",
+  "max": 60,
+  "min": 58,
+  "name": "Scholomance",
+  "note": "",
+  "type": "dungeon"
+ },
+ "shadowfang-keep": {
+  "bosses": 8,
+  "forClass": {
+   "warlock": {
+    "loot": "Belt of Arugal (Archmage Arugal)",
+    "note": "Good level-20 caster gear. In Classic the large Soran'ruk fragment for the Warlock quest dropped here."
+   }
+  },
+  "isNew": false,
+  "levels": "20–30",
+  "location": "Silverpine Forest",
+  "max": 30,
+  "min": 20,
+  "name": "Shadowfang Keep",
+  "note": "A good source of level-20 caster gear.",
+  "type": "dungeon"
+ },
+ "shaper-s-terrace": {
+  "bosses": 4,
+  "forClass": {},
+  "isNew": true,
+  "levels": "58–60",
+  "location": "Un'Goro Crater",
+  "max": 60,
+  "min": 58,
+  "name": "Shaper's Terrace",
+  "note": "New. Loot not yet verified.",
+  "type": "dungeon"
+ },
+ "stormwind-stockade": {
+  "bosses": 5,
+  "forClass": {},
+  "isNew": false,
+  "levels": "24–32",
+  "location": "Stormwind City",
+  "max": 32,
+  "min": 24,
+  "name": "Stormwind Stockade",
+  "note": "",
+  "type": "dungeon"
+ },
+ "stratholme": {
+  "bosses": 19,
+  "forClass": {
+   "mage": {
+    "loot": "Cape of the Black Baron, Amulet of the Redeemed (Classic loot, unconfirmed)"
+   },
+   "priest": {
+    "loot": "Cape of the Black Baron, Amulet of the Redeemed (Classic loot, unconfirmed)"
+   },
+   "warlock": {
+    "loot": "Cape of the Black Baron, Amulet of the Redeemed (Classic loot, unconfirmed)"
+   }
+  },
+  "isNew": false,
+  "levels": "58–60",
+  "location": "Eastern Plaguelands",
+  "max": 60,
+  "min": 58,
+  "name": "Stratholme",
+  "note": "",
+  "type": "dungeon"
+ },
+ "sunken-temple": {
+  "bosses": 8,
+  "forClass": {},
+  "isNew": false,
+  "levels": "50–60",
+  "location": "Swamp of Sorrows",
+  "max": 60,
+  "min": 50,
+  "name": "Sunken Temple",
+  "note": "",
+  "type": "dungeon"
+ },
+ "uldaman": {
+  "bosses": 8,
+  "forClass": {},
+  "isNew": false,
+  "levels": "41–51",
+  "location": "Badlands",
+  "max": 51,
+  "min": 41,
+  "name": "Uldaman",
+  "note": "",
+  "type": "dungeon"
+ },
+ "wailing-caverns": {
+  "bosses": 8,
+  "forClass": {},
+  "isNew": false,
+  "levels": "15–24",
+  "location": "The Barrens",
+  "max": 24,
+  "min": 15,
+  "name": "Wailing Caverns",
+  "note": "",
+  "type": "dungeon"
+ },
+ "zul-farrak": {
+  "bosses": 8,
+  "forClass": {},
+  "isNew": false,
+  "levels": "44–54",
+  "location": "Tanaris",
+  "max": 54,
+  "min": 44,
+  "name": "Zul'Farrak",
+  "note": "",
+  "type": "dungeon"
+ }
+}

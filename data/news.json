@@ -1,0 +1,554 @@
+{
+ "l-n20261007-demonheart": {
+  "classes": [
+   "warlock"
+  ],
+  "date": "2026-10-07",
+  "source": "Conquest Capped",
+  "summary": "A six-piece Warlock set drops in Barrow Deeps and Hyjal Summit, with Tailoring-crafted versions of four pieces. The 5-piece bonus makes Life Tap give 20% more mana.",
+  "tag": "datamine",
+  "title": "Found in the files: Demonheart Raiment tier set",
+  "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-warlock-tier-set/"
+ },
+ "l-n20261008-pet-stun": {
+  "classes": [
+   "warlock"
+  ],
+  "date": "2026-10-08",
+  "source": "Blizzard",
+  "summary": "Swapping demons mid-fight now leaves the current one stunned during the cast. Demonic Brand also stopped causing high threat unless it deals Shadow damage.",
+  "tag": "patch",
+  "title": "Your demon is stunned while you summon another",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696"
+ },
+ "l-n20261016-amplify-curse": {
+  "classes": [
+   "warlock"
+  ],
+  "date": "2026-10-16",
+  "source": "ForeverChanges",
+  "summary": "Amplify Curse now makes Curse of Exhaustion 50% stronger, and Portal of Summoning costs full base mana on a 1-hour cooldown. Neither is in Blizzard's notes.",
+  "tag": "datamine",
+  "title": "Found in the files: Amplify Curse buff and a costlier Portal of Summoning",
+  "url": "https://foreverchanges.pro/patch-notes"
+ },
+ "l-n20261016-cor-incubus": {
+  "classes": [
+   "warlock"
+  ],
+  "date": "2026-10-16",
+  "source": "Blizzard",
+  "summary": "Two Warlocks can no longer stack Curse of Recklessness on one target, and Summon Incubus now needs a Soul Shard even with Reagent Economy.",
+  "tag": "patch",
+  "title": "Curse of Recklessness stacking and free Incubus fixed",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696"
+ },
+ "l-n20261016-destructive-reach": {
+  "classes": [
+   "warlock"
+  ],
+  "date": "2026-10-16",
+  "source": "Blizzard",
+  "summary": "Destructive Reach extends only Destruction spells now. Demonology can cast Soul Link on its pet again.",
+  "tag": "patch",
+  "title": "Destructive Reach now Destruction only; Soul Link fixed",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696"
+ },
+ "l-n20261016-gear-pvp-plans": {
+  "classes": [],
+  "date": "2026-10-16",
+  "source": "Massively OP",
+  "summary": "New raids will add a few upgrades rather than replace whole sets, so older gear stays useful. Alterac Valley honour goes down, other battlegrounds go up, and there are no RP-PvP realms.",
+  "tag": "blizzard",
+  "title": "Blizzard plans small gear steps and honour changes",
+  "url": "https://massivelyop.com/2026/10/16/world-of-warcraft-forever-shares-plans-for-its-pvp-experiences-and-a-slow-roll-of-gear-upgrades/"
+ },
+ "l-n20261016-hunter-pets": {
+  "classes": [],
+  "date": "2026-10-16",
+  "source": "Blizzard",
+  "summary": "Blizzard shortened Dismember, Sonic Blast and Mine! and lowered their effects. Commentators expect it to hand some ground back to Warlocks and Warriors.",
+  "tag": "patch",
+  "title": "Hunter pet abilities cut back",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696/6"
+ },
+ "l-n20261016-mythicsim-warlock-resim": {
+  "classes": [
+   "warlock"
+  ],
+  "date": "2026-10-16",
+  "source": "MythicSim",
+  "summary": "Demonology comes out at 852 DPS, Affliction 756 and Destruction 704 on the newest engine. The main tier list still shows the 15 Oct run for Warlocks.",
+  "tag": "sim",
+  "title": "MythicSim re-sims all three Warlock specs on client 70425",
+  "url": "https://mythicsim.com/wow-forever/warlock"
+ },
+ "l-n20261016-race-boards": {
+  "classes": [
+   "warlock"
+  ],
+  "date": "2026-10-16",
+  "source": "MythicSim",
+  "summary": "Human leads Affliction, Demonology and Destruction, with Orc the best Horde race within 1%. The spread between races is under 2% in every spec.",
+  "tag": "sim",
+  "title": "Human tops every Warlock race board",
+  "url": "https://mythicsim.com/wow-forever/races?class=warlock&spec=demonology-warlock"
+ },
+ "l-n20261016-racials": {
+  "classes": [],
+  "date": "2026-10-16",
+  "source": "Kami Labs",
+  "summary": "Human gets Ruthless (+2% crit), Orc gets Savage (+1% crit) and a 3 min Blood Fury, and Undead Touch of the Grave procs 30% for casters on a 25 sec cooldown.",
+  "tag": "patch",
+  "title": "Racials rebuilt: weapon specialisations are gone",
+  "url": "https://kami-labs.fr/en/wow-forever/patch-notes-15-octobre-races-refaites/"
+ },
+ "l-n20261016-raid-buffs": {
+  "classes": [],
+  "date": "2026-10-16",
+  "source": "Blizzard",
+  "summary": "Battle Shout, Trueshot Aura, Moonkin Aura, Leader of the Pack and four Shaman totems became raid-wide. Moonkin Aura now only gives spell crit.",
+  "tag": "patch",
+  "title": "Totems, auras and Battle Shout now reach the whole raid",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696"
+ },
+ "l-n20261016-shadow-mastery": {
+  "classes": [
+   "warlock"
+  ],
+  "date": "2026-10-16",
+  "source": "Blizzard",
+  "summary": "Affliction's Shadow Mastery now gives up to 10% Shadow damage. Malediction, which added up to 5% to all periodic damage, is gone; Grim Reach adds Affliction spell range instead.",
+  "tag": "patch",
+  "title": "Shadow Mastery doubled, Malediction replaced by Grim Reach",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696"
+ },
+ "l-n20261016-shadow-weaving": {
+  "classes": [
+   "priest",
+   "warlock"
+  ],
+  "date": "2026-10-16",
+  "source": "Blizzard",
+  "summary": "Blizzard's tooltip fix confirms Shadow Weaving only boosts the Priest's own damage, so Warlocks no longer gain from a Shadow Priest.",
+  "tag": "patch",
+  "title": "Shadow Weaving is a personal Priest buff",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696"
+ },
+ "l-n20261017-affliction-boards": {
+  "classes": [
+   "warlock"
+  ],
+  "date": "2026-10-17",
+  "source": "MythicSim",
+  "summary": "Human still leads Affliction at 755.7 DPS with Orc 0.81% behind. Cleansed Vilebranch Icon and Jewel of the Guard Captain are now the joint best trinkets at +3.28%.",
+  "tag": "sim",
+  "title": "MythicSim re-runs Affliction race and trinket boards on client 70425",
+  "url": "https://mythicsim.com/wow-forever/best-trinkets/affliction-warlock"
+ },
+ "l-n20261017-build-70450": {
+  "classes": [],
+  "date": "2026-10-16",
+  "source": "Bind on Forever",
+  "summary": "A second client landed on 16 October. Bind on Forever's report shows Arcane Wrath getting its 6 sec cooldown, a reported Amplify Curse fix, 22 other spell changes and a new item, Crimson Rooster. Sims still run on 70425.",
+  "tag": "datamine",
+  "title": "Found in the files: beta build 70450",
+  "url": "https://bindonforever.com/changes"
+ },
+ "m-n20260930-mage-deep-dive": {
+  "classes": [
+   "mage"
+  ],
+  "date": "2026-09-30",
+  "source": "Blizzard",
+  "summary": "Blizzard introduced Comprehension scrolls, Frostfire Bolt at 40, personal Improved Scorch and the Arcane Blast, Ice Lance and Missile Barrage talents.",
+  "tag": "blizzard",
+  "title": "Class Deep Dive: Mage and Shaman",
+  "url": "https://news.blizzard.com/en-us/article/24302097/"
+ },
+ "m-n20261001-heating-up": {
+  "classes": [
+   "mage"
+  ],
+  "date": "2026-10-01",
+  "source": "TalentsForever",
+  "summary": "Heating Up shortens your next Pyroblast by 25% per stack rather than making it instant. Dungeon quest XP was halved the same day.",
+  "tag": "patch",
+  "title": "Oct 1 build: Hot Streak becomes Heating Up, Combustion back to 3 crits",
+  "url": "https://talentsforever.com/mage/changes"
+ },
+ "m-n20261008-dalaran-opens": {
+  "classes": [],
+  "date": "2026-10-08",
+  "source": "TalentsForever",
+  "summary": "Dungeon kill XP up about 20%. Low ranks of Fireball, Frostbolt and Arcane Missiles hit slightly less.",
+  "tag": "patch",
+  "title": "Oct 8 build: City of Dalaran dungeon opens",
+  "url": "https://talentsforever.com/mage/changes"
+ },
+ "m-n20261016-barrow-deeps": {
+  "classes": [],
+  "date": "2026-10-16",
+  "source": "Daybreak Forever",
+  "summary": "Daybreak's file read lists the 8 encounters in the new 10-player raid. Encounter rows and loot are still sealed.",
+  "tag": "datamine",
+  "title": "Barrow Deeps raid: 8 bosses named, loot sealed",
+  "url": "https://daybreakforever.com/raid/barrow-deeps"
+ },
+ "m-n20261016-encrypted-dungeons": {
+  "classes": [],
+  "date": "2026-10-16",
+  "source": "Bind on Forever",
+  "summary": "Drowned City, Krol'dok Stronghold and Blackmaw Hold have their boss data encrypted, so loot is unknown.",
+  "tag": "datamine",
+  "title": "Three new dungeons still encrypted",
+  "url": "https://bindonforever.com/dungeons"
+ },
+ "m-n20261016-fire-arcane-tie": {
+  "classes": [
+   "mage"
+  ],
+  "date": "2026-10-16",
+  "source": "MythicSim",
+  "summary": "The trinket boards on engine 5af1303 put Fire and Arcane within 1 DPS. Frostfire is at 743 and Frost at 651.",
+  "tag": "sim",
+  "title": "Newest engine: Fire and Arcane tie at 777 and 776",
+  "url": "https://mythicsim.com/wow-forever/best-trinkets/fire-mage"
+ },
+ "m-n20261016-fire-biggest-mage-winner": {
+  "classes": [
+   "mage"
+  ],
+  "date": "2026-10-16",
+  "source": "MythicSim",
+  "summary": "MythicSim re-ran Mages on client 70425. Fire rose from 696 to 750 on the tier list, Frostfire 3.1%, Arcane and Frost barely moved.",
+  "tag": "sim",
+  "title": "Fire Mage gains 7.7% in the re-sim",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "m-n20261016-found-cone-of-cold-rank5": {
+  "classes": [
+   "mage"
+  ],
+  "date": "2026-10-16",
+  "source": "TalentsForever",
+  "summary": "The level-58 rank is gone from the beta client's spellbook on build 70425. Blizzard's notes don't mention it.",
+  "tag": "datamine",
+  "title": "Found in the files: Cone of Cold rank 5 is missing",
+  "url": "https://talentsforever.com/mage/changes"
+ },
+ "m-n20261016-found-frost-blast-talents": {
+  "classes": [
+   "mage"
+  ],
+  "date": "2026-10-16",
+  "source": "Wowhead via Kami Labs",
+  "summary": "Wowhead's datamine shows both talents now name Frost Blast, so it casts faster and reaches further with them.",
+  "tag": "datamine",
+  "title": "Found in the files: Frost Blast uses Improved Frostbolt and Arctic Reach",
+  "url": "https://www.wowhead.com/forever/changes"
+ },
+ "m-n20261016-found-winters-chill": {
+  "classes": [
+   "mage"
+  ],
+  "date": "2026-10-16",
+  "source": "Kami Labs",
+  "summary": "Blizzard's notes describe 5% plus 7% of spell damage per stack, but the game data gives your next Cone of Cold 40% more damage per stack.",
+  "tag": "datamine",
+  "title": "Found in the files: Winter's Chill is 40% per stack, not 5%",
+  "url": "https://kami-labs.fr/en/wow-forever/patch-notes-15-octobre-races-refaites/"
+ },
+ "m-n20261016-oct15-mage-rework": {
+  "classes": [
+   "mage"
+  ],
+  "date": "2026-10-16",
+  "source": "Blizzard forums",
+  "summary": "Arcane Blast now turns Intellect into spell damage, Arcane Wrath joins the tree at 16 points and every Mage gets Frost Blast at 24. Fire Power and Critical Mass were reworked.",
+  "tag": "patch",
+  "title": "Oct 15 build: Arcane Blast redesign, Arcane Wrath and Frost Blast",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696/6"
+ },
+ "m-n20261016-skyborne-human-top-mage-races": {
+  "classes": [
+   "mage"
+  ],
+  "date": "2026-10-16",
+  "source": "MythicSim",
+  "summary": "After the racial rework Skyborne leads Fire, Frost and Frostfire, Human ties for top in Arcane. Undead dropped from first to last in most specs.",
+  "tag": "sim",
+  "title": "Skyborne and Human top the Mage race boards",
+  "url": "https://mythicsim.com/wow-forever/races?class=mage&spec=fire-mage"
+ },
+ "m-n20261016-wands-stand-still": {
+  "classes": [],
+  "date": "2026-10-16",
+  "source": "Blizzard forums",
+  "summary": "Matches early WoW. Affects every Mage while levelling.",
+  "tag": "patch",
+  "title": "Wands need you to stand still for 0.5 sec",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696/6"
+ },
+ "m-n20261017-manor-mistmantle": {
+  "classes": [],
+  "date": "2026-10-17",
+  "source": "Bind on Forever",
+  "summary": "Bind on Forever spotted a Manor Mistmantle dungeon in the game files. Blizzard hasn't announced it and nothing confirms it for launch.",
+  "tag": "datamine",
+  "title": "Found in the files: Manor Mistmantle",
+  "url": "https://bindonforever.com/whats-new"
+ },
+ "n20261013-economy-holds": {
+  "classes": [],
+  "date": "2026-10-13",
+  "source": "Blizzard forums (Kaivax)",
+  "summary": "Accounts suspected of buying or selling gold can be put on a temporary hold that blocks trade, mail, guild banks and the Auction House while Blizzard investigates. Blizzard says innocent accounts are released without a strike.",
+  "tag": "blizzard",
+  "title": "Blizzard adds temporary economy holds against gold selling",
+  "url": "https://us.forums.blizzard.com/en/wow/t/temporary-economy-holds-for-rmt/2381433"
+ },
+ "n20261016-datamined-art": {
+  "classes": [],
+  "date": "2026-10-16",
+  "source": "Blizzard forums (Kaivax)",
+  "summary": "Kaivax said art assets datamined from the latest beta build are not intended for WoW Forever. The post doesn't name the assets.",
+  "tag": "blizzard",
+  "title": "Blizzard: datamined art is not for Forever",
+  "url": "https://us.forums.blizzard.com/en/wow/t/datamined-in-the-latest-beta-build/2385060"
+ },
+ "n20261018-mythicsim-17oct-resim": {
+  "classes": [
+   "mage",
+   "warlock"
+  ],
+  "date": "2026-10-18",
+  "source": "MythicSim",
+  "summary": "Arcane jumps to 837 DPS and now leads Fire (797) by 5%; Frost rises to 673. Demonology (853) and Affliction (757) barely move, and the tier list still shows the 16 Oct run.",
+  "tag": "sim",
+  "title": "MythicSim re-sims Mage and Warlock on a 17 Oct engine",
+  "url": "https://mythicsim.com/wow-forever/mage"
+ },
+ "n20261019-capital-city-fixes": {
+  "classes": [],
+  "date": "2026-10-19",
+  "source": "Icy Veins",
+  "summary": "Darnassus gets a mailbox next to its Auction House, and an invisible wall between the Stormwind barber shop area and the Auction House has been removed.",
+  "tag": "blizzard",
+  "title": "Small capital city fixes in the beta",
+  "url": "https://www.icy-veins.com/wow-forever/news/wow-forever-gives-its-capital-cities-some-much-needed-love/"
+ },
+ "n20261019-forever-open-warlocks": {
+  "classes": [
+   "warlock",
+   "mage"
+  ],
+  "date": "2026-10-19",
+  "source": "Icy Veins",
+  "summary": "A Warlock won the $50,000 top prize at the level-30 Forever Open, and Warlocks took first and second place. Icy Veins says Mages gave them their hardest matches.",
+  "tag": "blizzard",
+  "title": "Warlocks win the Forever Open duel tournament",
+  "url": "https://www.icy-veins.com/wow-forever/news/warlocks-dominate-the-100000-forever-dueling-tournament/"
+ },
+ "n20261019-mythicsim-tier-resim": {
+  "classes": [
+   "warlock",
+   "mage",
+   "priest"
+  ],
+  "date": "2026-10-19",
+  "source": "MythicSim",
+  "summary": "The tier list moved to an 18 Oct engine and the Warlock and Mage pages to a 19 Oct one. Arcane (861) and Fire (851) climb to #6 and #8, Demonology sims 873 on the newest Warlock run, and Shadow reaches 774 on its newest board.",
+  "tag": "sim",
+  "title": "MythicSim re-runs the tier list and Warlock and Mage pages",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "n20261019-new-zones-video": {
+  "classes": [],
+  "date": "2026-10-19",
+  "source": "Icy Veins",
+  "summary": "A new Blizzard video previews two new levelling zones: the Riverglades, reached by a new path from Redridge Mountains, and Mount Hyjal. No level ranges were given.",
+  "tag": "blizzard",
+  "title": "Blizzard video shows the Riverglades and Mount Hyjal zones",
+  "url": "https://www.icy-veins.com/wow-forever/news/new-leveling-zones-in-wow-forever-riverglades-mount-hyjal/"
+ },
+ "n20261020-mythicsim-mage-race-boards": {
+  "classes": [
+   "mage"
+  ],
+  "date": "2026-10-20",
+  "source": "MythicSim",
+  "summary": "MythicSim's 20 Oct Arcane and Fire race boards (engine 15b7435) top out at 785.7 for Arcane, down from 862.0, and 844.8 for Fire, down from 850.7. Human now edges Skyborne for Fire; the Mage class page hasn't been re-run on this engine yet.",
+  "tag": "sim",
+  "title": "New MythicSim engine puts Arcane about 9% lower on the race boards",
+  "url": "https://mythicsim.com/wow-forever/races?class=mage&spec=arcane-mage"
+ },
+ "n20261020-mythicsim-tier-list-18oct": {
+  "classes": [
+   "warlock",
+   "mage",
+   "priest"
+  ],
+  "date": "2026-10-20",
+  "source": "MythicSim",
+  "summary": "Demonology climbs from #7 to #5 at 873 DPS, Affliction from #13 to #12 and Fire from #8 to #7, while Shadow stays #14 but now at 774. The Hunter rows moved to a 19 Oct run and dropped 6 to 7%, so only Survival is left in S.",
+  "tag": "sim",
+  "title": "MythicSim tier list moves every Warlock, Mage and Priest row to its 18 Oct engine",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "p-n00-2026-10-16": {
+  "classes": [
+   "priest"
+  ],
+  "date": "2026-10-16",
+  "source": "Blizzard forums",
+  "summary": "Devouring Plague and Vampiric Embrace cooldowns cut, Contagion hits 2 targets, Shadow Affinity removed. Human, Dwarf and Orc weapon skills replaced by crit bonuses.",
+  "tag": "patch",
+  "title": "Oct 15 beta build: Shadow buffed, racials reworked",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696/6"
+ },
+ "p-n01-2026-10-16": {
+  "classes": [],
+  "date": "2026-10-16",
+  "source": "MythicSim",
+  "summary": "Hunters and Fire Mage gain most from raid-wide buffs. Shadow Priest still shows its Oct 15 result on the tier list.",
+  "tag": "sim",
+  "title": "MythicSim re-sims 10 of 30 specs for build 70425",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "p-n02-2026-10-16": {
+  "classes": [
+   "priest"
+  ],
+  "date": "2026-10-16",
+  "source": "MythicSim",
+  "summary": "New race sims include the reworked racials. Human leads at 747 DPS; the spread across all six races is 1.7%.",
+  "tag": "sim",
+  "title": "Human is now the top Shadow Priest race",
+  "url": "https://mythicsim.com/wow-forever/races?class=priest&spec=shadow-priest"
+ },
+ "p-n03-2026-10-16": {
+  "classes": [
+   "priest"
+  ],
+  "date": "2026-10-16",
+  "source": "TalentsForever",
+  "summary": "Shadow tree now shows Dark Inspiration; Shadow Affinity, Improved Fade and Improved Vampiric Embrace are gone.",
+  "tag": "talents",
+  "title": "TalentsForever updated to build 70425",
+  "url": "https://talentsforever.com/priest"
+ },
+ "p-n07-2026-10-07": {
+  "classes": [
+   "priest",
+   "warlock"
+  ],
+  "date": "2026-10-07",
+  "source": "Icy Veins",
+  "summary": "Shadow gets Devouring Plague for every race and a reworked Shadowform.",
+  "tag": "blizzard",
+  "title": "Blizzard's Priest, Druid and Warlock highlights video",
+  "url": "https://www.icy-veins.com/wow-forever/news/druid-warlock-and-priest-changes-coming-in-wow-forever/"
+ },
+ "p-n08-2026-10-01": {
+  "classes": [],
+  "date": "2026-10-01",
+  "source": "Conquest Capped",
+  "summary": "Dungeon quests give half their old bonus XP, pushing levelling into the open world.",
+  "tag": "patch",
+  "title": "Oct 1 build: dungeon quest XP halved",
+  "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-priest-leveling/"
+ },
+ "p-n09-2026-09-30": {
+  "classes": [
+   "priest"
+  ],
+  "date": "2026-09-30",
+  "source": "Blizzard",
+  "summary": "Fear Ward and Devouring Plague for all Priests at 20, Shadow Word: Death baseline at 32, Shadow Weaving made personal.",
+  "tag": "blizzard",
+  "title": "Class Deep Dive: Priest and Warrior",
+  "url": "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior"
+ },
+ "p-n20261015-paladin-deep-dive-salvation-not-live-yet": {
+  "classes": [],
+  "date": "2026-10-15",
+  "source": "Blizzard",
+  "summary": "Blizzard's Paladin deep dive confirms Salvation will stop being a blessing, but says that change arrives in a future beta build. Kings becomes baseline and Holy Shock drops to a 10 sec cooldown.",
+  "tag": "blizzard",
+  "title": "Paladin deep dive: Salvation change not live yet",
+  "url": "https://worldofwarcraft.blizzard.com/news/24302099/world-of-warcraft-forever-class-deep-dives-paladin"
+ },
+ "p-n20261016-found-in-the-files-improved-mind-flay-lost-its-range-and-slo": {
+  "classes": [
+   "priest"
+  ],
+  "date": "2026-10-16",
+  "source": "Wowhead via Kami Labs",
+  "summary": "Wowhead's datamine shows the reworked talent no longer adds 5 yards of range or a 35% slow. Blizzard's notes didn't mention this.",
+  "tag": "datamine",
+  "title": "Found in the files: Improved Mind Flay lost its range and slow",
+  "url": "https://www.wowhead.com/forever/changes"
+ },
+ "p-n20261016-found-in-the-files-mental-strength-cut-to-2-intellect-per-ra": {
+  "classes": [
+   "priest"
+  ],
+  "date": "2026-10-16",
+  "source": "Wowhead via Kami Labs",
+  "summary": "The Discipline talent moved to row 2 and dropped from 3% to 2% Intellect per rank.",
+  "tag": "datamine",
+  "title": "Found in the files: Mental Strength cut to 2% Intellect per rank",
+  "url": "https://www.wowhead.com/forever/changes"
+ },
+ "p-n20261016-found-in-the-files-moonkin-aura-and-leader-of-the-pack-now-s": {
+  "classes": [],
+  "date": "2026-10-16",
+  "source": "Wowhead via Kami Labs",
+  "summary": "Raids with both Druid auras get both bonuses. Moonkin Aura gives spell crit to every caster, you included.",
+  "tag": "datamine",
+  "title": "Found in the files: Moonkin Aura and Leader of the Pack now stack",
+  "url": "https://www.wowhead.com/forever/changes"
+ },
+ "p-n20261016-found-in-the-files-shadow-word-death-was-15-sec-not-12": {
+  "classes": [
+   "priest"
+  ],
+  "date": "2026-10-16",
+  "source": "Wowhead via Kami Labs",
+  "summary": "Blizzard's notes say the cooldown rose from 12 to 18 sec, but game data shows it was 15 before the patch.",
+  "tag": "datamine",
+  "title": "Found in the files: Shadow Word: Death was 15 sec, not 12",
+  "url": "https://www.wowhead.com/forever/changes"
+ },
+ "p-n20261016-server-slam-moved-to-21-october": {
+  "classes": [],
+  "date": "2026-10-16",
+  "source": "Blizzard",
+  "summary": "Blizzard has pushed the free stress test back two days to 21 October. Europe opens at 19:00 CEST (6pm UK) and Blizzard says it may end early or run late.",
+  "tag": "blizzard",
+  "title": "Server Slam moved to 21 October",
+  "url": "https://worldofwarcraft.blizzard.com/news/24302072/join-the-world-of-warcraft-forever-stress-test"
+ },
+ "x-n20261008-ony-attunement": {
+  "classes": [],
+  "date": "2026-10-08",
+  "source": "Warcraft Tavern (WoW Forever Podcast ep. 3)",
+  "summary": "The Onyxia chain is per character at launch. Barrow Deeps and Hyjal Summit have no attunement chain, though some extra steps unlock the full experience.",
+  "tag": "blizzard",
+  "title": "Onyxia's Lair keeps its attunement; new raids don't need one",
+  "url": "https://www.warcrafttavern.com/forever/news/onyxias-lair-raid-will-still-require-attunement-in-wow-forever/"
+ },
+ "x-n20261017-tier-bonuses": {
+  "classes": [
+   "mage",
+   "priest"
+  ],
+  "date": "2026-10-17",
+  "source": "Wowhead / Icy Veins",
+  "summary": "Manaflare Regalia's 5-piece boosts Frostfire Bolt procs and crit during Combustion. Raiments of Conviction's 5-piece cuts Devouring Plague's cooldown by 60 sec, which predates the 24-sec rework.",
+  "tag": "datamine",
+  "title": "Mage and Shadow Priest tier bonuses in the files",
+  "url": "https://www.icy-veins.com/wow-forever/news/wow-forever-crafted-tier-sets-datamined-recipes-costs-and-set-bonuses/"
+ }
+}

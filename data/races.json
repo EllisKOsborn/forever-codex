@@ -1,0 +1,596 @@
+{
+ "dwarf": {
+  "abilities": [
+   {
+    "effect": "+2% critical damage and healing (replaced Mace Specialization on 15 Oct).",
+    "name": "Earth Fury"
+   },
+   {
+    "effect": "Removes poison, disease and bleed effects and raises armour for a short time.",
+    "name": "Stoneform"
+   },
+   {
+    "effect": "Tracks treasure; now also gives a chance of extra items from most chests.",
+    "name": "Find Treasure"
+   },
+   {
+    "effect": "",
+    "name": "Frost Resistance"
+   }
+  ],
+  "boards": {
+   "shadow-priest": {
+    "dps": 769.6,
+    "gap": "0.71%",
+    "tier": "S"
+   }
+  },
+  "classSpells": {
+   "priest": [
+    {
+     "effect": "Large instant self-heal. 10 min cooldown.",
+     "level": 10,
+     "name": "Desperate Prayer"
+    },
+    {
+     "effect": "Damages and roots a Humanoid for 2 sec. 2 min cooldown.",
+     "level": 20,
+     "name": "Chastise"
+    }
+   ]
+  },
+  "classes": [
+   "priest"
+  ],
+  "faction": "Alliance",
+  "notes": {},
+  "order": 2,
+  "race": "Dwarf",
+  "simText": {
+   "priest": "Earth Fury (+2% crit damage and healing): +0.99%"
+  }
+ },
+ "gnome": {
+  "abilities": [
+   {
+    "effect": "8 sec: non-periodic damage spells deal 10% more and cost 10% less. 2 min cooldown.",
+    "name": "Eureka!"
+   },
+   {
+    "effect": "+5% maximum Mana.",
+    "name": "Expansive Mind"
+   },
+   {
+    "effect": "Break free of roots and snares. 2 min cooldown.",
+    "name": "Escape Artist"
+   },
+   {
+    "effect": "",
+    "name": "Engineering Specialization"
+   }
+  ],
+  "boards": {
+   "affliction-warlock": {
+    "dps": 767.2,
+    "gap": "0.98%",
+    "tier": "S"
+   },
+   "arcane-mage": {
+    "dps": 784.7,
+    "gap": "0.12%",
+    "tier": "S"
+   },
+   "demonology-warlock": {
+    "dps": 866.2,
+    "gap": "1.05%",
+    "tier": "A"
+   },
+   "destruction-warlock": {
+    "dps": 715.4,
+    "gap": "0.83%",
+    "tier": "S"
+   },
+   "fire-mage": {
+    "dps": 839.3,
+    "gap": "0.65%",
+    "tier": "S"
+   },
+   "frost-mage": {
+    "dps": 664,
+    "gap": "1.40%",
+    "tier": "A"
+   },
+   "frostfire-mage": {
+    "dps": 725.2,
+    "gap": "1.90%",
+    "tier": "A"
+   },
+   "shadow-priest": {
+    "dps": 766.6,
+    "gap": "1.08%",
+    "tier": "A"
+   }
+  },
+  "classSpells": {
+   "priest": [
+    {
+     "effect": "Confuses up to 5 nearby enemies for 3 sec. Damage breaks it.",
+     "level": 10,
+     "name": "Confounding Flash"
+    },
+    {
+     "effect": "Ward on a friend: below 35% health they get an absorb shield and a heal over time. 5 min cooldown.",
+     "level": 20,
+     "name": "Contingency Plan"
+    }
+   ]
+  },
+  "classes": [
+   "priest",
+   "mage",
+   "warlock"
+  ],
+  "faction": "Alliance",
+  "notes": {},
+  "order": 4,
+  "race": "Gnome",
+  "simText": {
+   "mage": "Eureka!: +10% damage and cheaper non-periodic spells for 8 sec every 2 min. Expansive Mind: +5% max Mana.",
+   "priest": "Eureka! and Expansive Mind: +0.53%",
+   "warlock": "Eureka!: +10% damage and cheaper non-periodic spells for 8 sec every 2 min (DoTs don't benefit). Expansive Mind: +5% max Mana."
+  }
+ },
+ "human": {
+  "abilities": [
+   {
+    "effect": "+2% crit with all spells and attacks (replaced Sword Specialization on 15 Oct).",
+    "name": "Ruthless"
+   },
+   {
+    "effect": "+5% Spirit.",
+    "name": "The Human Spirit"
+   },
+   {
+    "effect": "",
+    "name": "Perception"
+   },
+   {
+    "effect": "",
+    "name": "Will to Survive"
+   }
+  ],
+  "boards": {
+   "affliction-warlock": {
+    "dps": 774.8,
+    "gap": "",
+    "tier": "S"
+   },
+   "arcane-mage": {
+    "dps": 784,
+    "gap": "0.20%",
+    "tier": "S"
+   },
+   "demonology-warlock": {
+    "dps": 875.4,
+    "gap": "",
+    "tier": "S"
+   },
+   "destruction-warlock": {
+    "dps": 721.4,
+    "gap": "",
+    "tier": "S"
+   },
+   "fire-mage": {
+    "dps": 844.8,
+    "gap": "",
+    "tier": "S"
+   },
+   "frost-mage": {
+    "dps": 666.9,
+    "gap": "0.98%",
+    "tier": "S"
+   },
+   "frostfire-mage": {
+    "dps": 738.5,
+    "gap": "0.10%",
+    "tier": "S"
+   },
+   "shadow-priest": {
+    "dps": 775,
+    "gap": "",
+    "tier": "S"
+   }
+  },
+  "classSpells": {
+   "priest": [
+    {
+     "effect": "Instantly heals a friend below 50% health and removes Weakened Soul. Not on yourself. 5 min cooldown.",
+     "level": 10,
+     "name": "Divine Grace"
+    },
+    {
+     "effect": "Spells cast at you burn the caster's Mana and deal Shadow damage. 15 sec.",
+     "level": 20,
+     "name": "Feedback"
+    }
+   ]
+  },
+  "classes": [
+   "priest",
+   "mage",
+   "warlock"
+  ],
+  "faction": "Alliance",
+  "notes": {
+   "warlock": "Top race in all three specs"
+  },
+  "order": 1,
+  "race": "Human",
+  "simText": {
+   "mage": "Ruthless: +2% crit. The Human Spirit: +5% Spirit.",
+   "priest": "Ruthless (+2% crit) and The Human Spirit (+5% Spirit): +1.69%",
+   "warlock": "Ruthless: +2% crit. The Human Spirit: +5% Spirit, which also feeds Life Tap."
+  }
+ },
+ "night-elf": {
+  "abilities": [
+   {
+    "effect": "Short critical strike chance buff; MythicSim models it but finds no gain on its 2-minute fight.",
+    "name": "Elune's Light"
+   },
+   {
+    "effect": "Stealth while standing still.",
+    "name": "Shadowmeld"
+   },
+   {
+    "effect": "Movement speed bonus that now stacks with other speed increases.",
+    "name": "Quickness"
+   },
+   {
+    "effect": "",
+    "name": "Nature Resistance"
+   }
+  ],
+  "boards": {
+   "shadow-priest": {
+    "dps": 770.7,
+    "gap": "0.56%",
+    "tier": "S"
+   }
+  },
+  "classSpells": {
+   "priest": [
+    {
+     "effect": "Arcane damage over 6 sec, now much stronger, 30 sec cooldown.",
+     "level": 10,
+     "name": "Starshards"
+    },
+    {
+     "effect": "Melee and ranged attacks hit you 50% less for 15 sec or 3 misses. 5 min cooldown.",
+     "level": 20,
+     "name": "Elune's Grace"
+    }
+   ]
+  },
+  "classes": [
+   "priest"
+  ],
+  "faction": "Alliance",
+  "notes": {},
+  "order": 3,
+  "race": "Night Elf",
+  "simText": {
+   "priest": "Elune's Light (+10% crit for 15 sec every 3 min): +1.12%"
+  }
+ },
+ "orc": {
+  "abilities": [
+   {
+    "effect": "+10% attack power and spell power for 15 sec. 3 min cooldown (was 2).",
+    "name": "Blood Fury"
+   },
+   {
+    "effect": "+1% crit with all spells and abilities (replaced Axe Specialization).",
+    "name": "Savage"
+   },
+   {
+    "effect": "Removes Curses and Banes and cuts magic damage taken by 5% for 8 sec. 3 min cooldown.",
+    "name": "Shatter Curse"
+   },
+   {
+    "effect": "",
+    "name": "Hardiness"
+   }
+  ],
+  "boards": {
+   "affliction-warlock": {
+    "dps": 769.3,
+    "gap": "0.71%",
+    "tier": "S"
+   },
+   "arcane-mage": {
+    "dps": 782.5,
+    "gap": "0.40%",
+    "tier": "S"
+   },
+   "demonology-warlock": {
+    "dps": 868.4,
+    "gap": "0.80%",
+    "tier": "S"
+   },
+   "destruction-warlock": {
+    "dps": 716.4,
+    "gap": "0.70%",
+    "tier": "S"
+   },
+   "fire-mage": {
+    "dps": 841.5,
+    "gap": "0.39%",
+    "tier": "S"
+   },
+   "frost-mage": {
+    "dps": 665.7,
+    "gap": "1.15%",
+    "tier": "A"
+   },
+   "frostfire-mage": {
+    "dps": 733.6,
+    "gap": "0.77%",
+    "tier": "S"
+   }
+  },
+  "classSpells": {},
+  "classes": [
+   "mage",
+   "warlock"
+  ],
+  "faction": "Horde",
+  "notes": {
+   "mage": "New Mage race in Forever",
+   "warlock": "Best Horde race in every Warlock sim"
+  },
+  "order": 6,
+  "race": "Orc",
+  "simText": {
+   "mage": "Blood Fury: +10% spell power for 15 sec every 3 min. Savage: +1% crit.",
+   "warlock": "Blood Fury: +10% spell power for 15 sec every 3 min. Savage: +1% crit."
+  }
+ },
+ "skyborne": {
+  "abilities": [
+   {
+    "effect": "+3% casting, melee and ranged haste (was 1%).",
+    "name": "Wind Blessed"
+   },
+   {
+    "effect": "2 sec cast: +100% health and Mana regen for 30 sec, or 15 min near a leyline. Can be cast while moving.",
+    "name": "Read Leyline"
+   },
+   {
+    "effect": "Glide down through the air for 10 sec; 1.5 min cooldown.",
+    "name": "Walk on Air"
+   },
+   {
+    "effect": "",
+    "name": "Elemental Insight"
+   }
+  ],
+  "boards": {
+   "arcane-mage": {
+    "dps": 785.7,
+    "gap": "",
+    "tier": "S"
+   },
+   "fire-mage": {
+    "dps": 843.9,
+    "gap": "0.11%",
+    "tier": "S"
+   },
+   "frost-mage": {
+    "dps": 673.5,
+    "gap": "",
+    "tier": "S"
+   },
+   "frostfire-mage": {
+    "dps": 739.3,
+    "gap": "",
+    "tier": "S"
+   }
+  },
+  "classSpells": {},
+  "classes": [
+   "mage"
+  ],
+  "faction": "Alliance",
+  "notes": {
+   "mage": "High Order, Alliance only; needs the Skyborne Heroic pack or higher"
+  },
+  "order": 5,
+  "race": "Skyborne",
+  "simText": {
+   "mage": "Wind Blessed: +3% spell, melee and ranged haste. Read Leyline regen and elemental damage aren't counted."
+  }
+ },
+ "troll": {
+  "abilities": [
+   {
+    "effect": "+10% attack and casting speed for 10 sec. 3 min cooldown.",
+    "name": "Berserking"
+   },
+   {
+    "effect": "+20% health regen, and 20% keeps going in combat (doubled on 15 Oct).",
+    "name": "Regeneration"
+   },
+   {
+    "effect": "3 min cooldown.",
+    "name": "Rapid Regeneration"
+   },
+   {
+    "effect": "",
+    "name": "Beast Slaying"
+   }
+  ],
+  "boards": {
+   "affliction-warlock": {
+    "dps": 763.8,
+    "gap": "1.41%",
+    "tier": "A"
+   },
+   "arcane-mage": {
+    "dps": 773.1,
+    "gap": "1.60%",
+    "tier": "A"
+   },
+   "demonology-warlock": {
+    "dps": 861.9,
+    "gap": "1.55%",
+    "tier": "A"
+   },
+   "destruction-warlock": {
+    "dps": 710.6,
+    "gap": "1.50%",
+    "tier": "A"
+   },
+   "fire-mage": {
+    "dps": 832.8,
+    "gap": "1.41%",
+    "tier": "A"
+   },
+   "frost-mage": {
+    "dps": 662.4,
+    "gap": "1.65%",
+    "tier": "A"
+   },
+   "frostfire-mage": {
+    "dps": 725.6,
+    "gap": "1.85%",
+    "tier": "A"
+   },
+   "shadow-priest": {
+    "dps": 764.4,
+    "gap": "1.38%",
+    "tier": "A"
+   }
+  },
+  "classSpells": {
+   "priest": [
+    {
+     "effect": "Lowers an enemy's melee attack power and the healing it receives by 20%.",
+     "level": 10,
+     "name": "Hex of Weakness"
+    },
+    {
+     "effect": "Shadow charges that hit attackers. 3 charges, 10 min.",
+     "level": 20,
+     "name": "Shadowguard"
+    }
+   ]
+  },
+  "classes": [
+   "priest",
+   "mage",
+   "warlock"
+  ],
+  "faction": "Horde",
+  "notes": {
+   "warlock": "New Warlock race in Forever"
+  },
+  "order": 8,
+  "race": "Troll",
+  "simText": {
+   "mage": "Berserking: +10% casting speed for 10 sec every 3 min.",
+   "priest": "Berserking: +0.35%",
+   "warlock": "Berserking: +10% casting speed for 10 sec every 3 min. Weaker for DoT specs, since haste doesn't speed up ticks."
+  }
+ },
+ "undead": {
+  "abilities": [
+   {
+    "effect": "Damage spells have a 30% chance to drain up to 5% of your max health. 25 sec internal cooldown.",
+    "name": "Touch of the Grave"
+   },
+   {
+    "effect": "Break fear, charm and sleep. 2 min cooldown.",
+    "name": "Will of the Forsaken"
+   },
+   {
+    "effect": "Heal from a corpse. 2 min cooldown.",
+    "name": "Cannibalize"
+   },
+   {
+    "effect": "",
+    "name": "Underwater Breathing"
+   }
+  ],
+  "boards": {
+   "affliction-warlock": {
+    "dps": 765.9,
+    "gap": "1.14%",
+    "tier": "A"
+   },
+   "arcane-mage": {
+    "dps": 774.4,
+    "gap": "1.43%",
+    "tier": "A"
+   },
+   "demonology-warlock": {
+    "dps": 863.7,
+    "gap": "1.33%",
+    "tier": "A"
+   },
+   "destruction-warlock": {
+    "dps": 714.4,
+    "gap": "0.98%",
+    "tier": "S"
+   },
+   "fire-mage": {
+    "dps": 832.8,
+    "gap": "1.42%",
+    "tier": "A"
+   },
+   "frost-mage": {
+    "dps": 660.9,
+    "gap": "1.87%",
+    "tier": "A"
+   },
+   "frostfire-mage": {
+    "dps": 721.9,
+    "gap": "2.35%",
+    "tier": "B"
+   },
+   "shadow-priest": {
+    "dps": 767.4,
+    "gap": "0.98%",
+    "tier": "S"
+   }
+  },
+  "classSpells": {
+   "priest": [
+    {
+     "effect": "Your next attacker takes Shadow damage and loses melee attack power.",
+     "level": 10,
+     "name": "Touch of Weakness"
+    },
+    {
+     "effect": "Turns your health into Mana over time; scales with Spirit. Good for long fights.",
+     "level": 20,
+     "name": "Dark Sacrifice"
+    }
+   ]
+  },
+  "classes": [
+   "priest",
+   "mage",
+   "warlock"
+  ],
+  "faction": "Horde",
+  "notes": {},
+  "order": 7,
+  "race": "Undead",
+  "simText": {
+   "mage": "Touch of the Grave: 30% chance on spells to drain up to 5% of max health, once every 25 sec.",
+   "priest": "Touch of the Grave proc: +0.71%",
+   "warlock": "Touch of the Grave: 30% chance for Warlocks to drain up to 5% of max health, once every 25 sec. Whether it can crit is unverified."
+  }
+ }
+}

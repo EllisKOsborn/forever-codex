@@ -1,0 +1,1312 @@
+{
+ "mage": {
+  "accent": {
+   "dark": "#5cc8ea",
+   "darkSoft": "#12303b",
+   "light": "#0b6e8a",
+   "lightSoft": "#d9eef5",
+   "tip": "#69ccf0"
+  },
+  "changeLog": [
+   {
+    "items": [
+     {
+      "kind": "neutral",
+      "spec": "arcane-mage",
+      "text": "Client 70450 (16 Oct) adds Arcane Wrath's 6 sec cooldown to the game data. No other Mage spell or talent changes listed yet; sims still run on 70425."
+     }
+    ],
+    "label": "Build 70450 · 16 Oct"
+   },
+   {
+    "items": [
+     {
+      "kind": "buff",
+      "spec": "fire-mage",
+      "text": "Fire Power: per Fire effect on the target, 3 ranks (was flat 2–10% over 5 ranks)."
+     },
+     {
+      "kind": "buff",
+      "spec": "fire-mage",
+      "text": "Critical Mass: 5 ranks, 10% Fire crit (was 3 ranks)."
+     },
+     {
+      "kind": "buff",
+      "spec": "fire-mage",
+      "text": "Heating Up: every Fire Blast adds a stack; not spent when Presence of Mind made the Pyroblast instant."
+     },
+     {
+      "kind": "nerf",
+      "spec": "fire-mage",
+      "text": "Wake of Fire reverts to Improved Fire Blast: no kill bonus, Fire Blast range +8 yd."
+     },
+     {
+      "kind": "neutral",
+      "spec": "arcane-mage",
+      "text": "Arcane Blast redesign: 1.5 sec cast, Intellect-to-spell-damage stacks lasting 15 sec, damage and coefficient down 40%."
+     },
+     {
+      "kind": "buff",
+      "spec": "arcane-mage",
+      "text": "Arcane Wrath added as the 16-point talent; Improved Channeling also protects it."
+     },
+     {
+      "kind": "neutral",
+      "spec": "arcane-mage",
+      "text": "Missile Barrage moved to row 1, now 2 ranks; Missiles hits can proc it."
+     },
+     {
+      "kind": "nerf",
+      "spec": "arcane-mage",
+      "text": "Presence of Mind and Missile Barrage bug fixes."
+     },
+     {
+      "kind": "nerf",
+      "spec": "frost-mage",
+      "text": "Ice Lance vs frozen: +200% (was +300%)."
+     },
+     {
+      "kind": "nerf",
+      "spec": "frost-mage",
+      "text": "Winter's Chill: Cone of Cold damage only, no crit."
+     },
+     {
+      "kind": "buff",
+      "spec": "frost-mage",
+      "text": "Frost Channeling now actually reduces threat."
+     },
+     {
+      "kind": "buff",
+      "spec": "all",
+      "text": "Frost Blast learned at 24."
+     },
+     {
+      "kind": "nerf",
+      "spec": "all",
+      "text": "Cone of Cold rank 5 (level 58) missing from the client spellbook; not in Blizzard's notes."
+     },
+     {
+      "kind": "nerf",
+      "spec": "all",
+      "text": "Wands need you to stand still 0.5 sec before firing."
+     }
+    ],
+    "label": "Build 70425 · 15 Oct"
+   },
+   {
+    "items": [
+     {
+      "kind": "nerf",
+      "spec": "all",
+      "text": "Low ranks of Fireball, Frostbolt and Arcane Missiles hit slightly less."
+     },
+     {
+      "kind": "neutral",
+      "spec": "fire-mage",
+      "text": "Impact no longer procs off Flamestrike ticks."
+     }
+    ],
+    "label": "Build 70291 · 8 Oct"
+   },
+   {
+    "items": [
+     {
+      "kind": "neutral",
+      "spec": "fire-mage",
+      "text": "Hot Streak renamed Heating Up: crits cut your next Pyroblast's cast by 25%, up to 3 stacks."
+     },
+     {
+      "kind": "nerf",
+      "spec": "fire-mage",
+      "text": "Combustion ends after 3 crits (was 4)."
+     },
+     {
+      "kind": "neutral",
+      "spec": "all",
+      "text": "Comprehension scrolls rebalanced and can't be read while moving."
+     }
+    ],
+    "label": "Build 70170 · 1 Oct"
+   },
+   {
+    "items": [
+     {
+      "kind": "buff",
+      "spec": "arcane-mage",
+      "text": "Arcane Missiles checks line of sight once, at the start."
+     },
+     {
+      "kind": "nerf",
+      "spec": "fire-mage",
+      "text": "Ignite no longer double-dips on % damage modifiers."
+     },
+     {
+      "kind": "nerf",
+      "spec": "all",
+      "text": "Wands no longer scale with spell damage."
+     }
+    ],
+    "label": "Build 70009 · 24 Sep"
+   }
+  ],
+  "classCards": [],
+  "compare": {
+   "cons": [
+    "The best levelling spec, Frost, trails Arcane by about 20% and Fire by about 19% in raid sims",
+    "AoE farming was nerfed in Forever",
+    "Shares cloth caster loot with Priests and Warlocks"
+   ],
+   "levelling": "Fast as Frost: Frost Nova, Ice Lance and AoE pulls. Forever nerfed AoE kiting (Cone of Cold, Blizzard slows and one Flamestrike at a time), so mass pulls are harder than in Classic.",
+   "population": {
+    "alliance": "9.4%",
+    "horde": "6.0%",
+    "note": "Share of characters in a 20 Sept sample of about 5,000 level-20 beta characters."
+   },
+   "pros": [
+    "Arcane sims 861 DPS on the newest run (Fire 851), second of the three classes after Demonology",
+    "No drinking breaks thanks to conjured water",
+    "Portals earn gold and make you popular"
+   ],
+   "role": "Ranged DPS and utility",
+   "utility": [
+    "Arcane Intellect and Arcane Brilliance",
+    "Conjured food and water for the group",
+    "Teleports and portals (free with the Reagent Economy Legacy perk)",
+    "Polymorph, Counterspell and Remove Lesser Curse"
+   ]
+  },
+  "crafting": {
+   "campPicks": [
+    "Mana Well (Alchemy): the best fit for every spec. Its buff shares a slot with a Paladin's Blessing of Wisdom, so use it when no Paladin is around.",
+    "Camp Chair (Skinning): +2% crit, worth most to Fire and Frostfire.",
+    "Faction Banner (Tailoring): Spirit, which helps Arcane regen while casting.",
+    "Skip the Incense Candle: it shares a slot with your own Arcane Intellect."
+   ],
+   "cards": [
+    {
+     "items": [
+      "Engineering: Spellpower Goggles Xtreme (225), Minor Recombobulator (140), explosives for AoE pulls. Icy Veins ranks it first for most Mages.",
+      "Enchanting: Lesser Magic and Greater Magic Wands, Minor Wizard Oil, and the Frozen Heart of the Mountain trinket (+1.1–1.3% in the sims).",
+      "Alchemy + Herbalism: Spellblasting Potion and Lesser Arcane Elixir; Mana Well camp feature.",
+      "Fishing: Fish Bowl camp feature and crates with cloth."
+     ],
+     "title": "Profession options"
+    }
+   ],
+   "sections": [
+    {
+     "cards": [
+      {
+       "items": [
+        "Imbue Flame / Greater Flame and Imbue Greater Frost: staff enchants for up to 20 extra Fire or Frost damage.",
+        "Imbue Precision: +1% crit on a staff.",
+        "Cryoblast and Greater Cryoblast: a burst of Frost damage around you for packs.",
+        "Minor Evocation: 300 Mana over 4 sec, 8 min cooldown.",
+        "Cat, Frog and Rat Familiar: +12, +6 and +2 Intellect while active.",
+        "Scroll of the Saber, Blade and Wit: turn certain dungeon weapons into new ones (Coldflame Saber, Narpas Sword, Witchblade)."
+       ],
+       "title": "Scrolls worth keeping"
+      },
+      {
+       "items": [
+        "Undeciphered scrolls drop at random from mobs while questing and in dungeons.",
+        "Turn in your first Library book to unlock Research, which teaches Study.",
+        "Once an hour, bring a Light Feather to your Library (Stormwind or Undercity) and cast Study for a Bundle of Scrolls.",
+        "Bundle scrolls are already deciphered, so they don't train the skill."
+       ],
+       "title": "How to get them"
+      }
+     ],
+     "summary": "Mages learn Comprehend Scroll at level 6. It lets you read scrolls that drop from mobs and raises your Comprehension skill; breakpoints at 1, 15, 50 and 175 open higher scroll tiers. Scrolls now trigger the global cooldown and can't be read while moving.",
+     "title": "Comprehension scrolls"
+    }
+   ],
+   "tailoringItems": [
+    "Novice Arcanist's Sash (early Forever recipe)",
+    "Double-Stitched Woolen Shoulders",
+    "Azure Silk Cloak (Tailoring 140)",
+    "Frothing Slippers (Tailoring 150, Spinning Wheel; pattern from Unstable Sentinel in City of Dalaran)",
+    "Spidersilk Boots",
+    "Flame Circlet and Flame Sash (named by Icy Veins as levelling Fire items)"
+   ],
+   "tailoringSummary": "Tailoring makes your levelling cloth and some of the best early caster items, and pairs with Enchanting or Engineering. Some recipes need camp features (Spinning Wheel, Loom) placed near your campfire."
+  },
+  "facts": [
+   "Mage can be Human, Gnome, Undead, Troll, Orc (new) or Skyborne (new, Alliance only, needs an upgrade pack)."
+  ],
+  "id": "mage",
+  "latestChanges": [
+   {
+    "kind": "neutral",
+    "spec": "arcane-mage",
+    "text": "Client 70450 (16 Oct) adds Arcane Wrath's 6 sec cooldown to the game data. No other Mage spell or talent changes listed yet; sims still run on 70425."
+   },
+   {
+    "kind": "buff",
+    "spec": "fire-mage",
+    "text": "Fire Power reworked to 3 ranks: at 3/3, +3% Fire damage per Fire effect of yours on the target (Ignite, Improved Scorch, Fireball, Pyroblast, Impact), up to 12%. Frostfire Bolt benefits but doesn't count as an effect."
+   },
+   {
+    "kind": "buff",
+    "spec": "fire-mage",
+    "text": "Critical Mass goes to 5 ranks for 10% Fire crit. Every Fire Blast now adds a Heating Up stack, so a crit Fire Blast gives two."
+   },
+   {
+    "kind": "neutral",
+    "spec": "arcane-mage",
+    "text": "Arcane Blast redesigned: 1.5 sec cast, 40% less damage, and each cast gives you 15% of your Intellect as spell damage for 15 sec (stacks 4 times). The old +10% to other spells is gone."
+   },
+   {
+    "kind": "buff",
+    "spec": "arcane-mage",
+    "text": "New Arcane Wrath (16-point talent): 3.5 sec cast, Fireball-like damage plus spell damage equal to 5% of your max Mana, 6 sec cooldown."
+   },
+   {
+    "kind": "neutral",
+    "spec": "arcane-mage",
+    "text": "Missile Barrage moves to row 1 and becomes 2 ranks (40% from Arcane Blast at 2/2, 20% from Arcane Wrath, Fireball, Frostbolt, Frostfire Bolt, 10% per Missiles hit)."
+   },
+   {
+    "kind": "nerf",
+    "spec": "frost-mage",
+    "text": "Ice Lance against frozen targets drops to +200% (was +300%)."
+   },
+   {
+    "kind": "nerf",
+    "spec": "frost-mage",
+    "text": "Winter's Chill no longer adds crit. Each stack now makes your next Cone of Cold hit 40% harder, up to 5 stacks."
+   },
+   {
+    "kind": "buff",
+    "spec": "all",
+    "text": "New Frost Blast at level 24: 1.5 sec cast, 40% slow, uses every Frostbolt talent. Replaces kiting with rank 1 Frostbolt."
+   },
+   {
+    "kind": "buff",
+    "spec": "frost-mage",
+    "text": "Cone of Cold slows the first 4 targets an extra 10% for 3 more seconds. Frostbite and Fingers of Frost now proc from Frost and Ice Armor."
+   },
+   {
+    "kind": "nerf",
+    "spec": "all",
+    "text": "Bug fixes that favoured Mages: Presence of Mind is now consumed, Clearcasting no longer rolls per target or off out-of-combat casts, Missile Barrage can't discount a second Missiles."
+   },
+   {
+    "kind": "neutral",
+    "spec": "all",
+    "text": "Racials: Human gets Ruthless (+2% crit), Orc gets Savage (+1% crit) but Blood Fury is now 3 min, Skyborne haste goes to 3%, Troll Regeneration doubles."
+   },
+   {
+    "kind": "buff",
+    "spec": "all",
+    "text": "Moonkin Aura (spell crit) is now raid-wide and stacks with Leader of the Pack."
+   }
+  ],
+  "latestLabel": "Build 70450 (16 Oct, minor) on top of the 70425 rework, 15–16 Oct",
+  "legacy": {
+   "recommended": {
+    "gourmand": 1,
+    "rested": 5,
+    "talented": 5,
+    "thrill": 5
+   },
+   "recommendedLabel": "Load levelling build",
+   "recommendedNote": "Suggested Mage levelling build: Thrill of Adventure 5 (less drinking), Well Rested 5, Talented 5, Gourmand 1. At 60, swap Talented for Reagent Economy (free teleports, portals and Arcane Brilliance) once you have 10 points in Resourcefulness."
+  },
+  "macros": {
+   "macros": [
+    {
+     "name": "Polymorph your focus",
+     "note": "Set the mob to keep sheeped as focus, then re-sheep without changing target.",
+     "text": "#showtooltip\n/cast [@focus,harm,nodead][] Polymorph"
+    },
+    {
+     "name": "Counterspell on mouseover",
+     "note": "Interrupt a caster without losing your target.",
+     "text": "#showtooltip\n/cast [@mouseover,harm,nodead][] Counterspell"
+    },
+    {
+     "name": "Decurse on mouseover",
+     "note": "Remove Lesser Curse on a party frame. Also clears Banes in Forever.",
+     "text": "#showtooltip\n/cast [@mouseover,help,nodead][] Remove Lesser Curse"
+    },
+    {
+     "name": "Instant Pyroblast",
+     "note": "Presence of Mind then Pyroblast in one press. Arcane's stack spender in the sims.",
+     "text": "#showtooltip Pyroblast\n/cast Presence of Mind\n/cast Pyroblast"
+    },
+    {
+     "name": "Burst with trinkets",
+     "note": "Swap Combustion for Arcane Power as Arcane. Use once your 5 Improved Scorch stacks are up.",
+     "text": "#showtooltip Combustion\n/use 13\n/use 14\n/cast Combustion"
+    },
+    {
+     "name": "Ice Block on and off",
+     "note": "Press again to break out early.",
+     "text": "#showtooltip Ice Block\n/cancelaura Ice Block\n/cast Ice Block"
+    },
+    {
+     "name": "Wand without toggling off",
+     "note": "Pressing it again won't stop your wand. You must stand still for 0.5 sec.",
+     "text": "#showtooltip Shoot\n/cast !Shoot"
+    }
+   ],
+   "note": "Forever runs on the modern client, so these conditionals should work. Test each one in game before relying on it. Mouseover macros cast on whatever your cursor is over, or your target if nothing is."
+  },
+  "name": "Mage",
+  "opinions": [
+   {
+    "date": "20 Oct",
+    "grades": [
+     {
+      "grade": "A",
+      "spec": "arcane-mage"
+     },
+     {
+      "grade": "A",
+      "spec": "fire-mage"
+     },
+     {
+      "grade": "B",
+      "spec": "frostfire-mage"
+     },
+     {
+      "grade": "B",
+      "spec": "frost-mage"
+     }
+    ],
+    "note": "Sim-based. Arcane #6 and Fire #7 (A), Frostfire #13 and Frost #18 (B) of 24.",
+    "site": "MythicSim",
+    "url": "https://mythicsim.com/wow-forever/tier-list"
+   },
+   {
+    "date": "Oct",
+    "grades": [
+     {
+      "grade": "S",
+      "spec": "arcane-mage"
+     },
+     {
+      "grade": "A",
+      "spec": "fire-mage"
+     },
+     {
+      "grade": "B",
+      "spec": "frost-mage"
+     }
+    ],
+    "note": "Arcane S on their spec list, Fire A on their DPS list. Mage A as a class.",
+    "site": "RankedBoost",
+    "url": "https://rankedboost.com/world-of-warcraft/forever/tier-list/"
+   },
+   {
+    "date": "16 Oct",
+    "grades": [
+     {
+      "grade": "B",
+      "spec": "fire-mage"
+     },
+     {
+      "grade": "B",
+      "spec": "arcane-mage"
+     },
+     {
+      "grade": "B",
+      "spec": "frost-mage"
+     }
+    ],
+    "note": "All three at B. Fire is their raid default, Frost for levelling and trash.",
+    "site": "LFCarry",
+    "url": "https://lfcarry.com/guides/wow-forever-mage-pve"
+   },
+   {
+    "date": "Oct",
+    "grades": [
+     {
+      "grade": "S",
+      "spec": "frost-mage"
+     }
+    ],
+    "note": "Levelling only: Frost with Ice Lance and Fingers of Frost is the fastest to 30.",
+    "site": "Warcraft Tavern",
+    "url": "https://www.warcrafttavern.com/forever/guides/mage-leveling/"
+   }
+  ],
+  "order": 2,
+  "raceNote": "The gaps are tiny: under 2.5% between best and worst race in every spec. Skyborne leads Frost and Frostfire on its 3% haste and ties Gnome for Arcane; Human edges Skyborne by 0.11% for Fire on the 20 Oct board. Orc is the best Horde pick in every spec. Pick on faction and looks first.",
+  "raceSnapshot": "MythicSim race boards: Arcane and Fire on engine 15b7435 (20 Oct), Frost on 0d17668 (17 Oct) and Frostfire on 1007c66 (16 Oct), all client 70425",
+  "specs": [
+   {
+    "color": "#ff8a3d",
+    "experimental": false,
+    "id": "fire-mage",
+    "key": "fire",
+    "name": "Fire"
+   },
+   {
+    "color": "#d58cff",
+    "experimental": false,
+    "id": "arcane-mage",
+    "key": "arcane",
+    "name": "Arcane"
+   },
+   {
+    "color": "#69ccf0",
+    "experimental": false,
+    "id": "frost-mage",
+    "key": "frost",
+    "name": "Frost"
+   },
+   {
+    "color": "#9be7c4",
+    "experimental": true,
+    "id": "frostfire-mage",
+    "key": "frostfire",
+    "name": "Frostfire"
+   }
+  ],
+  "verdict": {
+   "best": "arcane-mage",
+   "body": "On MythicSim's newest engine (24c66df, 19 Oct, client 70425) Arcane sims 861 DPS, only about 1% ahead of Fire (851). The experimental Frostfire hybrid sits at 765 and Frost at 690, about 20% behind Arcane. The tier list (Mage rows on the 18 Oct 37c2dfb snapshot) agrees: Arcane #6 and Fire #7 of 24, both in the A band. Fire gained the most in this run (797 to 851), so treat the two as level for now. Arcane is the sim pick for raids by a hair; level as Frost. One warning: MythicSim's 20 Oct race boards, on a newer engine (15b7435), top out at 786 for Arcane but 845 for Fire, so Fire may move ahead when the Mage page is re-run.",
+   "flavour": "\"The Arcane Blast you knew is gone. Now it feeds every spell you cast next.\"",
+   "headline": "Arcane and Fire almost level at the top; Frost trails",
+   "statsNote": "Big number: newest MythicSim run (Mage page, engine 24c66df, 19 Oct). Below: rank, DPS and band on the tier list (Mage rows on engine 37c2dfb, 18 Oct)."
+  }
+ },
+ "priest": {
+  "accent": {
+   "dark": "#a993ff",
+   "darkSoft": "#272140",
+   "light": "#5b3fa6",
+   "lightSoft": "#e6e0f5",
+   "tip": "#c27cf4"
+  },
+  "changeLog": [
+   {
+    "items": [
+     {
+      "kind": "buff",
+      "spec": "shadow-priest",
+      "text": "Devouring Plague cooldown 24 sec; can crit."
+     },
+     {
+      "kind": "buff",
+      "spec": "shadow-priest",
+      "text": "Contagion spreads to 2 targets for free."
+     },
+     {
+      "kind": "buff",
+      "spec": "shadow-priest",
+      "text": "Vampiric Embrace 30 sec cooldown and unresistable."
+     },
+     {
+      "kind": "nerf",
+      "spec": "shadow-priest",
+      "text": "Shadow Word: Death cooldown 18 sec."
+     },
+     {
+      "kind": "nerf",
+      "spec": "shadow-priest",
+      "text": "Shadow Affinity and Improved Fade removed."
+     },
+     {
+      "kind": "buff",
+      "spec": "shadow-priest",
+      "text": "Dark Inspiration added."
+     }
+    ],
+    "label": "Oct 15 build"
+   },
+   {
+    "items": [
+     {
+      "kind": "buff",
+      "spec": "shadow-priest",
+      "text": "Shadowform: 50% cheaper Shadow spells, double crit damage bonus, 10% Shadow damage."
+     },
+     {
+      "kind": "neutral",
+      "spec": "shadow-priest",
+      "text": "Shadow Weaving now buffs only you."
+     },
+     {
+      "kind": "buff",
+      "spec": "shadow-priest",
+      "text": "Devouring Plague available to every race."
+     },
+     {
+      "kind": "buff",
+      "spec": "shadow-priest",
+      "text": "Shadow Word: Death added at level 32."
+     }
+    ],
+    "label": "Since Classic"
+   }
+  ],
+  "classCards": [],
+  "compare": {
+   "cons": [
+    "Shadow sits mid-pack in sims (B band, 774 DPS on the newest run)",
+    "Shadow Affinity was removed, so you have no talent threat reduction",
+    "Shadow Weaving no longer helps the raid, so raids gain less from bringing you",
+    "You must leave Shadowform to heal"
+   ],
+   "levelling": "Steady and safe. The wand plus Spirit Tap means almost no drinking, but kills are slow until Shadowform at 40. Groups always want a Priest who can heal.",
+   "population": {
+    "alliance": "10.5%",
+    "horde": "5.6%",
+    "note": "Share of characters in a 20 Sept sample of about 5,000 level-20 beta characters. Priest was the least-played Horde class."
+   },
+   "pros": [
+    "Never short of a dungeon group: you can heal",
+    "Big Oct 15 buffs: Devouring Plague every 24 sec, Contagion hits 2 targets",
+    "Six races to choose from, each with two Priest racial spells"
+   ],
+   "role": "Ranged DPS that can also heal dungeons",
+   "utility": [
+    "Power Word: Fortitude and Divine Spirit (baseline at 30) for the group",
+    "Vampiric Embrace heals your party; Dark Inspiration gives party Spirit",
+    "Dispel Magic, Cure Disease, Fear Ward for every race, Mind Control",
+    "Can swap to Discipline or Holy if the raid needs healers"
+   ]
+  },
+  "crafting": {
+   "campPicks": [
+    "Mana Well (Alchemy): the best fit. Its buff shares a slot with a Paladin's Blessing of Wisdom, so use it when no Paladin is around.",
+    "Camp Tent (Leatherworking): tops Rested XP up to 5% of a level. Only useful when your rest is low.",
+    "Faction Banner (Tailoring): gives Spirit in the same slot as Divine Spirit, which you can cast yourself from 30. Bind on Forever's data shows a Horde version; check the Alliance one in game.",
+    "Incense Candle and First Aid Kit clash with Arcane Intellect and your own Fortitude. Use whichever is bigger."
+   ],
+   "cards": [],
+   "sections": [],
+   "tailoringItems": [
+    "Black Slippers (Tailoring 150, needs a Spinning Wheel)",
+    "Filigreed Shadow Gown and Filigreed Shadow Leggings (patterns from low-level dungeons)",
+    "Shadow Circlet, Gloves, Sash and Boots (patterns for Merchant's Favor from Azeroth Commerce Authority vendors)"
+   ],
+   "tailoringSummary": "Tailoring pairs best with Enchanting for a Priest: you wear what you make, disenchant the rest, and craft your own wands. Some recipes now need camp features (Spinning Wheel, Loom) placed near your campfire."
+  },
+  "facts": [],
+  "id": "priest",
+  "latestChanges": [
+   {
+    "kind": "buff",
+    "spec": "shadow-priest",
+    "text": "Devouring Plague cooldown down to 24 sec (was 1 min), and it can now crit."
+   },
+   {
+    "kind": "buff",
+    "spec": "shadow-priest",
+    "text": "Devouring Contagion now spreads Plague to 2 targets, and the bounce costs no Mana or cooldown."
+   },
+   {
+    "kind": "buff",
+    "spec": "shadow-priest",
+    "text": "Vampiric Embrace can no longer be resisted; cooldown down to 30 sec (was 1 min)."
+   },
+   {
+    "kind": "buff",
+    "spec": "shadow-priest",
+    "text": "Shadow Word: Death now gets Shadowform's extra crit damage."
+   },
+   {
+    "kind": "nerf",
+    "spec": "shadow-priest",
+    "text": "Shadow Word: Death cooldown up to 18 sec."
+   },
+   {
+    "kind": "buff",
+    "spec": "shadow-priest",
+    "text": "New talent Dark Inspiration: Mind Blast and full Mind Flay channels give you and your party up to 15% more Spirit for 10 sec."
+   },
+   {
+    "kind": "neutral",
+    "spec": "shadow-priest",
+    "text": "Improved Mind Flay reworked: each tick hits 10/20% harder than the last, so finish your channels."
+   },
+   {
+    "kind": "nerf",
+    "spec": "shadow-priest",
+    "text": "Shadow Affinity (up to 30% less Shadow threat) and Improved Fade removed. Watch threat."
+   },
+   {
+    "kind": "nerf",
+    "spec": "shadow-priest",
+    "text": "Undead Touch of the Dead no longer scales with Shadow damage bonuses."
+   },
+   {
+    "kind": "buff",
+    "spec": "shadow-priest",
+    "text": "Human now gets Ruthless (+2% crit), making Human the top Shadow race in sims."
+   },
+   {
+    "kind": "nerf",
+    "spec": "shadow-priest",
+    "text": "Wands now need you to stand still for 0.5 sec before firing. Matters most while levelling."
+   }
+  ],
+  "latestLabel": "Beta build of Oct 15 (live overnight)",
+  "legacy": {
+   "recommended": {
+    "gourmand": 1,
+    "rested": 5,
+    "talented": 5,
+    "thrill": 5
+   },
+   "recommendedLabel": "Load levelling build",
+   "recommendedNote": "Suggested levelling build (my pick, matching Method's pure-levelling advice): Thrill of Adventure 5, Well Rested 5, Talented 5, Gourmand 1. Talented needs Well Rested at 5/5. Other arrow prerequisites aren't published yet, so the planner only checks tree points for the rest."
+  },
+  "macros": {
+   "macros": [
+    {
+     "name": "Shadow Word: Pain on mouseover",
+     "note": "DoT several mobs without changing target.",
+     "text": "#showtooltip\n/cast [@mouseover,harm,nodead][] Shadow Word: Pain"
+    },
+    {
+     "name": "Devouring Plague on mouseover",
+     "note": "Put it on the mob that will die first so Contagion spreads it.",
+     "text": "#showtooltip\n/cast [@mouseover,harm,nodead][] Devouring Plague"
+    },
+    {
+     "name": "Shield on mouseover",
+     "note": "Shield a party frame without targeting it.",
+     "text": "#showtooltip\n/cast [@mouseover,help,nodead][] Power Word: Shield"
+    },
+    {
+     "name": "Silence your focus",
+     "note": "Set the caster you're assigned as focus.",
+     "text": "#showtooltip\n/cast [@focus,harm,nodead][] Silence"
+    },
+    {
+     "name": "Wand without toggling off",
+     "note": "Pressing it again won't stop your wand. Remember you must stand still for 0.5 sec.",
+     "text": "#showtooltip Shoot\n/cast !Shoot"
+    },
+    {
+     "name": "Dispel on mouseover",
+     "note": "Works on friends (remove debuffs) and enemies (remove buffs).",
+     "text": "#showtooltip\n/cast [@mouseover,exists,nodead][] Dispel Magic"
+    }
+   ],
+   "note": "Forever runs on the modern client, so these conditionals should work. Test each one in game before relying on it. Mouseover macros cast on whatever your cursor is over, or your target if nothing is."
+  },
+  "name": "Priest",
+  "opinions": [
+   {
+    "date": "20 Oct",
+    "grades": [
+     {
+      "grade": "B",
+      "spec": "shadow-priest"
+     }
+    ],
+    "note": "#14 of 24 at 774 DPS (engine 37c2dfb, 18 Oct snapshot, client 70425), after the 15 Oct buffs.",
+    "site": "MythicSim",
+    "url": "https://mythicsim.com/wow-forever/tier-list"
+   },
+   {
+    "date": "Checked Oct 3",
+    "grades": [
+     {
+      "grade": "A",
+      "spec": "shadow-priest"
+     }
+    ],
+    "note": "Moved Shadow up from B to A.",
+    "site": "RankedBoost",
+    "url": "https://rankedboost.com/world-of-warcraft/forever/tier-list/dps/"
+   },
+   {
+    "date": "Oct 15",
+    "grades": [
+     {
+      "grade": "B",
+      "spec": "shadow-priest"
+     }
+    ],
+    "note": "#13 at level 60 in their sim (710 DPS); S tier at level 30.",
+    "site": "ExpCarry",
+    "url": "https://expcarry.com/wow-forever-class-tier-list"
+   },
+   {
+    "date": "Early Oct",
+    "grades": [
+     {
+      "grade": "B",
+      "spec": "shadow-priest"
+     }
+    ],
+    "note": "Good mana and raid utility, middling damage.",
+    "site": "Overgear",
+    "url": "https://overgear.com/guides/wow-forever/dps-ranking/"
+   },
+   {
+    "date": "16 Oct",
+    "grades": [
+     {
+      "grade": "B",
+      "spec": "shadow-priest"
+     }
+    ],
+    "note": "Up from C after the Devouring Plague changes. LFCarry only moves a spec when two independent sources agree.",
+    "site": "LFCarry",
+    "url": "https://lfcarry.com/guides/wow-forever-tier-list"
+   },
+   {
+    "date": "Oct 9",
+    "grades": [
+     {
+      "grade": "C",
+      "spec": "shadow-priest"
+     }
+    ],
+    "note": "Felt the tree lacked damage multipliers. Written before the Oct 15 buffs.",
+    "site": "AoEah",
+    "url": "https://www.aoeah.com/news/4864--wow-forever-pve-tier-list--best-pve-classes-ranked-in-warcraft-forever"
+   }
+  ],
+  "order": 3,
+  "raceNote": "The new racials are in this sim. The whole spread is only 1.4%, so race barely matters for damage. Human leads on Ruthless (+2% crit); Night Elf, Dwarf and Undead are all within 1% of it. Each race also has two Priest racial spells (below), which matter more for utility than damage.",
+  "raceSnapshot": "MythicSim race board, engine 24c66df, 19 Oct (client 70425)",
+  "specs": [
+   {
+    "color": "#b48cff",
+    "experimental": false,
+    "id": "shadow-priest",
+    "key": "shadow",
+    "name": "Shadow"
+   }
+  ],
+  "verdict": {
+   "best": "shadow-priest",
+   "body": "Shadow sits in the middle of the DPS sims: 774 DPS on MythicSim's newest Shadow run (trinket board, engine 37c2dfb, 18 Oct), and #14 of 24 at the same 774, B band, on the tier list (18 Oct snapshot). The 15 Oct build was a clear net buff (Devouring Plague every 24 seconds, Vampiric Embrace every 30, a stronger Contagion) and lifted Shadow from 704. It now sims level with Affliction Warlock (776) and ahead of the Frostfire Mage hybrid (765) and Destruction Warlock (721).",
+   "flavour": "Viable for raids and dungeons. Pick it if you enjoy it; the gap to the middle of the pack is small.",
+   "headline": "Mid-pack after the buffs",
+   "statsNote": "Big number: newest MythicSim result (Shadow trinket board, 18 Oct, client 70425; the Priest page still shows 745 from 16 Oct). Below: rank, DPS and band on the tier list."
+  }
+ },
+ "warlock": {
+  "accent": {
+   "dark": "#8fdc5c",
+   "darkSoft": "#1b2c13",
+   "light": "#3b7413",
+   "lightSoft": "#e0eed3",
+   "tip": "#8787ed"
+  },
+  "changeLog": [
+   {
+    "items": [
+     {
+      "kind": "neutral",
+      "spec": "all",
+      "text": "Found in the files: beta build 70450 (16 Oct) brings spell and item data changes but no listed Warlock ability changes. A report of an Amplify Curse fix couldn't be confirmed."
+     }
+    ],
+    "label": "Build 70450 (16 Oct, files only)"
+   },
+   {
+    "items": [
+     {
+      "kind": "buff",
+      "spec": "affliction-warlock",
+      "text": "Shadow Mastery now gives 2/4/6/8/10% Shadow damage (was 1–5%)."
+     },
+     {
+      "kind": "nerf",
+      "spec": "affliction-warlock",
+      "text": "Malediction (+1–5% to all your periodic damage) is gone. Grim Reach replaces it: +10/20% Affliction spell range."
+     },
+     {
+      "kind": "neutral",
+      "spec": "destruction-warlock",
+      "text": "Destructive Reach now only extends Destruction spells (10/20% range)."
+     },
+     {
+      "kind": "buff",
+      "spec": "demonology-warlock",
+      "text": "Soul Link can be cast on your demon again."
+     },
+     {
+      "kind": "nerf",
+      "spec": "all",
+      "text": "Curse of Recklessness can't stack twice on one target any more, so only one Warlock's copy counts."
+     },
+     {
+      "kind": "nerf",
+      "spec": "all",
+      "text": "Summon Incubus now costs a Soul Shard with the Reagent Economy Legacy perk (it was free by mistake)."
+     },
+     {
+      "kind": "buff",
+      "spec": "affliction-warlock",
+      "text": "Found in the files: Amplify Curse makes your next Curse of Exhaustion 50% stronger (was 20%)."
+     },
+     {
+      "kind": "nerf",
+      "spec": "all",
+      "text": "Found in the files: Portal of Summoning now costs 100% of base mana with a 1-hour cooldown (was 12% and 2 min)."
+     },
+     {
+      "kind": "neutral",
+      "spec": "all",
+      "text": "Shadow Weaving is now a personal Priest buff, so a Shadow Priest in your group no longer raises your Shadow damage."
+     },
+     {
+      "kind": "neutral",
+      "spec": "all",
+      "text": "Racials rebuilt: Human Ruthless (+2% crit), Orc Savage (+1% crit) and Blood Fury on a 3 min cooldown, Undead Touch of the Grave 30% for casters with a 25 sec cooldown, Gnome Eureka! an 8 sec buff, Troll Regeneration doubled."
+     },
+     {
+      "kind": "nerf",
+      "spec": "all",
+      "text": "Wands now wait until you have stood still for 0.5 sec."
+     }
+    ],
+    "label": "Build 70425 (15 Oct)"
+   },
+   {
+    "items": [
+     {
+      "kind": "nerf",
+      "spec": "all",
+      "text": "Your current demon is stunned while you summon a new one."
+     },
+     {
+      "kind": "neutral",
+      "spec": "all",
+      "text": "Shadow Bolt ranks 1–4 retuned so ranks 1–5 grow more evenly."
+     },
+     {
+      "kind": "buff",
+      "spec": "demonology-warlock",
+      "text": "Demonic Brand's bonus pet damage only causes high threat when it deals Shadow damage."
+     }
+    ],
+    "label": "Build 70291 (8 Oct)"
+   },
+   {
+    "items": [
+     {
+      "kind": "nerf",
+      "spec": "affliction-warlock",
+      "text": "Drain Soul is interrupted if you start casting another spell."
+     },
+     {
+      "kind": "buff",
+      "spec": "all",
+      "text": "Hellfire can crit."
+     },
+     {
+      "kind": "buff",
+      "spec": "affliction-warlock",
+      "text": "Soul Harvest (renamed from Soul Harvesting) now grants its 50/100% mana regen properly."
+     },
+     {
+      "kind": "neutral",
+      "spec": "all",
+      "text": "Gnome Eureka! no longer boosts damage over time."
+     },
+     {
+      "kind": "neutral",
+      "spec": "all",
+      "text": "Aggressive mode is back on the pet bar."
+     }
+    ],
+    "label": "Build 70170 (1 Oct)"
+   },
+   {
+    "items": [
+     {
+      "kind": "neutral",
+      "spec": "all",
+      "text": "Life Tap scales with Spirit (tooltip fixed)."
+     },
+     {
+      "kind": "buff",
+      "spec": "all",
+      "text": "Voidwalker Sacrifice scales with 10% of your spell healing."
+     },
+     {
+      "kind": "nerf",
+      "spec": "all",
+      "text": "Wands no longer scale with spell power."
+     }
+    ],
+    "label": "Build 70009 (24 Sep)"
+   }
+  ],
+  "classCards": [
+   {
+    "items": [
+     "Banes (Agony, Doom, Havoc) no longer use the curse slot, so every Warlock runs a bane plus one curse.",
+     "Curse of the Elements: magic resistances down 75 and +10% magic damage taken. Curse of Shadow is gone, so this covers Shadow too.",
+     "Curse of Recklessness: armour down for physical damage. Since 15 Oct only one copy counts per target, so assign one Warlock.",
+     "Curse of Tongues on casting bosses and adds; Curse of Weakness on hard-hitting melee if the raid leader asks.",
+     "Bane of Doom only pays off with 60+ sec left. The sims use Agony after that point."
+    ],
+    "title": "Curse assignments (every spec)"
+   },
+   {
+    "items": [
+     "Drain Soul gives shards from the kill and from its ticks. Since 1 Oct it's interrupted if you cast anything else.",
+     "Shards pay for Healthstones (10), Soulstones (18), Ritual of Summoning (20) and every demon except the Imp.",
+     "Soul bags fit the new reagent bag slot.",
+     "Firestone (28) and Spellstone (36) are weapon oils now, not off-hands. The sims use Spellstone (haste and spell power).",
+     "Reagent Economy (Legacy) removes vendor-bought reagents, but Soul Shards still count; the free Incubus was a bug, fixed 15 Oct.",
+     "Soulstone a healer before every boss pull."
+    ],
+    "title": "Soul Shards and stones"
+   }
+  ],
+  "compare": {
+   "cons": [
+    "Soul Shard farming and pet management add work",
+    "Destruction trails Demonology by about 21% in sims",
+    "Life Tap means you rely on healers in long fights"
+   ],
+   "levelling": "Strongest solo leveller of the three: Affliction DoTs, drain tanking and a Voidwalker. Mobalytics rates Warlock S for levelling with Affliction.",
+   "population": {
+    "alliance": "6.2%",
+    "horde": "6.5%",
+    "note": "Share of characters in a 20 Sept sample of about 5,000 level-20 beta characters. A 14 Oct scan of over 1 million characters had Warlock as the least-played class at about 9%."
+   },
+   "pros": [
+    "Demonology is the strongest of these specs in sims: 873 DPS on the newest run, #5 of 24 on the tier list, A band",
+    "Least-played class in the 14 Oct scan (about 9%), so raids will want you",
+    "Own tier set in the first raids: Demonheart Raiment"
+   ],
+   "role": "Ranged DPS with a demon pet",
+   "utility": [
+    "Curse of the Elements covers every magic school in Forever (+10% damage taken)",
+    "Ritual of Summoning, Healthstones and Soulstones",
+    "Banish and Fear for crowd control",
+    "Banes (Agony, Doom, Havoc) no longer take your curse slot"
+   ]
+  },
+  "crafting": {
+   "campPicks": [
+    "Faction Banner (Tailoring): Spirit, which makes Life Tap return more mana. Pairs with your Tailoring.",
+    "Fish Bowl (Fishing): +8% all stats when no Paladin gives Kings.",
+    "Camp Chair (Skinning): +2% spell crit, now that your DoTs can crit.",
+    "Camp Tent (Leatherworking) while levelling to top up Rested XP.",
+    "Mana Well matters less for you than for other casters, since Life Tap is your mana."
+   ],
+   "cards": [],
+   "sections": [
+    {
+     "summary": "Firestone and Spellstone are weapon oils in Forever, not off-hand items. Conquest Capped says they stack with Wizard Oil; check it in game.",
+     "table": {
+      "columns": [
+       "Level",
+       "Spell",
+       "What it does"
+      ],
+      "rows": [
+       [
+        "10",
+        "Create Healthstone",
+        "Emergency heal for you or a party member. Costs a Soul Shard."
+       ],
+       [
+        "18",
+        "Create Soulstone",
+        "Lets the target resurrect. Costs a Soul Shard."
+       ],
+       [
+        "20",
+        "Ritual of Summoning",
+        "Summons a party member. Costs a Soul Shard."
+       ],
+       [
+        "28",
+        "Create Firestone",
+        "Weapon oil: spell crit and Fire damage."
+       ],
+       [
+        "36",
+        "Create Spellstone",
+        "Weapon oil: haste and spell power. The sims use it."
+       ]
+      ]
+     },
+     "title": "Stones and oils"
+    }
+   ],
+   "tailoringItems": [
+    "Black Slippers (Tailoring 150, needs a Spinning Wheel; blueprint from Unstable Sentinel in City of Dalaran)",
+    "Filigreed Shadow Gown (Affliction) and Filigreed Flame Gown (Demonology, Destruction)",
+    "Shadow Circlet, Gloves, Sash and Boots (patterns for Merchant's Favor from Azeroth Commerce Authority vendors)",
+    "Demonheart Raiment shoulders, hands, legs and feet at 60: crafted versions of the raid set, one piece at a time (Unique-Equipped: Artisan's Tier)"
+   ],
+   "tailoringSummary": "Tailoring pairs best with Enchanting: you wear what you make, disenchant the rest, and craft your own wands. Some recipes need a Spinning Wheel or Loom camp feature near your campfire. Felcloth from demons feeds the level-60 patterns."
+  },
+  "facts": [
+   "Warlock can be Human, Gnome, Orc, Undead or Troll (new in Forever). Skyborne can't be Warlocks.",
+   "Damage over time can crit in Forever, and Bane of Agony and Bane of Doom no longer take your curse slot."
+  ],
+  "id": "warlock",
+  "latestChanges": [
+   {
+    "kind": "buff",
+    "spec": "affliction-warlock",
+    "text": "Shadow Mastery now gives 2/4/6/8/10% Shadow damage (was 1–5%)."
+   },
+   {
+    "kind": "nerf",
+    "spec": "affliction-warlock",
+    "text": "Malediction (+1–5% to all your periodic damage) is gone. Grim Reach replaces it: +10/20% Affliction spell range."
+   },
+   {
+    "kind": "neutral",
+    "spec": "destruction-warlock",
+    "text": "Destructive Reach now only extends Destruction spells (10/20% range)."
+   },
+   {
+    "kind": "buff",
+    "spec": "demonology-warlock",
+    "text": "Soul Link can be cast on your demon again."
+   },
+   {
+    "kind": "nerf",
+    "spec": "all",
+    "text": "Curse of Recklessness can't stack twice on one target any more, so only one Warlock's copy counts."
+   },
+   {
+    "kind": "nerf",
+    "spec": "all",
+    "text": "Summon Incubus now costs a Soul Shard with the Reagent Economy Legacy perk (it was free by mistake)."
+   },
+   {
+    "kind": "buff",
+    "spec": "affliction-warlock",
+    "text": "Found in the files: Amplify Curse makes your next Curse of Exhaustion 50% stronger (was 20%)."
+   },
+   {
+    "kind": "nerf",
+    "spec": "all",
+    "text": "Found in the files: Portal of Summoning now costs 100% of base mana with a 1-hour cooldown (was 12% and 2 min)."
+   },
+   {
+    "kind": "neutral",
+    "spec": "all",
+    "text": "Shadow Weaving is now a personal Priest buff, so a Shadow Priest in your group no longer raises your Shadow damage."
+   },
+   {
+    "kind": "neutral",
+    "spec": "all",
+    "text": "Racials rebuilt: Human Ruthless (+2% crit), Orc Savage (+1% crit) and Blood Fury on a 3 min cooldown, Undead Touch of the Grave 30% for casters with a 25 sec cooldown, Gnome Eureka! an 8 sec buff, Troll Regeneration doubled."
+   },
+   {
+    "kind": "nerf",
+    "spec": "all",
+    "text": "Wands now wait until you have stood still for 0.5 sec."
+   },
+   {
+    "kind": "neutral",
+    "spec": "all",
+    "text": "Found in the files: beta build 70450 (16 Oct) brings spell and item data changes but no listed Warlock ability changes. A report of an Amplify Curse fix couldn't be confirmed."
+   }
+  ],
+  "latestLabel": "Build 70425, live 15–16 Oct (build 70450 seen in the files on 16 Oct)",
+  "legacy": {
+   "alternate": {
+    "gourmand": 3,
+    "permanence": 2,
+    "reagent": 1,
+    "reinforce": 5,
+    "thrill": 5
+   },
+   "alternateLabel": "Load level-60 build",
+   "recommended": {
+    "fieldguide": 3,
+    "gourmand": 3,
+    "rested": 5,
+    "thrill": 5
+   },
+   "recommendedLabel": "Load levelling build",
+   "recommendedNote": "Levelling build for a first character: Thrill of Adventure 5, Well Rested 5, Field Guide 3 (camp features every 45 min), Gourmand 3. Talented is left out because it only moves your first talent point earlier, and Legacy unlocks at 25. Level-60 build: Gourmand 3, Reinforce 5, Permanence 2 (longer raid buffs) and Reagent Economy, plus Thrill of Adventure 5 for farming. You'll only have the points your account has earned, so fill these in order."
+  },
+  "macros": {
+   "macros": [
+    {
+     "name": "Corruption on mouseover",
+     "note": "DoT a whole pack without changing target.",
+     "text": "#showtooltip\n/cast [@mouseover,harm,nodead][] Corruption"
+    },
+    {
+     "name": "Bane of Agony on mouseover",
+     "note": "Pairs with the Corruption macro for multi-DoTting.",
+     "text": "#showtooltip\n/cast [@mouseover,harm,nodead][] Bane of Agony"
+    },
+    {
+     "name": "Amplify Curse into Bane of Agony",
+     "note": "Affliction. Mobalytics suggests this for long-lived targets. If Amplify Curse is on the global cooldown, press twice.",
+     "text": "#showtooltip Bane of Agony\n/cast Amplify Curse\n/cast Bane of Agony"
+    },
+    {
+     "name": "Pet attack, then Immolate",
+     "note": "Sends your demon in first so the mob turns on it.",
+     "text": "#showtooltip Immolate\n/petattack\n/cast Immolate"
+    },
+    {
+     "name": "Seduce your focus",
+     "note": "Set the humanoid you are crowd-controlling as focus.",
+     "text": "#showtooltip Seduction\n/cast [@focus,harm,nodead][] Seduction"
+    },
+    {
+     "name": "Spell Lock your focus",
+     "note": "Felhunter interrupt on the caster you are assigned.",
+     "text": "#showtooltip Spell Lock\n/cast [@focus,harm,nodead][] Spell Lock"
+    },
+    {
+     "name": "Fear your focus",
+     "note": "Keep Curse of Recklessness on it so it can't run into other packs.",
+     "text": "#showtooltip\n/cast [@focus,harm,nodead][] Fear"
+    },
+    {
+     "name": "Wand without toggling off",
+     "note": "Pressing it again won't stop your wand. Stand still for 0.5 sec first.",
+     "text": "#showtooltip Shoot\n/cast !Shoot"
+    }
+   ],
+   "note": "Forever runs on the modern client, so these conditionals should work. Test each one in game before relying on it. Mouseover macros cast on whatever your cursor is over, or your target if nothing is."
+  },
+  "name": "Warlock",
+  "opinions": [
+   {
+    "date": "20 Oct",
+    "grades": [
+     {
+      "grade": "A",
+      "spec": "demonology-warlock"
+     },
+     {
+      "grade": "B",
+      "spec": "affliction-warlock"
+     },
+     {
+      "grade": "B",
+      "spec": "destruction-warlock"
+     }
+    ],
+    "note": "Sim-based. Demonology #5 (A), Affliction #12 (B), Destruction #16 (B) of 24.",
+    "site": "MythicSim",
+    "url": "https://mythicsim.com/wow-forever/tier-list"
+   },
+   {
+    "date": "16 Oct",
+    "grades": [
+     {
+      "grade": "A",
+      "spec": "demonology-warlock"
+     },
+     {
+      "grade": "B",
+      "spec": "affliction-warlock"
+     },
+     {
+      "grade": "B",
+      "spec": "destruction-warlock"
+     }
+    ],
+    "note": "Demonology up on the Shadow Mastery change and Soul Link fix. Its dungeon logs are thin and from level 20.",
+    "site": "LFCarry",
+    "url": "https://lfcarry.com/guides/wow-forever-tier-list"
+   },
+   {
+    "date": "3 Oct",
+    "grades": [
+     {
+      "grade": "A",
+      "spec": "affliction-warlock"
+     },
+     {
+      "grade": "A",
+      "spec": "demonology-warlock"
+     },
+     {
+      "grade": "A",
+      "spec": "destruction-warlock"
+     }
+    ],
+    "note": "All three at A. Warlock and Hunter are the only classes with every DPS spec at A or better.",
+    "site": "RankedBoost",
+    "url": "https://rankedboost.com/world-of-warcraft/forever/tier-list/dps/"
+   },
+   {
+    "date": "2 Oct",
+    "grades": [
+     {
+      "grade": "B",
+      "spec": "demonology-warlock"
+     },
+     {
+      "grade": "B",
+      "spec": "affliction-warlock"
+     },
+     {
+      "grade": "B",
+      "spec": "destruction-warlock"
+     }
+    ],
+    "note": "All three at B. Demonology strongest solo, Destruction praised for cleave.",
+    "site": "Overgear",
+    "url": "https://overgear.com/guides/wow-forever/dps-ranking/"
+   },
+   {
+    "date": "12 Oct",
+    "grades": [
+     {
+      "grade": "S",
+      "spec": "demonology-warlock"
+     },
+     {
+      "grade": "B",
+      "spec": "affliction-warlock"
+     },
+     {
+      "grade": "C",
+      "spec": "destruction-warlock"
+     }
+    ],
+    "note": "Level-30 dungeon view. Grades read from the page's spec icons. Their levelling list rates Warlock S with Affliction as the pick.",
+    "site": "Mobalytics (level 30)",
+    "url": "https://mobalytics.gg/wow-forever/profile/crix/tier-lists/wow-forever-level-30-dps-tier-list-overview"
+   }
+  ],
+  "order": 1,
+  "raceNote": "Human leads all three specs on Ruthless (+2% crit) and +5% Spirit for Life Tap. Orc is the best Horde race, within 1% of Human everywhere. The whole spread is under 2%, so choose faction and looks first.",
+  "raceSnapshot": "MythicSim race boards: Affliction and Destruction on engine 24c66df (19 Oct), Demonology on c7c423b (19 Oct), all client 70425",
+  "specs": [
+   {
+    "color": "#b07cff",
+    "experimental": false,
+    "id": "affliction-warlock",
+    "key": "affliction",
+    "name": "Affliction"
+   },
+   {
+    "color": "#7fd85a",
+    "experimental": false,
+    "id": "demonology-warlock",
+    "key": "demonology",
+    "name": "Demonology"
+   },
+   {
+    "color": "#ff7f40",
+    "experimental": false,
+    "id": "destruction-warlock",
+    "key": "destruction",
+    "name": "Destruction"
+   }
+  ],
+  "verdict": {
+   "best": "demonology-warlock",
+   "body": "On MythicSim's newest engine (24c66df, 19 Oct, client 70425) Demonology sims 873 DPS, about 12% ahead of Affliction (776) and 21% ahead of Destruction (721). On the tier list (Warlock rows on the 18 Oct 37c2dfb snapshot) it's #5 of 24 specs at 873, in the A band, while the other two sit in B. Raid as Demonology, level as Affliction.",
+   "flavour": "\"Keep one demon on the leash and another burning in your blood.\"",
+   "headline": "Demonology leads clearly; Affliction second, Destruction trails",
+   "statsNote": "Big number: newest MythicSim run (Warlock page, engine 24c66df, 19 Oct). Below: rank, DPS and band on the tier list (Warlock rows on engine 37c2dfb, 18 Oct)."
+  }
+ }
+}

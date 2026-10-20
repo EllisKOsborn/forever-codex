@@ -1,0 +1,1079 @@
+{
+ "amulet-of-the-redeemed": {
+  "category": "preraid",
+  "forClass": {
+   "priest": {
+    "notes": "",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "",
+    "specs": []
+   }
+  },
+  "level": 60,
+  "name": "Amulet of the Redeemed",
+  "order": 43,
+  "slot": "Neck",
+  "source": "Jarien and Sothos, Stratholme",
+  "verified": false
+ },
+ "arcane-runed-bracers": {
+  "category": "levelling",
+  "forClass": {
+   "warlock": {
+    "notes": "Marez Cowl is a level 40 elite.",
+    "specs": []
+   }
+  },
+  "level": 30,
+  "name": "Arcane Runed Bracers",
+  "order": 18,
+  "slot": "Wrist",
+  "source": "Quest: Wanted! Marez Cowl, Arathi Highlands (Alliance)",
+  "verified": true
+ },
+ "azure-silk-cloak": {
+  "category": "crafted",
+  "forClass": {
+   "mage": {
+    "notes": "",
+    "specs": []
+   }
+  },
+  "name": "Azure Silk Cloak",
+  "order": 21,
+  "slot": "Back",
+  "source": "Tailoring 140",
+  "verified": true
+ },
+ "berylline-pads": {
+  "category": "levelling",
+  "forClass": {
+   "mage": {
+    "notes": "",
+    "specs": []
+   }
+  },
+  "level": 29,
+  "name": "Berylline Pads",
+  "order": 14,
+  "slot": "Shoulder",
+  "source": "Quest: A Vengeful Fate (Horde) or The Crone of the Kraul (Alliance)",
+  "verified": true
+ },
+ "black-slippers": {
+  "category": "crafted",
+  "forClass": {
+   "priest": {
+    "notes": "Needs a Spinning Wheel camp feature to craft.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "Needs a Spinning Wheel camp feature to craft.",
+    "specs": []
+   }
+  },
+  "level": 30,
+  "name": "Black Slippers",
+  "order": 20,
+  "slot": "Feet",
+  "source": "Tailoring 150, needs a Spinning Wheel. Sources disagree on the pattern: Happy Camper outside Ironforge (ForeverChanges) or the Unstable Sentinel in City of Dalaran (Bind on Forever).",
+  "verified": true
+ },
+ "blighted-leggings": {
+  "category": "levelling",
+  "forClass": {
+   "priest": {
+    "notes": "",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "",
+    "specs": []
+   }
+  },
+  "level": 30,
+  "name": "Blighted Leggings",
+  "order": 14,
+  "slot": "Legs",
+  "source": "Azshir the Sleepless, Scarlet Monastery Graveyard",
+  "verified": true
+ },
+ "bloodmage-mantle": {
+  "category": "levelling",
+  "forClass": {
+   "warlock": {
+    "notes": "Alternative to Thistlefur Mantle of Magic.",
+    "specs": []
+   }
+  },
+  "level": 30,
+  "name": "Bloodmage Mantle",
+  "order": 16,
+  "slot": "Shoulder",
+  "source": "Bloodmage Thalnos, Scarlet Monastery Graveyard",
+  "verified": true
+ },
+ "bracers-of-the-eclipse": {
+  "category": "preraid",
+  "forClass": {
+   "priest": {
+    "notes": "",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "",
+    "specs": []
+   }
+  },
+  "level": 60,
+  "name": "Bracers of the Eclipse",
+  "order": 44,
+  "slot": "Wrist",
+  "source": "Prince Tortheldrin, Dire Maul West",
+  "verified": false
+ },
+ "briarwood-reed": {
+  "category": "trinket",
+  "forClass": {
+   "mage": {
+    "notes": "Fire +2.30%, Arcane +1.99% (17 Oct board), Frost +2.14%, Frostfire +2.74%.",
+    "specs": []
+   },
+   "priest": {
+    "notes": "+1.83% DPS in MythicSim.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "+2.49% Affliction, +2.31% Demonology (18 Oct boards).",
+    "specs": [
+     "affliction-warlock",
+     "demonology-warlock",
+     "destruction-warlock"
+    ]
+   }
+  },
+  "level": 60,
+  "name": "Briarwood Reed",
+  "order": 33,
+  "slot": "Trinket",
+  "source": "Jed Runewatcher, Blackrock Spire",
+  "verified": false
+ },
+ "burning-sliver": {
+  "category": "wand",
+  "forClass": {
+   "mage": {
+    "notes": "",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "Second on the level-30 Warlock wand list.",
+    "specs": []
+   }
+  },
+  "level": 30,
+  "name": "Burning Sliver",
+  "order": 5,
+  "slot": "Wand",
+  "source": "Quest: Crushridge Warmongers (Alliance)",
+  "verified": true
+ },
+ "burst-of-knowledge": {
+  "category": "trinket",
+  "forClass": {
+   "mage": {
+    "notes": "Fire +1.47%, Arcane +1.54% (17 Oct board), Frost +0.92%.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "+2.04% Affliction, +1.99% Demonology (18 Oct boards).",
+    "specs": []
+   }
+  },
+  "level": 60,
+  "name": "Burst of Knowledge",
+  "order": 35,
+  "slot": "Trinket",
+  "source": "Ambassador Flamelash, Blackrock Depths",
+  "verified": false
+ },
+ "cape-of-the-black-baron": {
+  "category": "preraid",
+  "forClass": {
+   "priest": {
+    "notes": "",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "",
+    "specs": []
+   }
+  },
+  "level": 60,
+  "name": "Cape of the Black Baron",
+  "order": 42,
+  "slot": "Back",
+  "source": "Baron Rivendare, Stratholme",
+  "verified": false
+ },
+ "cleansed-vilebranch-icon": {
+  "category": "trinket",
+  "forClass": {
+   "mage": {
+    "notes": "Fire +2.99%, Arcane +2.60% (17 Oct board), Frost +2.70%, Frostfire +3.69% (its best).",
+    "specs": []
+   },
+   "priest": {
+    "notes": "+2.44% DPS in MythicSim.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "+3.25% Affliction, +3.00% Demonology (18 Oct boards), MythicSim: joint best for both. Lower on the older Destruction board.",
+    "specs": [
+     "affliction-warlock",
+     "demonology-warlock"
+    ]
+   }
+  },
+  "level": 60,
+  "name": "Cleansed Vilebranch Icon",
+  "order": 30,
+  "slot": "Trinket",
+  "source": "Quest / world",
+  "verified": true
+ },
+ "dancing-flame": {
+  "category": "wand",
+  "forClass": {
+   "mage": {
+    "notes": "Two elite steps and a Scarlet Monastery Library book.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "Horde wand on the level-30 list.",
+    "specs": []
+   }
+  },
+  "level": 30,
+  "name": "Dancing Flame",
+  "order": 5,
+  "slot": "Wand",
+  "source": "Horde quest chain from Dorn Plainstalker, Thousand Needles",
+  "verified": true
+ },
+ "demonheart-raiment-crafted-pieces": {
+  "category": "crafted",
+  "forClass": {
+   "warlock": {
+    "notes": "Share the raid set's bonuses. Unique-Equipped: Artisan's Tier, so one at a time (two with Rousing Seed Pod). Found in the files.",
+    "specs": []
+   }
+  },
+  "level": 60,
+  "name": "Demonheart Raiment (crafted pieces)",
+  "order": 26,
+  "slot": "Shoulder, hands, legs, feet",
+  "source": "Tailoring",
+  "verified": false
+ },
+ "demonheart-raiment-tier-set": {
+  "category": "raid",
+  "forClass": {
+   "warlock": {
+    "notes": "2-piece +1% hit; 3 Banish faster to cast (1.5 sec in one file read, 2.1 sec per Icy Veins); 4 up to 21 spell damage vs Demons; 5 Life Tap gives 20% more mana. Found in the files.",
+    "specs": []
+   }
+  },
+  "level": 60,
+  "name": "Demonheart Raiment (tier set)",
+  "order": 40,
+  "slot": "Head, shoulder, chest, hands, legs, feet",
+  "source": "Expected from Barrow Deeps and Hyjal Summit, from 9 December",
+  "verified": false
+ },
+ "don-mauricios-band-of-domination": {
+  "category": "preraid",
+  "forClass": {
+   "priest": {
+    "notes": "Classic pre-raid staple. Loot tables not yet confirmed for Forever.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "Classic pre-raid staple. Loot tables not yet confirmed for Forever.",
+    "specs": []
+   }
+  },
+  "level": 60,
+  "name": "Don Mauricio's Band of Domination",
+  "order": 40,
+  "slot": "Ring",
+  "source": "Darkmaster Gandling, Scholomance",
+  "verified": false
+ },
+ "draconic-infused-emblem": {
+  "category": "trinket",
+  "forClass": {
+   "mage": {
+    "notes": "Fire +2.73%, Arcane +2.36% (17 Oct board), Frost +2.54%, Frostfire +3.29%.",
+    "specs": []
+   },
+   "priest": {
+    "notes": "+2.18% DPS in MythicSim.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "+3.00% Affliction, +2.79% Demonology (18 Oct boards). Top-three for every spec.",
+    "specs": [
+     "affliction-warlock",
+     "demonology-warlock",
+     "destruction-warlock"
+    ]
+   }
+  },
+  "level": 60,
+  "name": "Draconic Infused Emblem",
+  "order": 32,
+  "slot": "Trinket",
+  "source": "General Drakkisath, Blackrock Spire",
+  "verified": false
+ },
+ "dreadmist-raiment-dungeon-set-1": {
+  "category": "preraid",
+  "forClass": {
+   "warlock": {
+    "notes": "Classic Warlock dungeon set. Keep a piece only if it beats your other gear; hit first.",
+    "specs": []
+   }
+  },
+  "level": 60,
+  "name": "Dreadmist Raiment (Dungeon Set 1)",
+  "order": 41,
+  "slot": "Dungeon set",
+  "source": "Scholomance, Stratholme, Blackrock Spire",
+  "verified": false
+ },
+ "enchanted-sandals": {
+  "category": "levelling",
+  "forClass": {
+   "mage": {
+    "notes": "",
+    "specs": []
+   }
+  },
+  "level": 24,
+  "name": "Enchanted Sandals",
+  "order": 17,
+  "slot": "Feet",
+  "source": "Horde quest Heart of Disruption, City of Dalaran",
+  "verified": true
+ },
+ "fallen-dragons-scepter": {
+  "category": "levelling",
+  "forClass": {
+   "warlock": {
+    "notes": "Horde alternative: Spine of the Devourer (Mana Devourer, City of Dalaran).",
+    "specs": []
+   }
+  },
+  "level": 30,
+  "name": "Fallen Dragon's Scepter",
+  "order": 14,
+  "slot": "Two-hand",
+  "source": "Quest: Stopping the Cycle, Wetlands elite (Alliance)",
+  "verified": true
+ },
+ "filigreed-shadow-gown": {
+  "category": "crafted",
+  "forClass": {
+   "priest": {
+    "notes": "New Forever recipe.",
+    "specs": []
+   }
+  },
+  "name": "Filigreed Shadow Gown",
+  "order": 21,
+  "slot": "Chest",
+  "source": "Tailoring. Pattern drops in low-level dungeons",
+  "verified": true
+ },
+ "filigreed-shadow-gown-flame-gown": {
+  "category": "crafted",
+  "forClass": {
+   "warlock": {
+    "notes": "Shadow for Affliction, Flame for Demonology and Destruction (Method).",
+    "specs": [
+     "affliction-warlock",
+     "demonology-warlock",
+     "destruction-warlock"
+    ]
+   }
+  },
+  "name": "Filigreed Shadow Gown / Flame Gown",
+  "order": 22,
+  "slot": "Chest",
+  "source": "Tailoring. Patterns drop in low-level dungeons",
+  "verified": true
+ },
+ "filigreed-shadow-leggings": {
+  "category": "crafted",
+  "forClass": {
+   "priest": {
+    "notes": "New Forever recipe.",
+    "specs": []
+   }
+  },
+  "name": "Filigreed Shadow Leggings",
+  "order": 22,
+  "slot": "Legs",
+  "source": "Tailoring. Pattern drops in low-level dungeons",
+  "verified": true
+ },
+ "fluctuating-cloak": {
+  "category": "preraid",
+  "forClass": {
+   "priest": {
+    "notes": "",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "",
+    "specs": []
+   }
+  },
+  "level": 60,
+  "name": "Fluctuating Cloak",
+  "order": 45,
+  "slot": "Back",
+  "source": "Prince Tortheldrin, Dire Maul West",
+  "verified": false
+ },
+ "frothing-slippers": {
+  "category": "crafted",
+  "forClass": {
+   "mage": {
+    "notes": "Pattern drops from Unstable Sentinel in City of Dalaran.",
+    "specs": []
+   }
+  },
+  "name": "Frothing Slippers",
+  "order": 20,
+  "slot": "Feet",
+  "source": "Tailoring 150 (needs Spinning Wheel)",
+  "verified": true
+ },
+ "frozen-heart-of-the-mountain": {
+  "category": "trinket",
+  "forClass": {
+   "mage": {
+    "notes": "Crafted. Frost +1.29%, Arcane +1.28%, Fire +1.11%.",
+    "specs": []
+   }
+  },
+  "name": "Frozen Heart of the Mountain",
+  "order": 47,
+  "slot": "Trinket",
+  "source": "Enchanting",
+  "verified": true
+ },
+ "gravestone-scepter": {
+  "category": "wand",
+  "forClass": {
+   "priest": {
+    "notes": "Boosts Shadow Word: Pain. Usable roughly 18–25.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "Its bonus is for Priests, but the wand is strong for any caster.",
+    "specs": []
+   }
+  },
+  "level": 20,
+  "name": "Gravestone Scepter",
+  "order": 3,
+  "slot": "Wand",
+  "source": "Quest: Blackfathom Villainy, Blackfathom Deeps (both factions)",
+  "verified": true
+ },
+ "greater-eternal-wand": {
+  "category": "wand",
+  "forClass": {
+   "mage": {
+    "notes": "New Forever wand. MythicSim's Fire and Frostfire presets use it at 60.",
+    "specs": [
+     "fire-mage",
+     "frostfire-mage"
+    ]
+   }
+  },
+  "name": "Greater Eternal Wand",
+  "order": 8,
+  "slot": "Ranged",
+  "source": "Source not confirmed",
+  "verified": false
+ },
+ "greater-magic-wand": {
+  "category": "wand",
+  "forClass": {
+   "mage": {
+    "notes": "",
+    "specs": []
+   },
+   "priest": {
+    "notes": "About 50% more damage than the Lesser wand.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "About 50% more damage than the Lesser wand.",
+    "specs": []
+   }
+  },
+  "level": 13,
+  "name": "Greater Magic Wand",
+  "order": 2,
+  "slot": "Wand",
+  "source": "Enchanting or Auction House",
+  "verified": true
+ },
+ "icefury-wand": {
+  "category": "wand",
+  "forClass": {
+   "mage": {
+    "notes": "Best level-30 wand on ForeverChanges' Frost list. Needs a book from Scarlet Monastery, so bring a group.",
+    "specs": []
+   }
+  },
+  "level": 30,
+  "name": "Icefury Wand",
+  "order": 4,
+  "slot": "Ranged",
+  "source": "Quest: Mage's Wand (Dustwallow Marsh, from 30)",
+  "verified": true
+ },
+ "ironweave-set-cowl-robe-pants": {
+  "category": "preraid",
+  "forClass": {
+   "priest": {
+    "notes": "Summoned bosses.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "Summoned bosses.",
+    "specs": []
+   }
+  },
+  "level": 60,
+  "name": "Ironweave set (Cowl, Robe, Pants)",
+  "order": 41,
+  "slot": "Head, chest, legs",
+  "source": "Lord Valthalak (Upper Blackrock Spire), Jarien and Sothos (Stratholme), Kormok (Scholomance)",
+  "verified": false
+ },
+ "jewel-of-the-guard-captain": {
+  "category": "trinket",
+  "forClass": {
+   "mage": {
+    "notes": "Same gains as Cleansed Vilebranch Icon in every spec.",
+    "specs": []
+   },
+   "priest": {
+    "notes": "+2.44% DPS in MythicSim.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "+3.25% Affliction, +3.00% Demonology (18 Oct boards), MythicSim.",
+    "specs": [
+     "affliction-warlock",
+     "demonology-warlock"
+    ]
+   }
+  },
+  "level": 60,
+  "name": "Jewel of the Guard Captain",
+  "order": 31,
+  "slot": "Trinket",
+  "source": "Quest / world",
+  "verified": true
+ },
+ "lesser-magic-wand": {
+  "category": "wand",
+  "forClass": {
+   "mage": {
+    "notes": "Early wand; stand still 0.5 sec before it fires.",
+    "specs": []
+   },
+   "priest": {
+    "notes": "Your first big damage upgrade.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "Your first big damage upgrade.",
+    "specs": []
+   }
+  },
+  "level": 5,
+  "name": "Lesser Magic Wand",
+  "order": 1,
+  "slot": "Wand",
+  "source": "Enchanting craft or Auction House. No vendor sells wands at launch.",
+  "verified": true
+ },
+ "lesser-mystic-wand": {
+  "category": "wand",
+  "forClass": {
+   "priest": {
+    "notes": "Fallback if no quest or dungeon wand has dropped.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "Fallback if no quest or dungeon wand has dropped.",
+    "specs": []
+   }
+  },
+  "level": 26,
+  "name": "Lesser Mystic Wand",
+  "order": 4,
+  "slot": "Wand",
+  "source": "Enchanting craft",
+  "verified": true
+ },
+ "manaflare-regalia-tier-set": {
+  "category": "raid",
+  "forClass": {
+   "mage": {
+    "notes": "2-piece +1.1% hit; 3 Counterspell 5 sec shorter cooldown; 4 up to 21 spell damage vs Elementals; 5 Frostfire Bolt +10% chance to trigger Missile Barrage and Fingers of Frost, and +10% crit while Combustion is up. The 5-piece is built for Frostfire, so the hybrid may become the raid spec. Found in the files.",
+    "specs": [
+     "frostfire-mage"
+    ]
+   }
+  },
+  "level": 60,
+  "name": "Manaflare Regalia (tier set)",
+  "order": 40,
+  "slot": "6 pieces",
+  "source": "Expected from Barrow Deeps and Hyjal Summit, from 9 December",
+  "url": "https://www.wowhead.com/forever/item-set=2098/manaflare-regalia",
+  "verified": false
+ },
+ "master-hunters-wand": {
+  "category": "wand",
+  "forClass": {
+   "mage": {
+    "notes": "King Bangalash is a level-43 elite; very hard at 30.",
+    "specs": []
+   },
+   "priest": {
+    "notes": "Tops the level-30 Shadow list.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "Tops the level-30 Warlock list.",
+    "specs": []
+   }
+  },
+  "level": 30,
+  "name": "Master Hunter's Wand",
+  "order": 5,
+  "slot": "Wand",
+  "source": "Quest chain: Big Game Hunter, Stranglethorn Vale (King Bangalash is a level 43 elite)",
+  "verified": true
+ },
+ "mindtap-talisman": {
+  "category": "trinket",
+  "forClass": {
+   "warlock": {
+    "notes": "+1.72% Affliction, +1.78% Demonology (18 Oct boards).",
+    "specs": []
+   }
+  },
+  "level": 60,
+  "name": "Mindtap Talisman",
+  "order": 36,
+  "slot": "Trinket",
+  "source": "Magister Kalendris, Dire Maul",
+  "verified": true
+ },
+ "minor-recombobulator": {
+  "category": "crafted",
+  "forClass": {
+   "mage": {
+    "notes": "",
+    "specs": []
+   },
+   "priest": {
+    "notes": "",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "Top level-30 trinket on the Warlock list.",
+    "specs": []
+   }
+  },
+  "level": 30,
+  "name": "Minor Recombobulator",
+  "order": 23,
+  "slot": "Trinket",
+  "source": "Engineering 140",
+  "verified": true
+ },
+ "of-shadow-wrath-greens": {
+  "category": "levelling",
+  "forClass": {
+   "priest": {
+    "notes": "These suffix greens fill most of the level-30 Shadow list: Twilight Cape, Elder's Padded Armor, Conjurer's Bracers, Vital Handwraps.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "Thistlefur Cap, Elder's Padded Armor and Thistlefur Pants of Shadow Wrath are on the level-30 Warlock list.",
+    "specs": []
+   }
+  },
+  "level": 20,
+  "name": "'of Shadow Wrath' greens",
+  "order": 10,
+  "slot": "Any cloth slot",
+  "source": "World drops and Auction House",
+  "verified": true
+ },
+ "orb-of-soranruk": {
+  "category": "levelling",
+  "forClass": {
+   "warlock": {
+    "notes": "Top off-hand on the level-30 list. Quest steps are from Classic; check in game.",
+    "specs": []
+   }
+  },
+  "level": 25,
+  "name": "Orb of Soran'ruk",
+  "order": 13,
+  "slot": "Off hand",
+  "source": "Warlock class quest (Soran'ruk fragments from Blackfathom Deeps and Shadowfang Keep in Classic)",
+  "verified": true
+ },
+ "philanthropists-ring": {
+  "category": "levelling",
+  "forClass": {
+   "mage": {
+    "notes": "",
+    "specs": []
+   },
+   "priest": {
+    "notes": "Needs 20 books, counting the necklace's ten.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "",
+    "specs": []
+   }
+  },
+  "level": 30,
+  "name": "Philanthropist's Ring",
+  "order": 13,
+  "slot": "Ring",
+  "source": "Quest: Greater Friend of the Library (twenty books)",
+  "verified": true
+ },
+ "raiments-of-conviction-tier-set": {
+  "category": "raid",
+  "forClass": {
+   "priest": {
+    "notes": "Shadow set. 2-piece +1% hit; 3 Shackle Undead 10 sec longer; 4 up to 21 spell damage vs Undead; 5 Devouring Plague cooldown 60 sec shorter. Plague's cooldown dropped to 24 sec on 15 October, so this 5-piece predates that change and will probably be reworked. Healers get Vestments of Conviction instead. Found in the files.",
+    "specs": [
+     "shadow-priest"
+    ]
+   }
+  },
+  "level": 60,
+  "name": "Raiments of Conviction (tier set)",
+  "order": 40,
+  "slot": "Crown, Mantle, Garb, Gloves, Pants, Treads",
+  "source": "Expected from Barrow Deeps and Hyjal Summit, from 9 December",
+  "url": "https://www.wowhead.com/forever/item-set=2105/raiments-of-conviction",
+  "verified": false
+ },
+ "reedknot-ring": {
+  "category": "levelling",
+  "forClass": {
+   "priest": {
+    "notes": "Available from level 30.",
+    "specs": []
+   }
+  },
+  "level": 30,
+  "name": "Reedknot Ring",
+  "order": 16,
+  "slot": "Ring",
+  "source": "Quest: Jarl Needs a Blade",
+  "verified": true
+ },
+ "robe-of-the-archmage": {
+  "category": "preraid",
+  "forClass": {
+   "mage": {
+    "notes": "Mage-only robe with a Mana-restore use. Not yet confirmed in Forever.",
+    "specs": []
+   }
+  },
+  "level": 57,
+  "name": "Robe of the Archmage",
+  "order": 30,
+  "slot": "Chest",
+  "source": "Tailoring (Classic recipe)",
+  "verified": false
+ },
+ "royal-seal-of-eldrethalas": {
+  "category": "trinket",
+  "forClass": {
+   "warlock": {
+    "notes": "+1.97% Affliction, +1.84% Demonology (18 Oct boards).",
+    "specs": []
+   }
+  },
+  "level": 60,
+  "name": "Royal Seal of Eldre'Thalas",
+  "order": 34,
+  "slot": "Trinket",
+  "source": "Quest: Harnessing Shadows (Dire Maul tribute)",
+  "verified": true
+ },
+ "satchel-of-potions": {
+  "category": "levelling",
+  "forClass": {
+   "mage": {
+    "notes": "",
+    "specs": []
+   },
+   "priest": {
+    "notes": "",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "",
+    "specs": []
+   }
+  },
+  "level": 24,
+  "name": "Satchel of Potions",
+  "order": 15,
+  "slot": "Trinket",
+  "source": "Quest: Changing Tastes, Excavation Site: Wetlands (Horde)",
+  "verified": true
+ },
+ "shadow-circlet-gloves-sash-and-boots": {
+  "category": "crafted",
+  "forClass": {
+   "priest": {
+    "notes": "",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "",
+    "specs": []
+   }
+  },
+  "name": "Shadow Circlet, Gloves, Sash and Boots",
+  "order": 23,
+  "slot": "Head, hands, waist, feet",
+  "source": "Tailoring patterns from Azeroth Commerce Authority vendors, paid in Merchant's Favor from crates",
+  "verified": true
+ },
+ "spellpower-goggles-xtreme": {
+  "category": "crafted",
+  "forClass": {
+   "mage": {
+    "notes": "Best head on the level-30 Frost list.",
+    "specs": []
+   },
+   "priest": {
+    "notes": "Best level-30 head if you take Engineering.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "Best level-30 head if you take Engineering.",
+    "specs": []
+   }
+  },
+  "level": 30,
+  "name": "Spellpower Goggles Xtreme",
+  "order": 22,
+  "slot": "Head",
+  "source": "Engineering 225",
+  "verified": true
+ },
+ "staff-of-the-shade": {
+  "category": "levelling",
+  "forClass": {
+   "priest": {
+    "notes": "Best two-hander on the level-30 list.",
+    "specs": []
+   }
+  },
+  "level": 30,
+  "name": "Staff of the Shade",
+  "order": 13,
+  "slot": "Two-hand",
+  "source": "Trash drop, Razorfen Kraul",
+  "verified": true
+ },
+ "staff-of-westfall": {
+  "category": "levelling",
+  "forClass": {
+   "mage": {
+    "notes": "Iconic early caster staff; weapons carry big spell damage in Forever.",
+    "specs": []
+   }
+  },
+  "name": "Staff of Westfall",
+  "order": 10,
+  "slot": "Two-hand",
+  "source": "Deadmines quest (Alliance)",
+  "verified": true
+ },
+ "stygian-bone-amulet": {
+  "category": "levelling",
+  "forClass": {
+   "mage": {
+    "notes": "+6 spell power on the beta list.",
+    "specs": []
+   },
+   "priest": {
+    "notes": "+6 spell power.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "",
+    "specs": []
+   }
+  },
+  "level": 30,
+  "name": "Stygian Bone Amulet",
+  "order": 11,
+  "slot": "Neck",
+  "source": "Blind Hunter (rare), Razorfen Kraul",
+  "verified": true
+ },
+ "swinetusk-shank": {
+  "category": "levelling",
+  "forClass": {
+   "mage": {
+    "notes": "On ForeverChanges' level-30 Frost list. Enchant: Revelation.",
+    "specs": []
+   },
+   "priest": {
+    "notes": "Pair with an off-hand.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "Pair with the Orb of Soran'ruk.",
+    "specs": []
+   }
+  },
+  "level": 30,
+  "name": "Swinetusk Shank",
+  "order": 11,
+  "slot": "Main hand",
+  "source": "Agathelos the Raging, Razorfen Kraul",
+  "verified": true
+ },
+ "talisman-of-ephemeral-power": {
+  "category": "trinket",
+  "forClass": {
+   "mage": {
+    "notes": "Top sim trinket for Fire (+3.26%), Arcane (+3.16%, 17 Oct board) and Frost (+3.04%), but Molten Core isn't on Forever's announced raid schedule.",
+    "specs": [
+     "fire-mage",
+     "arcane-mage",
+     "frost-mage"
+    ]
+   },
+   "priest": {
+    "notes": "+2.43% DPS in MythicSim, but Molten Core isn't on Forever's announced raid schedule, so this may not be obtainable.",
+    "specs": []
+   },
+   "warlock": {
+    "notes": "+2.85% Affliction, +2.43% Demonology, but Molten Core isn't on Forever's announced raid schedule, so this may not be obtainable.",
+    "specs": []
+   }
+  },
+  "level": 60,
+  "name": "Talisman of Ephemeral Power",
+  "order": 30,
+  "slot": "Trinket",
+  "source": "Magmadar, Molten Core",
+  "verified": false
+ },
+ "thunderwood": {
+  "category": "wand",
+  "forClass": {
+   "mage": {
+    "notes": "Reworked in Forever.",
+    "specs": []
+   }
+  },
+  "name": "Thunderwood",
+  "order": 3,
+  "slot": "Ranged",
+  "source": "World drop / Auction House",
+  "verified": true
+ },
+ "vestments-of-the-virtuous": {
+  "category": "preraid",
+  "forClass": {
+   "priest": {
+    "notes": "Keep a piece only if it beats your Shadow gear. Spell hit first.",
+    "specs": []
+   }
+  },
+  "level": 60,
+  "name": "Vestments of the Virtuous",
+  "order": 46,
+  "slot": "Dungeon Set 2",
+  "source": "Dungeon set upgrade",
+  "verified": false
+ },
+ "vine-pruners-cloak": {
+  "category": "levelling",
+  "forClass": {
+   "mage": {
+    "notes": "",
+    "specs": []
+   }
+  },
+  "level": 24,
+  "name": "Vine Pruner's Cloak",
+  "order": 16,
+  "slot": "Back",
+  "source": "Alliance quest A Green Sample, City of Dalaran",
+  "verified": true
+ },
+ "warsong-sash": {
+  "category": "levelling",
+  "forClass": {
+   "warlock": {
+    "notes": "Alliance: Belt of Arugal (Shadowfang Keep).",
+    "specs": []
+   }
+  },
+  "level": 30,
+  "name": "Warsong Sash",
+  "order": 17,
+  "slot": "Waist",
+  "source": "Quest: Warsong Supplies (Horde)",
+  "verified": true
+ },
+ "weakness-analyzer": {
+  "category": "trinket",
+  "forClass": {
+   "mage": {
+    "notes": "New Forever trinket. Fire +1.74%, Arcane +1.51% (17 Oct board), Frost +1.62%, Frostfire +2.08%.",
+    "specs": []
+   }
+  },
+  "name": "Weakness Analyzer",
+  "order": 45,
+  "slot": "Trinket",
+  "source": "Vendor: Pix Xizzix",
+  "verified": true
+ }
+}
