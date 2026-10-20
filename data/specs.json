@@ -38,8 +38,8 @@
   "id": "affliction-warlock",
   "key": "affliction",
   "name": "Affliction",
-  "newDps": 776,
-  "newNote": "MythicSim Warlock page, engine 24c66df on client 70425, 19 Oct (tier list and trinket board both 776 on 37c2dfb, 18 Oct)",
+  "newDps": 778,
+  "newNote": "MythicSim Warlock page, engine b5c0b8b on client 70425, 20 Oct (tier list also 778, same engine)",
   "race": "Human",
   "raceBoard": {
    "note": "Human 774.8, Orc 769.3 and Gnome 767.2 are within 1%; Undead and Troll are 1.1 to 1.4% back.",
@@ -61,7 +61,7 @@
    "Haste speeds up casts but not DoT or channel ticks.",
    "Stamina matters more than for other casters: it fuels Life Tap and keeps you alive under Soul Link."
   ],
-  "summary": "Second in the sims at 776 DPS on the newest engine (#12 of 24 and B band on the tier list). The 15 Oct build doubled Shadow Mastery to 10% but replaced Malediction (+5% periodic damage) with Grim Reach, which only adds range. Still the best levelling spec and the most mobile in raids.",
+  "summary": "Second in the sims at 778 DPS on the newest engine (#11 of 24 and A band on the tier list). The 15 Oct build doubled Shadow Mastery to 10% but replaced Malediction (+5% periodic damage) with Grim Reach, which only adds range. Still the best levelling spec and the most mobile in raids.",
   "talentNotes": [
    "Shadow Mastery: 2/4/6/8/10% Shadow damage (doubled on 15 Oct).",
    "Malediction (+1–5% to all your periodic damage) was removed on 15 Oct. Grim Reach takes its place: +10/20% Affliction spell range.",
@@ -76,9 +76,9 @@
    "Life Tap around 40% mana between pulls and Drain Life the health back; aim to end boss fights near zero mana.",
    "Grim Reach (+20% Affliction range) lets you stand further out of cleaves and void zones."
   ],
-  "tierBand": "B",
-  "tierDps": 776,
-  "tierRank": 12,
+  "tierBand": "A",
+  "tierDps": 778,
+  "tierRank": 11,
   "trinketSnapshot": "MythicSim Affliction board, engine 37c2dfb on client 70425, 18 Oct (baseline 776)",
   "trinkets": [
    {
@@ -146,11 +146,11 @@
   "id": "arcane-mage",
   "key": "arcane",
   "name": "Arcane",
-  "newDps": 861,
-  "newNote": "MythicSim Mage page, engine 24c66df on client 70425, 19 Oct (tier list also 861, engine 37c2dfb, 18 Oct; Arcane trinket board still 837 on 0e457ac, 17 Oct; 20 Oct race board on engine 15b7435 tops out at 785.7)",
+  "newDps": 784,
+  "newNote": "MythicSim Mage page, engine b5c0b8b on client 70425, 20 Oct (tier list also 784, same engine)",
   "race": "Human",
   "raceBoard": {
-   "note": "Skyborne 785.7 and Gnome 784.7 tie at the top; Human (0.20% back) and Orc (0.40%) are also S; Undead and Troll are 1.4 to 1.6% back. This 20 Oct board runs about 9% below the 861 on the Mage page.",
+   "note": "Skyborne 785.7 and Gnome 784.7 tie at the top; Human (0.20% back) and Orc (0.40%) are also S; Undead and Troll are 1.4 to 1.6% back. This 20 Oct race board (engine 15b7435) matches the 784 on the Mage page, which has now moved to the newer b5c0b8b engine.",
    "snapshot": "Engine 15b7435, 20 Oct (client 70425)"
   },
   "raidRotation": [
@@ -168,7 +168,7 @@
    "Then spell power and crit; Arcane Mind at 5/5 gives 10% Intellect and the same crit damage boost Ice Shards gives Frost.",
    "Spirit/Mp5 for long fights."
   ],
-  "summary": "Arcane Blast is now a setup spell: each cast turns 15% of your Intellect into spell damage for 15 sec, then you cash the stacks with Arcane Missiles or a Presence of Mind Pyroblast. It is the top Mage spec on MythicSim's 19 Oct engine at 861 DPS, but only about 1% ahead of Fire, and #6 of 24 (A band) on the 18 Oct tier list. Earlier MythicSim presets didn't cast the new Arcane Wrath, and the site hasn't said whether that has changed.",
+  "summary": "Arcane Blast is now a setup spell: each cast turns 15% of your Intellect into spell damage for 15 sec, then you cash the stacks with Arcane Missiles or a Presence of Mind Pyroblast. On MythicSim's 20 Oct engine it sims 784 DPS, about 7% behind Fire, and is #10 of 24 (A band) on the tier list; it fell mainly because Missile Barrage now procs from Frost Blast, per the 19 Oct in-game tooltip. Earlier MythicSim presets didn't cast the new Arcane Wrath, and the site hasn't said whether that has changed.",
   "talentNotes": [
    "Arcane Blast and Arcane Wrath are one-point talents; Wrath needs Blast.",
    "Missile Barrage is in row 1 now and needs 2 points for the full 40% from Blast.",
@@ -182,8 +182,8 @@
    "Clearcasting (Arcane Concentration, 10% at 5/5) makes your next spell free; a free Missiles or Blast is ideal."
   ],
   "tierBand": "A",
-  "tierDps": 861,
-  "tierRank": 6,
+  "tierDps": 784,
+  "tierRank": 10,
   "trinketSnapshot": "MythicSim Arcane board, simmed 17 Oct (baseline 837), top five shown",
   "trinkets": [
    {
@@ -255,8 +255,8 @@
   "id": "demonology-warlock",
   "key": "demonology",
   "name": "Demonology",
-  "newDps": 873,
-  "newNote": "MythicSim Warlock page, engine 24c66df on client 70425, 19 Oct (tier list and trinket board both 873 on 37c2dfb, 18 Oct)",
+  "newDps": 869,
+  "newNote": "MythicSim Warlock page, engine b5c0b8b on client 70425, 20 Oct (tier list also 869, same engine)",
   "race": "Human",
   "raceBoard": {
    "note": "Human 875.4 leads; Orc 868.4 (0.80% back) and Gnome 866.2 (1.05%) follow; Undead and Troll are within 1.6%.",
@@ -279,7 +279,7 @@
    "Haste speeds up casts but not DoT or channel ticks.",
    "Stamina matters more than for other casters: it fuels Life Tap and keeps you alive under Soul Link."
   ],
-  "summary": "The strongest Warlock spec in every MythicSim run: 873 DPS on the newest engine (19 Oct), about 12% ahead of Affliction and 21% ahead of Destruction, and #5 of 24 specs on the tier list. You sacrifice your Imp for a 2-hour Shadow buff, then fight with a Succubus thanks to Demonic Pact. The 15 Oct build only fixed Soul Link for this spec, so the lead comes from the pet tree itself.",
+  "summary": "The strongest Warlock spec in every MythicSim run: 869 DPS on the newest engine (20 Oct), about 12% ahead of Affliction and 21% ahead of Destruction, and #5 of 24 specs on the tier list. You sacrifice your Imp for a 2-hour Shadow buff, then fight with a Succubus thanks to Demonic Pact. The 15 Oct build only fixed Soul Link for this spec, so the lead comes from the pet tree itself.",
   "talentNotes": [
    "Demonic Pact (31-point capstone, needs Soul Link): summoning a different demon doesn't cancel Demonic Sacrifice.",
    "Demonic Sacrifice is a 2-hour buff now, and each demon gives something different (the Imp gives Shadow damage).",
@@ -295,7 +295,7 @@
    "The current demon is stunned while you summon a new one (8 Oct), so swap pets between pulls."
   ],
   "tierBand": "A",
-  "tierDps": 873,
+  "tierDps": 869,
   "tierRank": 5,
   "trinketSnapshot": "MythicSim Demonology board, engine 37c2dfb, simmed 18 Oct (baseline 873)",
   "trinkets": [
@@ -380,8 +380,8 @@
   "id": "destruction-warlock",
   "key": "destruction",
   "name": "Destruction",
-  "newDps": 721,
-  "newNote": "MythicSim Warlock page, engine 24c66df on client 70425, 19 Oct (tier list 721 on 37c2dfb, 18 Oct; trinket board is from 28 Sep)",
+  "newDps": 717,
+  "newNote": "MythicSim Warlock page, engine b5c0b8b on client 70425, 20 Oct (tier list also 717, same engine)",
   "race": "Human",
   "raceBoard": {
    "note": "Human 721.4 leads; Orc (0.70% back), Gnome (0.83%) and Undead (0.98%) are all within 1% and share S; Troll is 1.5% back.",
@@ -403,7 +403,7 @@
    "Haste speeds up casts but not DoT or channel ticks.",
    "Stamina matters more than for other casters: it fuels Life Tap and keeps you alive under Soul Link."
   ],
-  "summary": "The weakest Warlock spec in the sims: 721 DPS on the newest engine, B band on the tier list. The reference build stops at 29 Destruction points, so it doesn't take Incinerate yet and may undersell the tree. Its strength is cleave: Bane of Havoc copies 15% of your damage on other targets to one cursed target. The 15 Oct build only changed Destructive Reach to Destruction spells.",
+  "summary": "The weakest Warlock spec in the sims: 717 DPS on the newest engine, B band on the tier list. The reference build stops at 29 Destruction points, so it doesn't take Incinerate yet and may undersell the tree. Its strength is cleave: Bane of Havoc copies 15% of your damage on other targets to one cursed target. The 15 Oct build only changed Destructive Reach to Destruction spells.",
   "talentNotes": [
    "Destructive Reach now only extends Destruction spells' range by 10/20% (15 Oct).",
    "Incinerate (31-point capstone, needs Bane of Havoc): a Fire filler that hits 25% harder with Immolate up.",
@@ -418,7 +418,7 @@
    "Only Life Tap when your health can take it; Drain Life to recover between pulls."
   ],
   "tierBand": "B",
-  "tierDps": 721,
+  "tierDps": 717,
   "tierRank": 16,
   "trinketSnapshot": "MythicSim Destruction board, old run (28 Sep, client 70009)",
   "trinkets": [
@@ -477,8 +477,8 @@
   "id": "fire-mage",
   "key": "fire",
   "name": "Fire",
-  "newDps": 851,
-  "newNote": "MythicSim Mage page, engine 24c66df on client 70425, 19 Oct (tier list 851 on 37c2dfb, 18 Oct; Fire trinket board still 777 on 5af1303, 16 Oct; 20 Oct race board on engine 15b7435 tops out at 844.8)",
+  "newDps": 843,
+  "newNote": "MythicSim Mage page, engine b5c0b8b on client 70425, 20 Oct (tier list also 843, same engine)",
   "race": "Human",
   "raceBoard": {
    "note": "Human 844.8 and Skyborne 843.9 tie at the top; Orc (0.39% back) and Gnome (0.65%) are also S; Troll and Undead are about 1.4% back.",
@@ -499,7 +499,7 @@
    "Fire-only spell damage gear works for Fire and Frostfire, not for Arcane Missiles procs.",
    "Intellect and Spirit after that; Stamina for dangerous fights."
   ],
-  "summary": "LFCarry's raid default. On MythicSim's 19 Oct engine it sims 851 DPS, about 1% behind Arcane, and it is #7 of 24 (A band) on the 18 Oct tier list. Fire Power now rewards keeping your own Fire effects on the boss, and Critical Mass at 5 ranks plus Fire Blast feeding Heating Up means more short Pyroblasts. Improved Scorch only buffs you now, so every Fire Mage keeps their own 5 stacks.",
+  "summary": "LFCarry's raid default. On MythicSim's 20 Oct engine it is the top Mage spec at 843 DPS, about 7% ahead of Arcane, and #6 of 24 (A band) on the tier list. Fire Power now rewards keeping your own Fire effects on the boss, and Critical Mass at 5 ranks plus Fire Blast feeding Heating Up means more short Pyroblasts. Improved Scorch only buffs you now, so every Fire Mage keeps their own 5 stacks.",
   "talentNotes": [
    "Heating Up (was Hot Streak): crits from Fireball, Frostfire Bolt, Fire Blast and Scorch cut your next Pyroblast's cast by 25%, up to 3 stacks.",
    "Incineration (was Incinerate) sits in row 1 and now covers Ice Lance and Arcane Blast too.",
@@ -513,8 +513,8 @@
    "Mage Armor lets 50% of regen continue while casting. Use it in raids over Molten or Frost Armor."
   ],
   "tierBand": "A",
-  "tierDps": 851,
-  "tierRank": 7,
+  "tierDps": 843,
+  "tierRank": 6,
   "trinketSnapshot": "MythicSim, 117 trinkets, 16 Oct",
   "trinkets": [
    {
@@ -577,8 +577,8 @@
   "id": "frost-mage",
   "key": "frost",
   "name": "Frost",
-  "newDps": 690,
-  "newNote": "MythicSim Mage page, engine 24c66df on client 70425, 19 Oct (tier list 690 on 37c2dfb, 18 Oct; Frost trinket board still 651 on 5af1303, 16 Oct)",
+  "newDps": 670,
+  "newNote": "MythicSim Mage page, engine b5c0b8b on client 70425, 20 Oct (tier list also 670, same engine)",
   "race": "Skyborne",
   "raceBoard": {
    "note": "Skyborne leads Human by 0.98%; the other four are 1.15 to 1.87% back.",
@@ -611,8 +611,8 @@
    "Frostbite and Fingers of Frost can now proc from Frost and Ice Armor when you're hit."
   ],
   "tierBand": "B",
-  "tierDps": 690,
-  "tierRank": 18,
+  "tierDps": 670,
+  "tierRank": 20,
   "trinketSnapshot": "MythicSim, 117 trinkets, 16 Oct",
   "trinkets": [
    {
@@ -673,8 +673,8 @@
   "id": "frostfire-mage",
   "key": "frostfire",
   "name": "Frostfire",
-  "newDps": 765,
-  "newNote": "MythicSim Mage page, engine 24c66df on client 70425, 19 Oct (tier list 765 on 37c2dfb, 18 Oct; trinket board still 743 on 5af1303, 16 Oct)",
+  "newDps": 761,
+  "newNote": "MythicSim Mage page, engine b5c0b8b on client 70425, 20 Oct (tier list also 761, same engine)",
   "race": "Human",
   "raceBoard": {
    "note": "Skyborne and Human tie; Undead is the only race in B tier (2.35% behind).",
@@ -705,8 +705,8 @@
    "Master of Elements refunds Mana on its crits."
   ],
   "tierBand": "B",
-  "tierDps": 765,
-  "tierRank": 13,
+  "tierDps": 761,
+  "tierRank": 14,
   "trinketSnapshot": "MythicSim, 117 trinkets, 16 Oct",
   "trinkets": [
    {
@@ -763,8 +763,8 @@
   "id": "shadow-priest",
   "key": "shadow",
   "name": "Shadow",
-  "newDps": 774,
-  "newNote": "MythicSim Shadow trinket board baseline, engine 37c2dfb on client 70425, 18 Oct (tier list also 774 on 37c2dfb, 18 Oct; Priest page still 745 on 12ffe58, 16 Oct)",
+  "newDps": 771,
+  "newNote": "MythicSim Priest page, engine b5c0b8b on client 70425, 20 Oct (tier list also 771, same engine)",
   "race": "Undead",
   "raceBoard": {
    "note": "Human 775.0 leads; Night Elf (0.56% back), Dwarf (0.71%) and Undead (0.98%) are within 1%; Gnome and Troll are 1.1 to 1.4% back.",
@@ -801,8 +801,8 @@
    "Vampiric Embrace can proc Spirit Tap for extra Mana regeneration."
   ],
   "tierBand": "B",
-  "tierDps": 774,
-  "tierRank": 14,
+  "tierDps": 771,
+  "tierRank": 13,
   "trinketSnapshot": "MythicSim Shadow board, engine 37c2dfb on client 70425, 18 Oct (baseline 774)",
   "trinkets": [
    {

@@ -332,132 +332,72 @@
   ]
  },
  "2026-10-20": {
-  "at": "2026-10-20T09:30:00+01:00",
-  "checks": {
-   "corrected": [
-    "Mage gear notes for Arcane used older board figures: Briarwood Reed 1.97% to 1.99%, Burst of Knowledge 1.29% to 1.54%, Draconic Infused Emblem 2.37% to 2.36%, Weakness Analyzer 1.49% to 1.51% (17 Oct Arcane board)",
-    "Mindtap Talisman and Royal Seal notes said 16 Oct boards; now 18 Oct (Affliction Mindtap 1.68% to 1.72%)",
-    "Race board snapshot labels for Demonology (c7c423b, 19 Oct), Affliction and Shadow (24c66df, 19 Oct) now match the pages",
-    "Tier note now explains that rank follows MythicSim's with-trinkets order while the DPS shown is the no-trinket figure"
-   ],
-   "flagged": [
-    "Arcane's 9% drop is only on the 20 Oct race board; MythicSim gives no reason and the Mage page hasn't been re-run, so the Arcane verdict is unchanged"
-   ],
-   "method": "Every changed number read twice from MythicSim with different prompts (tier list, race boards and trinket boards), then all 38 ledger rows re-opened by an independent agent, which confirmed every row",
-   "verified": 38
-  },
   "date": "2026-10-20",
-  "headline": "Demonology Warlock is still the top spec of your three at 873 DPS and climbs from #7 to #5 on MythicSim's tier list. Watch the Mage pick: MythicSim's newest engine (20 Oct race boards) puts Arcane about 9% lower while Fire barely moves, so Fire may overtake Arcane on the next Mage page run.",
+  "at": "2026-10-20T21:57:00+01:00",
+  "headline": "Fire Mage now leads Arcane (843 v 784) on MythicSim's new 20 Oct engine, but Demonology Warlock (869) is still the top spec of your three classes.",
   "items": [
    {
-    "classes": [
-     "warlock"
-    ],
-    "confidence": "checked",
     "kind": "buff",
-    "source": "MythicSim tier list",
-    "text": "Tier list moves the Warlock rows from the 17 Oct to the 18 Oct snapshot: Demonology goes from #7 to #5 (853 to 873 DPS), Affliction from #13 to #12 (757 to 776), and Destruction stays #16 (704 to 721).",
-    "url": "https://mythicsim.com/wow-forever/tier-list"
-   },
-   {
     "classes": [
      "mage"
     ],
-    "confidence": "checked",
-    "kind": "neutral",
-    "source": "MythicSim tier list",
-    "text": "Mage tier list rows keep their numbers (Arcane 861, Fire 851, Frostfire 765, Frost 690) but Fire moves from #8 to #7, Frostfire from #12 to #13 and Frost from #17 to #18 as other specs reshuffle.",
-    "url": "https://mythicsim.com/wow-forever/tier-list"
+    "text": "Fire goes from 851 to 843 DPS but moves from #7 to #6; Arcane drops from 861 to 784 and from #6 to #10. Fire is now the Mage sim pick, about 7% ahead (verdict changed from Arcane to Fire). MythicSim's own breakdown puts the Arcane fall down to the 19 Oct tooltip saying Missile Barrage now procs from Frost Blast (-8.6%).",
+    "source": "MythicSim tier list and Mage page (engine b5c0b8b, 20 Oct)",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
    },
    {
+    "kind": "neutral",
+    "classes": [
+     "mage"
+    ],
+    "text": "Frostfire 765 to 761 (#13 to #14), Frost 690 to 670 (#18 to #20); both stay in B.",
+    "source": "MythicSim tier list (engine b5c0b8b, 20 Oct)",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "warlock"
+    ],
+    "text": "Demonology 873 to 869 (stays #5, A), Affliction 776 to 778 (#12 to #11, now A band), Destruction 721 to 717 (#16, B). Demonology stays the raid pick.",
+    "source": "MythicSim tier list and Warlock page (engine b5c0b8b, 20 Oct)",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
     "classes": [
      "priest"
     ],
-    "confidence": "checked",
-    "kind": "buff",
+    "text": "Shadow 774 to 771, #14 to #13, still B. Smite is 602 (#23, C).",
+    "source": "MythicSim tier list and Priest page (engine b5c0b8b, 20 Oct)",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "All 24 tier rows are now on one engine (b5c0b8b), so none are marked older. Big movers elsewhere: Survival Hunter 1,088 (still #1), Shockadin down 9.0% to 905, Retribution down 6.0% to 847.",
     "source": "MythicSim tier list",
-    "text": "Shadow Priest stays #14 on the tier list, now at 774 DPS instead of 753, matching its newest trinket board.",
-    "url": "https://mythicsim.com/wow-forever/tier-list"
-   },
-   {
-    "classes": [
-     "mage"
-    ],
-    "confidence": "checked",
-    "kind": "nerf",
-    "source": "MythicSim race boards",
-    "text": "New 20 Oct race boards on engine 15b7435: Arcane's best race drops from 862.0 to 785.7 DPS (about 9%), while Fire's drops only from 850.7 to 844.8. The Mage page still shows Arcane 861 and Fire 851, so the verdict stays Arcane for now.",
-    "url": "https://mythicsim.com/wow-forever/races?class=mage&spec=arcane-mage"
-   },
-   {
-    "classes": [
-     "mage"
-    ],
-    "confidence": "checked",
-    "kind": "neutral",
-    "source": "MythicSim race boards",
-    "text": "Human now edges Skyborne for Fire (844.8 vs 843.9, a tie within the sim's margin); Skyborne and Gnome tie for Arcane.",
-    "url": "https://mythicsim.com/wow-forever/races?class=mage&spec=fire-mage"
-   },
-   {
-    "classes": [
-     "warlock"
-    ],
-    "confidence": "checked",
-    "kind": "buff",
-    "source": "MythicSim race boards",
-    "text": "Destruction race board re-run (19 Oct): Human 704.6 to 721.4, and Gnome and Undead move from A to S alongside Orc.",
-    "url": "https://mythicsim.com/wow-forever/races?class=warlock&spec=destruction-warlock"
-   },
-   {
-    "classes": [
-     "warlock"
-    ],
-    "confidence": "checked",
-    "kind": "neutral",
-    "source": "MythicSim Demonology trinket board",
-    "text": "Demonology trinket board re-run (18 Oct, baseline 873): the quest trinkets still lead at +3.00% (was 3.01%); Burst of Knowledge rises from 1.84% to 1.99% and Mindtap Talisman from 1.73% to 1.78%.",
-    "url": "https://mythicsim.com/wow-forever/best-trinkets/demonology-warlock"
-   },
-   {
-    "classes": [],
-    "confidence": "checked",
-    "kind": "neutral",
-    "source": "MythicSim tier list",
-    "text": "Elsewhere on the tier list, the Hunter rows moved to a 19 Oct run and fell 6 to 7% (Marksmanship 1000 to 927, down from S to A), leaving only Survival in S; Elehance Shaman rises to B and Balance Druid drops to C.",
-    "url": "https://mythicsim.com/wow-forever/tier-list"
-   },
-   {
-    "classes": [],
-    "confidence": "single",
-    "kind": "neutral",
-    "source": "Icy Veins",
-    "text": "Blizzard released a video on two new levelling zones, the Riverglades (reached from Redridge Mountains) and Mount Hyjal; no level ranges yet.",
-    "url": "https://www.icy-veins.com/wow-forever/news/new-leveling-zones-in-wow-forever-riverglades-mount-hyjal/"
-   },
-   {
-    "classes": [],
-    "confidence": "single",
-    "kind": "neutral",
-    "source": "Icy Veins",
-    "text": "Small beta fixes: Darnassus gets a mailbox by its Auction House and an invisible wall near the Stormwind Auction House is gone.",
-    "url": "https://www.icy-veins.com/wow-forever/news/wow-forever-gives-its-capital-cities-some-much-needed-love/"
-   },
-   {
-    "classes": [],
-    "confidence": "checked",
-    "kind": "neutral",
-    "source": "Blizzard stress test page",
-    "text": "No new build or development notes since 70450 (16 Oct). Server Slam is still tomorrow, 21 Oct, at 6pm UK (19:00 CEST); name reservation opens 27 Oct.",
-    "url": "https://news.blizzard.com/en-us/article/24302072/updated-oct-16-join-the-world-of-warcraft-forever-stress-test"
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
    }
   ],
   "unchecked": [
-   "Reddit and X (not reachable by the research tools)",
-   "Wowhead Forever changes page loads by script and returned no data",
-   "Bluetracker showed no Forever blue posts dated 18 to 20 Oct",
-   "ForeverChanges BiS, Daybreak Forever skill pages, Bind on Forever dungeons/legacy/camping and the raid guides were not re-read today",
-   "Level-60 loot (beta capped at 30)"
-  ]
+   "Only MythicSim's tier list and the Mage, Warlock and Priest class pages were re-read today. Blizzard notes, Bluetracker, raid guides, opinion sites, TalentsForever, trinket and race boards were not re-checked, so those values are unchanged from the earlier 20 Oct run.",
+   "Rank order is MythicSim's printed order; its Fire (843) sits above Retribution (847) and Affliction (778) above Feral (794)."
+  ],
+  "checks": {
+   "verified": 28,
+   "method": "Tier list fetched twice with different prompts; the Mage, Warlock and Priest class pages fetched once each and matched the tier list on every figure. No separate agent pass (single-site data), done by me.",
+   "corrected": [
+    "Warlock verdict said the other two Warlock specs were in B; Affliction is now in A."
+   ],
+   "flagged": [
+    "MythicSim's Mage page prints Fire as #8 of 24 while its tier list prints #6; the tier list rank is used."
+   ]
+  }
  }
 }

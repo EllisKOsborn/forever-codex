@@ -16,7 +16,7 @@
    "Early name reservation (27 October) is for players who bought an upgrade pack."
   ],
   "gearNote": "Levelling picks come from the level-30 beta lists. Trinket gains are MythicSim results and differ by spec. Items marked unverified are level-60 loot whose Forever drop tables aren't confirmed yet (the beta stops at 30). \"Also wanted by\" shows which of your other classes would compete for the same item.",
-  "lastRefreshed": "2026-10-20T09:30:00+01:00",
+  "lastRefreshed": "2026-10-20T21:57:00+01:00",
   "raidFacts": [
    "Onyxia's Lair keeps its Classic-style attunement chain, done per character at least at launch (Blizzard podcast, 8 October). Barrow Deeps and Hyjal Summit have no attunement chain, though Blizzard hints at extra steps for the full experience.",
    "No lockout length has been announced for any raid.",
@@ -322,7 +322,7 @@
     "url": "https://us.forums.blizzard.com/en/wow/t/temporary-economy-holds-for-rmt/2381433"
    }
   ],
-  "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight. The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Frostfire above Shadow, Frost above Elehance). The three Hunter rows are MythicSim's 19 Oct run (engine 24c66df, client 70425); the 21 rows marked older, including every Warlock, Mage and Priest row, are on the 18 Oct snapshot (37c2dfb). The change column is MythicSim's printed change since 16 October, not since yesterday. Bands are set from the median core spec: S is 20%+ above it, A above it, B within 15% below, C further down. Specs for the classes you're weighing are highlighted."
+  "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight. The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Fire above Retribution, Affliction above Feral). All 24 rows are on MythicSim's 20 Oct run (engine b5c0b8b, client 70425). The change column is MythicSim's printed change since 16 October, not since yesterday. Bands are set from the median core spec: S is 20%+ above it, A above it, B within 15% below, C further down. Specs for the classes you're weighing are highlighted."
  },
  "crafting": {
   "camping": {

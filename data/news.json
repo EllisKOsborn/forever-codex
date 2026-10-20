@@ -550,5 +550,18 @@
   "tag": "datamine",
   "title": "Mage and Shadow Priest tier bonuses in the files",
   "url": "https://www.icy-veins.com/wow-forever/news/wow-forever-crafted-tier-sets-datamined-recipes-costs-and-set-bonuses/"
+ },
+ "n20261020-mythicsim-fire-overtakes-arcane": {
+  "classes": [
+   "mage",
+   "warlock",
+   "priest"
+  ],
+  "date": "2026-10-20",
+  "source": "MythicSim",
+  "summary": "MythicSim's tier list and class pages moved to engine b5c0b8b on 20 Oct. Fire Mage rises to 843 DPS (#6) while Arcane falls to 784 (#10); Demonology Warlock is 869 (#5) and Shadow Priest 771 (#13).",
+  "tag": "sim",
+  "title": "MythicSim 20 Oct run: Fire Mage overtakes Arcane",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
  }
 }
