@@ -38,12 +38,12 @@
   "id": "affliction-warlock",
   "key": "affliction",
   "name": "Affliction",
-  "newDps": 778,
-  "newNote": "MythicSim Warlock page, engine b5c0b8b on client 70425, 20 Oct (tier list also 778, same engine)",
+  "newDps": 784,
+  "newNote": "MythicSim Warlock page, engine 62b7445 on client 70425, 21 Oct (tier list and trinket board baseline also 784, same engine)",
   "race": "Human",
   "raceBoard": {
-   "note": "Human 774.8, Orc 769.3 and Gnome 767.2 are within 1%; Undead and Troll are 1.1 to 1.4% back.",
-   "snapshot": "Engine 24c66df, 19 Oct (client 70425)"
+   "note": "Human 784.1 leads; Orc 778.3 (0.75% back) is also S; Gnome, Undead and Troll are 1.0 to 1.4% back.",
+   "snapshot": "Engine 62b7445, 21 Oct (client 70425)"
   },
   "raidRotation": [
    "Curse of the Elements (or your assigned curse) kept up.",
@@ -61,7 +61,7 @@
    "Haste speeds up casts but not DoT or channel ticks.",
    "Stamina matters more than for other casters: it fuels Life Tap and keeps you alive under Soul Link."
   ],
-  "summary": "Second in the sims at 778 DPS on the newest engine (#11 of 24 and A band on the tier list). The 15 Oct build doubled Shadow Mastery to 10% but replaced Malediction (+5% periodic damage) with Grim Reach, which only adds range. Still the best levelling spec and the most mobile in raids.",
+  "summary": "Second in the sims at 784 DPS on the newest engine (#11 of 24 and A band on the tier list). The 15 Oct build doubled Shadow Mastery to 10% but replaced Malediction (+5% periodic damage) with Grim Reach, which only adds range. Still the best levelling spec and the most mobile in raids.",
   "talentNotes": [
    "Shadow Mastery: 2/4/6/8/10% Shadow damage (doubled on 15 Oct).",
    "Malediction (+1–5% to all your periodic damage) was removed on 15 Oct. Grim Reach takes its place: +10/20% Affliction spell range.",
@@ -77,47 +77,47 @@
    "Grim Reach (+20% Affliction range) lets you stand further out of cleaves and void zones."
   ],
   "tierBand": "A",
-  "tierDps": 778,
+  "tierDps": 784,
   "tierRank": 11,
-  "trinketSnapshot": "MythicSim Affliction board, engine 37c2dfb on client 70425, 18 Oct (baseline 776)",
+  "trinketSnapshot": "MythicSim Affliction board, engine 62b7445 on client 70425, 21 Oct (baseline 784)",
   "trinkets": [
    {
-    "gain": "+25 (3.25%)",
+    "gain": "+26 (3.29%)",
     "name": "Cleansed Vilebranch Icon",
     "source": "Quest"
    },
    {
-    "gain": "+25 (3.25%)",
+    "gain": "+26 (3.29%)",
     "name": "Jewel of the Guard Captain",
     "source": "Quest"
    },
    {
-    "gain": "+23 (3.00%)",
+    "gain": "+24 (3.03%)",
     "name": "Draconic Infused Emblem",
     "source": "General Drakkisath, Blackrock Spire"
    },
    {
-    "gain": "+22 (2.85%)",
+    "gain": "+22 (2.87%)",
     "name": "Talisman of Ephemeral Power",
     "source": "Magmadar, Molten Core (not on Forever's raid schedule)"
    },
    {
-    "gain": "+19 (2.49%)",
+    "gain": "+20 (2.51%)",
     "name": "Briarwood Reed",
     "source": "Jed Runewatcher, Blackrock Spire"
    },
    {
-    "gain": "+16 (2.04%)",
-    "name": "Burst of Knowledge",
-    "source": "Ambassador Flamelash, Blackrock Depths"
-   },
-   {
-    "gain": "+15 (1.97%)",
+    "gain": "+16 (1.99%)",
     "name": "Royal Seal of Eldre'Thalas",
     "source": "Quest: Harnessing Shadows"
    },
    {
-    "gain": "+14 (1.89%)",
+    "gain": "+15 (1.94%)",
+    "name": "Burst of Knowledge",
+    "source": "Ambassador Flamelash, Blackrock Depths"
+   },
+   {
+    "gain": "+15 (1.91%)",
     "name": "Weakness Analyzer",
     "source": "Vendor: Pix Xizzix"
    }
@@ -146,12 +146,12 @@
   "id": "arcane-mage",
   "key": "arcane",
   "name": "Arcane",
-  "newDps": 784,
-  "newNote": "MythicSim Mage page, engine b5c0b8b on client 70425, 20 Oct (tier list also 784, same engine)",
+  "newDps": 791,
+  "newNote": "MythicSim Mage page, engine 62b7445 on client 70425, 21 Oct (tier list and trinket board baseline also 791, same engine)",
   "race": "Human",
   "raceBoard": {
-   "note": "Skyborne 785.7 and Gnome 784.7 tie at the top; Human (0.20% back) and Orc (0.40%) are also S; Undead and Troll are 1.4 to 1.6% back. This 20 Oct race board (engine 15b7435) matches the 784 on the Mage page, which has now moved to the newer b5c0b8b engine.",
-   "snapshot": "Engine 15b7435, 20 Oct (client 70425)"
+   "note": "Skyborne 792.0 leads; Human (0.38% back), Orc (0.50%) and Gnome (0.58%) are also S; Undead and Troll are about 1.5 to 1.6% back.",
+   "snapshot": "Engine 62b7445, 21 Oct (client 70425)"
   },
   "raidRotation": [
    "Pre-cast Arcane Blast.",
@@ -168,7 +168,7 @@
    "Then spell power and crit; Arcane Mind at 5/5 gives 10% Intellect and the same crit damage boost Ice Shards gives Frost.",
    "Spirit/Mp5 for long fights."
   ],
-  "summary": "Arcane Blast is now a setup spell: each cast turns 15% of your Intellect into spell damage for 15 sec, then you cash the stacks with Arcane Missiles or a Presence of Mind Pyroblast. On MythicSim's 20 Oct engine it sims 784 DPS, about 7% behind Fire, and is #10 of 24 (A band) on the tier list; it fell mainly because Missile Barrage now procs from Frost Blast, per the 19 Oct in-game tooltip. Earlier MythicSim presets didn't cast the new Arcane Wrath, and the site hasn't said whether that has changed.",
+  "summary": "Arcane Blast is now a setup spell: each cast turns 15% of your Intellect into spell damage for 15 sec, then you cash the stacks with Arcane Missiles or a Presence of Mind Pyroblast. On MythicSim's 21 Oct engine it sims 791 DPS, about 8% behind Fire, and is #9 of 24 (A band) on the tier list; it fell on the 20 Oct run mainly because Missile Barrage now procs from Frost Blast, per the 19 Oct in-game tooltip. Earlier MythicSim presets didn't cast the new Arcane Wrath, and the site hasn't said whether that has changed.",
   "talentNotes": [
    "Arcane Blast and Arcane Wrath are one-point talents; Wrath needs Blast.",
    "Missile Barrage is in row 1 now and needs 2 points for the full 40% from Blast.",
@@ -182,34 +182,34 @@
    "Clearcasting (Arcane Concentration, 10% at 5/5) makes your next spell free; a free Missiles or Blast is ideal."
   ],
   "tierBand": "A",
-  "tierDps": 784,
-  "tierRank": 10,
-  "trinketSnapshot": "MythicSim Arcane board, simmed 17 Oct (baseline 837), top five shown",
+  "tierDps": 791,
+  "tierRank": 9,
+  "trinketSnapshot": "MythicSim Arcane board, engine 62b7445 on client 70425, 21 Oct (baseline 791)",
   "trinkets": [
    {
-    "gain": "+3.16%",
+    "gain": "+3.27%",
     "name": "Talisman of Ephemeral Power",
     "source": "Magmadar, Molten Core (not in Forever's raid schedule yet)"
    },
    {
-    "gain": "+2.60%",
+    "gain": "+2.61%",
     "name": "Cleansed Vilebranch Icon",
     "source": "Quest / world"
    },
    {
-    "gain": "+2.60%",
+    "gain": "+2.61%",
     "name": "Jewel of the Guard Captain",
     "source": "Quest / world"
    },
    {
-    "gain": "+2.36%",
-    "name": "Draconic Infused Emblem",
-    "source": "General Drakkisath, Blackrock Spire"
+    "gain": "+2.38%",
+    "name": "Burst of Knowledge",
+    "source": "Ambassador Flamelash, Blackrock Depths"
    },
    {
-    "gain": "+1.99%",
-    "name": "Briarwood Reed",
-    "source": "Jed Runewatcher, Blackrock Spire"
+    "gain": "+2.37%",
+    "name": "Draconic Infused Emblem",
+    "source": "General Drakkisath, Blackrock Spire"
    }
   ]
  },
@@ -255,12 +255,12 @@
   "id": "demonology-warlock",
   "key": "demonology",
   "name": "Demonology",
-  "newDps": 869,
-  "newNote": "MythicSim Warlock page, engine b5c0b8b on client 70425, 20 Oct (tier list also 869, same engine)",
+  "newDps": 885,
+  "newNote": "MythicSim Warlock page, engine 62b7445 on client 70425, 21 Oct (tier list and trinket board baseline also 885, same engine)",
   "race": "Human",
   "raceBoard": {
-   "note": "Human 875.4 leads; Orc 868.4 (0.80% back) and Gnome 866.2 (1.05%) follow; Undead and Troll are within 1.6%.",
-   "snapshot": "Engine c7c423b, 19 Oct (client 70425)"
+   "note": "Human 885.2 leads; Orc 879.6 (0.63% back) is the only other S race; Gnome, Undead and Troll are 1.1 to 1.4% back.",
+   "snapshot": "Engine 62b7445, 21 Oct (client 70425)"
   },
   "raidRotation": [
    "Before the pull: summon your Imp and Demonic Sacrifice it for the 2-hour Shadow damage buff, then summon a Succubus or Incubus. Demonic Pact keeps the buff because it's a different demon. Fel Domination makes the resummon quick.",
@@ -279,7 +279,7 @@
    "Haste speeds up casts but not DoT or channel ticks.",
    "Stamina matters more than for other casters: it fuels Life Tap and keeps you alive under Soul Link."
   ],
-  "summary": "The strongest Warlock spec in every MythicSim run: 869 DPS on the newest engine (20 Oct), about 12% ahead of Affliction and 21% ahead of Destruction, and #5 of 24 specs on the tier list. You sacrifice your Imp for a 2-hour Shadow buff, then fight with a Succubus thanks to Demonic Pact. The 15 Oct build only fixed Soul Link for this spec, so the lead comes from the pet tree itself.",
+  "summary": "The strongest Warlock spec in every MythicSim run: 885 DPS on the newest engine (21 Oct), about 13% ahead of Affliction and 23% ahead of Destruction, and #5 of 24 specs on the tier list. You sacrifice your Imp for a 2-hour Shadow buff, then fight with a Succubus thanks to Demonic Pact. The 15 Oct build only fixed Soul Link for this spec, so the lead comes from the pet tree itself.",
   "talentNotes": [
    "Demonic Pact (31-point capstone, needs Soul Link): summoning a different demon doesn't cancel Demonic Sacrifice.",
    "Demonic Sacrifice is a 2-hour buff now, and each demon gives something different (the Imp gives Shadow damage).",
@@ -295,32 +295,32 @@
    "The current demon is stunned while you summon a new one (8 Oct), so swap pets between pulls."
   ],
   "tierBand": "A",
-  "tierDps": 869,
+  "tierDps": 885,
   "tierRank": 5,
-  "trinketSnapshot": "MythicSim Demonology board, engine 37c2dfb, simmed 18 Oct (baseline 873)",
+  "trinketSnapshot": "MythicSim Demonology board, engine 62b7445 on client 70425, 21 Oct (baseline 885)",
   "trinkets": [
    {
-    "gain": "+3.00%",
+    "gain": "+3.02%",
     "name": "Cleansed Vilebranch Icon",
     "source": "Quest"
    },
    {
-    "gain": "+3.00%",
+    "gain": "+3.02%",
     "name": "Jewel of the Guard Captain",
     "source": "Quest"
    },
    {
-    "gain": "+2.79%",
+    "gain": "+2.80%",
     "name": "Draconic Infused Emblem",
     "source": "General Drakkisath, Blackrock Spire"
    },
    {
-    "gain": "+2.43%",
+    "gain": "+2.50%",
     "name": "Talisman of Ephemeral Power",
     "source": "Magmadar, Molten Core (not on Forever's raid schedule)"
    },
    {
-    "gain": "+2.31%",
+    "gain": "+2.32%",
     "name": "Briarwood Reed",
     "source": "Jed Runewatcher, Blackrock Spire"
    },
@@ -335,9 +335,9 @@
     "source": "Quest: Harnessing Shadows (Dire Maul tribute)"
    },
    {
-    "gain": "+1.78%",
-    "name": "Mindtap Talisman",
-    "source": "Magister Kalendris, Dire Maul"
+    "gain": "+1.76%",
+    "name": "Weakness Analyzer",
+    "source": "Vendor: Pix Xizzix"
    }
   ]
  },
@@ -381,11 +381,11 @@
   "key": "destruction",
   "name": "Destruction",
   "newDps": 717,
-  "newNote": "MythicSim Warlock page, engine b5c0b8b on client 70425, 20 Oct (tier list also 717, same engine)",
+  "newNote": "MythicSim Warlock page, engine 62b7445 on client 70425, 21 Oct (tier list and trinket board baseline also 717, same engine)",
   "race": "Human",
   "raceBoard": {
-   "note": "Human 721.4 leads; Orc (0.70% back), Gnome (0.83%) and Undead (0.98%) are all within 1% and share S; Troll is 1.5% back.",
-   "snapshot": "Engine 24c66df, 19 Oct (client 70425)"
+   "note": "Human 717.6 leads; Orc (0.70% back), Gnome (0.83%) and Undead (0.97%) are all within 1% and share S; Troll is 1.5% back.",
+   "snapshot": "Engine 62b7445, 21 Oct (client 70425)"
   },
   "raidRotation": [
    "Before the pull: Demonic Sacrifice your Imp (the sim fights without a pet after that).",
@@ -420,37 +420,37 @@
   "tierBand": "B",
   "tierDps": 717,
   "tierRank": 16,
-  "trinketSnapshot": "MythicSim Destruction board, old run (28 Sep, client 70009)",
+  "trinketSnapshot": "MythicSim Destruction board, engine 62b7445 on client 70425, 21 Oct (baseline 717)",
   "trinkets": [
    {
-    "gain": "+23 (4.46%)",
-    "name": "Talisman of Ephemeral Power",
-    "source": "Magmadar, Molten Core (not on Forever's raid schedule)"
+    "gain": "+24 (3.32%)",
+    "name": "Cleansed Vilebranch Icon",
+    "source": "Quest"
    },
    {
-    "gain": "+20 (3.91%)",
+    "gain": "+24 (3.32%)",
+    "name": "Jewel of the Guard Captain",
+    "source": "Quest"
+   },
+   {
+    "gain": "+22 (3.11%)",
     "name": "Draconic Infused Emblem",
     "source": "General Drakkisath, Blackrock Spire"
    },
    {
-    "gain": "+16 (3.24%)",
+    "gain": "+20 (2.74%)",
+    "name": "Talisman of Ephemeral Power",
+    "source": "Magmadar, Molten Core (not on Forever's raid schedule)"
+   },
+   {
+    "gain": "+18 (2.57%)",
     "name": "Briarwood Reed",
     "source": "Jed Runewatcher, Blackrock Spire"
    },
    {
-    "gain": "+13 (2.57%)",
-    "name": "Royal Seal of Eldre'Thalas",
-    "source": "Quest: Harnessing Shadows"
-   },
-   {
-    "gain": "+13 (2.51%)",
+    "gain": "+16 (2.20%)",
     "name": "Burst of Knowledge",
     "source": "Ambassador Flamelash, Blackrock Depths"
-   },
-   {
-    "gain": "+12 (2.46%)",
-    "name": "Weakness Analyzer",
-    "source": "Vendor: Pix Xizzix"
    }
   ]
  },
@@ -477,12 +477,12 @@
   "id": "fire-mage",
   "key": "fire",
   "name": "Fire",
-  "newDps": 843,
-  "newNote": "MythicSim Mage page, engine b5c0b8b on client 70425, 20 Oct (tier list also 843, same engine)",
+  "newDps": 860,
+  "newNote": "MythicSim Mage page, engine 62b7445 on client 70425, 21 Oct (tier list and trinket board baseline also 860, same engine)",
   "race": "Human",
   "raceBoard": {
-   "note": "Human 844.8 and Skyborne 843.9 tie at the top; Orc (0.39% back) and Gnome (0.65%) are also S; Troll and Undead are about 1.4% back.",
-   "snapshot": "Engine 15b7435, 20 Oct (client 70425)"
+   "note": "Skyborne 860.1 and Human 859.3 tie at the top; Orc (0.32% back) and Gnome (0.86%) are also S; Troll and Undead are 1.3 to 1.5% back.",
+   "snapshot": "Engine 62b7445, 21 Oct (client 70425)"
   },
   "raidRotation": [
    "Pre-cast Fireball about 3.5 sec before the pull.",
@@ -494,12 +494,12 @@
    "Fireball as your filler. Mana gem below 80% Mana, Evocation below 10%."
   ],
   "stats": [
-   "Hit first: Forever merged spell and melee hit into one stat, and Elemental Precision gives 5% at 5/5.",
+   "Hit first: Forever merged spell and melee hit into one stat. Elemental Precision is now 3 ranks after the 20 Oct hotfix; the new hit total isn't confirmed yet.",
    "Spell power, then crit. Crit feeds Ignite, Heating Up, Master of Elements and Critical Mass.",
    "Fire-only spell damage gear works for Fire and Frostfire, not for Arcane Missiles procs.",
    "Intellect and Spirit after that; Stamina for dangerous fights."
   ],
-  "summary": "LFCarry's raid default. On MythicSim's 20 Oct engine it is the top Mage spec at 843 DPS, about 7% ahead of Arcane, and #6 of 24 (A band) on the tier list. Fire Power now rewards keeping your own Fire effects on the boss, and Critical Mass at 5 ranks plus Fire Blast feeding Heating Up means more short Pyroblasts. Improved Scorch only buffs you now, so every Fire Mage keeps their own 5 stacks.",
+  "summary": "LFCarry's raid default. On MythicSim's 21 Oct engine it is the top Mage spec at 860 DPS, about 9% ahead of Arcane, and #6 of 24 (A band) on the tier list. Fire Power now rewards keeping your own Fire effects on the boss, and Critical Mass at 5 ranks plus Fire Blast feeding Heating Up means more short Pyroblasts. Improved Scorch only buffs you now, so every Fire Mage keeps their own 5 stacks.",
   "talentNotes": [
    "Heating Up (was Hot Streak): crits from Fireball, Frostfire Bolt, Fire Blast and Scorch cut your next Pyroblast's cast by 25%, up to 3 stacks.",
    "Incineration (was Incinerate) sits in row 1 and now covers Ice Lance and Arcane Blast too.",
@@ -513,42 +513,42 @@
    "Mage Armor lets 50% of regen continue while casting. Use it in raids over Molten or Frost Armor."
   ],
   "tierBand": "A",
-  "tierDps": 843,
+  "tierDps": 860,
   "tierRank": 6,
-  "trinketSnapshot": "MythicSim, 117 trinkets, 16 Oct",
+  "trinketSnapshot": "MythicSim Fire board, engine 62b7445 on client 70425, 21 Oct (baseline 860)",
   "trinkets": [
    {
-    "gain": "+3.26%",
+    "gain": "+3.24%",
     "name": "Talisman of Ephemeral Power",
     "source": "Molten Core (not in Forever's raid schedule yet)"
    },
    {
-    "gain": "+2.99%",
+    "gain": "+2.86%",
     "name": "Cleansed Vilebranch Icon",
     "source": "Quest / world"
    },
    {
-    "gain": "+2.99%",
+    "gain": "+2.86%",
     "name": "Jewel of the Guard Captain",
     "source": "Quest / world"
    },
    {
-    "gain": "+2.73%",
+    "gain": "+2.61%",
     "name": "Draconic Infused Emblem",
     "source": "General Drakkisath, UBRS"
    },
    {
-    "gain": "+2.30%",
+    "gain": "+2.20%",
     "name": "Briarwood Reed",
     "source": "Jed Runewatcher, UBRS"
    },
    {
-    "gain": "+1.74%",
+    "gain": "+1.67%",
     "name": "Weakness Analyzer",
     "source": "Vendor: Pix Xizzix"
    },
    {
-    "gain": "+1.47%",
+    "gain": "+1.20%",
     "name": "Burst of Knowledge",
     "source": "Ambassador Flamelash, BRD"
    }
@@ -577,12 +577,12 @@
   "id": "frost-mage",
   "key": "frost",
   "name": "Frost",
-  "newDps": 670,
-  "newNote": "MythicSim Mage page, engine b5c0b8b on client 70425, 20 Oct (tier list also 670, same engine)",
+  "newDps": 666,
+  "newNote": "MythicSim Mage page, engine 62b7445 on client 70425, 21 Oct (tier list and trinket board baseline also 666, same engine)",
   "race": "Skyborne",
   "raceBoard": {
-   "note": "Skyborne leads Human by 0.98%; the other four are 1.15 to 1.87% back.",
-   "snapshot": "Engine 0d17668, 17 Oct (client 70425)"
+   "note": "Skyborne 666.8 is the only S race; Human is 1.14% back and the other four are 1.35 to 1.86% back.",
+   "snapshot": "Engine 62b7445, 21 Oct (client 70425)"
   },
   "raidRotation": [
    "Pre-cast Frostbolt about 3 sec before the pull.",
@@ -593,7 +593,7 @@
    "Adds: Cone of Cold at 3+ targets in range, Blizzard at 4+."
   ],
   "stats": [
-   "Hit first; Elemental Precision gives 5% at 5/5.",
+   "Hit first; Elemental Precision is now 3 ranks after the 20 Oct hotfix (new hit total not confirmed yet).",
    "Spell power, then crit (Ice Shards doubles Frost crit damage bonus at 5/5).",
    "Frost-only spell damage gear is fine for pure Frost and Frostfire."
   ],
@@ -610,10 +610,10 @@
    "Frost gets expensive if you spam. Frost Channeling and Mage Armor are the fixes.",
    "Frostbite and Fingers of Frost can now proc from Frost and Ice Armor when you're hit."
   ],
-  "tierBand": "B",
-  "tierDps": 670,
+  "tierBand": "C",
+  "tierDps": 666,
   "tierRank": 20,
-  "trinketSnapshot": "MythicSim, 117 trinkets, 16 Oct",
+  "trinketSnapshot": "MythicSim Frost board, engine 62b7445 on client 70425, 21 Oct (baseline 666)",
   "trinkets": [
    {
     "gain": "+3.04%",
@@ -621,32 +621,32 @@
     "source": "Molten Core (not in Forever's raid schedule yet)"
    },
    {
-    "gain": "+2.70%",
+    "gain": "+2.69%",
     "name": "Cleansed Vilebranch Icon",
     "source": "Quest / world"
    },
    {
-    "gain": "+2.70%",
+    "gain": "+2.69%",
     "name": "Jewel of the Guard Captain",
     "source": "Quest / world"
    },
    {
-    "gain": "+2.54%",
+    "gain": "+2.52%",
     "name": "Draconic Infused Emblem",
     "source": "General Drakkisath, UBRS"
    },
    {
-    "gain": "+2.14%",
+    "gain": "+2.13%",
     "name": "Briarwood Reed",
     "source": "Jed Runewatcher, UBRS"
    },
    {
-    "gain": "+1.62%",
+    "gain": "+1.61%",
     "name": "Weakness Analyzer",
     "source": "Vendor: Pix Xizzix"
    },
    {
-    "gain": "+1.29%",
+    "gain": "+1.32%",
     "name": "Frozen Heart of the Mountain",
     "source": "Enchanting"
    }
@@ -673,12 +673,12 @@
   "id": "frostfire-mage",
   "key": "frostfire",
   "name": "Frostfire",
-  "newDps": 761,
-  "newNote": "MythicSim Mage page, engine b5c0b8b on client 70425, 20 Oct (tier list also 761, same engine)",
+  "newDps": 744,
+  "newNote": "MythicSim Mage page, engine 62b7445 on client 70425, 21 Oct (tier list and trinket board baseline also 744, same engine)",
   "race": "Human",
   "raceBoard": {
-   "note": "Skyborne and Human tie; Undead is the only race in B tier (2.35% behind).",
-   "snapshot": "Engine 1007c66, 16 Oct (client 70425)"
+   "note": "Skyborne 743.0 leads and Human is S (0.72% back); Orc is A (1.27%); Troll, Gnome and Undead are B (2.2 to 2.7% back).",
+   "snapshot": "Engine 62b7445, 21 Oct (client 70425)"
   },
   "raidRotation": [
    "Scorch until you have 5 Improved Scorch stacks; refresh at 5 sec or less.",
@@ -689,7 +689,7 @@
    "Mana gem below 80% Mana, Evocation below 10%."
   ],
   "stats": [
-   "Hit first (Elemental Precision 5/5).",
+   "Hit first (Elemental Precision, now 3 ranks after the 20 Oct hotfix).",
    "Spell power and crit; Fire or Frost school damage both work since the bolt uses the higher one.",
    "Crit is worth more here than for pure Frost because of Ignite plus Ice Shards."
   ],
@@ -705,37 +705,37 @@
    "Master of Elements refunds Mana on its crits."
   ],
   "tierBand": "B",
-  "tierDps": 761,
+  "tierDps": 744,
   "tierRank": 14,
-  "trinketSnapshot": "MythicSim, 117 trinkets, 16 Oct",
+  "trinketSnapshot": "MythicSim Frostfire board, engine 62b7445 on client 70425, 21 Oct (baseline 744)",
   "trinkets": [
    {
-    "gain": "+3.69%",
-    "name": "Cleansed Vilebranch Icon",
-    "source": "Quest / world"
-   },
-   {
-    "gain": "+3.69%",
-    "name": "Jewel of the Guard Captain",
-    "source": "Quest / world"
-   },
-   {
-    "gain": "+3.65%",
+    "gain": "+3.81%",
     "name": "Talisman of Ephemeral Power",
     "source": "Molten Core (not in Forever's raid schedule yet)"
    },
    {
-    "gain": "+3.29%",
+    "gain": "+3.71%",
+    "name": "Cleansed Vilebranch Icon",
+    "source": "Quest / world"
+   },
+   {
+    "gain": "+3.71%",
+    "name": "Jewel of the Guard Captain",
+    "source": "Quest / world"
+   },
+   {
+    "gain": "+3.30%",
     "name": "Draconic Infused Emblem",
     "source": "General Drakkisath, UBRS"
    },
    {
-    "gain": "+2.74%",
+    "gain": "+2.75%",
     "name": "Briarwood Reed",
     "source": "Jed Runewatcher, UBRS"
    },
    {
-    "gain": "+2.08%",
+    "gain": "+2.09%",
     "name": "Weakness Analyzer",
     "source": "Vendor: Pix Xizzix"
    }
@@ -764,11 +764,11 @@
   "key": "shadow",
   "name": "Shadow",
   "newDps": 771,
-  "newNote": "MythicSim Priest page, engine b5c0b8b on client 70425, 20 Oct (tier list also 771, same engine)",
+  "newNote": "MythicSim Priest page, engine 62b7445 on client 70425, 21 Oct (tier list and trinket board baseline also 771, same engine)",
   "race": "Undead",
   "raceBoard": {
-   "note": "Human 775.0 leads; Night Elf (0.56% back), Dwarf (0.71%) and Undead (0.98%) are within 1%; Gnome and Troll are 1.1 to 1.4% back.",
-   "snapshot": "Engine 24c66df, 19 Oct (client 70425)"
+   "note": "Human 772.1 leads; Night Elf (0.56% back), Dwarf (0.71%) and Undead (0.98%) are within 1%; Gnome and Troll are 1.1 to 1.4% back.",
+   "snapshot": "Engine 62b7445, 21 Oct (client 70425)"
   },
   "raidRotation": [
    "Keep Shadow Word: Pain on the boss. Improved Shadow Word: Pain lengthens it.",
@@ -803,25 +803,25 @@
   "tierBand": "B",
   "tierDps": 771,
   "tierRank": 13,
-  "trinketSnapshot": "MythicSim Shadow board, engine 37c2dfb on client 70425, 18 Oct (baseline 774)",
+  "trinketSnapshot": "MythicSim Shadow board, engine 62b7445 on client 70425, 21 Oct (baseline 771)",
   "trinkets": [
    {
-    "gain": "+2.44%",
+    "gain": "+2.45%",
     "name": "Cleansed Vilebranch Icon",
     "source": "Quest"
    },
    {
-    "gain": "+2.44%",
+    "gain": "+2.45%",
     "name": "Jewel of the Guard Captain",
     "source": "Quest"
    },
    {
-    "gain": "+2.43%",
+    "gain": "+2.44%",
     "name": "Talisman of Ephemeral Power",
     "source": "Magmadar, Molten Core. Molten Core isn't on Forever's announced raid schedule."
    },
    {
-    "gain": "+2.18%",
+    "gain": "+2.19%",
     "name": "Draconic Infused Emblem",
     "source": "General Drakkisath, Blackrock Spire"
    },

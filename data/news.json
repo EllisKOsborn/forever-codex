@@ -563,5 +563,65 @@
   "tag": "sim",
   "title": "MythicSim 20 Oct run: Fire Mage overtakes Arcane",
   "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "n20261021-mage-hotfix": {
+  "date": "2026-10-20",
+  "title": "Unannounced Mage hotfix: Piercing Ice removed, Elemental Precision cut to 3 ranks",
+  "summary": "A server hotfix to build 70425 on 20 Oct removed Frost's Piercing Ice and cut Elemental Precision from 5 ranks to 3, and moved four Frost talents within their rows. Blizzard hasn't posted notes; TalentsForever and players on the official forums report it.",
+  "tag": "patch",
+  "classes": [
+   "mage"
+  ],
+  "source": "TalentsForever / Blizzard forums (players)",
+  "url": "https://talentsforever.com/mage/changes"
+ },
+ "n20261021-beta-extended": {
+  "date": "2026-10-20",
+  "title": "Beta extended to 23 October; stress test times confirmed",
+  "summary": "Blizzard says the Stress Test runs 18:00 to 02:00 UK time on 21 Oct, after which the beta reopens and then closes for good at 19:00 CEST on Friday 23 October.",
+  "tag": "blizzard",
+  "classes": [],
+  "source": "Blizzard forums (Kaivax)",
+  "url": "https://eu.forums.blizzard.com/en/wow/t/heads-up-wow-forever-stress-test-on-21-october/636749"
+ },
+ "n20261021-name-reservation": {
+  "date": "2026-10-20",
+  "title": "Early name reservation opens 27 October at 18:00 CET",
+  "summary": "Upgrade-pack owners can reserve names from 27 October to 3 November, up to three characters in total across all rulesets.",
+  "tag": "blizzard",
+  "classes": [],
+  "source": "Blizzard",
+  "url": "https://worldofwarcraft.blizzard.com/en-gb/news/24303866"
+ },
+ "n20261021-raid-overview": {
+  "date": "2026-10-20",
+  "title": "Blizzard raid overview: Hyjal Summit has 13 bosses, raids reset weekly",
+  "summary": "Blizzard's raid preview confirms Barrow Deeps (10 players, eight bosses), Hyjal Summit (20 players, 13 bosses) and Onyxia's Lair (40, Drakefire Amulet needed) all unlock 9 December, with weekly resets planned.",
+  "tag": "blizzard",
+  "classes": [],
+  "source": "Blizzard",
+  "url": "https://worldofwarcraft.blizzard.com/en-gb/news/24303009"
+ },
+ "n20261021-dungeon-levels": {
+  "date": "2026-10-20",
+  "title": "Blizzard lists the nine new dungeons and their level ranges",
+  "summary": "Blizzard's dungeon article gives official ranges from Hall of Thanes (13–18) to Shaper's Terrace (58–60); four are narrower than the ranges this site had.",
+  "tag": "blizzard",
+  "classes": [],
+  "source": "Blizzard",
+  "url": "https://worldofwarcraft.blizzard.com/en-gb/news/24301455"
+ },
+ "n20261021-mythicsim-62b7445": {
+  "date": "2026-10-21",
+  "title": "MythicSim 21 Oct run: Demonology and Fire up, Frost Mage drops to C",
+  "summary": "On engine 62b7445 Demonology rises to 885 and Fire to 860; Arcane climbs to #9 and Frost Mage slips into the C band at 666.",
+  "tag": "sim",
+  "classes": [
+   "warlock",
+   "mage",
+   "priest"
+  ],
+  "source": "MythicSim",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
  }
 }

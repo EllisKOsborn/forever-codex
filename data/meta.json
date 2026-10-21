@@ -16,10 +16,10 @@
    "Early name reservation (27 October) is for players who bought an upgrade pack."
   ],
   "gearNote": "Levelling picks come from the level-30 beta lists. Trinket gains are MythicSim results and differ by spec. Items marked unverified are level-60 loot whose Forever drop tables aren't confirmed yet (the beta stops at 30). \"Also wanted by\" shows which of your other classes would compete for the same item.",
-  "lastRefreshed": "2026-10-20T21:57:00+01:00",
+  "lastRefreshed": "2026-10-21T08:03:00+01:00",
   "raidFacts": [
    "Onyxia's Lair keeps its Classic-style attunement chain, done per character at least at launch (Blizzard podcast, 8 October). Barrow Deeps and Hyjal Summit have no attunement chain, though Blizzard hints at extra steps for the full experience.",
-   "No lockout length has been announced for any raid.",
+   "All raids are currently planned to reset each week (Blizzard raid overview, 20 October).",
    "Every raid boss drops a chase item. Every class gets a new tier set, and the first new legendary is tied to the Hyjal Summit tier.",
    "Crafted tier pieces are Bind on Equip and you can wear only one at launch; a Guardians of Hyjal reputation reward raises that to two, enough for the 2-piece bonus. Each needs 3 Malleable Essence of Nature, which only comes from disenchanting Barrow Deeps or Hyjal Summit items.",
    "World buffs don't work in Forever raids. Four new Natural flasks work only in Mount Hyjal, Hyjal Summit and Barrow Deeps.",
@@ -322,7 +322,7 @@
     "url": "https://us.forums.blizzard.com/en/wow/t/temporary-economy-holds-for-rmt/2381433"
    }
   ],
-  "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight. The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Fire above Retribution, Affliction above Feral). All 24 rows are on MythicSim's 20 Oct run (engine b5c0b8b, client 70425). The change column is MythicSim's printed change since 16 October, not since yesterday. Bands are set from the median core spec: S is 20%+ above it, A above it, B within 15% below, C further down. Specs for the classes you're weighing are highlighted."
+  "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight. The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Arcane above Arms, Affliction above Feral, Frost above Assassination). All 24 rows are on MythicSim's 21 Oct run (engine 62b7445, client 70425). The change column is MythicSim's printed change since 16 October, not since yesterday. Bands are set from the median core spec: S is 20%+ above it, A above it, B within 15% below, C further down. Specs for the classes you're weighing are highlighted."
  },
  "crafting": {
   "camping": {
@@ -503,18 +503,20 @@
    {
     "iso": "2026-10-21T18:00:00+01:00",
     "label": "Server Slam",
-    "note": "Free stress test, open to anyone. Moved from 19 October. Europe opens 19:00 CEST (6pm UK); North America 2pm PDT. Blizzard gives no end time.",
+    "note": "Free stress test, open to anyone. Moved from 19 October. Blizzard's 20 Oct post gives Europe 18:00 to 02:00 UK time (19:00 to 03:00 CEST); North America 2pm to 6pm PDT. Stress Test characters and names are deleted afterwards, then the beta reopens.",
     "showTime": true
    },
    {
-    "iso": "2026-10-21T23:59:00-07:00",
+    "iso": "2026-10-23T18:00:00+01:00",
     "label": "Beta ends",
-    "note": "Blizzard's shop says the beta runs through 21 October. Some sites say 22 October."
+    "note": "Extended: Blizzard's 20 Oct post says the beta closes for good at 19:00 CEST (6pm UK) on Friday 23 October.",
+    "showTime": true
    },
    {
-    "iso": "2026-10-27T00:00:00+00:00",
+    "iso": "2026-10-27T17:00:00+00:00",
     "label": "Name reservation",
-    "note": "Early name reservation and character creation for upgrade-pack owners, until 3 November"
+    "note": "Early name reservation for upgrade-pack owners, until 3 November. Europe opens 18:00 CET (5pm UK); up to three characters in total across all rulesets.",
+    "showTime": true
    },
    {
     "iso": "2026-11-04T23:00:00+00:00",

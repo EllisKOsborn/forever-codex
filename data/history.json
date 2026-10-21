@@ -115,5 +115,23 @@
    "priest": "MythicSim Priest page, engine b5c0b8b, client 70425 (20 Oct)",
    "warlock": "MythicSim Warlock page, engine b5c0b8b, client 70425 (20 Oct)"
   }
+ },
+ "2026-10-21": {
+  "date": "2026-10-21",
+  "values": {
+   "affliction-warlock": 784,
+   "arcane-mage": 791,
+   "demonology-warlock": 885,
+   "destruction-warlock": 717,
+   "fire-mage": 860,
+   "frost-mage": 666,
+   "frostfire-mage": 744,
+   "shadow-priest": 771
+  },
+  "labels": {
+   "mage": "MythicSim Mage page, engine 62b7445, client 70425 (21 Oct)",
+   "priest": "MythicSim Priest page, engine 62b7445, client 70425 (21 Oct)",
+   "warlock": "MythicSim Warlock page, engine 62b7445, client 70425 (21 Oct)"
+  }
  }
 }

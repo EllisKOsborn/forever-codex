@@ -399,5 +399,111 @@
     "MythicSim's Mage page prints Fire as #8 of 24 while its tier list prints #6; the tier list rank is used."
    ]
   }
+ },
+ "2026-10-21": {
+  "date": "2026-10-21",
+  "at": "2026-10-21T08:03:00+01:00",
+  "headline": "Demonology Warlock rises to 885 DPS (from 869) on MythicSim's 21 Oct engine and stays the top spec of your three; Fire Mage climbs to 860.",
+  "items": [
+   {
+    "kind": "buff",
+    "classes": [
+     "warlock"
+    ],
+    "text": "Demonology 869 to 885 (stays #5, A), Affliction 778 to 784 (stays #11, A), Destruction unchanged at 717 (#16, B). Demonology now about 13% ahead of Affliction (was 12%).",
+    "source": "MythicSim tier list and Warlock page (engine 62b7445, 21 Oct)",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "buff",
+    "classes": [
+     "mage"
+    ],
+    "text": "Fire 843 to 860 (stays #6, A), Arcane 784 to 791 and #10 to #9 (A). Fire's lead over Arcane grows from about 7% to 9%. MythicSim's breakdown credits +4.6% to an engine sync where every Fire Blast adds a Heating Up charge.",
+    "source": "MythicSim tier list and Mage page (engine 62b7445, 21 Oct)",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "nerf",
+    "classes": [
+     "mage"
+    ],
+    "text": "Frost 670 to 666, still #20 but now in the C band (was B). Frostfire 761 to 744 (stays #14, B).",
+    "source": "MythicSim tier list (engine 62b7445, 21 Oct)",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "priest"
+    ],
+    "text": "Shadow unchanged at 771 (#13, B); Smite unchanged at 602 (#23, C).",
+    "source": "MythicSim tier list and Priest page (engine 62b7445, 21 Oct)",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "warlock",
+     "mage",
+     "priest"
+    ],
+    "text": "Every race and trinket board for your eight specs is now on engine 62b7445. Human still tops every Warlock spec and Shadow; Skyborne tops all four Mage specs (Human ties it for Fire). Destruction's trinket list was from a 28 Sep run and is now current: Cleansed Vilebranch Icon leads at +3.32%.",
+    "source": "MythicSim race and trinket boards (21 Oct)",
+    "url": "https://mythicsim.com/wow-forever/races?class=warlock&spec=demonology-warlock",
+    "confidence": "checked"
+   },
+   {
+    "kind": "nerf",
+    "classes": [
+     "mage"
+    ],
+    "text": "Unannounced 20 Oct hotfix: Piercing Ice removed from Frost, Elemental Precision cut from 5 ranks to 3. No Blizzard notes; TalentsForever and forum players report it. Levelling and stat notes updated; the new hit total is not yet known.",
+    "source": "TalentsForever, Blizzard forums (players)",
+    "url": "https://talentsforever.com/mage/changes",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "Beta now ends 23 Oct at 19:00 CEST (6pm UK), not 21 Oct. Stress Test tonight runs 18:00 to 02:00 UK time. Name reservation opens 27 Oct at 18:00 CET (5pm UK).",
+    "source": "Blizzard forums and news",
+    "url": "https://eu.forums.blizzard.com/en/wow/t/heads-up-wow-forever-stress-test-on-21-october/636749",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "Blizzard's raid overview confirms Hyjal Summit has 13 bosses and all raids reset weekly. Its dungeon article corrects four level ranges: Hall of Thanes 13–20 to 13–18, Ruins of Lordaeron 15–22 to 15–20, Excavation Site 26–33 to 24–29, City of Dalaran 28–35 to 28–33.",
+    "source": "Blizzard",
+    "url": "https://worldofwarcraft.blizzard.com/en-gb/news/24303009",
+    "confidence": "checked"
+   }
+  ],
+  "unchecked": [
+   "Icy Veins (403) and Wowhead (bot check) couldn't be read; Bluetracker was read via WebFetch only.",
+   "Forum players also say Piercing Ice was folded into Ice Barrier and Frost Warding buffed; only one player says so, so it's not on the site.",
+   "Daybreak Forever, ForeverChanges BiS and the raid guide sites weren't re-read today."
+  ],
+  "checks": {
+   "verified": 128,
+   "method": "MythicSim pages read as raw page text and again through WebFetch; a separate agent re-opened all 19 MythicSim URLs and confirmed all 116 ledger rows. Blizzard posts read directly; the Mage hotfix was checked on TalentsForever and two forum threads.",
+   "corrected": [
+    "Dungeon level ranges for Hall of Thanes, Ruins of Lordaeron, Excavation Site and City of Dalaran (Blizzard's official article).",
+    "Beta end date (21 Oct to 23 Oct) and name reservation start time.",
+    "Raid fact 'no lockout announced' replaced with Blizzard's weekly reset plan.",
+    "MythicSim opinion grades: Affliction was still B though it has been A since 20 Oct; Frost Mage now C.",
+    "Destruction trinket list was from a 28 Sep run.",
+    "Mage levelling advice still took Piercing Ice, which was removed on 20 Oct."
+   ],
+   "flagged": [
+    "MythicSim's class pages print Arcane #11, Frost #21 and Affliction #12, while the tier list prints #9, #20 and #11; the tier list ranks are used.",
+    "Blizzard's stress test table gives Europe 8 hours but North America 4; the times are copied as printed."
+   ]
+  }
  }
 }
