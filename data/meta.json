@@ -16,7 +16,7 @@
    "Early name reservation (27 October) is for players who bought an upgrade pack."
   ],
   "gearNote": "Levelling picks come from the level-30 beta lists. Trinket gains are MythicSim results and differ by spec. Items marked unverified are level-60 loot whose Forever drop tables aren't confirmed yet (the beta stops at 30). \"Also wanted by\" shows which of your other classes would compete for the same item.",
-  "lastRefreshed": "2026-10-21T08:03:00+01:00",
+  "lastRefreshed": "2026-10-22T08:20:00+01:00",
   "raidFacts": [
    "Onyxia's Lair keeps its Classic-style attunement chain, done per character at least at launch (Blizzard podcast, 8 October). Barrow Deeps and Hyjal Summit have no attunement chain, though Blizzard hints at extra steps for the full experience.",
    "All raids are currently planned to reset each week (Blizzard raid overview, 20 October).",
@@ -320,9 +320,13 @@
    {
     "name": "Blizzard economy holds",
     "url": "https://us.forums.blizzard.com/en/wow/t/temporary-economy-holds-for-rmt/2381433"
+   },
+   {
+    "name": "Blizzard: Gather Around the Campfire (21 Oct)",
+    "url": "https://worldofwarcraft.blizzard.com/en-gb/news/24301516/gather-around-the-campfire-in-world-of-warcraft-forever"
    }
   ],
-  "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight. The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Arcane above Arms, Affliction above Feral, Frost above Assassination). All 24 rows are on MythicSim's 21 Oct run (engine 62b7445, client 70425). The change column is MythicSim's printed change since 16 October, not since yesterday. Bands are set from the median core spec: S is 20%+ above it, A above it, B within 15% below, C further down. Specs for the classes you're weighing are highlighted."
+  "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight. The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Demonology above Marksmanship, Arcane above Arms, Affliction above Feral, Frostfire above Shadow, Elehance above Assassination). All 24 rows are on MythicSim's 21 Oct run (engine a667dce, client 70425). The change column is MythicSim's printed change since 16 October, not since yesterday. Bands are set from the median core spec: S is 20%+ above it, A above it, B within 15% below, C further down. Specs for the classes you're weighing are highlighted."
  },
  "crafting": {
   "camping": {
@@ -374,11 +378,11 @@
     {
      "buff": "Armour, all stats, resistances",
      "name": "Enchanted Lute",
-     "note": "",
+     "note": "Clashes with Mark of the Wild",
      "notes": {
-      "mage": "",
-      "priest": "",
-      "warlock": ""
+      "mage": "Clashes with Mark of the Wild",
+      "priest": "Clashes with Mark of the Wild",
+      "warlock": "Clashes with Mark of the Wild"
      },
      "prof": "Enchanting"
     },
@@ -406,7 +410,7 @@
     },
     {
      "buff": "+8% stats",
-     "name": "Fish Bowl",
+     "name": "Fishing Bowl",
      "note": "",
      "notes": {
       "mage": "Weaker than Blessing of Kings",
@@ -416,7 +420,7 @@
      "prof": "Fishing"
     },
     {
-     "buff": "Melee buff",
+     "buff": "Strength (+34 at 60)",
      "name": "Sharpening Wheel",
      "note": "Not for you",
      "notes": {

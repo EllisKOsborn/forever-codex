@@ -39,11 +39,11 @@
   "key": "affliction",
   "name": "Affliction",
   "newDps": 784,
-  "newNote": "MythicSim Warlock page, engine 62b7445 on client 70425, 21 Oct (tier list and trinket board baseline also 784, same engine)",
+  "newNote": "MythicSim Warlock page, engine a667dce on client 70425, 21 Oct (tier list and trinket board baseline also 784, same engine)",
   "race": "Human",
   "raceBoard": {
    "note": "Human 784.1 leads; Orc 778.3 (0.75% back) is also S; Gnome, Undead and Troll are 1.0 to 1.4% back.",
-   "snapshot": "Engine 62b7445, 21 Oct (client 70425)"
+   "snapshot": "Engine a667dce, 21 Oct (client 70425)"
   },
   "raidRotation": [
    "Curse of the Elements (or your assigned curse) kept up.",
@@ -79,7 +79,7 @@
   "tierBand": "A",
   "tierDps": 784,
   "tierRank": 11,
-  "trinketSnapshot": "MythicSim Affliction board, engine 62b7445 on client 70425, 21 Oct (baseline 784)",
+  "trinketSnapshot": "MythicSim Affliction board, engine a667dce on client 70425, 21 Oct (baseline 784)",
   "trinkets": [
    {
     "gain": "+26 (3.29%)",
@@ -147,11 +147,11 @@
   "key": "arcane",
   "name": "Arcane",
   "newDps": 791,
-  "newNote": "MythicSim Mage page, engine 62b7445 on client 70425, 21 Oct (tier list and trinket board baseline also 791, same engine)",
+  "newNote": "MythicSim Mage page, engine a667dce on client 70425, 21 Oct (tier list and trinket board baseline also 791, same engine)",
   "race": "Human",
   "raceBoard": {
    "note": "Skyborne 792.0 leads; Human (0.38% back), Orc (0.50%) and Gnome (0.58%) are also S; Undead and Troll are about 1.5 to 1.6% back.",
-   "snapshot": "Engine 62b7445, 21 Oct (client 70425)"
+   "snapshot": "Engine a667dce, 21 Oct (client 70425)"
   },
   "raidRotation": [
    "Pre-cast Arcane Blast.",
@@ -184,7 +184,7 @@
   "tierBand": "A",
   "tierDps": 791,
   "tierRank": 9,
-  "trinketSnapshot": "MythicSim Arcane board, engine 62b7445 on client 70425, 21 Oct (baseline 791)",
+  "trinketSnapshot": "MythicSim Arcane board, engine a667dce on client 70425, 21 Oct (baseline 791)",
   "trinkets": [
    {
     "gain": "+3.27%",
@@ -256,11 +256,11 @@
   "key": "demonology",
   "name": "Demonology",
   "newDps": 885,
-  "newNote": "MythicSim Warlock page, engine 62b7445 on client 70425, 21 Oct (tier list and trinket board baseline also 885, same engine)",
+  "newNote": "MythicSim Warlock page, engine a667dce on client 70425, 21 Oct (tier list and trinket board baseline also 885, same engine)",
   "race": "Human",
   "raceBoard": {
    "note": "Human 885.2 leads; Orc 879.6 (0.63% back) is the only other S race; Gnome, Undead and Troll are 1.1 to 1.4% back.",
-   "snapshot": "Engine 62b7445, 21 Oct (client 70425)"
+   "snapshot": "Engine a667dce, 21 Oct (client 70425)"
   },
   "raidRotation": [
    "Before the pull: summon your Imp and Demonic Sacrifice it for the 2-hour Shadow damage buff, then summon a Succubus or Incubus. Demonic Pact keeps the buff because it's a different demon. Fel Domination makes the resummon quick.",
@@ -279,7 +279,7 @@
    "Haste speeds up casts but not DoT or channel ticks.",
    "Stamina matters more than for other casters: it fuels Life Tap and keeps you alive under Soul Link."
   ],
-  "summary": "The strongest Warlock spec in every MythicSim run: 885 DPS on the newest engine (21 Oct), about 13% ahead of Affliction and 23% ahead of Destruction, and #5 of 24 specs on the tier list. You sacrifice your Imp for a 2-hour Shadow buff, then fight with a Succubus thanks to Demonic Pact. The 15 Oct build only fixed Soul Link for this spec, so the lead comes from the pet tree itself.",
+  "summary": "The strongest Warlock spec in every MythicSim run: 885 DPS on the newest engine (21 Oct), about 13% ahead of Affliction and 23% ahead of Destruction, and #4 of 24 specs on the tier list. You sacrifice your Imp for a 2-hour Shadow buff, then fight with a Succubus thanks to Demonic Pact. The 15 Oct build only fixed Soul Link for this spec, so the lead comes from the pet tree itself.",
   "talentNotes": [
    "Demonic Pact (31-point capstone, needs Soul Link): summoning a different demon doesn't cancel Demonic Sacrifice.",
    "Demonic Sacrifice is a 2-hour buff now, and each demon gives something different (the Imp gives Shadow damage).",
@@ -296,8 +296,8 @@
   ],
   "tierBand": "A",
   "tierDps": 885,
-  "tierRank": 5,
-  "trinketSnapshot": "MythicSim Demonology board, engine 62b7445 on client 70425, 21 Oct (baseline 885)",
+  "tierRank": 4,
+  "trinketSnapshot": "MythicSim Demonology board, engine a667dce on client 70425, 21 Oct (baseline 885)",
   "trinkets": [
    {
     "gain": "+3.02%",
@@ -381,11 +381,11 @@
   "key": "destruction",
   "name": "Destruction",
   "newDps": 717,
-  "newNote": "MythicSim Warlock page, engine 62b7445 on client 70425, 21 Oct (tier list and trinket board baseline also 717, same engine)",
+  "newNote": "MythicSim Warlock page, engine a667dce on client 70425, 21 Oct (tier list and trinket board baseline also 717, same engine)",
   "race": "Human",
   "raceBoard": {
    "note": "Human 717.6 leads; Orc (0.70% back), Gnome (0.83%) and Undead (0.97%) are all within 1% and share S; Troll is 1.5% back.",
-   "snapshot": "Engine 62b7445, 21 Oct (client 70425)"
+   "snapshot": "Engine a667dce, 21 Oct (client 70425)"
   },
   "raidRotation": [
    "Before the pull: Demonic Sacrifice your Imp (the sim fights without a pet after that).",
@@ -420,7 +420,7 @@
   "tierBand": "B",
   "tierDps": 717,
   "tierRank": 16,
-  "trinketSnapshot": "MythicSim Destruction board, engine 62b7445 on client 70425, 21 Oct (baseline 717)",
+  "trinketSnapshot": "MythicSim Destruction board, engine a667dce on client 70425, 21 Oct (baseline 717)",
   "trinkets": [
    {
     "gain": "+24 (3.32%)",
@@ -478,11 +478,11 @@
   "key": "fire",
   "name": "Fire",
   "newDps": 860,
-  "newNote": "MythicSim Mage page, engine 62b7445 on client 70425, 21 Oct (tier list and trinket board baseline also 860, same engine)",
+  "newNote": "MythicSim Mage page, engine a667dce on client 70425, 21 Oct (tier list and trinket board baseline also 860, same engine)",
   "race": "Human",
   "raceBoard": {
    "note": "Skyborne 860.1 and Human 859.3 tie at the top; Orc (0.32% back) and Gnome (0.86%) are also S; Troll and Undead are 1.3 to 1.5% back.",
-   "snapshot": "Engine 62b7445, 21 Oct (client 70425)"
+   "snapshot": "Engine a667dce, 21 Oct (client 70425)"
   },
   "raidRotation": [
    "Pre-cast Fireball about 3.5 sec before the pull.",
@@ -515,7 +515,7 @@
   "tierBand": "A",
   "tierDps": 860,
   "tierRank": 6,
-  "trinketSnapshot": "MythicSim Fire board, engine 62b7445 on client 70425, 21 Oct (baseline 860)",
+  "trinketSnapshot": "MythicSim Fire board, engine a667dce on client 70425, 21 Oct (baseline 860)",
   "trinkets": [
    {
     "gain": "+3.24%",
@@ -578,11 +578,11 @@
   "key": "frost",
   "name": "Frost",
   "newDps": 666,
-  "newNote": "MythicSim Mage page, engine 62b7445 on client 70425, 21 Oct (tier list and trinket board baseline also 666, same engine)",
+  "newNote": "MythicSim Mage page, engine a667dce on client 70425, 21 Oct (tier list and trinket board baseline also 666, same engine)",
   "race": "Skyborne",
   "raceBoard": {
    "note": "Skyborne 666.8 is the only S race; Human is 1.14% back and the other four are 1.35 to 1.86% back.",
-   "snapshot": "Engine 62b7445, 21 Oct (client 70425)"
+   "snapshot": "Engine a667dce, 21 Oct (client 70425)"
   },
   "raidRotation": [
    "Pre-cast Frostbolt about 3 sec before the pull.",
@@ -612,8 +612,8 @@
   ],
   "tierBand": "C",
   "tierDps": 666,
-  "tierRank": 20,
-  "trinketSnapshot": "MythicSim Frost board, engine 62b7445 on client 70425, 21 Oct (baseline 666)",
+  "tierRank": 21,
+  "trinketSnapshot": "MythicSim Frost board, engine a667dce on client 70425, 21 Oct (baseline 666)",
   "trinkets": [
    {
     "gain": "+3.04%",
@@ -673,12 +673,12 @@
   "id": "frostfire-mage",
   "key": "frostfire",
   "name": "Frostfire",
-  "newDps": 744,
-  "newNote": "MythicSim Mage page, engine 62b7445 on client 70425, 21 Oct (tier list and trinket board baseline also 744, same engine)",
+  "newDps": 768,
+  "newNote": "MythicSim Mage page, engine a667dce on client 70425, 21 Oct (tier list and trinket board baseline also 768, same engine)",
   "race": "Human",
   "raceBoard": {
-   "note": "Skyborne 743.0 leads and Human is S (0.72% back); Orc is A (1.27%); Troll, Gnome and Undead are B (2.2 to 2.7% back).",
-   "snapshot": "Engine 62b7445, 21 Oct (client 70425)"
+   "note": "Human 770.2 and Skyborne 768.6 (0.21% back) tie at the top within sim noise; Orc is also S (0.81%); Gnome is A (1.34%); Troll and Undead are B (2.0 to 2.2% back).",
+   "snapshot": "Engine a667dce, 21 Oct (client 70425)"
   },
   "raidRotation": [
    "Scorch until you have 5 Improved Scorch stacks; refresh at 5 sec or less.",
@@ -705,37 +705,37 @@
    "Master of Elements refunds Mana on its crits."
   ],
   "tierBand": "B",
-  "tierDps": 744,
-  "tierRank": 14,
-  "trinketSnapshot": "MythicSim Frostfire board, engine 62b7445 on client 70425, 21 Oct (baseline 744)",
+  "tierDps": 768,
+  "tierRank": 13,
+  "trinketSnapshot": "MythicSim Frostfire board, engine a667dce on client 70425, 21 Oct (baseline 768)",
   "trinkets": [
    {
-    "gain": "+3.81%",
+    "gain": "+3.65%",
     "name": "Talisman of Ephemeral Power",
     "source": "Molten Core (not in Forever's raid schedule yet)"
    },
    {
-    "gain": "+3.71%",
+    "gain": "+3.62%",
     "name": "Cleansed Vilebranch Icon",
     "source": "Quest / world"
    },
    {
-    "gain": "+3.71%",
+    "gain": "+3.62%",
     "name": "Jewel of the Guard Captain",
     "source": "Quest / world"
    },
    {
-    "gain": "+3.30%",
+    "gain": "+3.15%",
     "name": "Draconic Infused Emblem",
     "source": "General Drakkisath, UBRS"
    },
    {
-    "gain": "+2.75%",
+    "gain": "+2.63%",
     "name": "Briarwood Reed",
     "source": "Jed Runewatcher, UBRS"
    },
    {
-    "gain": "+2.09%",
+    "gain": "+2.00%",
     "name": "Weakness Analyzer",
     "source": "Vendor: Pix Xizzix"
    }
@@ -764,11 +764,11 @@
   "key": "shadow",
   "name": "Shadow",
   "newDps": 771,
-  "newNote": "MythicSim Priest page, engine 62b7445 on client 70425, 21 Oct (tier list and trinket board baseline also 771, same engine)",
+  "newNote": "MythicSim Priest page, engine a667dce on client 70425, 21 Oct (tier list and trinket board baseline also 771, same engine)",
   "race": "Undead",
   "raceBoard": {
    "note": "Human 772.1 leads; Night Elf (0.56% back), Dwarf (0.71%) and Undead (0.98%) are within 1%; Gnome and Troll are 1.1 to 1.4% back.",
-   "snapshot": "Engine 62b7445, 21 Oct (client 70425)"
+   "snapshot": "Engine a667dce, 21 Oct (client 70425)"
   },
   "raidRotation": [
    "Keep Shadow Word: Pain on the boss. Improved Shadow Word: Pain lengthens it.",
@@ -802,8 +802,8 @@
   ],
   "tierBand": "B",
   "tierDps": 771,
-  "tierRank": 13,
-  "trinketSnapshot": "MythicSim Shadow board, engine 62b7445 on client 70425, 21 Oct (baseline 771)",
+  "tierRank": 14,
+  "trinketSnapshot": "MythicSim Shadow board, engine a667dce on client 70425, 21 Oct (baseline 771)",
   "trinkets": [
    {
     "gain": "+2.45%",

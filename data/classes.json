@@ -188,7 +188,7 @@
       "Engineering: Spellpower Goggles Xtreme (225), Minor Recombobulator (140), explosives for AoE pulls. Icy Veins ranks it first for most Mages.",
       "Enchanting: Lesser Magic and Greater Magic Wands, Minor Wizard Oil, and the Frozen Heart of the Mountain trinket (+1.1–1.3% in the sims).",
       "Alchemy + Herbalism: Spellblasting Potion and Lesser Arcane Elixir; Mana Well camp feature.",
-      "Fishing: Fish Bowl camp feature and crates with cloth."
+      "Fishing: Fishing Bowl camp feature and crates with cloth."
      ],
      "title": "Profession options"
     }
@@ -380,7 +380,7 @@
       "spec": "frost-mage"
      }
     ],
-    "note": "Sim-based. Fire #6 and Arcane #9 (A), Frostfire #14 (B) and Frost #20 (C) of 24 (engine 62b7445, 21 Oct).",
+    "note": "Sim-based. Fire #6 and Arcane #9 (A), Frostfire #13 (B) and Frost #21 (C) of 24 (engine a667dce, 21 Oct).",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -438,8 +438,8 @@
    }
   ],
   "order": 2,
-  "raceNote": "The gaps are tiny: under 3% between best and worst race in every spec. Skyborne leads all four specs on its 3% haste, though Human ties it for Fire (0.09% back) on the 21 Oct boards. Orc is the best Horde pick in every spec. Pick on faction and looks first.",
-  "raceSnapshot": "MythicSim race boards: all four specs on engine 62b7445 (21 Oct, client 70425)",
+  "raceNote": "The gaps are tiny: under 3% between best and worst race in every spec. Skyborne leads Arcane and Frost on its 3% haste and ties Human at the top for Fire (0.09% apart) and Frostfire (Human 0.21% ahead) on the 21 Oct boards. Orc is the best Horde pick in every spec. Pick on faction and looks first.",
+  "raceSnapshot": "MythicSim race boards: all four specs on engine a667dce (21 Oct, client 70425)",
   "specs": [
    {
     "color": "#ff8a3d",
@@ -472,10 +472,10 @@
   ],
   "verdict": {
    "best": "fire-mage",
-   "body": "On MythicSim's newest engine (62b7445, 21 Oct, client 70425) Fire sims 860 DPS, about 9% ahead of Arcane (791). The experimental Frostfire hybrid sits at 744 and Frost at 666, about 23% behind Fire. The tier list (same engine) agrees: Fire #6 and Arcane #9 of 24, both in the A band; Frostfire is #14 (B) and Frost has dropped to #20 in the C band. Fire has gained the most since 16 Oct (696 to 860), and MythicSim's breakdown credits +4.6% to an engine sync where every Fire Blast now adds a Heating Up charge. Fire is the sim pick for raids now; level as Frost.",
+   "body": "On MythicSim's newest engine (a667dce, 21 Oct, client 70425) Fire sims 860 DPS, about 9% ahead of Arcane (791). The experimental Frostfire hybrid sits at 768 and Frost at 666, about 23% behind Fire. The tier list (same engine) agrees: Fire #6 and Arcane #9 of 24, both in the A band; Frostfire is #13 (B) and Frost is #21 in the C band. Fire has gained the most since 16 Oct (696 to 860), and MythicSim's breakdown credits +4.6% to an engine sync where every Fire Blast now adds a Heating Up charge. Fire is the sim pick for raids now; level as Frost.",
    "flavour": "\"The Arcane Blast you knew is gone. Now it feeds every spell you cast next.\"",
    "headline": "Fire now leads the Mage specs; Arcane drops back",
-   "statsNote": "Big number: newest MythicSim run (Mage page, engine 62b7445, 21 Oct). Below: rank, DPS and band on the tier list (same engine, 21 Oct)."
+   "statsNote": "Big number: newest MythicSim run (Mage page, engine a667dce, 21 Oct). Below: rank, DPS and band on the tier list (same engine, 21 Oct)."
   },
   "pros": null
  },
@@ -707,7 +707,7 @@
       "spec": "shadow-priest"
      }
     ],
-    "note": "#13 of 24 at 771 DPS (engine 62b7445, 21 Oct, client 70425), after the 15 Oct buffs.",
+    "note": "#14 of 24 at 771 DPS (engine a667dce, 21 Oct, client 70425), after the 15 Oct buffs.",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -774,7 +774,7 @@
   ],
   "order": 3,
   "raceNote": "The new racials are in this sim. The whole spread is only 1.4%, so race barely matters for damage. Human leads on Ruthless (+2% crit); Night Elf, Dwarf and Undead are all within 1% of it. Each race also has two Priest racial spells (below), which matter more for utility than damage.",
-  "raceSnapshot": "MythicSim race board, engine 62b7445, 21 Oct (client 70425)",
+  "raceSnapshot": "MythicSim race board, engine a667dce, 21 Oct (client 70425)",
   "specs": [
    {
     "color": "#b48cff",
@@ -786,10 +786,10 @@
   ],
   "verdict": {
    "best": "shadow-priest",
-   "body": "Shadow sits in the middle of the DPS sims: 771 DPS on MythicSim's newest Priest run (engine 62b7445, 21 Oct), and #13 of 24, B band, on the tier list (same engine). The 15 Oct build was a clear net buff (Devouring Plague every 24 seconds, Vampiric Embrace every 30, a stronger Contagion) and lifted Shadow from 704. It now sims just behind Affliction Warlock (784) and ahead of the Frostfire Mage hybrid (744) and Destruction Warlock (717).",
+   "body": "Shadow sits in the middle of the DPS sims: 771 DPS on MythicSim's newest Priest run (engine a667dce, 21 Oct), and #14 of 24, B band, on the tier list (same engine). The 15 Oct build was a clear net buff (Devouring Plague every 24 seconds, Vampiric Embrace every 30, a stronger Contagion) and lifted Shadow from 704. It now sims just behind Affliction Warlock (784) and ahead of the Frostfire Mage hybrid (768) and Destruction Warlock (717).",
    "flavour": "Viable for raids and dungeons. Pick it if you enjoy it; the gap to the middle of the pack is small.",
    "headline": "Mid-pack after the buffs",
-   "statsNote": "Big number: newest MythicSim result (Priest page, engine 62b7445, 21 Oct, client 70425). Below: rank, DPS and band on the tier list (same engine)."
+   "statsNote": "Big number: newest MythicSim result (Priest page, engine a667dce, 21 Oct, client 70425). Below: rank, DPS and band on the tier list (same engine)."
   }
  },
  "warlock": {
@@ -978,7 +978,7 @@
     "note": "Share of characters in a 20 Sept sample of about 5,000 level-20 beta characters. A 14 Oct scan of over 1 million characters had Warlock as the least-played class at about 9%."
    },
    "pros": [
-    "Demonology is the strongest of these specs in sims: 885 DPS on the newest run, #5 of 24 on the tier list, A band",
+    "Demonology is the strongest of these specs in sims: 885 DPS on the newest run, #4 of 24 on the tier list, A band",
     "Least-played class in the 14 Oct scan (about 9%), so raids will want you",
     "Own tier set in the first raids: Demonheart Raiment"
    ],
@@ -993,7 +993,7 @@
   "crafting": {
    "campPicks": [
     "Faction Banner (Tailoring): Spirit, which makes Life Tap return more mana. Pairs with your Tailoring.",
-    "Fish Bowl (Fishing): +8% all stats when no Paladin gives Kings.",
+    "Fishing Bowl (Fishing): +8% all stats when no Paladin gives Kings.",
     "Camp Chair (Skinning): +2% spell crit, now that your DoTs can crit.",
     "Camp Tent (Leatherworking) while levelling to top up Rested XP.",
     "Mana Well matters less for you than for other casters, since Life Tap is your mana."
@@ -1196,7 +1196,7 @@
       "spec": "destruction-warlock"
      }
     ],
-    "note": "Sim-based. Demonology #5 and Affliction #11 (A), Destruction #16 (B) of 24 (engine 62b7445, 21 Oct).",
+    "note": "Sim-based. Demonology #4 and Affliction #11 (A), Destruction #16 (B) of 24 (engine a667dce, 21 Oct).",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -1283,7 +1283,7 @@
   ],
   "order": 1,
   "raceNote": "Human leads all three specs on Ruthless (+2% crit) and +5% Spirit for Life Tap. Orc is the best Horde race, within 1% of Human everywhere. The whole spread is under 2%, so choose faction and looks first.",
-  "raceSnapshot": "MythicSim race boards: all three specs on engine 62b7445 (21 Oct, client 70425)",
+  "raceSnapshot": "MythicSim race boards: all three specs on engine a667dce (21 Oct, client 70425)",
   "specs": [
    {
     "color": "#b07cff",
@@ -1309,10 +1309,10 @@
   ],
   "verdict": {
    "best": "demonology-warlock",
-   "body": "On MythicSim's newest engine (62b7445, 21 Oct, client 70425) Demonology sims 885 DPS, about 13% ahead of Affliction (784) and 23% ahead of Destruction (717). On the tier list (same engine) it's #5 of 24 specs at 885, in the A band, Affliction is #11 (also A) and Destruction #16 (B). Raid as Demonology, level as Affliction.",
+   "body": "On MythicSim's newest engine (a667dce, 21 Oct, client 70425) Demonology sims 885 DPS, about 13% ahead of Affliction (784) and 23% ahead of Destruction (717). On the tier list (same engine) it's #4 of 24 specs at 885, in the A band, Affliction is #11 (also A) and Destruction #16 (B). Raid as Demonology, level as Affliction.",
    "flavour": "\"Keep one demon on the leash and another burning in your blood.\"",
    "headline": "Demonology leads clearly; Affliction second, Destruction trails",
-   "statsNote": "Big number: newest MythicSim run (Warlock page, engine 62b7445, 21 Oct). Below: rank, DPS and band on the tier list (same engine, 21 Oct)."
+   "statsNote": "Big number: newest MythicSim run (Warlock page, engine a667dce, 21 Oct). Below: rank, DPS and band on the tier list (same engine, 21 Oct)."
   }
  }
 }

@@ -505,5 +505,89 @@
     "Blizzard's stress test table gives Europe 8 hours but North America 4; the times are copied as printed."
    ]
   }
+ },
+ "2026-10-22": {
+  "date": "2026-10-22",
+  "at": "2026-10-22T08:20:00+01:00",
+  "headline": "MythicSim re-ran its tier list on engine a667dce: Demonology moves up to #4 (still 885 DPS) and stays the top spec of your three; Frostfire Mage climbs to 768.",
+  "items": [
+   {
+    "kind": "neutral",
+    "classes": [
+     "warlock"
+    ],
+    "text": "Demonology unchanged at 885 but #5 to #4 (A) as Marksmanship Hunter drops from 921 to 904 (#3 to #5). Affliction 784 (#11, A) and Destruction 717 (#16, B) unchanged.",
+    "source": "MythicSim tier list and Warlock page (engine a667dce, 21 Oct)",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "buff",
+    "classes": [
+     "mage"
+    ],
+    "text": "Frostfire 744 to 768 and #14 to #13 (B); MythicSim credits +3.3% to a reference build change (Fire Blast after the Hot Streak Pyroblast). Fire 860 (#6) and Arcane 791 (#9) unchanged; Frost 666 unchanged but #20 to #21 (C) as Assassination Rogue rises to 674.",
+    "source": "MythicSim tier list and Mage page (engine a667dce, 21 Oct)",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "priest"
+    ],
+    "text": "Shadow unchanged at 771 but #13 to #14 (B), because Frostfire now ranks above it on the with-trinkets order. Smite unchanged at 602 (#23, C).",
+    "source": "MythicSim tier list and Priest page (engine a667dce, 21 Oct)",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "mage"
+    ],
+    "text": "Frostfire race board: Human 770.2 now ties Skyborne 768.6 at the top (was Skyborne 743.0 first); Orc moves up to S, Gnome up to A. Frostfire trinket gains dip slightly (Talisman of Ephemeral Power 3.81% to 3.65%). Every other race and trinket board for your eight specs is on a667dce with the same numbers.",
+    "source": "MythicSim race and trinket boards (21 Oct)",
+    "url": "https://mythicsim.com/wow-forever/races?class=mage&spec=frostfire-mage",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "Elsewhere on the tier list: Survival Hunter 1,088 to 1,175 (#1, S), Beast Mastery 844 to 832 (#8).",
+    "source": "MythicSim tier list (engine a667dce, 21 Oct)",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "Blizzard's 21 Oct camping article: each player adds one feature to a campfire, sit a minute for the buffs, one shared 1-hour cooldown. Corrected the site: \"Fish Bowl\" is the Fishing Bowl, Enchanted Lute clashes with Mark of the Wild, Sharpening Wheel gives Strength.",
+    "source": "Blizzard",
+    "url": "https://worldofwarcraft.blizzard.com/en-gb/news/24301516/gather-around-the-campfire-in-world-of-warcraft-forever",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "No new beta build, development notes or class hotfixes since 20 Oct. The Stress Test ran last night; the beta is back up and still ends 23 Oct at 6pm UK.",
+    "source": "Blizzard forums, TalentsForever, ForeverChanges",
+    "url": "https://foreverchanges.pro/patch-notes",
+    "confidence": "checked"
+   }
+  ],
+  "unchecked": [
+   "Wowhead Forever changes and news, Icy Veins news and Massively OP returned 403, so any datamine there is unchecked today."
+  ],
+  "checks": {
+   "verified": 16,
+   "method": "MythicSim, Blizzard and LFCarry pages read as raw HTML with curl and parsed by script, then re-read through a second extraction; a fresh agent independently re-opened every URL and confirmed all 16 ledger rows.",
+   "corrected": [
+    "Camping: \"Fish Bowl\" renamed Fishing Bowl; Enchanted Lute now says it clashes with Mark of the Wild; Sharpening Wheel buff now \"Strength (+34 at 60)\" (Blizzard 21 Oct).",
+    "Tier note: rank inversions list updated (Frost no longer sits above Assassination).",
+    "Mage race note: Skyborne no longer leads all four specs."
+   ],
+   "flagged": []
+  }
  }
 }

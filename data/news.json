@@ -155,17 +155,6 @@
   "title": "Found in the files: beta build 70450",
   "url": "https://bindonforever.com/changes"
  },
- "m-n20260930-mage-deep-dive": {
-  "classes": [
-   "mage"
-  ],
-  "date": "2026-09-30",
-  "source": "Blizzard",
-  "summary": "Blizzard introduced Comprehension scrolls, Frostfire Bolt at 40, personal Improved Scorch and the Arcane Blast, Ice Lance and Missile Barrage talents.",
-  "tag": "blizzard",
-  "title": "Class Deep Dive: Mage and Shaman",
-  "url": "https://news.blizzard.com/en-us/article/24302097/"
- },
  "m-n20261001-heating-up": {
   "classes": [
    "mage"
@@ -459,17 +448,6 @@
   "title": "Oct 1 build: dungeon quest XP halved",
   "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-priest-leveling/"
  },
- "p-n09-2026-09-30": {
-  "classes": [
-   "priest"
-  ],
-  "date": "2026-09-30",
-  "source": "Blizzard",
-  "summary": "Fear Ward and Devouring Plague for all Priests at 20, Shadow Word: Death baseline at 32, Shadow Weaving made personal.",
-  "tag": "blizzard",
-  "title": "Class Deep Dive: Priest and Warrior",
-  "url": "https://news.blizzard.com/en-us/article/24301514/world-of-warcraft-forever-class-deep-dives-priest-and-warrior"
- },
  "p-n20261015-paladin-deep-dive-salvation-not-live-yet": {
   "classes": [],
   "date": "2026-10-15",
@@ -623,5 +601,27 @@
   ],
   "source": "MythicSim",
   "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "n20261022-mythicsim-a667dce": {
+  "date": "2026-10-22",
+  "title": "MythicSim re-runs the tier list on engine a667dce: Frostfire up, Marksmanship down",
+  "summary": "A second 21 Oct run moves every row to engine a667dce. Frostfire Mage rises from 744 to 768 DPS and Demonology moves up to #4 as Marksmanship Hunter drops to 904; your other specs keep their numbers.",
+  "tag": "sim",
+  "classes": [
+   "warlock",
+   "mage",
+   "priest"
+  ],
+  "source": "MythicSim",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "n20261022-camping-guide": {
+  "date": "2026-10-21",
+  "title": "Blizzard explains camping and every camp feature",
+  "summary": "Blizzard's camping article confirms each player adds one feature to a shared campfire, you sit for a minute to get the buffs, and all features share a one-hour cooldown. It also gives the level 60 values and which class buff each one clashes with.",
+  "tag": "blizzard",
+  "classes": [],
+  "source": "Blizzard",
+  "url": "https://worldofwarcraft.blizzard.com/en-gb/news/24301516/gather-around-the-campfire-in-world-of-warcraft-forever"
  }
 }

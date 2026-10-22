@@ -101,9 +101,9 @@
     "tier": "A"
    },
    "frostfire-mage": {
-    "dps": 724.5,
-    "gap": "2.48%",
-    "tier": "B"
+    "dps": 759.9,
+    "gap": "1.34%",
+    "tier": "A"
    },
    "shadow-priest": {
     "dps": 763.7,
@@ -191,8 +191,8 @@
     "tier": "A"
    },
    "frostfire-mage": {
-    "dps": 737.6,
-    "gap": "0.72%",
+    "dps": 770.2,
+    "gap": "",
     "tier": "S"
    },
    "shadow-priest": {
@@ -334,9 +334,9 @@
     "tier": "A"
    },
    "frostfire-mage": {
-    "dps": 733.5,
-    "gap": "1.27%",
-    "tier": "A"
+    "dps": 764.0,
+    "gap": "0.81%",
+    "tier": "S"
    }
   },
   "classSpells": {},
@@ -392,8 +392,8 @@
     "tier": "S"
    },
    "frostfire-mage": {
-    "dps": 743.0,
-    "gap": "",
+    "dps": 768.6,
+    "gap": "0.21%",
     "tier": "S"
    }
   },
@@ -462,8 +462,8 @@
     "tier": "A"
    },
    "frostfire-mage": {
-    "dps": 726.7,
-    "gap": "2.18%",
+    "dps": 754.5,
+    "gap": "2.04%",
     "tier": "B"
    },
    "shadow-priest": {
@@ -554,8 +554,8 @@
     "tier": "A"
    },
    "frostfire-mage": {
-    "dps": 722.6,
-    "gap": "2.74%",
+    "dps": 753.3,
+    "gap": "2.20%",
     "tier": "B"
    },
    "shadow-priest": {
