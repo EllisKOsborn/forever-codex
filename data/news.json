@@ -1,15 +1,4 @@
 {
- "l-n20261007-demonheart": {
-  "classes": [
-   "warlock"
-  ],
-  "date": "2026-10-07",
-  "source": "Conquest Capped",
-  "summary": "A six-piece Warlock set drops in Barrow Deeps and Hyjal Summit, with Tailoring-crafted versions of four pieces. The 5-piece bonus makes Life Tap give 20% more mana.",
-  "tag": "datamine",
-  "title": "Found in the files: Demonheart Raiment tier set",
-  "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-warlock-tier-set/"
- },
  "l-n20261008-pet-stun": {
   "classes": [
    "warlock"
@@ -154,17 +143,6 @@
   "tag": "datamine",
   "title": "Found in the files: beta build 70450",
   "url": "https://bindonforever.com/changes"
- },
- "m-n20261001-heating-up": {
-  "classes": [
-   "mage"
-  ],
-  "date": "2026-10-01",
-  "source": "TalentsForever",
-  "summary": "Heating Up shortens your next Pyroblast by 25% per stack rather than making it instant. Dungeon quest XP was halved the same day.",
-  "tag": "patch",
-  "title": "Oct 1 build: Hot Streak becomes Heating Up, Combustion back to 3 crits",
-  "url": "https://talentsforever.com/mage/changes"
  },
  "m-n20261008-dalaran-opens": {
   "classes": [],
@@ -427,27 +405,6 @@
   "title": "TalentsForever updated to build 70425",
   "url": "https://talentsforever.com/priest"
  },
- "p-n07-2026-10-07": {
-  "classes": [
-   "priest",
-   "warlock"
-  ],
-  "date": "2026-10-07",
-  "source": "Icy Veins",
-  "summary": "Shadow gets Devouring Plague for every race and a reworked Shadowform.",
-  "tag": "blizzard",
-  "title": "Blizzard's Priest, Druid and Warlock highlights video",
-  "url": "https://www.icy-veins.com/wow-forever/news/druid-warlock-and-priest-changes-coming-in-wow-forever/"
- },
- "p-n08-2026-10-01": {
-  "classes": [],
-  "date": "2026-10-01",
-  "source": "Conquest Capped",
-  "summary": "Dungeon quests give half their old bonus XP, pushing levelling into the open world.",
-  "tag": "patch",
-  "title": "Oct 1 build: dungeon quest XP halved",
-  "url": "https://conquestcapped.com/guides/wow-forever/wow-forever-priest-leveling/"
- },
  "p-n20261015-paladin-deep-dive-salvation-not-live-yet": {
   "classes": [],
   "date": "2026-10-15",
@@ -623,5 +580,45 @@
   "classes": [],
   "source": "Blizzard",
   "url": "https://worldofwarcraft.blizzard.com/en-gb/news/24301516/gather-around-the-campfire-in-world-of-warcraft-forever"
+ },
+ "n20261023-mythicsim-22oct": {
+  "date": "2026-10-22",
+  "title": "MythicSim 22 Oct re-run: Demonology to #2, Shadow Priest into the A band",
+  "summary": "New reference-build changes on engine a667dce lift most casters: Demonology 885 to 936 DPS (#2), Fire 860 to 915 (#4), Affliction 784 to 827 and Shadow Priest 771 to 804, now A band.",
+  "tag": "sim",
+  "classes": [
+   "warlock",
+   "mage",
+   "priest"
+  ],
+  "source": "MythicSim",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "n20261023-rp-pvp": {
+  "date": "2026-10-22",
+  "title": "Roleplay-PvP ruleset confirmed for launch",
+  "summary": "Blizzard developer Aggrend says a Roleplay-PvP ruleset will be added for launch on 4 November, and Blizzard is working to let players pick it when name reservation opens on 27 October.",
+  "tag": "blizzard",
+  "classes": [],
+  "source": "Blizzard",
+  "url": "https://us.forums.blizzard.com/en/wow/t/the-roleplay-pvp-ruleset-is-coming-to-wow-forever/2389502"
+ },
+ "n20261023-beta-celebration": {
+  "date": "2026-10-22",
+  "title": "Beta ends with a 24-hour farewell event",
+  "summary": "Blizzard is running a one-off celebration in the starting zones until the beta closes at 10am PDT (6pm UK) on 23 October. Blizzard says its items and experiences will almost certainly not be part of the launched game.",
+  "tag": "blizzard",
+  "classes": [],
+  "source": "Blizzard",
+  "url": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-beta-celebration-is-underway/2389633"
+ },
+ "n20261023-beta-only-items": {
+  "date": "2026-10-22",
+  "title": "Found in the files: beta-only Molten Core loot for the farewell event",
+  "summary": "ForeverChanges found 127 beta-only items in a 22 Oct hotfix, including level 1 copies of Molten Core loot and the Tier 1 sets, plus an elixir that triples experience for an hour. Nothing in it points to Molten Core on the live realms.",
+  "tag": "datamine",
+  "classes": [],
+  "source": "ForeverChanges",
+  "url": "https://foreverchanges.pro/patch-notes"
  }
 }

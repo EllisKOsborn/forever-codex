@@ -16,7 +16,7 @@
    "Early name reservation (27 October) is for players who bought an upgrade pack."
   ],
   "gearNote": "Levelling picks come from the level-30 beta lists. Trinket gains are MythicSim results and differ by spec. Items marked unverified are level-60 loot whose Forever drop tables aren't confirmed yet (the beta stops at 30). \"Also wanted by\" shows which of your other classes would compete for the same item.",
-  "lastRefreshed": "2026-10-22T08:20:00+01:00",
+  "lastRefreshed": "2026-10-23T08:30:00+01:00",
   "raidFacts": [
    "Onyxia's Lair keeps its Classic-style attunement chain, done per character at least at launch (Blizzard podcast, 8 October). Barrow Deeps and Hyjal Summit have no attunement chain, though Blizzard hints at extra steps for the full experience.",
    "All raids are currently planned to reset each week (Blizzard raid overview, 20 October).",
@@ -324,9 +324,17 @@
    {
     "name": "Blizzard: Gather Around the Campfire (21 Oct)",
     "url": "https://worldofwarcraft.blizzard.com/en-gb/news/24301516/gather-around-the-campfire-in-world-of-warcraft-forever"
+   },
+   {
+    "name": "Blizzard: Roleplay-PvP ruleset (22 Oct)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/the-roleplay-pvp-ruleset-is-coming-to-wow-forever/2389502"
+   },
+   {
+    "name": "Blizzard: Beta Celebration (22 Oct)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-beta-celebration-is-underway/2389633"
    }
   ],
-  "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight. The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Demonology above Marksmanship, Arcane above Arms, Affliction above Feral, Frostfire above Shadow, Elehance above Assassination). All 24 rows are on MythicSim's 21 Oct run (engine a667dce, client 70425). The change column is MythicSim's printed change since 16 October, not since yesterday. Bands are set from the median core spec: S is 20%+ above it, A above it, B within 15% below, C further down. Specs for the classes you're weighing are highlighted."
+  "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight. The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Fire above Marksmanship, Affliction and Arcane above Beast Mastery, Frostfire above Feral). All 24 rows are on MythicSim's 22 Oct run (engine a667dce, client 70425). The change column is MythicSim's printed change since 16 October, not since yesterday. Bands are set from the median core spec: S is 20%+ above it, A above it, B within 15% below, C further down. Specs for the classes you're weighing are highlighted."
  },
  "crafting": {
   "camping": {
@@ -619,6 +627,7 @@
      "Normal: world PvP only when both players opt in. Easiest for mixed friend groups.",
      "PvP: contested zones stay dangerous and levelling there is slower. One faction per account on this ruleset, with faction-balance systems like Season of Discovery.",
      "Roleplaying: Normal rules with an RP community.",
+     "Roleplay-PvP: Blizzard confirmed on 22 Oct that it will be added for launch, and is working to let you reserve names on it from 27 October.",
      "Hardcore: after launch, no date yet. Fully closed off; a dead character can transfer out.",
      "Battlegrounds are the only place rulesets mix."
     ],
@@ -628,7 +637,7 @@
   "checklist": [
    {
     "id": "ruleset",
-    "text": "Pick a ruleset: Normal, PvP or Roleplaying. Hardcore comes later.",
+    "text": "Pick a ruleset: Normal, PvP, Roleplaying or Roleplay-PvP. Hardcore comes later.",
     "why": "There are no realms. You can only group, run dungeons and raid with players on your ruleset and faction, and characters can't move between rulesets."
    },
    {
