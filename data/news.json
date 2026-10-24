@@ -1,15 +1,4 @@
 {
- "l-n20261008-pet-stun": {
-  "classes": [
-   "warlock"
-  ],
-  "date": "2026-10-08",
-  "source": "Blizzard",
-  "summary": "Swapping demons mid-fight now leaves the current one stunned during the cast. Demonic Brand also stopped causing high threat unless it deals Shadow damage.",
-  "tag": "patch",
-  "title": "Your demon is stunned while you summon another",
-  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696"
- },
  "l-n20261016-amplify-curse": {
   "classes": [
    "warlock"
@@ -620,5 +609,14 @@
   "classes": [],
   "source": "ForeverChanges",
   "url": "https://foreverchanges.pro/patch-notes"
+ },
+ "n20261024-beta-closed": {
+  "date": "2026-10-23",
+  "title": "Beta closed; character creation opens 27 October",
+  "summary": "Blizzard has closed the beta and will spend a few days on priority fixes before the 4 November launch. Character creation, including ruleset choice and name reservation, opens on Tuesday 27 October.",
+  "tag": "blizzard",
+  "classes": [],
+  "source": "Blizzard (Kaivax)",
+  "url": "https://us.forums.blizzard.com/en/wow/t/thank-you-for-testing-the-wow-forever-beta/2390466"
  }
 }

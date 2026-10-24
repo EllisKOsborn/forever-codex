@@ -676,5 +676,63 @@
    ],
    "flagged": []
   }
+ },
+ "2026-10-24": {
+  "date": "2026-10-24",
+  "at": "2026-10-24T08:30:00+01:00",
+  "headline": "No sim changes overnight: Demonology is still the top spec of your three at 936 DPS (#2 of 24), Fire 915 (#4), Shadow 804 (#11). The beta is now closed.",
+  "items": [
+   {
+    "kind": "neutral",
+    "classes": [
+     "warlock",
+     "mage",
+     "priest"
+    ],
+    "text": "MythicSim tier list, class pages and trinket boards all match yesterday (engine a667dce, snapshot 23 Oct). Every DPS figure and rank for Warlock, Mage and Priest is unchanged.",
+    "source": "MythicSim tier list and class pages",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "Blizzard confirms the beta has closed. A few days of priority fixes follow, then character creation (ruleset and names) opens on Tuesday 27 October, ahead of launch on 4 November.",
+    "source": "Blizzard (Kaivax)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/thank-you-for-testing-the-wow-forever-beta/2390466",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "warlock",
+     "priest"
+    ],
+    "text": "LFCarry re-checked its tier list on 23 Oct with no grade changes: Demonology A, Affliction and Destruction B, Shadow Priest B.",
+    "source": "LFCarry",
+    "url": "https://lfcarry.com/guides/wow-forever-tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "ForeverChanges lists a final beta build, 1.60.1.70532 (22 Oct), with the same game data as the 16 Oct build; its only later hotfix moves Paladin Righteous Fury to level 10. Not changed on the site until a second source confirms the build.",
+    "source": "ForeverChanges",
+    "url": "https://foreverchanges.pro/patch-notes",
+    "confidence": "single"
+   }
+  ],
+  "unchecked": [
+   "Wowhead and Icy Veins news pages returned 202 or 403 to the fetcher, so anything only reported there is unchecked today.",
+   "Blizzard's post says character creation opens to 'everyone' on 27 Oct; the site keeps the earlier wording (early access for upgrade-pack owners) until that is clarified."
+  ],
+  "checks": {
+   "verified": 4,
+   "method": "MythicSim, LFCarry, ForeverChanges and TalentsForever read as raw HTML with curl and parsed by script, Blizzard's post read from the forum JSON; tier list numbers compared row by row with yesterday's data. A fresh agent independently re-opened every ledger URL and confirmed all 4 rows.",
+   "corrected": [
+    "LFCarry opinion date for Warlock and Priest: 16 Oct to 23 Oct (grades unchanged)."
+   ],
+   "flagged": []
+  }
  }
 }
