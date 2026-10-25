@@ -1,6 +1,6 @@
 {
  "app": {
-  "build": "1.60.1.70450",
+  "build": "1.60.1.70532",
   "compareNote": "Sim DPS is the newest MythicSim run for each spec: 2-minute single-target fight, reference gear, no trinkets. Population is from beta samples and will change at launch.",
   "defaultClass": "warlock",
   "dungeonNote": "Enter your level to highlight dungeons around it. Dungeon XP is far below Classic, so run them for gear and quests.",
@@ -16,7 +16,7 @@
    "Early name reservation (27 October) is for players who bought an upgrade pack."
   ],
   "gearNote": "Levelling picks come from the level-30 beta lists. Trinket gains are MythicSim results and differ by spec. Items marked unverified are level-60 loot whose Forever drop tables aren't confirmed yet (the beta stops at 30). \"Also wanted by\" shows which of your other classes would compete for the same item.",
-  "lastRefreshed": "2026-10-24T08:30:00+01:00",
+  "lastRefreshed": "2026-10-25T08:30:00+00:00",
   "raidFacts": [
    "Onyxia's Lair keeps its Classic-style attunement chain, done per character at least at launch (Blizzard podcast, 8 October). Barrow Deeps and Hyjal Summit have no attunement chain, though Blizzard hints at extra steps for the full experience.",
    "All raids are currently planned to reset each week (Blizzard raid overview, 20 October).",
@@ -332,9 +332,17 @@
    {
     "name": "Blizzard: Beta Celebration (22 Oct)",
     "url": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-beta-celebration-is-underway/2389633"
+   },
+   {
+    "name": "Blizzard WoW Weekly (23 Oct)",
+    "url": "https://worldofwarcraft.blizzard.com/en-us/news/24313106/dive-into-wow-forever-the-gods-of-zulaman-hallows-end-and-more-in-wow-weekly"
+   },
+   {
+    "name": "Bind on Forever changes",
+    "url": "https://bindonforever.com/changes"
    }
   ],
-  "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight. The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Fire above Marksmanship, Affliction and Arcane above Beast Mastery, Frostfire above Feral). All 24 rows are on MythicSim's 22 Oct run (engine a667dce, client 70425). The change column is MythicSim's printed change since 16 October, not since yesterday. Bands are set from the median core spec: S is 20%+ above it, A above it, B within 15% below, C further down. Specs for the classes you're weighing are highlighted."
+  "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight. The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Fury and Fire above Marksmanship, Destruction above Beast Mastery, Frostfire above Shadow). All 24 rows are on MythicSim's 25 Oct run (engine a667dce, client 70425). The change column is MythicSim's printed change since 16 October, not since yesterday. Bands are set from the median core spec: S is 15% or more above it, A above it, B within 15% below, C further down. Specs for the classes you're weighing are highlighted."
  },
  "crafting": {
   "camping": {

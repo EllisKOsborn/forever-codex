@@ -133,15 +133,6 @@
   "title": "Found in the files: beta build 70450",
   "url": "https://bindonforever.com/changes"
  },
- "m-n20261008-dalaran-opens": {
-  "classes": [],
-  "date": "2026-10-08",
-  "source": "TalentsForever",
-  "summary": "Dungeon kill XP up about 20%. Low ranks of Fireball, Frostbolt and Arcane Missiles hit slightly less.",
-  "tag": "patch",
-  "title": "Oct 8 build: City of Dalaran dungeon opens",
-  "url": "https://talentsforever.com/mage/changes"
- },
  "m-n20261016-barrow-deeps": {
   "classes": [],
   "date": "2026-10-16",
@@ -454,15 +445,6 @@
   "title": "Server Slam moved to 21 October",
   "url": "https://worldofwarcraft.blizzard.com/news/24302072/join-the-world-of-warcraft-forever-stress-test"
  },
- "x-n20261008-ony-attunement": {
-  "classes": [],
-  "date": "2026-10-08",
-  "source": "Warcraft Tavern (WoW Forever Podcast ep. 3)",
-  "summary": "The Onyxia chain is per character at launch. Barrow Deeps and Hyjal Summit have no attunement chain, though some extra steps unlock the full experience.",
-  "tag": "blizzard",
-  "title": "Onyxia's Lair keeps its attunement; new raids don't need one",
-  "url": "https://www.warcrafttavern.com/forever/news/onyxias-lair-raid-will-still-require-attunement-in-wow-forever/"
- },
  "x-n20261017-tier-bonuses": {
   "classes": [
    "mage",
@@ -618,5 +600,27 @@
   "classes": [],
   "source": "Blizzard (Kaivax)",
   "url": "https://us.forums.blizzard.com/en/wow/t/thank-you-for-testing-the-wow-forever-beta/2390466"
+ },
+ "n20261025-mythicsim-resim": {
+  "date": "2026-10-25",
+  "title": "MythicSim re-sim: Demonology joins the S band, Destruction climbs to #9",
+  "summary": "MythicSim re-ran its Forever boards on 24 to 25 Oct. Demonology rises to 959 DPS and into the S band, while a new Shadow Bolt reference build lifts Destruction from 759 to 847 and from #15 to #9; Shadow Priest drops back to the B band at 816.",
+  "tag": "sim",
+  "classes": [
+   "warlock",
+   "mage",
+   "priest"
+  ],
+  "source": "MythicSim",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "n20261025-final-beta-build": {
+  "date": "2026-10-25",
+  "title": "Final beta build 70532 confirmed, no class changes",
+  "summary": "Bind on Forever and ForeverChanges both list 1.60.1.70532 (22 Oct) as the last beta build, with no spell or item changes in the client files.",
+  "tag": "patch",
+  "classes": [],
+  "source": "Bind on Forever / ForeverChanges",
+  "url": "https://bindonforever.com/changes"
  }
 }
