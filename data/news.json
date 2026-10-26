@@ -246,15 +246,6 @@
   "title": "Found in the files: Manor Mistmantle",
   "url": "https://bindonforever.com/whats-new"
  },
- "n20261013-economy-holds": {
-  "classes": [],
-  "date": "2026-10-13",
-  "source": "Blizzard forums (Kaivax)",
-  "summary": "Accounts suspected of buying or selling gold can be put on a temporary hold that blocks trade, mail, guild banks and the Auction House while Blizzard investigates. Blizzard says innocent accounts are released without a strike.",
-  "tag": "blizzard",
-  "title": "Blizzard adds temporary economy holds against gold selling",
-  "url": "https://us.forums.blizzard.com/en/wow/t/temporary-economy-holds-for-rmt/2381433"
- },
  "n20261016-datamined-art": {
   "classes": [],
   "date": "2026-10-16",
@@ -384,15 +375,6 @@
   "tag": "talents",
   "title": "TalentsForever updated to build 70425",
   "url": "https://talentsforever.com/priest"
- },
- "p-n20261015-paladin-deep-dive-salvation-not-live-yet": {
-  "classes": [],
-  "date": "2026-10-15",
-  "source": "Blizzard",
-  "summary": "Blizzard's Paladin deep dive confirms Salvation will stop being a blessing, but says that change arrives in a future beta build. Kings becomes baseline and Holy Shock drops to a 10 sec cooldown.",
-  "tag": "blizzard",
-  "title": "Paladin deep dive: Salvation change not live yet",
-  "url": "https://worldofwarcraft.blizzard.com/news/24302099/world-of-warcraft-forever-class-deep-dives-paladin"
  },
  "p-n20261016-found-in-the-files-improved-mind-flay-lost-its-range-and-slo": {
   "classes": [
@@ -622,5 +604,27 @@
   "classes": [],
   "source": "Bind on Forever / ForeverChanges",
   "url": "https://bindonforever.com/changes"
+ },
+ "n20261026-layering-fixes": {
+  "date": "2026-10-23",
+  "title": "Blizzard promises layering fixes before launch",
+  "summary": "Blizzard told the press it will keep groups together on boats and zeppelins and stop big groups being split across layers at capital cities. It also said some layering will always happen on Forever's high-capacity servers; the fixes are promised, not yet live.",
+  "tag": "blizzard",
+  "classes": [],
+  "source": "Output Lag (Blizzard statement), also Kami Labs",
+  "url": "https://outputlag.com/news/wow-forevers-most-divisive-beta-feature-is-getting-fixes-but-blizzard-says-it-isnt-going-away/"
+ },
+ "n20261026-mythicsim-race-resim": {
+  "date": "2026-10-25",
+  "title": "MythicSim re-sims its race boards; Fire and Frostfire now sim as Human",
+  "summary": "MythicSim re-ran 30 of its 34 race boards for the 16 Oct client, and Human now leads Fire and Frostfire. With Human as their preset race, Fire sims 916 DPS and Frostfire 809, and Fire slips to #5 of 24 behind a re-simmed Marksmanship Hunter.",
+  "tag": "sim",
+  "classes": [
+   "mage",
+   "warlock",
+   "priest"
+  ],
+  "source": "MythicSim",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
  }
 }

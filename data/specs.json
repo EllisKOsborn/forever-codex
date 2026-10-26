@@ -42,8 +42,8 @@
   "newNote": "MythicSim Warlock page, engine a667dce on client 70425, simmed 25 Oct (tier list and trinket board baseline also 860, same engine)",
   "race": "Human",
   "raceBoard": {
-   "note": "Human 815.5 leads; Orc 809.9 (0.68% back) is also S; Gnome, Undead and Troll are 1.2 to 1.4% back.",
-   "snapshot": "Engine a667dce, 25 Oct (client 70425)"
+   "note": "Human 859.9 leads; Orc 853.1 (0.79% back) is also S; Undead, Gnome and Troll are 1.3 to 1.5% back.",
+   "snapshot": "Engine 26fd700 (matches a667dce), 25 Oct (client 70425)"
   },
   "raidRotation": [
    "Curse of the Elements (or your assigned curse) kept up.",
@@ -150,8 +150,8 @@
   "newNote": "MythicSim Mage page, engine a667dce on client 70425, simmed 25 Oct (tier list and trinket board baseline also 827, same engine)",
   "race": "Skyborne",
   "raceBoard": {
-   "note": "Skyborne 804.9 leads; Human (0.53% back), Gnome (0.78%) and Orc (0.80%) are also S; Troll and Undead are about 1.7% back.",
-   "snapshot": "Engine a667dce, 25 Oct (client 70425)"
+   "note": "Skyborne and Gnome tie at the top on 825.8; Human (0.15% back) and Orc (0.44%) are also S; Undead and Troll are 1.2 to 1.5% back.",
+   "snapshot": "Engine 26fd700 (matches a667dce), 25 Oct (client 70425)"
   },
   "raidRotation": [
    "Pre-cast Arcane Blast.",
@@ -259,8 +259,8 @@
   "newNote": "MythicSim Warlock page, engine a667dce on client 70425, simmed 25 Oct (tier list and trinket board baseline also 959, same engine)",
   "race": "Human",
   "raceBoard": {
-   "note": "Human 911.5 leads; Orc 905.0 (0.72% back) is the only other S race; Gnome, Undead and Troll are 1.0 to 1.5% back.",
-   "snapshot": "Engine a667dce, 25 Oct (client 70425)"
+   "note": "Human 957.5 leads; Orc 950.9 (0.69% back) and Gnome (0.96%) are also S; Undead (1.08%) and Troll (1.44%) are A.",
+   "snapshot": "Engine 26fd700 (matches a667dce), 25 Oct (client 70425)"
   },
   "raidRotation": [
    "Before the pull: summon your Imp and Demonic Sacrifice it for the 2-hour Shadow damage buff, then summon a Succubus or Incubus. Demonic Pact keeps the buff because it's a different demon. Fel Domination makes the resummon quick.",
@@ -384,8 +384,8 @@
   "newNote": "MythicSim Warlock page, engine a667dce on client 70425, simmed 25 Oct (tier list and trinket board baseline also 847, same engine)",
   "race": "Human",
   "raceBoard": {
-   "note": "Human 806.8 leads; Orc (0.83% back) is the only other S race; Gnome (1.15%), Undead (1.18%) and Troll (1.72%) are A.",
-   "snapshot": "Engine a667dce, 25 Oct (client 70425)"
+   "note": "Human 845.7 leads; Orc (0.74% back) is the only other S race; Undead (1.06%), Gnome (1.12%) and Troll (1.50%) are A.",
+   "snapshot": "Engine 26fd700 (matches a667dce), 25 Oct (client 70425)"
   },
   "raidRotation": [
    "Before the pull: summon your Succubus and keep it out (MythicSim's 25 Oct reference skips Demonic Sacrifice), and open with a Shadow Bolt cast.",
@@ -477,12 +477,12 @@
   "id": "fire-mage",
   "key": "fire",
   "name": "Fire",
-  "newDps": 914,
-  "newNote": "MythicSim Mage page, engine a667dce on client 70425, simmed 25 Oct (tier list and trinket board baseline also 914, same engine)",
-  "race": "Skyborne",
+  "newDps": 916,
+  "newNote": "MythicSim Mage page, engine a667dce on client 70425, simmed 25 Oct (tier list and trinket board baseline also 916, same engine)",
+  "race": "Human",
   "raceBoard": {
-   "note": "Human 872.2 and Skyborne 872.1 tie at the top; Orc (0.28% back) and Gnome (0.81%) are also S; Troll and Undead are 1.3 to 1.4% back.",
-   "snapshot": "Engine a667dce, 25 Oct (client 70425)"
+   "note": "Human 917.9 leads; Skyborne (0.40% back), Orc (0.44%) and Gnome (0.50%) are also S; Undead and Troll are about 1.5% back.",
+   "snapshot": "Engine 26fd700 (matches a667dce), 25 Oct (client 70425)"
   },
   "raidRotation": [
    "Pre-cast Fireball about 3.5 sec before the pull.",
@@ -499,7 +499,7 @@
    "Fire-only spell damage gear works for Fire and Frostfire, not for Arcane Missiles procs.",
    "Intellect and Spirit after that; Stamina for dangerous fights."
   ],
-  "summary": "LFCarry's raid default. On MythicSim's newest run (engine a667dce, 25 Oct) it is the top Mage spec at 914 DPS, about 11% ahead of Arcane, and #4 of 24 (A band) on the tier list. Fire Power now rewards keeping your own Fire effects on the boss, and Critical Mass at 5 ranks plus Fire Blast feeding Heating Up means more short Pyroblasts. Improved Scorch only buffs you now, so every Fire Mage keeps their own 5 stacks.",
+  "summary": "LFCarry's raid default. On MythicSim's newest run (engine a667dce, 25 Oct) it is the top Mage spec at 916 DPS, about 11% ahead of Arcane, and #5 of 24 (A band) on the tier list. Fire Power now rewards keeping your own Fire effects on the boss, and Critical Mass at 5 ranks plus Fire Blast feeding Heating Up means more short Pyroblasts. Improved Scorch only buffs you now, so every Fire Mage keeps their own 5 stacks.",
   "talentNotes": [
    "Heating Up (was Hot Streak): crits from Fireball, Frostfire Bolt, Fire Blast and Scorch cut your next Pyroblast's cast by 25%, up to 3 stacks.",
    "Incineration (was Incinerate) sits in row 1 and now covers Ice Lance and Arcane Blast too.",
@@ -513,22 +513,22 @@
    "Mage Armor lets 50% of regen continue while casting. Use it in raids over Molten or Frost Armor."
   ],
   "tierBand": "A",
-  "tierDps": 914,
-  "tierRank": 4,
-  "trinketSnapshot": "MythicSim Fire board, engine a667dce on client 70425, 24 Oct (baseline 914)",
+  "tierDps": 916,
+  "tierRank": 5,
+  "trinketSnapshot": "MythicSim Fire board, engine a667dce on client 70425, 25 Oct (baseline 916)",
   "trinkets": [
    {
-    "gain": "+3.15%",
+    "gain": "+3.08%",
     "name": "Talisman of Ephemeral Power",
     "source": "Magmadar, Molten Core. Molten Core isn't on Forever's announced raid schedule."
    },
    {
-    "gain": "+2.86%",
+    "gain": "+2.82%",
     "name": "Cleansed Vilebranch Icon",
     "source": "Quest"
    },
    {
-    "gain": "+2.86%",
+    "gain": "+2.82%",
     "name": "Jewel of the Guard Captain",
     "source": "Quest"
    },
@@ -543,7 +543,7 @@
     "source": "Jed Runewatcher, Blackrock Spire"
    },
    {
-    "gain": "+1.74%",
+    "gain": "+1.67%",
     "name": "Burst of Knowledge",
     "source": "Ambassador Flamelash, BRD"
    },
@@ -581,8 +581,8 @@
   "newNote": "MythicSim Mage page, engine a667dce on client 70425, simmed 25 Oct (tier list and trinket board baseline also 683, same engine)",
   "race": "Skyborne",
   "raceBoard": {
-   "note": "Skyborne 675.0 is the only S race; Human is 1.17% back and the other four are 1.38 to 1.91% back.",
-   "snapshot": "Engine a667dce, 25 Oct (client 70425)"
+   "note": "Skyborne 683.0 is the only S race; Human is 1.15% back and the other four are 1.35 to 1.81% back.",
+   "snapshot": "Engine 26fd700 (matches a667dce), 25 Oct (client 70425)"
   },
   "raidRotation": [
    "Pre-cast Frostbolt about 3 sec before the pull.",
@@ -673,12 +673,12 @@
   "id": "frostfire-mage",
   "key": "frostfire",
   "name": "Frostfire",
-  "newDps": 803,
-  "newNote": "MythicSim Mage page, engine a667dce on client 70425, simmed 25 Oct (tier list and trinket board baseline also 803, same engine)",
-  "race": "Skyborne",
+  "newDps": 809,
+  "newNote": "MythicSim Mage page, engine a667dce on client 70425, simmed 25 Oct (tier list and trinket board baseline also 809, same engine)",
+  "race": "Human",
   "raceBoard": {
-   "note": "Skyborne 810.1 and Human 808.0 (0.25% back) tie at the top within sim noise; Orc is also S (0.98%); Gnome and Troll are A (1.6 to 2.0%); Undead is B (2.46%).",
-   "snapshot": "Engine a667dce, 25 Oct (client 70425)"
+   "note": "Human 809.7 leads; Gnome (0.55% back), Skyborne (0.77%) and Orc (0.96%) are also S; Undead (2.11%) and Troll (2.29%) are B.",
+   "snapshot": "Engine 26fd700 (matches a667dce), 25 Oct (client 70425)"
   },
   "raidRotation": [
    "Scorch until you have 5 Improved Scorch stacks; refresh at 5 sec or less.",
@@ -705,39 +705,39 @@
    "Master of Elements refunds Mana on its crits."
   ],
   "tierBand": "B",
-  "tierDps": 803,
+  "tierDps": 809,
   "tierRank": 12,
-  "trinketSnapshot": "MythicSim Frostfire board, engine a667dce on client 70425, 25 Oct (baseline 803)",
+  "trinketSnapshot": "MythicSim Frostfire board, engine a667dce on client 70425, 25 Oct (baseline 809)",
   "trinkets": [
    {
-    "gain": "+3.64%",
+    "gain": "+3.52%",
     "name": "Cleansed Vilebranch Icon",
     "source": "Quest"
    },
    {
-    "gain": "+3.64%",
+    "gain": "+3.52%",
     "name": "Jewel of the Guard Captain",
     "source": "Quest"
    },
    {
-    "gain": "+3.57%",
+    "gain": "+3.50%",
     "name": "Talisman of Ephemeral Power",
     "source": "Magmadar, Molten Core. Molten Core isn't on Forever's announced raid schedule."
    },
    {
-    "gain": "+3.14%",
+    "gain": "+3.12%",
     "name": "Draconic Infused Emblem",
     "source": "General Drakkisath, Blackrock Spire"
    },
    {
-    "gain": "+3.14%",
-    "name": "Mindtap Talisman",
-    "source": "Magister Kalendris, Dire Maul"
+    "gain": "+2.63%",
+    "name": "Briarwood Reed",
+    "source": "Jed Runewatcher, Blackrock Spire"
    },
    {
-    "gain": "+2.81%",
-    "name": "Burst of Knowledge",
-    "source": "Ambassador Flamelash, BRD"
+    "gain": "+2.33%",
+    "name": "Mindtap Talisman",
+    "source": "Magister Kalendris, Dire Maul"
    }
   ]
  },
@@ -767,8 +767,8 @@
   "newNote": "MythicSim Priest page, engine a667dce on client 70425, simmed 25 Oct (tier list and trinket board baseline also 816, same engine)",
   "race": "Human",
   "raceBoard": {
-   "note": "Human 783.9 leads; Night Elf (0.55% back), Dwarf (0.70%) and Undead (0.98%) are within 1%; Gnome and Troll are 1.1 to 1.4% back.",
-   "snapshot": "Engine a667dce, 25 Oct (client 70425)"
+   "note": "Human 816.9 leads; Night Elf (0.56% back), Dwarf (0.71%) and Undead (0.96%) are within 1%; Gnome and Troll are 1.1 to 1.4% back.",
+   "snapshot": "Engine 26fd700 (matches a667dce), 25 Oct (client 70425)"
   },
   "raidRotation": [
    "Keep Shadow Word: Pain on the boss. Improved Shadow Word: Pain lengthens it.",

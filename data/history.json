@@ -187,5 +187,23 @@
    "mage": "MythicSim Mage page, engine a667dce, client 70425 (25 Oct)",
    "priest": "MythicSim Priest page, engine a667dce, client 70425 (25 Oct)"
   }
+ },
+ "2026-10-26": {
+  "date": "2026-10-26",
+  "values": {
+   "affliction-warlock": 860,
+   "arcane-mage": 827,
+   "demonology-warlock": 959,
+   "destruction-warlock": 847,
+   "fire-mage": 916,
+   "frost-mage": 683,
+   "frostfire-mage": 809,
+   "shadow-priest": 816
+  },
+  "labels": {
+   "warlock": "MythicSim Warlock page, engine a667dce, client 70425 (25 Oct)",
+   "mage": "MythicSim Mage page, engine a667dce, client 70425 (25 Oct, Human preset for Fire and Frostfire)",
+   "priest": "MythicSim Priest page, engine a667dce, client 70425 (25 Oct)"
+  }
  }
 }

@@ -138,7 +138,7 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "Fire +2.18%, Arcane +2.03%, Frost +2.10%, Frostfire +2.65% (24 to 25 Oct boards).",
+    "notes": "Fire +2.18%, Arcane +2.03%, Frost +2.10%, Frostfire +2.63% (24 to 25 Oct boards).",
     "specs": []
    },
    "priest": {
@@ -184,7 +184,7 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "Fire +1.74%, Arcane +2.88%, Frost +0.88%, Frostfire +2.81% (24 to 25 Oct boards).",
+    "notes": "Fire +1.67%, Arcane +2.88%, Frost +0.88%, Frostfire +2.17% (24 to 25 Oct boards).",
     "specs": []
    },
    "warlock": {
@@ -222,7 +222,7 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "Fire +2.86%, Arcane +2.62%, Frost +2.67%, Frostfire +3.64% (24 to 25 Oct boards); joint best for Frostfire.",
+    "notes": "Fire +2.82%, Arcane +2.62%, Frost +2.67%, Frostfire +3.52% (24 to 25 Oct boards); joint best for Frostfire.",
     "specs": []
    },
    "priest": {
@@ -317,7 +317,7 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "Fire +2.58%, Arcane +2.40%, Frost +2.49%, Frostfire +3.14% (24 to 25 Oct boards).",
+    "notes": "Fire +2.58%, Arcane +2.40%, Frost +2.49%, Frostfire +3.12% (24 to 25 Oct boards).",
     "specs": []
    },
    "priest": {
@@ -468,7 +468,7 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "Crafted. Frost +1.33%, Arcane +1.32%, Fire +1.02% (24 to 25 Oct boards).",
+    "notes": "Crafted. Frost +1.33%, Arcane +1.32%, Fire +1.15% (24 to 25 Oct boards).",
     "specs": []
    }
   },
@@ -982,7 +982,7 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "Top sim trinket for Fire (+3.15%), Arcane (+3.32%) and Frost (+3.00%) on the 24 Oct boards, but Molten Core isn't on Forever's announced raid schedule.",
+    "notes": "Top sim trinket for Fire (+3.08%), Arcane (+3.32%) and Frost (+3.00%) on the 24 to 25 Oct boards, but Molten Core isn't on Forever's announced raid schedule.",
     "specs": [
      "fire-mage",
      "arcane-mage",
@@ -1068,7 +1068,7 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "New Forever trinket. Fire +1.65%, Arcane +1.54%, Frost +1.59%, Frostfire +2.01% (24 to 25 Oct boards).",
+    "notes": "New Forever trinket. Fire +1.65%, Arcane +1.54%, Frost +1.59%, Frostfire +1.99% (24 to 25 Oct boards).",
     "specs": []
    }
   },

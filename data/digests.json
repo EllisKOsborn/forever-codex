@@ -837,5 +837,88 @@
    ],
    "flagged": []
   }
+ },
+ "2026-10-26": {
+  "date": "2026-10-26",
+  "at": "2026-10-26T08:07:36+00:00",
+  "headline": "Small MythicSim update, no change to your picks: Demonology still leads at 959 (#2, S). Fire now sims as Human at 916 but slips to #5; Shadow unchanged at 816 (#13, B).",
+  "items": [
+   {
+    "kind": "neutral",
+    "classes": [
+     "mage"
+    ],
+    "text": "Fire 914 to 916 DPS but #4 to #5 (still A), as Marksmanship Hunter (932 to 938) moved up to #3. Frostfire 803 to 809, still #12 (B). Arcane 827 (#11) and Frost 683 (#21) unchanged. MythicSim now uses Human, not Skyborne, as the preset race for Fire and Frostfire.",
+    "source": "MythicSim tier list and Mage page",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "warlock",
+     "priest"
+    ],
+    "text": "Warlock and Shadow sim numbers unchanged: Demonology 959 (#2, S), Affliction 860 (#8, A), Destruction 847 (#9, A), Shadow 816 (#13, B).",
+    "source": "MythicSim tier list",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "warlock",
+     "mage",
+     "priest"
+    ],
+    "text": "Race boards re-simmed (30 of 34, client 70425, engine 26fd700 matching a667dce), about 5% higher across the board. Human still leads every Warlock spec and Shadow (Demonology 911.5 to 957.5); Gnome joins Orc in Demonology's S group. Mage: Human now leads Fire (917.9, Skyborne 0.40% back) and Frostfire (809.7, Gnome 0.55%); Skyborne and Gnome tie for Arcane (825.8); Skyborne alone leads Frost (683.0).",
+    "source": "MythicSim race boards",
+    "url": "https://mythicsim.com/wow-forever/races?class=mage&spec=fire-mage",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "mage"
+    ],
+    "text": "Fire and Frostfire trinket boards re-simmed on 25 Oct. Fire: Talisman of Ephemeral Power 3.15% to 3.08%, Vilebranch Icon and Jewel 2.86% to 2.82%. Frostfire: Vilebranch Icon and Jewel 3.64% to 3.52%; Mindtap Talisman 3.14% to 2.33%, now behind Briarwood Reed (2.63%). Other boards unchanged.",
+    "source": "MythicSim trinket boards",
+    "url": "https://mythicsim.com/wow-forever/best-trinkets/frostfire-mage",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "Blizzard told the press on 23 Oct it will keep groups together on boats and zeppelins and stop big groups being split at capital cities, but some layering will always remain. Promised, not live yet.",
+    "source": "Output Lag, Kami Labs",
+    "url": "https://outputlag.com/news/wow-forevers-most-divisive-beta-feature-is-getting-fixes-but-blizzard-says-it-isnt-going-away/",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "No new Blizzard notes, hotfixes or blue posts since 23 Oct. Build stays 1.60.1.70532. Name reservation still opens 27 Oct, 18:00 CET (5pm UK); launch still 4 Nov, 11pm UK. LFCarry tier list (25 Oct) changed wording only, no grade changes.",
+    "source": "Blizzard / Bluetracker / Bind on Forever / LFCarry",
+    "url": "https://bindonforever.com/changes",
+    "confidence": "checked"
+   }
+  ],
+  "unchecked": [
+   "Icy Veins returned 403 on every page",
+   "Wowhead news listings could not be read",
+   "TalentsForever levelling pages, ForeverChanges BiS and Daybreak skill pages not re-read today (no new builds since 22 Oct)"
+  ],
+  "checks": {
+   "verified": 146,
+   "method": "Raw page text from MythicSim parsed directly, then each changed page read again through WebFetch with a different prompt; a fresh agent then checked all 151 ledger rows against the pages. News items were read twice and need two sources.",
+   "corrected": [
+    "Fire and Frostfire preset race Skyborne to Human (MythicSim changed it)",
+    "Frostfire trinket list: stale Mindtap 3.14% and Burst of Knowledge 2.81% replaced with the 25 Oct board",
+    "Tier note: Fury and Fire no longer rank above Marksmanship"
+   ],
+   "flagged": [
+    "MythicSim's own pages count specs differently: the class pages say 'of 24' (Frost #21), but the tier list's best-of-each-spec view now numbers only 22 (Frost #20), leaving Elehance and Smite unranked. The site keeps the 24-spec ranking."
+   ]
+  }
  }
 }

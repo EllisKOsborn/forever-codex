@@ -20,8 +20,8 @@
   ],
   "boards": {
    "shadow-priest": {
-    "dps": 778.3,
-    "gap": "0.70%",
+    "dps": 811.2,
+    "gap": "0.71%",
     "tier": "S"
    }
   },
@@ -50,6 +50,61 @@
    "priest": "Earth Fury (+2% crit damage and healing): +0.99%"
   }
  },
+ "skyborne": {
+  "abilities": [
+   {
+    "effect": "+3% casting, melee and ranged haste (was 1%).",
+    "name": "Wind Blessed"
+   },
+   {
+    "effect": "2 sec cast: +100% health and Mana regen for 30 sec, or 15 min near a leyline. Can be cast while moving.",
+    "name": "Read Leyline"
+   },
+   {
+    "effect": "Glide down through the air for 10 sec; 1.5 min cooldown.",
+    "name": "Walk on Air"
+   },
+   {
+    "effect": "",
+    "name": "Elemental Insight"
+   }
+  ],
+  "boards": {
+   "arcane-mage": {
+    "dps": 825.8,
+    "gap": "",
+    "tier": "S"
+   },
+   "fire-mage": {
+    "dps": 914.2,
+    "gap": "0.40%",
+    "tier": "S"
+   },
+   "frost-mage": {
+    "dps": 683.0,
+    "gap": "",
+    "tier": "S"
+   },
+   "frostfire-mage": {
+    "dps": 803.4,
+    "gap": "0.77%",
+    "tier": "S"
+   }
+  },
+  "classSpells": {},
+  "classes": [
+   "mage"
+  ],
+  "faction": "Alliance",
+  "notes": {
+   "mage": "High Order, Alliance only; needs the Skyborne Heroic pack or higher"
+  },
+  "order": 5,
+  "race": "Skyborne",
+  "simText": {
+   "mage": "Wind Blessed: +3% spell, melee and ranged haste. Read Leyline regen and elemental damage aren't counted."
+  }
+ },
  "gnome": {
   "abilities": [
    {
@@ -71,43 +126,43 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 806.0,
-    "gap": "1.17%",
+    "dps": 848.6,
+    "gap": "1.31%",
     "tier": "A"
    },
    "arcane-mage": {
-    "dps": 798.7,
-    "gap": "0.78%",
+    "dps": 825.8,
+    "gap": "0.00%",
     "tier": "S"
    },
    "demonology-warlock": {
-    "dps": 902.0,
-    "gap": "1.04%",
-    "tier": "A"
+    "dps": 948.3,
+    "gap": "0.96%",
+    "tier": "S"
    },
    "destruction-warlock": {
-    "dps": 797.5,
-    "gap": "1.15%",
+    "dps": 836.2,
+    "gap": "1.12%",
     "tier": "A"
    },
    "fire-mage": {
-    "dps": 865.2,
-    "gap": "0.81%",
+    "dps": 913.3,
+    "gap": "0.50%",
     "tier": "S"
    },
    "frost-mage": {
-    "dps": 663.5,
-    "gap": "1.71%",
+    "dps": 671.7,
+    "gap": "1.66%",
     "tier": "A"
    },
    "frostfire-mage": {
-    "dps": 797.4,
-    "gap": "1.57%",
-    "tier": "A"
+    "dps": 805.3,
+    "gap": "0.55%",
+    "tier": "S"
    },
    "shadow-priest": {
-    "dps": 775.2,
-    "gap": "1.10%",
+    "dps": 807.8,
+    "gap": "1.12%",
     "tier": "A"
    }
   },
@@ -136,7 +191,7 @@
   "race": "Gnome",
   "simText": {
    "mage": "Eureka!: +10% damage and cheaper non-periodic spells for 8 sec every 2 min. Expansive Mind: +5% max Mana.",
-   "priest": "Eureka! and Expansive Mind: +0.53%",
+   "priest": "Eureka! and Expansive Mind: +0.51%",
    "warlock": "Eureka!: +10% damage and cheaper non-periodic spells for 8 sec every 2 min (DoTs don't benefit). Expansive Mind: +5% max Mana."
   }
  },
@@ -161,42 +216,42 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 815.5,
+    "dps": 859.9,
     "gap": "",
     "tier": "S"
    },
    "arcane-mage": {
-    "dps": 800.7,
-    "gap": "0.53%",
+    "dps": 824.6,
+    "gap": "0.15%",
     "tier": "S"
    },
    "demonology-warlock": {
-    "dps": 911.5,
+    "dps": 957.5,
     "gap": "",
     "tier": "S"
    },
    "destruction-warlock": {
-    "dps": 806.8,
+    "dps": 845.7,
     "gap": "",
     "tier": "S"
    },
    "fire-mage": {
-    "dps": 872.2,
+    "dps": 917.9,
     "gap": "",
     "tier": "S"
    },
    "frost-mage": {
-    "dps": 667.2,
-    "gap": "1.17%",
+    "dps": 675.2,
+    "gap": "1.15%",
     "tier": "A"
    },
    "frostfire-mage": {
-    "dps": 808.0,
-    "gap": "0.25%",
+    "dps": 809.7,
+    "gap": "",
     "tier": "S"
    },
    "shadow-priest": {
-    "dps": 783.9,
+    "dps": 816.9,
     "gap": "",
     "tier": "S"
    }
@@ -228,7 +283,7 @@
   "race": "Human",
   "simText": {
    "mage": "Ruthless: +2% crit. The Human Spirit: +5% Spirit.",
-   "priest": "Ruthless (+2% crit) and The Human Spirit (+5% Spirit): +1.69%",
+   "priest": "Ruthless (+2% crit) and The Human Spirit (+5% Spirit): +1.68%",
    "warlock": "Ruthless: +2% crit. The Human Spirit: +5% Spirit, which also feeds Life Tap."
   }
  },
@@ -253,8 +308,8 @@
   ],
   "boards": {
    "shadow-priest": {
-    "dps": 779.5,
-    "gap": "0.55%",
+    "dps": 812.4,
+    "gap": "0.56%",
     "tier": "S"
    }
   },
@@ -304,38 +359,38 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 809.9,
-    "gap": "0.68%",
+    "dps": 853.1,
+    "gap": "0.79%",
     "tier": "S"
    },
    "arcane-mage": {
-    "dps": 798.5,
-    "gap": "0.80%",
+    "dps": 822.2,
+    "gap": "0.44%",
     "tier": "S"
    },
    "demonology-warlock": {
-    "dps": 905.0,
-    "gap": "0.72%",
+    "dps": 950.9,
+    "gap": "0.69%",
     "tier": "S"
    },
    "destruction-warlock": {
-    "dps": 800.1,
-    "gap": "0.83%",
+    "dps": 839.4,
+    "gap": "0.74%",
     "tier": "S"
    },
    "fire-mage": {
-    "dps": 869.8,
-    "gap": "0.28%",
+    "dps": 913.8,
+    "gap": "0.44%",
     "tier": "S"
    },
    "frost-mage": {
-    "dps": 665.7,
-    "gap": "1.38%",
+    "dps": 673.8,
+    "gap": "1.35%",
     "tier": "A"
    },
    "frostfire-mage": {
-    "dps": 802.1,
-    "gap": "0.98%",
+    "dps": 801.9,
+    "gap": "0.96%",
     "tier": "S"
    }
   },
@@ -354,61 +409,6 @@
   "simText": {
    "mage": "Blood Fury: +10% spell power for 15 sec every 3 min. Savage: +1% crit.",
    "warlock": "Blood Fury: +10% spell power for 15 sec every 3 min. Savage: +1% crit."
-  }
- },
- "skyborne": {
-  "abilities": [
-   {
-    "effect": "+3% casting, melee and ranged haste (was 1%).",
-    "name": "Wind Blessed"
-   },
-   {
-    "effect": "2 sec cast: +100% health and Mana regen for 30 sec, or 15 min near a leyline. Can be cast while moving.",
-    "name": "Read Leyline"
-   },
-   {
-    "effect": "Glide down through the air for 10 sec; 1.5 min cooldown.",
-    "name": "Walk on Air"
-   },
-   {
-    "effect": "",
-    "name": "Elemental Insight"
-   }
-  ],
-  "boards": {
-   "arcane-mage": {
-    "dps": 804.9,
-    "gap": "",
-    "tier": "S"
-   },
-   "fire-mage": {
-    "dps": 872.1,
-    "gap": "0.02%",
-    "tier": "S"
-   },
-   "frost-mage": {
-    "dps": 675.0,
-    "gap": "",
-    "tier": "S"
-   },
-   "frostfire-mage": {
-    "dps": 810.1,
-    "gap": "",
-    "tier": "S"
-   }
-  },
-  "classSpells": {},
-  "classes": [
-   "mage"
-  ],
-  "faction": "Alliance",
-  "notes": {
-   "mage": "High Order, Alliance only; needs the Skyborne Heroic pack or higher"
-  },
-  "order": 5,
-  "race": "Skyborne",
-  "simText": {
-   "mage": "Wind Blessed: +3% spell, melee and ranged haste. Read Leyline regen and elemental damage aren't counted."
   }
  },
  "troll": {
@@ -432,43 +432,43 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 803.8,
-    "gap": "1.43%",
+    "dps": 846.7,
+    "gap": "1.53%",
     "tier": "A"
    },
    "arcane-mage": {
-    "dps": 791.5,
-    "gap": "1.67%",
+    "dps": 813.3,
+    "gap": "1.52%",
     "tier": "A"
    },
    "demonology-warlock": {
-    "dps": 897.5,
-    "gap": "1.54%",
+    "dps": 943.7,
+    "gap": "1.44%",
     "tier": "A"
    },
    "destruction-warlock": {
-    "dps": 792.9,
-    "gap": "1.72%",
+    "dps": 833.0,
+    "gap": "1.50%",
     "tier": "A"
    },
    "fire-mage": {
-    "dps": 860.6,
-    "gap": "1.33%",
+    "dps": 903.2,
+    "gap": "1.60%",
     "tier": "A"
    },
    "frost-mage": {
-    "dps": 663.1,
-    "gap": "1.77%",
+    "dps": 671.1,
+    "gap": "1.75%",
     "tier": "A"
    },
    "frostfire-mage": {
-    "dps": 794.3,
-    "gap": "1.95%",
-    "tier": "A"
+    "dps": 791.1,
+    "gap": "2.29%",
+    "tier": "B"
    },
    "shadow-priest": {
-    "dps": 772.9,
-    "gap": "1.40%",
+    "dps": 805.4,
+    "gap": "1.41%",
     "tier": "A"
    }
   },
@@ -499,7 +499,7 @@
   "race": "Troll",
   "simText": {
    "mage": "Berserking: +10% casting speed for 10 sec every 3 min.",
-   "priest": "Berserking: +0.35%",
+   "priest": "Berserking: +0.32%",
    "warlock": "Berserking: +10% casting speed for 10 sec every 3 min. Weaker for DoT specs, since haste doesn't speed up ticks."
   }
  },
@@ -524,43 +524,43 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 805.7,
-    "gap": "1.20%",
+    "dps": 848.9,
+    "gap": "1.27%",
     "tier": "A"
    },
    "arcane-mage": {
-    "dps": 791.0,
-    "gap": "1.73%",
+    "dps": 816.1,
+    "gap": "1.18%",
     "tier": "A"
    },
    "demonology-warlock": {
-    "dps": 900.7,
-    "gap": "1.18%",
+    "dps": 947.2,
+    "gap": "1.08%",
     "tier": "A"
    },
    "destruction-warlock": {
-    "dps": 797.3,
-    "gap": "1.18%",
+    "dps": 836.7,
+    "gap": "1.06%",
     "tier": "A"
    },
    "fire-mage": {
-    "dps": 859.9,
-    "gap": "1.42%",
+    "dps": 904.5,
+    "gap": "1.46%",
     "tier": "A"
    },
    "frost-mage": {
-    "dps": 662.1,
-    "gap": "1.91%",
+    "dps": 670.7,
+    "gap": "1.81%",
     "tier": "A"
    },
    "frostfire-mage": {
-    "dps": 790.1,
-    "gap": "2.46%",
+    "dps": 792.6,
+    "gap": "2.11%",
     "tier": "B"
    },
    "shadow-priest": {
-    "dps": 776.1,
-    "gap": "0.98%",
+    "dps": 809.1,
+    "gap": "0.96%",
     "tier": "S"
    }
   },
@@ -589,7 +589,7 @@
   "race": "Undead",
   "simText": {
    "mage": "Touch of the Grave: 30% chance on spells to drain up to 5% of max health, once every 25 sec.",
-   "priest": "Touch of the Grave proc: +0.71%",
+   "priest": "Touch of the Grave proc: +0.74%",
    "warlock": "Touch of the Grave: 30% chance for Warlocks to drain up to 5% of max health, once every 25 sec. Whether it can crit is unverified."
   }
  }
