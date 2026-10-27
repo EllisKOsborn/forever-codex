@@ -2,8 +2,8 @@
  "dwarf": {
   "abilities": [
    {
-    "effect": "+2% critical damage and healing (replaced Mace Specialization on 15 Oct).",
-    "name": "Earth Fury"
+    "effect": "+1% hit chance with spells and attacks. Replaced Earth Fury (+2% crit damage and healing) on 26 Oct.",
+    "name": "Artisan's Precision"
    },
    {
     "effect": "Removes poison, disease and bleed effects and raises armour for a short time.",
@@ -20,8 +20,8 @@
   ],
   "boards": {
    "shadow-priest": {
-    "dps": 811.2,
-    "gap": "0.71%",
+    "dps": 809.0,
+    "gap": "0.42%",
     "tier": "S"
    }
   },
@@ -47,17 +47,17 @@
   "order": 2,
   "race": "Dwarf",
   "simText": {
-   "priest": "Earth Fury (+2% crit damage and healing): +0.99%"
+   "priest": "Artisan's Precision (+1% hit): +0.72%"
   }
  },
  "skyborne": {
   "abilities": [
    {
-    "effect": "+3% casting, melee and ranged haste (was 1%).",
+    "effect": "+2% casting, melee and ranged haste (cut from 3% on 26 Oct).",
     "name": "Wind Blessed"
    },
    {
-    "effect": "2 sec cast: +100% health and Mana regen for 30 sec, or 15 min near a leyline. Can be cast while moving.",
+    "effect": "2 sec cast, usable while moving: +50% health and Mana regen for 15 sec, or +100% while Attuned (1 hour after using it at a Ley Line). Not usable while Innervate is active.",
     "name": "Read Leyline"
    },
    {
@@ -71,23 +71,23 @@
   ],
   "boards": {
    "arcane-mage": {
-    "dps": 825.8,
-    "gap": "",
+    "dps": 824.9,
+    "gap": "0.54%",
     "tier": "S"
    },
    "fire-mage": {
-    "dps": 914.2,
-    "gap": "0.40%",
+    "dps": 915.7,
+    "gap": "0.35%",
     "tier": "S"
    },
    "frost-mage": {
-    "dps": 683.0,
+    "dps": 677.2,
     "gap": "",
     "tier": "S"
    },
    "frostfire-mage": {
-    "dps": 803.4,
-    "gap": "0.77%",
+    "dps": 799.5,
+    "gap": "0.71%",
     "tier": "S"
    }
   },
@@ -102,7 +102,7 @@
   "order": 5,
   "race": "Skyborne",
   "simText": {
-   "mage": "Wind Blessed: +3% spell, melee and ranged haste. Read Leyline regen and elemental damage aren't counted."
+   "mage": "Wind Blessed: +2% spell, melee and ranged haste. Read Leyline regen and elemental damage aren't counted."
   }
  },
  "gnome": {
@@ -126,44 +126,44 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 848.6,
-    "gap": "1.31%",
-    "tier": "A"
+    "dps": 847.1,
+    "gap": "0.40%",
+    "tier": "S"
    },
    "arcane-mage": {
-    "dps": 825.8,
-    "gap": "0.00%",
+    "dps": 829.4,
+    "gap": "",
     "tier": "S"
    },
    "demonology-warlock": {
-    "dps": 948.3,
-    "gap": "0.96%",
+    "dps": 945.5,
+    "gap": "0.39%",
     "tier": "S"
    },
    "destruction-warlock": {
-    "dps": 836.2,
-    "gap": "1.12%",
-    "tier": "A"
+    "dps": 833.2,
+    "gap": "0.28%",
+    "tier": "S"
    },
    "fire-mage": {
-    "dps": 913.3,
-    "gap": "0.50%",
+    "dps": 918.9,
+    "gap": "",
     "tier": "S"
    },
    "frost-mage": {
     "dps": 671.7,
-    "gap": "1.66%",
-    "tier": "A"
+    "gap": "0.81%",
+    "tier": "S"
    },
    "frostfire-mage": {
     "dps": 805.3,
-    "gap": "0.55%",
+    "gap": "",
     "tier": "S"
    },
    "shadow-priest": {
     "dps": 807.8,
-    "gap": "1.12%",
-    "tier": "A"
+    "gap": "0.56%",
+    "tier": "S"
    }
   },
   "classSpells": {
@@ -198,11 +198,11 @@
  "human": {
   "abilities": [
    {
-    "effect": "+2% crit with all spells and attacks (replaced Sword Specialization on 15 Oct).",
+    "effect": "+1% crit with all spells and attacks (cut from 2% on 26 Oct; replaced Sword Specialization on 15 Oct).",
     "name": "Ruthless"
    },
    {
-    "effect": "+5% Spirit.",
+    "effect": "+10% Spirit (was 5% until 26 Oct).",
     "name": "The Human Spirit"
    },
    {
@@ -216,43 +216,43 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 859.9,
+    "dps": 850.5,
     "gap": "",
     "tier": "S"
    },
    "arcane-mage": {
-    "dps": 824.6,
-    "gap": "0.15%",
+    "dps": 823.3,
+    "gap": "0.73%",
     "tier": "S"
    },
    "demonology-warlock": {
-    "dps": 957.5,
-    "gap": "",
+    "dps": 947.1,
+    "gap": "0.22%",
     "tier": "S"
    },
    "destruction-warlock": {
-    "dps": 845.7,
+    "dps": 835.5,
     "gap": "",
     "tier": "S"
    },
    "fire-mage": {
-    "dps": 917.9,
-    "gap": "",
+    "dps": 916.4,
+    "gap": "0.27%",
     "tier": "S"
    },
    "frost-mage": {
-    "dps": 675.2,
-    "gap": "1.15%",
-    "tier": "A"
+    "dps": 670.5,
+    "gap": "0.99%",
+    "tier": "S"
    },
    "frostfire-mage": {
-    "dps": 809.7,
-    "gap": "",
+    "dps": 800.8,
+    "gap": "0.56%",
     "tier": "S"
    },
    "shadow-priest": {
-    "dps": 816.9,
-    "gap": "",
+    "dps": 810.2,
+    "gap": "0.27%",
     "tier": "S"
    }
   },
@@ -277,14 +277,14 @@
   ],
   "faction": "Alliance",
   "notes": {
-   "warlock": "Top race in all three specs"
+   "warlock": "Top race for Affliction and Destruction; 0.22% behind Orc for Demonology"
   },
   "order": 1,
   "race": "Human",
   "simText": {
-   "mage": "Ruthless: +2% crit. The Human Spirit: +5% Spirit.",
-   "priest": "Ruthless (+2% crit) and The Human Spirit (+5% Spirit): +1.68%",
-   "warlock": "Ruthless: +2% crit. The Human Spirit: +5% Spirit, which also feeds Life Tap."
+   "mage": "Ruthless: +1% crit. The Human Spirit: +10% Spirit.",
+   "priest": "Ruthless (+1% crit) and The Human Spirit (+10% Spirit): +0.85%",
+   "warlock": "Ruthless: +1% crit. The Human Spirit: +10% Spirit, which also feeds Life Tap."
   }
  },
  "night-elf": {
@@ -309,7 +309,7 @@
   "boards": {
    "shadow-priest": {
     "dps": 812.4,
-    "gap": "0.56%",
+    "gap": "",
     "tier": "S"
    }
   },
@@ -345,8 +345,8 @@
     "name": "Blood Fury"
    },
    {
-    "effect": "+1% crit with all spells and abilities (replaced Axe Specialization).",
-    "name": "Savage"
+    "effect": "+5% pet damage for Warlocks and Hunters. Re-added on 26 Oct, replacing Savage (+1% crit).",
+    "name": "Command"
    },
    {
     "effect": "Removes Curses and Banes and cuts magic damage taken by 5% for 8 sec. 3 min cooldown.",
@@ -359,39 +359,39 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 853.1,
-    "gap": "0.79%",
+    "dps": 846.8,
+    "gap": "0.43%",
     "tier": "S"
    },
    "arcane-mage": {
-    "dps": 822.2,
-    "gap": "0.44%",
-    "tier": "S"
+    "dps": 818.5,
+    "gap": "1.31%",
+    "tier": "A"
    },
    "demonology-warlock": {
-    "dps": 950.9,
-    "gap": "0.69%",
+    "dps": 949.1,
+    "gap": "",
     "tier": "S"
    },
    "destruction-warlock": {
-    "dps": 839.4,
-    "gap": "0.74%",
+    "dps": 831.8,
+    "gap": "0.45%",
     "tier": "S"
    },
    "fire-mage": {
-    "dps": 913.8,
-    "gap": "0.44%",
+    "dps": 910.8,
+    "gap": "0.88%",
     "tier": "S"
    },
    "frost-mage": {
-    "dps": 673.8,
-    "gap": "1.35%",
+    "dps": 669.2,
+    "gap": "1.17%",
     "tier": "A"
    },
    "frostfire-mage": {
-    "dps": 801.9,
-    "gap": "0.96%",
-    "tier": "S"
+    "dps": 791.7,
+    "gap": "1.68%",
+    "tier": "A"
    }
   },
   "classSpells": {},
@@ -402,13 +402,13 @@
   "faction": "Horde",
   "notes": {
    "mage": "New Mage race in Forever",
-   "warlock": "Best Horde race in every Warlock sim"
+   "warlock": "Top Demonology race thanks to Command; Undead edges it as the best Horde race for Affliction and Destruction"
   },
   "order": 6,
   "race": "Orc",
   "simText": {
-   "mage": "Blood Fury: +10% spell power for 15 sec every 3 min. Savage: +1% crit.",
-   "warlock": "Blood Fury: +10% spell power for 15 sec every 3 min. Savage: +1% crit."
+   "mage": "Blood Fury: +10% spell power for 15 sec every 3 min. Command only helps Warlock and Hunter pets.",
+   "warlock": "Blood Fury: +10% spell power for 15 sec every 3 min. Command: +5% pet damage."
   }
  },
  "troll": {
@@ -432,44 +432,44 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 846.7,
-    "gap": "1.53%",
-    "tier": "A"
+    "dps": 845.2,
+    "gap": "0.63%",
+    "tier": "S"
    },
    "arcane-mage": {
-    "dps": 813.3,
-    "gap": "1.52%",
+    "dps": 815.6,
+    "gap": "1.66%",
     "tier": "A"
    },
    "demonology-warlock": {
-    "dps": 943.7,
-    "gap": "1.44%",
-    "tier": "A"
+    "dps": 940.9,
+    "gap": "0.87%",
+    "tier": "S"
    },
    "destruction-warlock": {
-    "dps": 833.0,
-    "gap": "1.50%",
-    "tier": "A"
+    "dps": 830.0,
+    "gap": "0.66%",
+    "tier": "S"
    },
    "fire-mage": {
-    "dps": 903.2,
-    "gap": "1.60%",
+    "dps": 908.6,
+    "gap": "1.12%",
     "tier": "A"
    },
    "frost-mage": {
     "dps": 671.1,
-    "gap": "1.75%",
-    "tier": "A"
+    "gap": "0.90%",
+    "tier": "S"
    },
    "frostfire-mage": {
     "dps": 791.1,
-    "gap": "2.29%",
-    "tier": "B"
+    "gap": "1.76%",
+    "tier": "A"
    },
    "shadow-priest": {
     "dps": 805.4,
-    "gap": "1.41%",
-    "tier": "A"
+    "gap": "0.86%",
+    "tier": "S"
    }
   },
   "classSpells": {
@@ -524,43 +524,43 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 848.9,
-    "gap": "1.27%",
-    "tier": "A"
+    "dps": 847.4,
+    "gap": "0.37%",
+    "tier": "S"
    },
    "arcane-mage": {
-    "dps": 816.1,
-    "gap": "1.18%",
+    "dps": 818.2,
+    "gap": "1.35%",
     "tier": "A"
    },
    "demonology-warlock": {
-    "dps": 947.2,
-    "gap": "1.08%",
-    "tier": "A"
+    "dps": 944.4,
+    "gap": "0.50%",
+    "tier": "S"
    },
    "destruction-warlock": {
-    "dps": 836.7,
-    "gap": "1.06%",
-    "tier": "A"
+    "dps": 833.7,
+    "gap": "0.22%",
+    "tier": "S"
    },
    "fire-mage": {
-    "dps": 904.5,
-    "gap": "1.46%",
-    "tier": "A"
+    "dps": 910.7,
+    "gap": "0.89%",
+    "tier": "S"
    },
    "frost-mage": {
     "dps": 670.7,
-    "gap": "1.81%",
-    "tier": "A"
+    "gap": "0.96%",
+    "tier": "S"
    },
    "frostfire-mage": {
     "dps": 792.6,
-    "gap": "2.11%",
-    "tier": "B"
+    "gap": "1.58%",
+    "tier": "A"
    },
    "shadow-priest": {
     "dps": 809.1,
-    "gap": "0.96%",
+    "gap": "0.40%",
     "tier": "S"
    }
   },

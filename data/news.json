@@ -1,37 +1,4 @@
 {
- "l-n20261016-amplify-curse": {
-  "classes": [
-   "warlock"
-  ],
-  "date": "2026-10-16",
-  "source": "ForeverChanges",
-  "summary": "Amplify Curse now makes Curse of Exhaustion 50% stronger, and Portal of Summoning costs full base mana on a 1-hour cooldown. Neither is in Blizzard's notes.",
-  "tag": "datamine",
-  "title": "Found in the files: Amplify Curse buff and a costlier Portal of Summoning",
-  "url": "https://foreverchanges.pro/patch-notes"
- },
- "l-n20261016-cor-incubus": {
-  "classes": [
-   "warlock"
-  ],
-  "date": "2026-10-16",
-  "source": "Blizzard",
-  "summary": "Two Warlocks can no longer stack Curse of Recklessness on one target, and Summon Incubus now needs a Soul Shard even with Reagent Economy.",
-  "tag": "patch",
-  "title": "Curse of Recklessness stacking and free Incubus fixed",
-  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696"
- },
- "l-n20261016-destructive-reach": {
-  "classes": [
-   "warlock"
-  ],
-  "date": "2026-10-16",
-  "source": "Blizzard",
-  "summary": "Destructive Reach extends only Destruction spells now. Demonology can cast Soul Link on its pet again.",
-  "tag": "patch",
-  "title": "Destructive Reach now Destruction only; Soul Link fixed",
-  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696"
- },
  "l-n20261016-gear-pvp-plans": {
   "classes": [],
   "date": "2026-10-16",
@@ -626,5 +593,39 @@
   ],
   "source": "MythicSim",
   "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "n20261027-final-racial-tuning": {
+  "date": "2026-10-26",
+  "title": "Final racial tuning before launch",
+  "summary": "Blizzard cut Human Ruthless to 1% crit but doubled The Human Spirit to 10%, swapped Orc Savage for Command (+5% Warlock and Hunter pet damage), gave Dwarves 1% hit instead of Earth Fury and cut Skyborne haste to 2%. It says racial identity now comes first, so some races will be slightly better at some roles.",
+  "tag": "blizzard",
+  "classes": [],
+  "source": "Blizzard beta development notes",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-26/2360696/7"
+ },
+ "n20261027-mythicsim-racial-resim": {
+  "date": "2026-10-27",
+  "title": "MythicSim re-sims every spec for the new racials",
+  "summary": "Demonology stays #2 at 949 DPS (was 959) and Orc now tops its race board. Fire is 917 (#6), Arcane 830 (#11) and Shadow 812 (#13); MythicSim's default list now has 22 specs, with the Smite and Elehance hybrids moved to its All playstyles view.",
+  "tag": "sim",
+  "classes": [
+   "warlock",
+   "mage",
+   "priest"
+  ],
+  "source": "MythicSim",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "n20261027-found-in-the-files-spellstone-shadow-only": {
+  "date": "2026-10-26",
+  "title": "Found in the files: Spellstone is Shadow only, Winter's Chill reworked",
+  "summary": "MythicSim says beta client 70630 makes the Spellstone's spell damage Shadow only and changes Winter's Chill to come only from Frostbolt, Frost Blast and Fingers of Frost Ice Lance. TalentsForever lists 70630 but no Mage talent change, so treat this as unconfirmed.",
+  "tag": "datamine",
+  "classes": [
+   "warlock",
+   "mage"
+  ],
+  "source": "MythicSim changelog",
+  "url": "https://mythicsim.com/changelog"
  }
 }

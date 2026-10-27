@@ -9,6 +9,21 @@
   },
   "changeLog": [
    {
+    "label": "Racial update · 26 Oct",
+    "items": [
+     {
+      "kind": "nerf",
+      "spec": "all",
+      "text": "Skyborne: Wind Blessed 2% haste (was 3%); Read Leyline +50% regen for 15 sec (was 100%), 100% while Attuned; Skysight 15% speed, 30% while Charged."
+     },
+     {
+      "kind": "nerf",
+      "spec": "all",
+      "text": "Human: Ruthless +1% crit (was 2%); The Human Spirit +10% Spirit (was 5%). Orc: Savage removed."
+     }
+    ]
+   },
+   {
     "label": "Build 70532 · 22 Oct",
     "items": [
      {
@@ -162,7 +177,7 @@
   "classCards": [],
   "compare": {
    "cons": [
-    "The best levelling spec, Frost, trails Fire by about 25% and Arcane by about 17% in raid sims",
+    "The best levelling spec, Frost, trails Fire by about 26% and Arcane by about 18% in raid sims",
     "AoE farming was nerfed in Forever",
     "Shares cloth caster loot with Priests and Warlocks"
    ],
@@ -173,7 +188,7 @@
     "note": "Share of characters in a 20 Sept sample of about 5,000 level-20 beta characters."
    },
    "pros": [
-    "Fire sims 916 DPS on the newest run (Arcane 827), second of the three classes after Demonology",
+    "Fire sims 917 DPS on the newest run (Arcane 830), second of the three classes after Demonology",
     "No drinking breaks thanks to conjured water",
     "Portals earn gold and make you popular"
    ],
@@ -248,6 +263,16 @@
   "latestChanges": [
    {
     "kind": "nerf",
+    "spec": "all",
+    "text": "26 Oct: Skyborne Wind Blessed cut to 2% haste (was 3%); Read Leyline now +50% Mana and health regen for 15 sec, or 100% for an hour after using it at a Ley Line (Attuned)."
+   },
+   {
+    "kind": "nerf",
+    "spec": "all",
+    "text": "26 Oct: Human Ruthless cut to +1% crit (was 2%); Orc Savage (+1% crit) removed. Gnome now tops Fire, Arcane and Frostfire in MythicSim."
+   },
+   {
+    "kind": "nerf",
     "spec": "frost-mage",
     "text": "20 Oct hotfix (no Blizzard notes): Piercing Ice removed; Elemental Precision cut from 5 ranks to 3; Frostbite, Permafrost, Frost Channeling and Improved Blizzard moved within their rows."
    },
@@ -309,7 +334,7 @@
    {
     "kind": "neutral",
     "spec": "all",
-    "text": "Racials: Human gets Ruthless (+2% crit), Orc gets Savage (+1% crit) but Blood Fury is now 3 min, Skyborne haste goes to 3%, Troll Regeneration doubles."
+    "text": "Racials (26 Oct): Human Ruthless +1% crit (was 2%) and +10% Spirit (was 5%); Orc loses Savage (Command only helps pets); Skyborne Wind Blessed 2% haste (was 3%) and Read Leyline +50% regen for 15 sec (100% when Attuned); Troll Regeneration doubled."
    },
    {
     "kind": "buff",
@@ -317,7 +342,7 @@
     "text": "Moonkin Aura (spell crit) is now raid-wide and stacks with Leader of the Pack."
    }
   ],
-  "latestLabel": "Build 70450 (16 Oct, minor) on top of the 70425 rework, 15–16 Oct, plus a 20 Oct Mage hotfix",
+  "latestLabel": "Racial update 26 Oct (Blizzard notes) on top of build 70450 (16 Oct) and the 20 Oct Mage hotfix",
   "legacy": {
    "recommended": {
     "gourmand": 1,
@@ -371,7 +396,7 @@
   "name": "Mage",
   "opinions": [
    {
-    "date": "25 Oct",
+    "date": "27 Oct",
     "grades": [
      {
       "grade": "A",
@@ -390,7 +415,7 @@
       "spec": "frost-mage"
      }
     ],
-    "note": "Sim-based. Fire #5 and Arcane #11 (A), Frostfire #12 (B) and Frost #21 (C) of 24 (engine a667dce, 25 Oct).",
+    "note": "Sim-based. Fire #6 and Arcane #11 (A), Frostfire #12 (B) and Frost #21 (C) of 22 (engine a667dce, 27 Oct).",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -448,8 +473,8 @@
    }
   ],
   "order": 2,
-  "raceNote": "The gaps are tiny: under 3% between best and worst race in every spec. On the re-simmed 25 Oct boards Skyborne leads Frost on its 3% haste and ties Gnome at the top for Arcane; Human leads Fire (Skyborne 0.40% back) and Frostfire (Gnome 0.55%, Skyborne 0.77% back). Orc is the best Horde pick in every spec. Pick on faction and looks first.",
-  "raceSnapshot": "MythicSim race boards: all four specs on engine 26fd700, matching a667dce (25 Oct, client 70425)",
+  "raceNote": "The gaps are tiny: under 2% between best and worst race in every spec. On the 26 to 27 Oct boards, after Blizzard's racial changes, Gnome leads Fire (918.9, Human 0.27% back), Arcane (829.4, Skyborne 0.54% back) and Frostfire (805.3, Human 0.56% back); Skyborne alone leads Frost (677.2) even with Wind Blessed cut to 2% haste. The best Horde race changes by spec but is never more than 1.6% behind. Pick on faction and looks first.",
+  "raceSnapshot": "MythicSim race boards: all four specs on engine 9585dc1, matching a667dce (26 to 27 Oct, after the 26 Oct racial update)",
   "specs": [
    {
     "color": "#ff8a3d",
@@ -482,10 +507,10 @@
   ],
   "verdict": {
    "best": "fire-mage",
-   "body": "On MythicSim's newest run (engine a667dce, simmed 25 Oct, client 70425) Fire sims 916 DPS, about 11% ahead of Arcane (827). The experimental Frostfire hybrid sits at 809 and Frost at 683, about 25% behind Fire. The tier list (same run) agrees: Fire #5 and Arcane #11 of 24, both in the A band; Frostfire is #12 (B) and Frost is #21 in the C band. Fire has gained the most since 16 Oct (696 to 916), and MythicSim's breakdown credits +4.6% to an engine sync where every Fire Blast now adds a Heating Up charge. Fire is the sim pick for raids now; level as Frost.",
+   "body": "On MythicSim's newest run (engine a667dce, simmed 27 Oct after the 26 Oct racial update) Fire sims 917 DPS, about 10% ahead of Arcane (830). The experimental Frostfire hybrid sits at 804 and Frost at 677, about 26% behind Fire. The tier list (same run) agrees: Fire #6 and Arcane #11 of 22, both in the A band; Frostfire is #12 (B) and Frost is #21 in the C band. Fire has gained the most since 16 Oct (696 then, 917 now), and MythicSim credits +4.6% to an engine sync where every Fire Blast now adds a Heating Up charge. Fire is the sim pick for raids now; level as Frost.",
    "flavour": "\"The Arcane Blast you knew is gone. Now it feeds every spell you cast next.\"",
    "headline": "Fire now leads the Mage specs; Arcane drops back",
-   "statsNote": "Big number: newest MythicSim run (Mage page, engine a667dce, 25 Oct). Below: rank, DPS and band on the tier list (same run, 25 Oct)."
+   "statsNote": "Big number: newest MythicSim run (Mage page, engine a667dce, 27 Oct). Below: rank, DPS and band on the tier list (same run, 27 Oct)."
   },
   "pros": null
  },
@@ -498,6 +523,21 @@
    "tip": "#c27cf4"
   },
   "changeLog": [
+   {
+    "label": "Racial update · 26 Oct",
+    "items": [
+     {
+      "kind": "nerf",
+      "spec": "shadow-priest",
+      "text": "Human: Ruthless +1% crit (was 2%); The Human Spirit +10% Spirit (was 5%)."
+     },
+     {
+      "kind": "neutral",
+      "spec": "shadow-priest",
+      "text": "Dwarf: Earth Fury removed; new Artisan's Precision, +1% hit with spells and attacks."
+     }
+    ]
+   },
    {
     "label": "Build 70532 · 22 Oct",
     "items": [
@@ -572,7 +612,7 @@
   "classCards": [],
   "compare": {
    "cons": [
-    "Shadow sits mid-pack in sims (#13 of 24, 816 DPS on the newest run)",
+    "Shadow sits mid-pack in sims (#13 of 22, 812 DPS on the newest run)",
     "Shadow Affinity was removed, so you have no talent threat reduction",
     "Shadow Weaving no longer helps the raid, so raids gain less from bringing you",
     "You must leave Shadowform to heal"
@@ -615,6 +655,11 @@
   "facts": [],
   "id": "priest",
   "latestChanges": [
+   {
+    "kind": "neutral",
+    "spec": "shadow-priest",
+    "text": "26 Oct: Dwarf loses Earth Fury (+2% crit damage) for Artisan's Precision (+1% hit)."
+   },
    {
     "kind": "buff",
     "spec": "shadow-priest",
@@ -661,9 +706,9 @@
     "text": "Undead Touch of the Dead no longer scales with Shadow damage bonuses."
    },
    {
-    "kind": "buff",
+    "kind": "nerf",
     "spec": "shadow-priest",
-    "text": "Human now gets Ruthless (+2% crit), making Human the top Shadow race in sims."
+    "text": "26 Oct: Human Ruthless cut to +1% crit (was 2%), The Human Spirit +10% Spirit (was 5%). Night Elf is now the top Shadow race in MythicSim, Human 0.27% back."
    },
    {
     "kind": "nerf",
@@ -671,7 +716,7 @@
     "text": "Wands now need you to stand still for 0.5 sec before firing. Matters most while levelling."
    }
   ],
-  "latestLabel": "Beta build of Oct 15 (live overnight)",
+  "latestLabel": "Racial update 26 Oct (Blizzard notes) on top of the beta build of 15 Oct",
   "legacy": {
    "recommended": {
     "gourmand": 1,
@@ -720,14 +765,14 @@
   "name": "Priest",
   "opinions": [
    {
-    "date": "25 Oct",
+    "date": "27 Oct",
     "grades": [
      {
       "grade": "B",
       "spec": "shadow-priest"
      }
     ],
-    "note": "#13 of 24 at 816 DPS, B band (engine a667dce, 25 Oct, client 70425), after the 15 Oct buffs.",
+    "note": "#13 of 22 at 812 DPS, B band (engine a667dce, 27 Oct), after the 15 Oct buffs and the 26 Oct racial changes.",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -793,8 +838,8 @@
    }
   ],
   "order": 3,
-  "raceNote": "The new racials are in this sim. The whole spread is only 1.4%, so race barely matters for damage. Human leads on Ruthless (+2% crit); Night Elf, Dwarf and Undead are all within 1% of it. Each race also has two Priest racial spells (below), which matter more for utility than damage.",
-  "raceSnapshot": "MythicSim race board, engine 26fd700 matching a667dce, 25 Oct (client 70425)",
+  "raceNote": "Updated for Blizzard's 26 Oct racial changes. The whole spread is only 0.86%, so race barely matters for damage: every race is in the S band. Night Elf now leads on Elune's Light; Human (Ruthless cut to +1% crit) is 0.27% back, then Undead and Dwarf. Each race also has two Priest racial spells (below), which matter more for utility than damage.",
+  "raceSnapshot": "MythicSim race board, engine 9585dc1 matching a667dce, 26 to 27 Oct (after the 26 Oct racial update)",
   "specs": [
    {
     "color": "#b48cff",
@@ -806,10 +851,10 @@
   ],
   "verdict": {
    "best": "shadow-priest",
-   "body": "Shadow sits in the middle of the DPS sims: 816 DPS on MythicSim's newest Priest run (engine a667dce, simmed 25 Oct), and #13 of 24 on the tier list (same run), back in the B band. The 15 Oct build was a clear net buff (Devouring Plague every 24 seconds, Vampiric Embrace every 30, a stronger Contagion) and lifted Shadow from 704. It now sims behind Affliction Warlock (860), Destruction Warlock (847) and Arcane Mage (827), and ahead of the Frostfire Mage hybrid (809).",
+   "body": "Shadow sits in the middle of the DPS sims: 812 DPS on MythicSim's newest Priest run (engine a667dce, simmed 27 Oct after the 26 Oct racial update), and #13 of 22 on the tier list (same run), in the B band. The 15 Oct build was a clear net buff (Devouring Plague every 24 seconds, Vampiric Embrace every 30, a stronger Contagion) and lifted Shadow from 704. It now sims behind Affliction Warlock (850), Destruction Warlock (837) and Arcane Mage (830), and ahead of the Frostfire Mage hybrid (804).",
    "flavour": "Viable for raids and dungeons. Pick it if you enjoy it; the gap to the middle of the pack is small.",
-   "headline": "Back in the B band, still mid-pack",
-   "statsNote": "Big number: newest MythicSim result (Priest page, engine a667dce, 25 Oct, client 70425). Below: rank, DPS and band on the tier list (same run, 25 Oct)."
+   "headline": "Still mid-pack in the B band",
+   "statsNote": "Big number: newest MythicSim result (Priest page, engine a667dce, 27 Oct). Below: rank, DPS and band on the tier list (same run, 27 Oct)."
   }
  },
  "warlock": {
@@ -821,6 +866,26 @@
    "tip": "#8787ed"
   },
   "changeLog": [
+   {
+    "label": "Racial update · 26 Oct",
+    "items": [
+     {
+      "kind": "nerf",
+      "spec": "all",
+      "text": "Human: Ruthless +1% crit (was 2%); The Human Spirit +10% Spirit (was 5%)."
+     },
+     {
+      "kind": "buff",
+      "spec": "demonology-warlock",
+      "text": "Orc: Savage (+1% crit) removed; Command re-added, +5% pet damage for Warlocks and Hunters."
+     },
+     {
+      "kind": "neutral",
+      "spec": "all",
+      "text": "Blizzard says it now puts racial identity first, so some races will be slightly better at some roles, but weapon specialisation racials stay gone."
+     }
+    ]
+   },
    {
     "label": "Build 70532 · 22 Oct",
     "items": [
@@ -1008,7 +1073,7 @@
     "note": "Share of characters in a 20 Sept sample of about 5,000 level-20 beta characters. A 14 Oct scan of over 1 million characters had Warlock as the least-played class at about 9%."
    },
    "pros": [
-    "Demonology is the strongest of these specs in sims: 959 DPS on the newest run, #2 of 24 on the tier list, S band",
+    "Demonology is the strongest of these specs in sims: 949 DPS on the newest run, #2 of 22 on the tier list, S band",
     "Least-played class in the 14 Oct scan (about 9%), so raids will want you",
     "Own tier set in the first raids: Demonheart Raiment"
    ],
@@ -1085,6 +1150,16 @@
   "latestChanges": [
    {
     "kind": "buff",
+    "spec": "demonology-warlock",
+    "text": "26 Oct: Orc gets Command back (+5% Warlock and Hunter pet damage), making Orc the top Demonology race in MythicSim, 0.22% ahead of Human."
+   },
+   {
+    "kind": "nerf",
+    "spec": "all",
+    "text": "26 Oct: Human Ruthless cut to +1% crit (was 2%); The Human Spirit raised to +10% Spirit (was 5%). MythicSim puts the net effect at about -0.8% for every Warlock spec."
+   },
+   {
+    "kind": "buff",
     "spec": "affliction-warlock",
     "text": "Shadow Mastery now gives 2/4/6/8/10% Shadow damage (was 1–5%)."
    },
@@ -1131,7 +1206,7 @@
    {
     "kind": "neutral",
     "spec": "all",
-    "text": "Racials rebuilt: Human Ruthless (+2% crit), Orc Savage (+1% crit) and Blood Fury on a 3 min cooldown, Undead Touch of the Grave 30% for casters with a 25 sec cooldown, Gnome Eureka! an 8 sec buff, Troll Regeneration doubled."
+    "text": "Racials (26 Oct): Human Ruthless +1% crit (was 2%) and The Human Spirit +10% Spirit (was 5%); Orc loses Savage and gets Command back (+5% Warlock pet damage); Blood Fury stays on a 3 min cooldown; Undead Touch of the Grave 30% for casters with a 25 sec cooldown; Gnome Eureka! an 8 sec buff; Troll Regeneration doubled."
    },
    {
     "kind": "nerf",
@@ -1144,7 +1219,7 @@
     "text": "Found in the files: beta build 70450 (16 Oct) brings spell and item data changes but no listed Warlock ability changes. A report of an Amplify Curse fix couldn't be confirmed."
    }
   ],
-  "latestLabel": "Build 70425, live 15–16 Oct (build 70450 seen in the files on 16 Oct)",
+  "latestLabel": "Racial update 26 Oct (Blizzard notes) on top of build 70425 (15 Oct)",
   "legacy": {
    "alternate": {
     "gourmand": 3,
@@ -1211,7 +1286,7 @@
   "name": "Warlock",
   "opinions": [
    {
-    "date": "25 Oct",
+    "date": "27 Oct",
     "grades": [
      {
       "grade": "S",
@@ -1226,7 +1301,7 @@
       "spec": "destruction-warlock"
      }
     ],
-    "note": "Sim-based. Demonology #2 (S), Affliction #8 and Destruction #9 (A) of 24 (engine a667dce, 25 Oct).",
+    "note": "Sim-based. Demonology #2 (S), Affliction #8 and Destruction #10 (A) of 22 (engine a667dce, 27 Oct).",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -1312,8 +1387,8 @@
    }
   ],
   "order": 1,
-  "raceNote": "Human leads all three specs on Ruthless (+2% crit) and +5% Spirit for Life Tap. Orc is the best Horde race, within 1% of Human everywhere. The whole spread is under 2%, so choose faction and looks first.",
-  "raceSnapshot": "MythicSim race boards: all three specs on engine 26fd700, matching a667dce (25 Oct, client 70425)",
+  "raceNote": "After Blizzard's 26 Oct racial changes Orc tops Demonology (949.1) thanks to Command (+5% pet damage), with Human 0.22% back. Human still leads Affliction and Destruction, with Undead the best Horde race there. Every race is within 1% in all three specs, so choose faction and looks first.",
+  "raceSnapshot": "MythicSim race boards: all three specs on engine 9585dc1, matching a667dce (27 Oct, after the 26 Oct racial update)",
   "specs": [
    {
     "color": "#b07cff",
@@ -1339,10 +1414,10 @@
   ],
   "verdict": {
    "best": "demonology-warlock",
-   "body": "On MythicSim's newest run (engine a667dce, simmed 25 Oct, client 70425) Demonology sims 959 DPS, about 12% ahead of Affliction (860) and 13% ahead of Destruction (847). On the tier list (same run) it's #2 of 24 specs, behind only Survival Hunter, and now in the S band; Affliction is #8 and Destruction #9, both A. Raid as Demonology, level as Affliction.",
+   "body": "On MythicSim's newest run (engine a667dce, simmed 27 Oct after the 26 Oct racial update) Demonology sims 949 DPS, about 12% ahead of Affliction (850) and 13% ahead of Destruction (837). On the tier list (same run) it's #2 of 22 specs, behind only Survival Hunter, and in the S band; Affliction is #8 and Destruction #10, both A. All three lost about 1% in the re-sim, mostly from the Human Ruthless cut (2% to 1% crit). Raid as Demonology, level as Affliction.",
    "flavour": "\"Keep one demon on the leash and another burning in your blood.\"",
-   "headline": "Demonology leads clearly and is now S band; Affliction and Destruction close together",
-   "statsNote": "Big number: newest MythicSim run (Warlock page, engine a667dce, 25 Oct). Below: rank, DPS and band on the tier list (same run, 25 Oct)."
+   "headline": "Demonology still leads clearly in the S band after the racial changes; Orc is now its top race",
+   "statsNote": "Big number: newest MythicSim run (Warlock page, engine a667dce, 27 Oct). Below: rank, DPS and band on the tier list (same run, 27 Oct)."
   }
  }
 }
