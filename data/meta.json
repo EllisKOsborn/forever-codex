@@ -2,7 +2,7 @@
  "app": {
   "build": "1.60.1.70630",
   "compareNote": "Sim DPS is the newest MythicSim run for each spec: 2-minute single-target fight, reference gear, no trinkets. Population is from beta samples and will change at launch.",
-  "defaultClass": "warlock",
+  "defaultClass": "priest",
   "dungeonNote": "Enter your level to highlight dungeons around it. Dungeon XP is far below Classic, so run them for gear and quests.",
   "facts": [
    "Included with any WoW subscription or Game Time. The Skyborne race needs an upgrade pack.",
@@ -13,12 +13,13 @@
    "World buffs don't work in Forever raids.",
    "Dungeon XP is far below Classic, so quest in the open world and run dungeons for gear.",
    "Wands and Auto Shot need you to stand still for 0.5 sec before firing.",
-   "Early name reservation (27 October) is for players who bought an upgrade pack."
+   "The beta closed on 23 October and nothing from it carries over. Early name reservation for upgrade-pack owners runs until 3 November; everyone else creates characters at launch.",
+   "Blizzard says some layering will remain at launch. It has fixed groups being split on boats and zeppelins and when entering or leaving capital cities (reported by GameSpot, 23 October)."
   ],
   "gearNote": "Levelling picks come from the level-30 beta lists. Trinket gains are MythicSim results and differ by spec. Items marked unverified are level-60 loot whose Forever drop tables aren't confirmed yet (the beta stops at 30). \"Also wanted by\" shows which of your other classes would compete for the same item.",
   "lastRefreshed": "2026-10-28T10:30:00+00:00",
   "raidFacts": [
-   "Onyxia's Lair keeps its Classic-style attunement chain, done per character at least at launch (Blizzard podcast, 8 October). Barrow Deeps and Hyjal Summit have no attunement chain, though Blizzard hints at extra steps for the full experience.",
+   "Onyxia's Lair needs the Drakefire Amulet, earned per character and only needed in your bags (Blizzard raid overview, 20 October). The quest chain matches Classic. Barrow Deeps and Hyjal Summit have no attunement chain.",
    "All raids are currently planned to reset each week (Blizzard raid overview, 20 October).",
    "Every raid boss drops a chase item. Every class gets a new tier set, and the first new legendary is tied to the Hyjal Summit tier.",
    "Crafted tier pieces are Bind on Equip and you can wear only one at launch; a Guardians of Hyjal reputation reward raises that to two, enough for the 2-piece bonus. Each needs 3 Malleable Essence of Nature, which only comes from disenchanting Barrow Deeps or Hyjal Summit items.",
@@ -533,24 +534,6 @@
  "dates": {
   "events": [
    {
-    "iso": "2026-10-21T18:00:00+01:00",
-    "label": "Server Slam",
-    "note": "Free stress test, open to anyone. Moved from 19 October. Blizzard's 20 Oct post gives Europe 18:00 to 02:00 UK time (19:00 to 03:00 CEST); North America 2pm to 6pm PDT. Stress Test characters and names are deleted afterwards, then the beta reopens.",
-    "showTime": true
-   },
-   {
-    "iso": "2026-10-23T18:00:00+01:00",
-    "label": "Beta ends",
-    "note": "Extended: Blizzard's 20 Oct post says the beta closes for good at 19:00 CEST (6pm UK) on Friday 23 October.",
-    "showTime": true
-   },
-   {
-    "iso": "2026-10-27T17:00:00+00:00",
-    "label": "Name reservation",
-    "note": "Early name reservation for upgrade-pack owners, until 3 November. Europe opens 18:00 CET (5pm UK); up to three characters in total across all rulesets.",
-    "showTime": true
-   },
-   {
     "iso": "2026-11-04T23:00:00+00:00",
     "label": "Launch",
     "note": "3pm PST / 11pm UK",
@@ -654,67 +637,277 @@
     "title": "Choosing a ruleset"
    }
   ],
-  "checklist": [
+  "summary": "Alliance, Normal ruleset, solo until you find a guild at 60. Nobody has timed 1–60 in Forever yet (the beta stopped at 30); estimates for a first character run 100–130 hours played. At about 30 hours a week that's 60 around 29 November, leaving roughly ten days of pre-raid prep before raids open on 9 December. Raids reset weekly, so arriving a week or two later costs little. Night Elf is currently the top Shadow race in MythicSim's race sims (812.4 DPS; every race is within 0.8%).",
+  "title": "Your plan: Night Elf Shadow Priest",
+  "phases": [
    {
-    "id": "ruleset",
-    "text": "Pick a ruleset: Normal, PvP, Roleplaying or Roleplay-PvP. Hardcore comes later.",
-    "why": "There are no realms. You can only group, run dungeons and raid with players on your ruleset and faction, and characters can't move between rulesets."
+    "id": "p0",
+    "title": "Before launch",
+    "range": "Until 4 Nov",
+    "from": "2026-10-28",
+    "to": "2026-11-04",
+    "summary": "Settle the things that are awkward to change later.",
+    "items": [
+     {
+      "id": "pl-name",
+      "text": "Have your Night Elf name ready, plus two backups.",
+      "why": "Names are two-part and unique across Europe. With an upgrade pack you can reserve until 3 November; otherwise create it at launch."
+     },
+     {
+      "id": "pl-addons",
+      "text": "Install Questie, Details!, Talents Forever and Forever Dungeon Journal, then update them on launch day.",
+      "why": "See the addon list below for each one's Forever status."
+     },
+     {
+      "id": "pl-legacy",
+      "text": "Load the levelling Legacy build in the planner below.",
+      "why": "Thrill of Adventure 5, Well Rested 5, Talented 5, Gourmand 1. The tree opens when you reach 25."
+     },
+     {
+      "id": "pl-profs",
+      "text": "Commit to Tailoring + Enchanting.",
+      "why": "No vendor sells wands at launch, so making your own is the biggest early speed-up. Later, Tailoring makes crafted tier pieces and Enchanting turns raid drops into Malleable Essence."
+     },
+     {
+      "id": "pl-guild-early",
+      "text": "Start reading guild adverts for Alliance, Normal, Europe.",
+      "why": "Blizzard's WoW Forever forums (Community Connections), EU Discords and GuildOrder. Raid rosters fill before 9 December."
+     }
+    ]
    },
    {
-    "id": "friends",
-    "text": "Agree region, ruleset and faction with anyone you'll raid with.",
-    "why": "UK players are in the Europe region and there's no cross-region play."
+    "id": "p1",
+    "title": "Launch night: Teldrassil",
+    "range": "Levels 1–12",
+    "target": "Target 4–5 Nov",
+    "from": "2026-11-04",
+    "to": "2026-11-05",
+    "summary": "Launch is 11pm UK on Wednesday 4 November. Expect queues and crowded starting zones.",
+    "items": [
+     {
+      "id": "pl-sw-tag",
+      "text": "From level 4, open with Shadow Word: Pain.",
+      "why": "It tags a mob instantly when other players are competing for it."
+     },
+     {
+      "id": "pl-camping",
+      "text": "Pick up the Camping 101 quest around level 5–6.",
+      "why": "It unlocks your campfire, which later holds the Spinning Wheel and Loom some Tailoring patterns need."
+     },
+     {
+      "id": "pl-lesser-wand",
+      "text": "Train Tailoring and Enchanting and make a Lesser Magic Wand at 5.",
+      "why": "The wand is most of your damage until 40."
+     },
+     {
+      "id": "pl-starshards",
+      "text": "Train Starshards at 10 along with Mind Blast.",
+      "why": "Your first Night Elf Priest spell: Arcane damage over 6 sec, much stronger in Forever, 30 sec cooldown."
+     }
+    ]
    },
    {
-    "id": "slam",
-    "text": "Join the Server Slam to test your UI, addons and keybinds.",
-    "when": "2026-10-21",
-    "why": "6pm UK. Free for anyone. Characters are wiped afterwards."
+    "id": "p2",
+    "title": "Wand and Spirit Tap",
+    "range": "Levels 10–30",
+    "target": "Target 5–10 Nov",
+    "from": "2026-11-05",
+    "to": "2026-11-10",
+    "summary": "Discipline/Shadow hybrid. Darkshore and Ashenvale on the Night Elf side, or cross to Westfall, Loch Modan, Redridge, Duskwood and Wetlands.",
+    "items": [
+     {
+      "id": "pl-talents-10",
+      "text": "Talents: 2 points Wand Specialization, then Spirit Tap 5/5 and Improved Shadow Word: Pain 2/2.",
+      "why": "Spirit Tap after kills means almost no drinking."
+     },
+     {
+      "id": "pl-greater-wand",
+      "text": "Make a Greater Magic Wand at 13.",
+      "why": "About 50% more damage than the Lesser Magic Wand. Wands no longer scale with spell power, so the wand itself is your damage."
+     },
+     {
+      "id": "pl-bfd",
+      "text": "Run Blackfathom Deeps for the Gravestone Scepter quest wand (18–25).",
+      "why": "It boosts Shadow Word: Pain. Dungeon XP is low in Forever, so run dungeons for gear and quests."
+     },
+     {
+      "id": "pl-20",
+      "text": "At 20, train Devouring Plague, Fear Ward and Elune's Grace.",
+      "why": "Devouring Plague and Fear Ward are baseline for every Priest in Forever. Fear Ward was Dwarf-only in Classic, so it's a selling point to raid guilds."
+     },
+     {
+      "id": "pl-legacy-25",
+      "text": "At 25, spend your Legacy points.",
+      "why": "Your first character to 25 unlocks the account-wide Legacy tree."
+     },
+     {
+      "id": "pl-rested",
+      "text": "End each session in an inn or a capital city.",
+      "why": "Rested XP doubles the XP from kills, and Well Rested in Legacy builds it up 20% faster."
+     }
+    ]
    },
    {
-    "id": "names",
-    "text": "Pick your character name plus two backups.",
-    "when": "2026-10-27",
-    "why": "Names are two-part and unique across the whole region. Reservation runs 27 Oct – 3 Nov and needs an upgrade pack."
+    "id": "p3",
+    "title": "Hybrid to 40",
+    "range": "Levels 30–40",
+    "target": "Target 10–14 Nov",
+    "from": "2026-11-10",
+    "to": "2026-11-14",
+    "summary": "Stay hybrid for solo questing. Scarlet Monastery and Razorfen Kraul for the level-30 gear picks.",
+    "items": [
+     {
+      "id": "pl-30-gear",
+      "text": "Collect Stygian Bone Amulet and Swinetusk Shank (Razorfen Kraul), Blighted Leggings (Scarlet Monastery Graveyard) and Reedknot Ring (quest).",
+      "why": "The level-30 Shadow picks on the Gear tab."
+     },
+     {
+      "id": "pl-swd",
+      "text": "Train Shadow Word: Death at 32.",
+      "why": "Baseline in Forever. Its backlash costs 10% of your max health if the target survives."
+     },
+     {
+      "id": "pl-shadow-wrath",
+      "text": "Buy 'of Shadow Wrath' greens on the Auction House.",
+      "why": "They dominate early Shadow gear lists."
+     },
+     {
+      "id": "pl-riverglades",
+      "text": "Try Riverglades, the new zone, from 35.",
+      "why": "New Forever content alongside Arathi, Desolace and Stranglethorn."
+     }
+    ]
    },
    {
-    "id": "main",
-    "text": "Decide your main using the Compare tab.",
-    "why": "Re-check after the last beta builds; tuning still changes weekly."
+    "id": "p4",
+    "title": "Shadowform",
+    "range": "Levels 40–50",
+    "target": "Target 14–20 Nov",
+    "from": "2026-11-14",
+    "to": "2026-11-20",
+    "summary": "Respec into full Shadow at 40. Mind Flay now does most of the work.",
+    "items": [
+     {
+      "id": "pl-respec",
+      "text": "Respec to full Shadow at 40 and train Shadowform.",
+      "why": "Respecs are cheap. Shadowform halves the Mana cost of Shadow spells and doubles their crit bonus."
+     },
+     {
+      "id": "pl-mhw",
+      "text": "Get the Master Hunter's Wand from the Big Game Hunter chain in Stranglethorn.",
+      "why": "Level 43 elite quest. Keep a good wand for finishing even after Shadowform."
+     },
+     {
+      "id": "pl-spirit",
+      "text": "Once you have about 40–50 spell power, value Spirit as highly as spell power.",
+      "why": "Spirit Tap doubles your Spirit after kills."
+     }
+    ]
    },
    {
-    "id": "legacy",
-    "text": "Plan your Legacy points.",
-    "why": "The tree opens when your first character reaches 25. Load the suggested build in the planner below."
+    "id": "p5",
+    "title": "Push to 60",
+    "range": "Levels 50–60",
+    "target": "Target 20–29 Nov",
+    "from": "2026-11-20",
+    "to": "2026-11-29",
+    "summary": "The longest stretch: roughly 40% of the hours to 60. Un'Goro, Felwood, Burning Steppes, Winterspring and the Plaguelands. Start the Onyxia chain while you level; its early quests give XP and save time at 60.",
+    "items": [
+     {
+      "id": "pl-ony-start",
+      "text": "Start the Onyxia chain: Dragonkin Menace from Helendis Riverhorn in Burning Steppes (level 48).",
+      "why": "Then The True Masters (six quests across Lakeshire, Stormwind Keep and Morgan's Vigil). Most of it is outdoor questing."
+     },
+     {
+      "id": "pl-brd",
+      "text": "In Blackrock Depths, free Marshal Windsor: the Prison Cell Key from High Interrogator Gerstahn, then Golem Lord Argelmach and General Angerforge for A Shred of Hope, then Jail Break!",
+      "why": "Usually two BRD runs. Blackrock Depths also drops early pre-raid gear."
+     },
+     {
+      "id": "pl-masquerade",
+      "text": "Finish The Great Masquerade in Stormwind and pick up The Dragon's Eye.",
+      "why": "The Dragon's Eye takes you to Winterspring (Haleh in Classic; Blizzard hasn't named the Forever NPC)."
+     },
+     {
+      "id": "pl-tailor-300",
+      "text": "Keep Tailoring and Enchanting levelled as you go.",
+      "why": "Crafted tier pieces and disenchanting raid loot both need high skill on 9 December."
+     }
+    ]
    },
    {
-    "id": "profs",
-    "text": "Choose professions.",
-    "why": "Tailoring makes crafted tier pieces and caster gear; Enchanting pairs with it and turns raid drops into Malleable Essence."
+    "id": "p6",
+    "title": "Level 60 to raid night",
+    "range": "Level 60",
+    "target": "Target 29 Nov – 8 Dec",
+    "from": "2026-11-29",
+    "to": "2026-12-08",
+    "summary": "About ten days for the Drakefire Amulet, pre-raid gear, consumables and a guild. Do the Upper Blackrock Spire runs first: the amulet and the best trinket come from the same boss. Level-60 loot is unconfirmed until players see it, so check the Gear tab's Pre-raid 60 filter as it updates.",
+    "items": [
+     {
+      "id": "pl-amulet",
+      "text": "Kill General Drakkisath in Upper Blackrock Spire to finish the Drakefire Amulet.",
+      "why": "Needed in your bags for Onyxia. Whether Forever still needs the Seal of Ascension to enter UBRS is unconfirmed."
+     },
+     {
+      "id": "pl-trinkets",
+      "text": "Farm the Blackrock Spire trinkets: Draconic Infused Emblem (Drakkisath, +2.16%) and Briarwood Reed (Jed Runewatcher, +1.81%).",
+      "why": "The Emblem drops from the same boss as your amulet. Skip Talisman of Ephemeral Power: Molten Core isn't in Forever."
+     },
+     {
+      "id": "pl-preraid",
+      "text": "Work through the pre-raid list: Don Mauricio's Band (Scholomance), Bracers of the Eclipse and Fluctuating Cloak (Dire Maul West), Amulet of the Redeemed and Cape of the Black Baron (Stratholme), the Ironweave set.",
+      "why": "Classic staples; Forever drop tables aren't confirmed yet. Spell hit first for a raid boss three levels higher."
+     },
+     {
+      "id": "pl-guardians",
+      "text": "Start Guardians of Hyjal reputation.",
+      "why": "A reward raises the crafted tier limit from one piece to two, enough for the 2-piece bonus."
+     },
+     {
+      "id": "pl-consumables",
+      "text": "Stock raid consumables and gold for repairs.",
+      "why": "Elixir of Shadow Power, Greater Arcane Elixir, Brilliant Wizard Oil, Mageblood or Major Mana Potions, Demonic Runes, spell damage food. World buffs don't work in Forever raids."
+     },
+     {
+      "id": "pl-guild",
+      "text": "Join a raiding guild by early December.",
+      "why": "Pitch yourself as Shadow with baseline Fear Ward who can heal in a pinch. Ask for Blessing of Salvation: Shadow has no threat reduction talent now."
+     }
+    ]
    },
    {
-    "id": "addons",
-    "text": "Install and update addons the day before launch.",
-    "why": "Many are still adding Forever support; see the list below."
-   },
-   {
-    "id": "launch",
-    "text": "Launch night: be logged in early.",
-    "when": "2026-11-04",
-    "why": "11pm UK. Expect queues."
-   },
-   {
-    "id": "sixty",
-    "text": "Aim for 60 in about three weeks.",
-    "why": "That leaves time for dungeon gear, gold for consumables and the Onyxia chain before raids open on 9 December."
-   },
-   {
-    "id": "ony",
-    "text": "Start the Onyxia attunement chain as soon as you can.",
-    "why": "Per character, so every alt needs it too."
+    "id": "p7",
+    "title": "Raids open",
+    "range": "Level 60",
+    "target": "From 9 Dec",
+    "from": "2026-12-09",
+    "to": "2027-03-01",
+    "summary": "Barrow Deeps (10), Hyjal Summit (20) and Onyxia's Lair (40) all open on 9 December and reset weekly.",
+    "items": [
+     {
+      "id": "pl-first-raid",
+      "text": "Raid Barrow Deeps or Hyjal Summit with your guild, and Onyxia once your amulet is done.",
+      "why": "A 10-player raid is the easiest one to get a spot in as a new member."
+     },
+     {
+      "id": "pl-tier",
+      "text": "Collect Raiments of Conviction, the Shadow tier set.",
+      "why": "2-piece +1% hit. Its 5-piece predates the Devouring Plague rework and will probably change."
+     },
+     {
+      "id": "pl-logs",
+      "text": "Upload your raids to Warcraft Logs if it supports Forever.",
+      "why": "Real logs show how Shadow performs better than sims do. The Codex will add them as a source when they exist."
+     },
+     {
+      "id": "pl-disenchant",
+      "text": "Disenchant unneeded raid drops for Malleable Essence of Nature.",
+      "why": "Each crafted tier piece needs 3."
+     }
+    ]
    }
-  ],
-  "summary": "Things to settle before 4 November. Most can't be changed once your main exists, so do the ruleset and name first."
+  ]
  },
  "legacy": {
   "budget": 16,

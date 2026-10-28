@@ -226,6 +226,18 @@ table.t td{padding:8px;border-bottom:1px solid var(--line);vertical-align:top}
 ol.bosses{margin:6px 0 6px 1.3em;padding:0;columns:2;column-gap:28px;font-size:.88rem}
 ol.bosses li{break-inside:avoid;padding:1px 0}
 @media (max-width:520px){ol.bosses{columns:1}}
+.phases{display:flex;flex-direction:column;gap:10px}
+.phase{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);padding:0 14px}
+.phase.now{border-left:3px solid var(--accent)}
+.phase summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 0;flex-wrap:wrap}
+.phase summary::-webkit-details-marker{display:none}
+.phase summary::before{content:"▸";color:var(--muted);margin-right:-4px}
+.phase[open] summary::before{content:"▾"}
+.ph-t{font-weight:700;font-size:.97rem;flex:1;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.ph-m{font-size:.8rem;color:var(--muted);display:flex;gap:10px;align-items:center}
+.ph-m b{font-family:var(--f-mono);color:var(--ink)}
+.phase.complete .ph-m b{color:var(--up)}
+.ph-s{font-size:.88rem;color:var(--muted);margin:0 0 4px}
 .chk{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line);cursor:pointer}
 .chk:last-child{border-bottom:0}
 .chk input{margin-top:2px;width:20px;height:20px;accent-color:var(--accent);flex:none;cursor:pointer}
@@ -307,7 +319,7 @@ footer{margin-top:32px;padding-top:16px;border-top:1px solid var(--line);display
     <button class="tab" role="tab" data-tab="dungeons" id="t-dungeons">Raids &amp; dungeons</button>
     <button class="tab" role="tab" data-tab="level" id="t-level">Levelling 1–60</button>
     <button class="tab" role="tab" data-tab="craft" id="t-craft">Crafting &amp; camping</button>
-    <button class="tab" role="tab" data-tab="kit" id="t-kit">Launch kit</button>
+    <button class="tab" role="tab" data-tab="kit" id="t-kit">My plan</button>
   </nav>
 </header>
 
@@ -850,13 +862,24 @@ footer{margin-top:32px;padding-top:16px;border-top:1px solid var(--line);display
     }
     const macros=M.macros||[];
     const LN=S.launch||{};const chk=chkGet();
-    const items=(LN.checklist||[]).filter(i=>!(i.classes||[]).length||i.classes.includes(cls));
-    const doneN=items.filter(i=>chk[i.id]).length;
+    const mine=i=>!(i.classes||[]).length||i.classes.includes(cls);
+    const chkRow=i=>`<label class="chk${chk[i.id]?' done':''}"><input type="checkbox" data-chk="${esc(i.id)}" ${chk[i.id]?'checked':''}><span style="display:flex;flex-direction:column;gap:2px"><span class="ct">${esc(i.text)}</span>${i.when||i.why?`<span class="cw">${esc([i.when?fmtDate(i.when):'',i.why].filter(Boolean).join(' · '))}</span>`:''}</span></label>`;
+    const phases=(LN.phases||[]).map(p=>({...p,items:(p.items||[]).filter(mine)})).filter(p=>p.items.length);
+    const today=new Date().toISOString().slice(0,10);
+    let nowIdx=phases.findIndex(p=>(!p.from||p.from<=today)&&(!p.to||today<=p.to));
+    if(nowIdx<0)nowIdx=phases.findIndex(p=>p.from&&p.from>today);
+    const allItems=phases.flatMap(p=>p.items);const doneAll=allItems.filter(i=>chk[i.id]).length;
+    const legacyItems=(LN.checklist||[]).filter(mine);
+    const planHtml=phases.length?`<div class="phases">${phases.map((p,ix)=>{const dn=p.items.filter(i=>chk[i.id]).length;const isNow=ix===nowIdx;
+        return `<details class="phase${isNow?' now':''}${dn===p.items.length?' complete':''}" ${isNow?'open':''}>
+          <summary><span class="ph-t">${esc(p.title)}${isNow?'<span class="chip here">Now</span>':''}</span><span class="ph-m">${esc([p.range,p.target].filter(Boolean).join(' · '))}<b>${dn}/${p.items.length}</b></span></summary>
+          ${p.summary?`<p class="ph-s">${esc(p.summary)}</p>`:''}<div>${p.items.map(chkRow).join('')}</div></details>`}).join('')}</div>`
+      :legacyItems.length?`<div>${legacyItems.map(chkRow).join('')}</div>`:'<div class="empty">Your plan appears here once the data loads.</div>';
     const addons=LN.addons||[];
     document.getElementById('p-kit').innerHTML=`
-      <div class="block"><div class="block-head"><h2>Before launch</h2>${items.length?`<span class="muted" style="font-size:.82rem">${doneN} of ${items.length} done · ticks saved on this device</span>`:''}</div>
+      <div class="block"><div class="block-head"><h2>${esc(LN.title||'Your plan')}</h2>${allItems.length?`<span class="muted" style="font-size:.82rem">${doneAll} of ${allItems.length} done · ticks saved on this device</span>`:''}</div>
         ${LN.summary?`<div class="note">${esc(LN.summary)}</div>`:''}
-        ${items.length?`<div>${items.map(i=>`<label class="chk${chk[i.id]?' done':''}"><input type="checkbox" data-chk="${esc(i.id)}" ${chk[i.id]?'checked':''}><span style="display:flex;flex-direction:column;gap:2px"><span class="ct">${esc(i.text)}</span>${i.when||i.why?`<span class="cw">${esc([i.when?fmtDate(i.when):'',i.why].filter(Boolean).join(' · '))}</span>`:''}</span></label>`).join('')}</div>`:'<div class="empty">The launch checklist appears here once the data loads.</div>'}
+        ${planHtml}
         ${cardGrid(LN.cards)}
       </div>
       ${addons.length?`<div class="block"><h2>Addons</h2>${LN.addonNote?`<p class="muted" style="font-size:.88rem">${esc(LN.addonNote)}</p>`:''}

@@ -2,7 +2,7 @@
 
 These are the instructions the scheduled "Forever Codex refresh" follows every morning. Edit them here (not in the scheduled task) so changes are versioned.
 
-Ellis is in the UK (Europe region) and is choosing a main before WoW: Forever launches (4 Nov 2026, raids 9 Dec) between the classes in `data/classes.json` (currently Warlock, Mage, Priest; Warlock is the default view). He cares about raids, dungeons and levelling 1–60, and wants the sims to decide specs.
+Ellis is in the UK (Europe region). **His main is a Night Elf Shadow Priest** (Alliance, Normal ruleset, solo until he joins a guild at 60). WoW: Forever launches 4 Nov 2026 at 11pm UK; raids open 9 Dec. Warlock and Mage stay tracked as alternatives, but research the Priest first and most thoroughly. He cares about raids, dungeons and levelling 1–60, and wants the sims to decide specs.
 
 **Accuracy matters more than completeness: a stale value is acceptable, a wrong or invented one is not.**
 
@@ -28,7 +28,7 @@ Spec ids are `<spec>-<class>`, e.g. `demonology-warlock`, `fire-mage`, `shadow-p
 
 - `meta.app` {lastRefreshed, build, defaultClass, sources[{name,url}] (no duplicate URLs, all https), facts[] (game-wide), tierNote, gearNote, dungeonNote, compareNote, raidNote (one short line), raidFacts[]}
 - `meta.dates` {events[{label, iso, note, showTime?}]}
-- `meta.launch` {summary, checklist[{id, text, when? (YYYY-MM-DD), why, classes? []}], cards[{title,items}], addonNote, addons[{name, cat Levelling|Raid|Planning|Maps|Interface, use, status, url?}]}. Checklist ticks are saved in viewers' browsers by id, so never rename an existing id.
+- `meta.launch` {title, summary, phases[{id, title, range, target, from, to (YYYY-MM-DD), summary, items[{id, text, why, classes? []}]}], cards[{title,items}], addonNote, addons[{name, cat Levelling|Raid|Planning|Maps|Interface, use, status, url?}]}. Tick boxes are saved in Ellis's browser by item id, so never rename or remove an id.
 - `meta.legacy` {budget, summary, trees[{name, perks[{id,name,ranks,req,prereq?,effect}]}]}
 - `meta.crafting` {tailoring{bands, whatsNew}, camping{summary, features[{name,prof,buff,notes{<classId>:text}}], rules}}
 - `classes.<classId>` {id, name, order, accent{light,lightSoft,dark,darkSoft,tip}, specs[{id,key,name,experimental,color}], verdict{best (spec id with the highest newest-sim DPS; prefer non-experimental within 1%), headline, body, statsNote, flavour}, latestLabel, latestChanges[{kind buff|nerf|neutral, spec (spec id or "all"), text}], changeLog[{label, items[...]}] (prepend a group per new build), opinions[{site,url,date,note,grades[{spec,grade}]}], raceNote, raceSnapshot, classCards[{title,items}], facts[], compare{role, levelling, utility[], pros[], cons[], population{alliance, horde, note}}, crafting{...}, legacy{recommended{perkId:ranks}, recommendedNote, recommendedLabel, alternate?, alternateLabel?}, macros{note, macros[{name,text,note}]}}
@@ -41,6 +41,18 @@ Spec ids are `<spec>-<class>`, e.g. `demonology-warlock`, `fire-mage`, `shadow-p
 - `gear.<slug>` {name, slot, category wand|levelling|crafted|preraid|raid|trinket, level, source, url?, verified, order, forClass{<classId>:{notes, specs[]}}}. Each tracked class keeps its tier set doc.
 - `dungeons.<slug>` {name, levels, min, max, location, isNew, bosses, note, type dungeon|raid, size?, forClass{<classId>:{note?, loot?}}; raids also bossList[], bossNote, attunement, entrance, comp}
 - `digests.<YYYY-MM-DD>` (the "Since yesterday" card) {date, at, headline (the most important change for Ellis's choice of main), items[{kind buff|nerf|neutral, classes[], text (with old and new value where relevant), source, url, confidence "checked"|"single"}], unchecked[], checks{verified, method, corrected[], flagged[]}}. Compare today's data with "yesterday" and list every changed sim number, rank, band, verdict, date, build, opinion grade, plus each new news item worth reading. If nothing changed, one neutral item saying so. Keep the newest 14; delete older.
+
+## Live phase (from 4 November)
+
+The beta is over. After launch, keep the Codex useful for playing, not choosing:
+
+- **Patch notes and hotfixes:** Blizzard's live hotfix and known-issues posts replace the beta development notes. Add a news item for each change that affects Priests, the Shadow plan, raids or levelling.
+- **Level 31–60 is now testable.** The beta stopped at 30, so `leveling.priest` bands 30–60, quest wands (e.g. Master Hunter's Wand), spell levels and zones were never verified. Confirm or correct them as guides and databases report live data.
+- **Item stats are revealed as players find items.** Update gear docs: set `verified` true once the Forever source and stats are confirmed, correct sources, and add confirmed pre-raid items for Shadow. Keep Molten Core items flagged (not in Forever).
+- **Ellis's plan:** `meta.launch.phases` is his phased plan with tick boxes saved in his browser by item id. Never rename or remove an item id. Update an item's text or why when facts change (e.g. if the UBRS key or Onyxia chain changes), and add new items with new ids. Don't move the target dates.
+- **Dates:** remove events that have passed only once they are a week old; add new Blizzard-announced dates (Hardcore, spring raids, first weekly reset if announced).
+- **Population:** add launch census figures when a reliable source publishes them.
+- **From 9 December:** check Warcraft Logs and Archon for Forever raid rankings; once they exist, they outrank sims. Add them as a source, an opinion per class and a digest item.
 
 ## Research
 

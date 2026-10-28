@@ -53,6 +53,12 @@ for e in meta.get("dates", {}).get("events", []):
     check(iso(e.get("iso")), f"Date '{e.get('label')}' is not a valid ISO date")
 
 known = set(classes)
+ids = [i.get("id") for ph in meta.get("launch", {}).get("phases", []) for i in ph.get("items", [])]
+check(len(ids) == len(set(ids)) and all(ids), "Plan items need unique, non-empty ids")
+for ph in meta.get("launch", {}).get("phases", []):
+    for k in ("from", "to"):
+        if ph.get(k):
+            check(iso(ph[k]), f"Plan phase '{ph.get('id')}' has an invalid '{k}' date")
 tiers = list(D["tiers"].values())
 ranks = sorted(t.get("rank") for t in tiers)
 check(ranks == list(range(1, len(ranks) + 1)), "Tier list ranks have gaps or repeats")
