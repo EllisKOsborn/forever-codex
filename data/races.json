@@ -137,12 +137,12 @@
    },
    "demonology-warlock": {
     "dps": 945.5,
-    "gap": "0.39%",
+    "gap": "0.52%",
     "tier": "S"
    },
    "destruction-warlock": {
     "dps": 833.2,
-    "gap": "0.28%",
+    "gap": "0.31%",
     "tier": "S"
    },
    "fire-mage": {
@@ -227,12 +227,12 @@
    },
    "demonology-warlock": {
     "dps": 947.1,
-    "gap": "0.22%",
+    "gap": "0.35%",
     "tier": "S"
    },
    "destruction-warlock": {
     "dps": 835.5,
-    "gap": "",
+    "gap": "0.03%",
     "tier": "S"
    },
    "fire-mage": {
@@ -277,7 +277,7 @@
   ],
   "faction": "Alliance",
   "notes": {
-   "warlock": "Top race for Affliction and Destruction; 0.22% behind Orc for Demonology"
+   "warlock": "Tied for top in Affliction; 0.03% behind Undead in Destruction and 0.35% behind Orc in Demonology"
   },
   "order": 1,
   "race": "Human",
@@ -341,7 +341,7 @@
  "orc": {
   "abilities": [
    {
-    "effect": "+10% attack power and spell power for 15 sec. 3 min cooldown (was 2).",
+    "effect": "+10% attack power and spell power for 15 sec. 2 min cooldown (cut from 3 min on 27 Oct).",
     "name": "Blood Fury"
    },
    {
@@ -359,38 +359,38 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 846.8,
-    "gap": "0.43%",
+    "dps": 848.3,
+    "gap": "0.26%",
     "tier": "S"
    },
    "arcane-mage": {
-    "dps": 818.5,
-    "gap": "1.31%",
+    "dps": 819.4,
+    "gap": "1.21%",
     "tier": "A"
    },
    "demonology-warlock": {
-    "dps": 949.1,
+    "dps": 950.4,
     "gap": "",
     "tier": "S"
    },
    "destruction-warlock": {
-    "dps": 831.8,
-    "gap": "0.45%",
+    "dps": 833.8,
+    "gap": "0.24%",
     "tier": "S"
    },
    "fire-mage": {
-    "dps": 910.8,
-    "gap": "0.88%",
+    "dps": 910.9,
+    "gap": "0.87%",
     "tier": "S"
    },
    "frost-mage": {
-    "dps": 669.2,
-    "gap": "1.17%",
+    "dps": 669.9,
+    "gap": "1.07%",
     "tier": "A"
    },
    "frostfire-mage": {
-    "dps": 791.7,
-    "gap": "1.68%",
+    "dps": 791.8,
+    "gap": "1.67%",
     "tier": "A"
    }
   },
@@ -402,19 +402,19 @@
   "faction": "Horde",
   "notes": {
    "mage": "New Mage race in Forever",
-   "warlock": "Top Demonology race thanks to Command; Undead edges it as the best Horde race for Affliction and Destruction"
+   "warlock": "Top Demonology race thanks to Command and the 2 min Blood Fury; Undead is the better Horde pick for Affliction and Destruction"
   },
   "order": 6,
   "race": "Orc",
   "simText": {
-   "mage": "Blood Fury: +10% spell power for 15 sec every 3 min. Command only helps Warlock and Hunter pets.",
-   "warlock": "Blood Fury: +10% spell power for 15 sec every 3 min. Command: +5% pet damage."
+   "mage": "Blood Fury: +10% spell power for 15 sec every 2 min. Command only helps Warlock and Hunter pets.",
+   "warlock": "Blood Fury: +10% spell power for 15 sec every 2 min. Command: +5% pet damage."
   }
  },
  "troll": {
   "abilities": [
    {
-    "effect": "+10% attack and casting speed for 10 sec. 3 min cooldown.",
+    "effect": "+10% attack and casting speed for 15 sec (was 10 sec until 27 Oct). 3 min cooldown.",
     "name": "Berserking"
    },
    {
@@ -432,43 +432,43 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 845.2,
-    "gap": "0.63%",
+    "dps": 846.7,
+    "gap": "0.45%",
     "tier": "S"
    },
    "arcane-mage": {
-    "dps": 815.6,
-    "gap": "1.66%",
+    "dps": 818.7,
+    "gap": "1.29%",
     "tier": "A"
    },
    "demonology-warlock": {
-    "dps": 940.9,
-    "gap": "0.87%",
+    "dps": 943.3,
+    "gap": "0.74%",
     "tier": "S"
    },
    "destruction-warlock": {
-    "dps": 830.0,
-    "gap": "0.66%",
+    "dps": 832.6,
+    "gap": "0.39%",
     "tier": "S"
    },
    "fire-mage": {
-    "dps": 908.6,
-    "gap": "1.12%",
-    "tier": "A"
+    "dps": 910.5,
+    "gap": "0.91%",
+    "tier": "S"
    },
    "frost-mage": {
-    "dps": 671.1,
-    "gap": "0.90%",
+    "dps": 673.3,
+    "gap": "0.58%",
     "tier": "S"
    },
    "frostfire-mage": {
-    "dps": 791.1,
-    "gap": "1.76%",
+    "dps": 792.8,
+    "gap": "1.55%",
     "tier": "A"
    },
    "shadow-priest": {
-    "dps": 805.4,
-    "gap": "0.86%",
+    "dps": 806.0,
+    "gap": "0.78%",
     "tier": "S"
    }
   },
@@ -498,15 +498,15 @@
   "order": 8,
   "race": "Troll",
   "simText": {
-   "mage": "Berserking: +10% casting speed for 10 sec every 3 min.",
-   "priest": "Berserking: +0.32%",
-   "warlock": "Berserking: +10% casting speed for 10 sec every 3 min. Weaker for DoT specs, since haste doesn't speed up ticks."
+   "mage": "Berserking: +10% casting speed for 15 sec every 3 min.",
+   "priest": "Berserking: +0.39%",
+   "warlock": "Berserking: +10% casting speed for 15 sec every 3 min. Weaker for DoT specs, since haste doesn't speed up ticks."
   }
  },
  "undead": {
   "abilities": [
    {
-    "effect": "Damage spells have a 30% chance to drain up to 5% of your max health. 25 sec internal cooldown.",
+    "effect": "Damage spells have a 30% chance to drain up to 5% of your max health. 15 sec internal cooldown (was 25 sec until 27 Oct).",
     "name": "Touch of the Grave"
    },
    {
@@ -524,43 +524,43 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 847.4,
-    "gap": "0.37%",
+    "dps": 849.5,
+    "gap": "0.13%",
     "tier": "S"
    },
    "arcane-mage": {
-    "dps": 818.2,
-    "gap": "1.35%",
+    "dps": 820.6,
+    "gap": "1.06%",
     "tier": "A"
    },
    "demonology-warlock": {
-    "dps": 944.4,
-    "gap": "0.50%",
+    "dps": 947.7,
+    "gap": "0.28%",
     "tier": "S"
    },
    "destruction-warlock": {
-    "dps": 833.7,
-    "gap": "0.22%",
+    "dps": 835.8,
+    "gap": "",
     "tier": "S"
    },
    "fire-mage": {
-    "dps": 910.7,
-    "gap": "0.89%",
+    "dps": 912.7,
+    "gap": "0.67%",
     "tier": "S"
    },
    "frost-mage": {
-    "dps": 670.7,
-    "gap": "0.96%",
+    "dps": 672.8,
+    "gap": "0.65%",
     "tier": "S"
    },
    "frostfire-mage": {
-    "dps": 792.6,
-    "gap": "1.58%",
+    "dps": 794.3,
+    "gap": "1.36%",
     "tier": "A"
    },
    "shadow-priest": {
-    "dps": 809.1,
-    "gap": "0.40%",
+    "dps": 811.3,
+    "gap": "0.14%",
     "tier": "S"
    }
   },
@@ -584,13 +584,15 @@
    "warlock"
   ],
   "faction": "Horde",
-  "notes": {},
+  "notes": {
+   "warlock": "Tied for top in Destruction since the 27 Oct Touch of the Grave change"
+  },
   "order": 7,
   "race": "Undead",
   "simText": {
-   "mage": "Touch of the Grave: 30% chance on spells to drain up to 5% of max health, once every 25 sec.",
-   "priest": "Touch of the Grave proc: +0.74%",
-   "warlock": "Touch of the Grave: 30% chance for Warlocks to drain up to 5% of max health, once every 25 sec. Whether it can crit is unverified."
+   "mage": "Touch of the Grave: 30% chance on spells to drain up to 5% of max health, once every 15 sec.",
+   "priest": "Touch of the Grave proc: +1.01%",
+   "warlock": "Touch of the Grave: 30% chance for Warlocks to drain up to 5% of max health, once every 15 sec. Whether it can crit is unverified."
   }
  }
 }

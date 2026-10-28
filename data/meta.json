@@ -16,7 +16,7 @@
    "Early name reservation (27 October) is for players who bought an upgrade pack."
   ],
   "gearNote": "Levelling picks come from the level-30 beta lists. Trinket gains are MythicSim results and differ by spec. Items marked unverified are level-60 loot whose Forever drop tables aren't confirmed yet (the beta stops at 30). \"Also wanted by\" shows which of your other classes would compete for the same item.",
-  "lastRefreshed": "2026-10-27T09:45:00+00:00",
+  "lastRefreshed": "2026-10-28T10:30:00+00:00",
   "raidFacts": [
    "Onyxia's Lair keeps its Classic-style attunement chain, done per character at least at launch (Blizzard podcast, 8 October). Barrow Deeps and Hyjal Summit have no attunement chain, though Blizzard hints at extra steps for the full experience.",
    "All raids are currently planned to reset each week (Blizzard raid overview, 20 October).",
@@ -354,7 +354,7 @@
     "url": "https://talentsforever.com/priest/changes"
    }
   ],
-  "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight, in MythicSim's default \"Best of each spec\" view (22 specs). The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Affliction above Beast Mastery, Frostfire above Shadow). All 22 rows are on MythicSim's 27 Oct snapshot (engine a667dce), after the 26 Oct racial update. The change column is MythicSim's printed change since that racial update, not since yesterday. Bands are MythicSim's own S, A, B and C sections. Specs for the classes you're weighing are highlighted."
+  "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight, in MythicSim's default \"Best of each spec\" view (22 specs). The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Demonology above Fury, Affliction above Beast Mastery, Frostfire above Shadow). All 22 rows are on MythicSim's 28 Oct snapshot (engine a667dce), after the 26 Oct racial update and its 27 Oct additions. The change column is MythicSim's printed change since that racial update, not since yesterday. Bands are MythicSim's own S, A, B and C sections. Specs for the classes you're weighing are highlighted."
  },
  "crafting": {
   "camping": {

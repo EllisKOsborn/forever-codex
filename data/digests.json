@@ -1040,5 +1040,85 @@
     "Client 70630 Spellstone and Winter's Chill changes: MythicSim only, and TalentsForever lists no Mage change in 70630."
    ]
   }
+ },
+ "2026-10-28": {
+  "date": "2026-10-28",
+  "at": "2026-10-28T10:30:00+00:00",
+  "headline": "Blizzard added three racial changes on 27 Oct and MythicSim re-simmed: Demonology edges up to 952 (still #2, S) on an Orc reference; Fire 917 (#6) and Shadow 812 (#13) unchanged.",
+  "items": [
+   {
+    "kind": "buff",
+    "classes": [],
+    "text": "Blizzard's beta notes, updated 27 Oct: Orc Blood Fury cooldown 2 min (was 3), Troll Berserking 15 sec (was 10), Undead Touch of the Grave internal cooldown 15 sec (was 25). Skyborne Attuned and Charged persist through death and end on entering a raid.",
+    "source": "Blizzard beta development notes",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-26/2360696/8",
+    "confidence": "checked"
+   },
+   {
+    "kind": "buff",
+    "classes": [
+     "warlock"
+    ],
+    "text": "Demonology 949 to 952 DPS (reference race now Orc), still #2 of 22 and S band. Affliction 850 (#8, A) and Destruction 837 (#10, A) unchanged. MythicSim's printed change since the 26 Oct racials is now -0.8% for Demonology (was -1.1%).",
+    "source": "MythicSim tier list and Warlock page",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "mage",
+     "priest"
+    ],
+    "text": "No DPS change for Mage or Shadow: Fire 917 (#6, A), Arcane 830 (#11, A), Frostfire 804 (#12, B), Frost 677 (#21, C), Shadow 812 (#13, B). The whole board is now on the 28 Oct snapshot (was 27 Oct). Arms Warrior 798 to 808 from a gear swap.",
+    "source": "MythicSim tier list",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "warlock",
+     "mage",
+     "priest"
+    ],
+    "text": "Race boards re-simmed (28 Oct): Undead now tied for top Destruction (835.8, was 0.22% behind Human); Orc leads Demonology at 950.4 (was 949.1), Undead 0.28% back (was 0.50%). Troll moves from A to S for Fire (1.12% to 0.91% back). Undead closes to 0.14% behind Night Elf for Shadow (was 0.40%). Gnome still leads Fire, Arcane and Frostfire; every gap under 1.7%.",
+    "source": "MythicSim race boards",
+    "url": "https://mythicsim.com/wow-forever/races?class=warlock&spec=destruction-warlock",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "warlock"
+    ],
+    "text": "Demonology trinket board re-run (baseline 952): Draconic Infused Emblem +2.75% to +2.74%, Talisman of Ephemeral Power +2.56% to +2.63%, Burst of Knowledge +1.97% to +1.93%.",
+    "source": "MythicSim trinket board",
+    "url": "https://mythicsim.com/wow-forever/best-trinkets/demonology-warlock",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "Found in the files: client build 70634 appeared on 27 Oct with no spell or item changes, per Bind on Forever. Only one source, so the site's build stays at 70630.",
+    "source": "Bind on Forever",
+    "url": "https://bindonforever.com/changes",
+    "confidence": "single"
+   }
+  ],
+  "unchecked": [
+   "No new Blizzard news post or hotfix found beyond the 27 Oct note update; a general news search returned only September coverage.",
+   "LFCarry tier list unchanged (last modified 25 Oct); TalentsForever lists nothing new since build 70630."
+  ],
+  "checks": {
+   "verified": 13,
+   "method": "Raw page HTML read with curl and parsed (tier list, three class pages, eight race boards, eight trinket boards, Blizzard thread JSON), cross-checked with a second WebFetch read of the tier list and Destruction race board; a separate agent then reopened every source and confirmed all 13 ledger rows.",
+   "corrected": [
+    "Warlock stat notes said Human gives +5% Spirit; Blizzard's 26 Oct notes make it +10%.",
+    "Warlock 26 Oct change entry said Blood Fury stays on 3 min and Touch of the Grave 25 sec; Blizzard's 27 Oct addition makes them 2 min and 15 sec.",
+    "Demonology's sim race (preset) changed from Human to Orc to match MythicSim's reference."
+   ],
+   "flagged": []
+  }
  }
 }

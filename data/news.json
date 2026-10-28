@@ -1,22 +1,4 @@
 {
- "l-n20261016-gear-pvp-plans": {
-  "classes": [],
-  "date": "2026-10-16",
-  "source": "Massively OP",
-  "summary": "New raids will add a few upgrades rather than replace whole sets, so older gear stays useful. Alterac Valley honour goes down, other battlegrounds go up, and there are no RP-PvP realms.",
-  "tag": "blizzard",
-  "title": "Blizzard plans small gear steps and honour changes",
-  "url": "https://massivelyop.com/2026/10/16/world-of-warcraft-forever-shares-plans-for-its-pvp-experiences-and-a-slow-roll-of-gear-upgrades/"
- },
- "l-n20261016-hunter-pets": {
-  "classes": [],
-  "date": "2026-10-16",
-  "source": "Blizzard",
-  "summary": "Blizzard shortened Dismember, Sonic Blast and Mine! and lowered their effects. Commentators expect it to hand some ground back to Warlocks and Warriors.",
-  "tag": "patch",
-  "title": "Hunter pet abilities cut back",
-  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696/6"
- },
  "l-n20261016-mythicsim-warlock-resim": {
   "classes": [
    "warlock"
@@ -626,6 +608,28 @@
    "mage"
   ],
   "source": "MythicSim changelog",
+  "url": "https://mythicsim.com/changelog"
+ },
+ "n20261028-racial-additions": {
+  "date": "2026-10-28",
+  "title": "Blizzard adds three racial changes it left out on 26 Oct",
+  "summary": "Blizzard updated its beta notes on 27 Oct: Orc Blood Fury now has a 2 minute cooldown (was 3), Troll Berserking lasts 15 seconds (was 10) and Undead Touch of the Grave can proc every 15 seconds (was 25). It also confirmed that Skyborne's Attuned and Charged buffs survive death but end when you enter a raid.",
+  "tag": "patch",
+  "classes": [],
+  "source": "Blizzard forums",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-26/2360696/8"
+ },
+ "n20261028-mythicsim-racial-resim": {
+  "date": "2026-10-28",
+  "title": "MythicSim re-sims for the extra racial changes",
+  "summary": "Demonology moves to an Orc reference and edges up to 952 DPS, still #2 and S band. Undead now ties Human for top Destruction race and closes on Night Elf for Shadow; every other tracked spec's DPS is unchanged.",
+  "tag": "sim",
+  "classes": [
+   "warlock",
+   "mage",
+   "priest"
+  ],
+  "source": "MythicSim",
   "url": "https://mythicsim.com/changelog"
  }
 }
