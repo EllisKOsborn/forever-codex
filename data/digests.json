@@ -1120,5 +1120,55 @@
    ],
    "flagged": []
   }
+ },
+ "2026-10-29": {
+  "date": "2026-10-29",
+  "at": "2026-10-29T10:30:00+00:00",
+  "headline": "No sim changes: Shadow stays 812 DPS (#13, B) on MythicSim's 28 Oct snapshot. A single unofficial datamine of build 70685 shows a Mage talent reshuffle; nothing for Priest.",
+  "items": [
+   {
+    "kind": "neutral",
+    "classes": [
+     "priest",
+     "mage",
+     "warlock"
+    ],
+    "text": "MythicSim tier list, class pages, race boards and trinket boards unchanged since yesterday (snapshot 28 Oct, engine a667dce): Shadow 812 (#13, B), Fire 917 (#6, A), Demonology 952 (#2, S).",
+    "source": "MythicSim tier list",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "mage"
+    ],
+    "text": "Found in the files (unofficial, one source): server build 70685 of 28 Oct makes Precision 2/4/6% hit for all spells, Incineration 5 ranks up to 10% crit (was 3 ranks), Critical Mass 3 ranks up to 6% (was 5 ranks, 10%), gives Ice Lance an 8 sec cooldown and removes Arcane Focus and Frost Blast. Not applied to the Mage pages until Blizzard or a second site confirms.",
+    "source": "ForeverChanges",
+    "url": "https://foreverchanges.pro/patch-notes",
+    "confidence": "single"
+   },
+   {
+    "kind": "buff",
+    "classes": [],
+    "text": "Found in the files (unofficial, one source): the Adventurer's Tent in build 70685 raises Rested experience for you and nearby party members to 20% of a level (was a 15 min tent).",
+    "source": "ForeverChanges",
+    "url": "https://foreverchanges.pro/patch-notes",
+    "confidence": "single"
+   }
+  ],
+  "unchecked": [
+   "No Blizzard hotfix or class post for Forever since the 27 Oct racial addition; recent blue posts cover name reservation fixes and a new-player guide.",
+   "Icy Veins news page refused the fetch (403); Bind on Forever shows nothing after build 70634.",
+   "MythicSim's Priest page says Shadow is #12 of 24 while the tier list shows #13 of 22 tracked rows (#15 of 28 including variants); the site keeps #13."
+  ],
+  "checks": {
+   "verified": 4,
+   "method": "MythicSim pages read raw with curl (tier list, Priest page, Shadow race and trinket boards) plus WebFetch; ForeverChanges build 70685 read twice with different prompts; a separate agent reopened every source and confirmed all 4 ledger rows.",
+   "corrected": [],
+   "flagged": [
+    "Mage talent changes in build 70685 are single-source and unofficial, so the Mage talent and spec data are left as they were."
+   ]
+  }
  }
 }

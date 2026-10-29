@@ -1,26 +1,4 @@
 {
- "l-n20261016-mythicsim-warlock-resim": {
-  "classes": [
-   "warlock"
-  ],
-  "date": "2026-10-16",
-  "source": "MythicSim",
-  "summary": "Demonology comes out at 852 DPS, Affliction 756 and Destruction 704 on the newest engine. The main tier list still shows the 15 Oct run for Warlocks.",
-  "tag": "sim",
-  "title": "MythicSim re-sims all three Warlock specs on client 70425",
-  "url": "https://mythicsim.com/wow-forever/warlock"
- },
- "l-n20261016-race-boards": {
-  "classes": [
-   "warlock"
-  ],
-  "date": "2026-10-16",
-  "source": "MythicSim",
-  "summary": "Human leads Affliction, Demonology and Destruction, with Orc the best Horde race within 1%. The spread between races is under 2% in every spec.",
-  "tag": "sim",
-  "title": "Human tops every Warlock race board",
-  "url": "https://mythicsim.com/wow-forever/races?class=warlock&spec=demonology-warlock"
- },
  "l-n20261016-racials": {
   "classes": [],
   "date": "2026-10-16",
@@ -631,5 +609,25 @@
   ],
   "source": "MythicSim",
   "url": "https://mythicsim.com/changelog"
+ },
+ "n20261029-found-70685-mage": {
+  "date": "2026-10-29",
+  "title": "Found in the files: build 70685 reshuffles Mage talents",
+  "summary": "ForeverChanges reads a 28 Oct server build where Precision gives 2/4/6% hit to all spells, Incineration grows to 5 ranks (10% crit) and Critical Mass shrinks to 3 ranks (6%), Ice Lance gets an 8 sec cooldown and Arcane Focus and Frost Blast go. Nothing confirmed by Blizzard yet and only one site reports it.",
+  "tag": "datamine",
+  "classes": [
+   "mage"
+  ],
+  "source": "ForeverChanges",
+  "url": "https://foreverchanges.pro/patch-notes"
+ },
+ "n20261029-found-70685-tent": {
+  "date": "2026-10-29",
+  "title": "Found in the files: Adventurer's Tent now builds Rested XP",
+  "summary": "The same 28 Oct build turns the Adventurer's Tent into a camp that raises the Rested experience of you and nearby party members to 20% of a level, instead of a plain 15 minute tent. Unconfirmed, one source.",
+  "tag": "datamine",
+  "classes": [],
+  "source": "ForeverChanges",
+  "url": "https://foreverchanges.pro/patch-notes"
  }
 }
