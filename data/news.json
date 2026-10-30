@@ -1,22 +1,4 @@
 {
- "l-n20261016-racials": {
-  "classes": [],
-  "date": "2026-10-16",
-  "source": "Kami Labs",
-  "summary": "Human gets Ruthless (+2% crit), Orc gets Savage (+1% crit) and a 3 min Blood Fury, and Undead Touch of the Grave procs 30% for casters on a 25 sec cooldown.",
-  "tag": "patch",
-  "title": "Racials rebuilt: weapon specialisations are gone",
-  "url": "https://kami-labs.fr/en/wow-forever/patch-notes-15-octobre-races-refaites/"
- },
- "l-n20261016-raid-buffs": {
-  "classes": [],
-  "date": "2026-10-16",
-  "source": "Blizzard",
-  "summary": "Battle Shout, Trueshot Aura, Moonkin Aura, Leader of the Pack and four Shaman totems became raid-wide. Moonkin Aura now only gives spell crit.",
-  "tag": "patch",
-  "title": "Totems, auras and Battle Shout now reach the whole raid",
-  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696"
- },
  "l-n20261016-shadow-mastery": {
   "classes": [
    "warlock"
@@ -625,6 +607,26 @@
   "date": "2026-10-29",
   "title": "Found in the files: Adventurer's Tent now builds Rested XP",
   "summary": "The same 28 Oct build turns the Adventurer's Tent into a camp that raises the Rested experience of you and nearby party members to 20% of a level, instead of a plain 15 minute tent. Unconfirmed, one source.",
+  "tag": "datamine",
+  "classes": [],
+  "source": "ForeverChanges",
+  "url": "https://foreverchanges.pro/patch-notes"
+ },
+ "n20261030-mythicsim-arms-hunter": {
+  "date": "2026-10-30",
+  "title": "MythicSim tunes Arms and Hunters; Shadow slips to #14",
+  "summary": "MythicSim's 29 Oct snapshot moves Arms Warrior to 817 DPS after a rotation fix, one place above Shadow, which is unchanged at 812. Hunter timing fixes lift Survival to 1,230 and trim Marksmanship to 939 and Beast Mastery to 859.",
+  "tag": "sim",
+  "classes": [
+   "priest"
+  ],
+  "source": "MythicSim tier list and changelog",
+  "url": "https://mythicsim.com/changelog"
+ },
+ "n20261030-found-70707": {
+  "date": "2026-10-30",
+  "title": "Found in the files: build 70707 buffs Revenge and makes the tent cosmetic again",
+  "summary": "ForeverChanges says client build 70707 of 30 Oct adds attack power scaling to Warrior Revenge and turns the Adventurer's Tent back into a 15 minute cosmetic tent, undoing the Rested XP version found in build 70685. Unofficial and from one site; Blizzard has posted no notes and nothing for Priest.",
   "tag": "datamine",
   "classes": [],
   "source": "ForeverChanges",

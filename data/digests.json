@@ -1170,5 +1170,64 @@
     "Mage talent changes in build 70685 are single-source and unofficial, so the Mage talent and spec data are left as they were."
    ]
   }
+ },
+ "2026-10-30": {
+  "date": "2026-10-30",
+  "at": "2026-10-30T08:05:00+00:00",
+  "headline": "Shadow unchanged at 812 DPS but slips from #13 to #14 (still B) as an Arms Warrior rotation fix lifts Arms to 817. Fire (917, #6) and Demonology (952, #2) unchanged.",
+  "items": [
+   {
+    "kind": "neutral",
+    "classes": [
+     "priest"
+    ],
+    "text": "Shadow Priest rank on MythicSim's tier list: #13 to #14 of 22, still B band. Its DPS is unchanged at 812; Arms Warrior (808 to 817) passed it after MythicSim's 29 Oct Arms preset tune (Execute after Mortal Strike, Rend kept up through execute).",
+    "source": "MythicSim tier list",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "priest",
+     "mage",
+     "warlock"
+    ],
+    "text": "All eight tracked specs, their race boards and trinket boards are unchanged in value on the 29 Oct snapshot (engine a667dce; race boards now labelled engine e1f81df, matching a667dce): Shadow 812, Fire 917, Arcane 830, Frostfire 804, Frost 677, Demonology 952, Affliction 850, Destruction 837.",
+    "source": "MythicSim class pages",
+    "url": "https://mythicsim.com/wow-forever/priest",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "Other tier list moves: Survival Hunter 1,214 to 1,230 and Marksmanship 948 to 939, Beast Mastery 865 to 859 after Hunter timing fixes; Fury Warrior 952 to 953. Bands unchanged (S 1 to 3, A 4 to 11, B 12 to 18, C 19 to 22).",
+    "source": "MythicSim changelog",
+    "url": "https://mythicsim.com/changelog",
+    "confidence": "checked"
+   },
+   {
+    "kind": "buff",
+    "classes": [],
+    "text": "Found in the files (unofficial, one source): build 70707 of 30 Oct gives Warrior Revenge attack power scaling and makes the Adventurer's Tent a 15 minute cosmetic tent again, reversing yesterday's Rested XP find. Nothing for Priest.",
+    "source": "ForeverChanges",
+    "url": "https://foreverchanges.pro/patch-notes",
+    "confidence": "single"
+   }
+  ],
+  "unchecked": [
+   "No new Blizzard development notes or hotfix posts since Kaivax's 27 Oct racial post; the only new blue post is a 29 Oct returning-player guide with no class changes.",
+   "Bind on Forever lists build 70685 with 0 class ability changes, which disagrees with ForeverChanges' Mage talent reshuffle for that build; Mage data stays as it was. Bind on Forever has nothing on 70707 yet.",
+   "Wowhead Forever news did not load, and Bluetracker returned 404.",
+   "MythicSim's Priest page still says Shadow is #13 of 24, while the tier list shows #14 of 22 DPS specs; the site follows the tier list."
+  ],
+  "checks": {
+   "verified": 15,
+   "method": "MythicSim tier list, all three class pages, all eight race boards and trinket boards and the changelog read raw with curl; ForeverChanges build 70707 read twice with WebFetch using different prompts; a separate agent reopened every source and confirmed all ledger rows.",
+   "corrected": [],
+   "flagged": [
+    "Build 70707 changes (Revenge, Adventurer's Tent) and the 70685 Mage talent reshuffle are single-source and unofficial, so no class, levelling or gear data was changed for them."
+   ]
+  }
  }
 }
