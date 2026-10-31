@@ -1,91 +1,4 @@
 {
- "2026-10-17": {
-  "at": "2026-10-17T18:30:00+01:00",
-  "checks": {
-   "corrected": [
-    "Stale tier-list figures (16 Oct run not yet applied) in tiers, verdicts, opinions and two spec summaries, now corrected"
-   ],
-   "flagged": [],
-   "method": "all 24 tier-list rows and the Shadow baseline read twice from MythicSim and matched",
-   "pageChecks": true,
-   "verified": 25
-  },
-  "date": "2026-10-17",
-  "headline": "MythicSim re-ran its whole tier list on the 15 Oct build. Demonology Warlock still leads your three classes; Arcane joins Fire in the A band and Shadow climbs to 745.",
-  "items": [
-   {
-    "classes": [
-     "priest"
-    ],
-    "confidence": "checked",
-    "kind": "buff",
-    "source": "MythicSim",
-    "text": "Shadow Priest re-simmed at 745 DPS (was 704 on the old tier list, 739.7 on the race board), #14 of 24, B band.",
-    "url": "https://mythicsim.com/wow-forever/priest"
-   },
-   {
-    "classes": [
-     "mage"
-    ],
-    "confidence": "checked",
-    "kind": "buff",
-    "source": "MythicSim tier list",
-    "text": "Arcane moves up to #11 and the A band at 776 DPS, level with Fire (#10, 777). Frostfire drops to #13 (B), Frost to #19 (C).",
-    "url": "https://mythicsim.com/wow-forever/tier-list"
-   },
-   {
-    "classes": [
-     "warlock"
-    ],
-    "confidence": "checked",
-    "kind": "neutral",
-    "source": "MythicSim tier list",
-    "text": "Tier list now matches the Warlock page: Demonology #6 (852, A), Affliction #12 (756, B), Destruction #15 (704, B).",
-    "url": "https://mythicsim.com/wow-forever/tier-list"
-   },
-   {
-    "classes": [
-     "priest"
-    ],
-    "confidence": "single",
-    "kind": "neutral",
-    "source": "LFCarry",
-    "text": "LFCarry lifts Shadow Priest from C to B after the Devouring Plague changes.",
-    "url": "https://lfcarry.com/guides/wow-forever-tier-list"
-   },
-   {
-    "classes": [
-     "mage",
-     "priest"
-    ],
-    "confidence": "checked",
-    "kind": "neutral",
-    "source": "Wowhead / Icy Veins",
-    "text": "Tier set bonuses for Mage (Manaflare Regalia) and Shadow Priest (Raiments of Conviction) added to Gear. Shadow's 5-piece predates the Devouring Plague rework.",
-    "url": "https://www.wowhead.com/forever/item-set=2105/raiments-of-conviction"
-   },
-   {
-    "classes": [],
-    "confidence": "checked",
-    "kind": "neutral",
-    "source": "Warcraft Tavern",
-    "text": "Raid bosses, attunements and group sizes added to Raids & dungeons. Onyxia keeps a per-character attunement; the new raids have none.",
-    "url": "https://www.warcrafttavern.com/forever/news/onyxias-lair-raid-will-still-require-attunement-in-wow-forever/"
-   },
-   {
-    "classes": [],
-    "confidence": "checked",
-    "kind": "neutral",
-    "source": "LFCarry, Icy Veins, Kami Labs",
-    "text": "New Launch kit tab: ruleset choice, name reservation, addons and a checklist.",
-    "url": "https://lfcarry.com/guides/wow-forever-realmless"
-   }
-  ],
-  "unchecked": [
-   "Reddit and X (not reachable by the research tools)",
-   "Level-60 loot (beta capped at 30)"
-  ]
- },
  "2026-10-18": {
   "at": "2026-10-18T08:30:00+01:00",
   "checks": {
@@ -1227,6 +1140,104 @@
    "corrected": [],
    "flagged": [
     "Build 70707 changes (Revenge, Adventurer's Tent) and the 70685 Mage talent reshuffle are single-source and unofficial, so no class, levelling or gear data was changed for them."
+   ]
+  }
+ },
+ "2026-10-31": {
+  "date": "2026-10-31",
+  "at": "2026-10-31T08:05:00+00:00",
+  "headline": "Shadow unchanged at 812 and back to #13 (B) as Arms slips; the unannounced 30 Oct hotfix triples Shadow Word: Death's backlash to 30% of your health. Fire 917 to 900 but still the best Mage; Frost jumps 677 to 769.",
+  "items": [
+   {
+    "kind": "neutral",
+    "classes": [
+     "priest"
+    ],
+    "text": "Shadow Priest rank on MythicSim's tier list: #14 to #13 of 22, still B. Its DPS is unchanged at 812 (race and trinket boards unchanged too); Arms Warrior fell 817 to 810 after MythicSim stopped stacking Elixir of Ferocity with other elixirs.",
+    "source": "MythicSim tier list",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "nerf",
+    "classes": [
+     "priest"
+    ],
+    "text": "30 Oct hotfix (no Blizzard notes): Shadow Word: Death backlash 10% to 30% of maximum health; Holy Binding replaces Binding Heal in Holy. Updated in the raid rotation and your plan's Shadow Word: Death tip.",
+    "source": "TalentsForever",
+    "url": "https://talentsforever.com/priest/changes",
+    "confidence": "checked"
+   },
+   {
+    "kind": "nerf",
+    "classes": [
+     "mage"
+    ],
+    "text": "Fire Mage 917 to 900 (still #6, A) after MythicSim moved to client 70707's Mage tree (Critical Mass 3 ranks, was 5). Fire is still the best Mage spec; Arcane 830 to 845 and #11 to #10 (A); Frostfire 804 to 790 and #12 to #15 (B).",
+    "source": "MythicSim Mage page",
+    "url": "https://mythicsim.com/wow-forever/mage",
+    "confidence": "checked"
+   },
+   {
+    "kind": "buff",
+    "classes": [
+     "mage"
+    ],
+    "text": "Frost Mage 677 to 769 (+13.6%), #21 to #17 and C band to B. MythicSim credits +11% to the 30 Oct hotfix (Ice Lance +300% on frozen targets, Winter's Chill 20% a stack) and +2.3% to the new tree. Read three times (tier list, Mage page, trinket board baseline), all 769.",
+    "source": "MythicSim tier list",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "mage"
+    ],
+    "text": "Mage race boards: Gnome now leads Fire (899.5; Human was the preset), Skyborne leads Arcane (844.9, was Gnome) and Frost (767.9), Gnome leads Frostfire (789.8). Trinket boards re-simmed; Talisman of Ephemeral Power still tops all four.",
+    "source": "MythicSim race boards",
+    "url": "https://mythicsim.com/wow-forever/races?class=mage&spec=fire-mage",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "warlock"
+    ],
+    "text": "Warlocks unchanged in value: Demonology 952 (#2, S), Affliction 850 (#8 to #7, A), Destruction 837 (#10 to #9, A). Race and trinket boards unchanged.",
+    "source": "MythicSim Warlock page",
+    "url": "https://mythicsim.com/wow-forever/warlock",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "Other tier list moves: Fury Warrior 953 to 944 and S to A (S is now only Survival and Demonology); Retribution 876 to 849 (#7 to #8) after the Paladin talent rework; Feral 794 to 831 (#15 to #12) and Balance 699 to 749 after the Druid rework; Survival 1,230 to 1,225. Bands: S 1 to 2, A 3 to 11, B 12 to 18, C 19 to 22.",
+    "source": "MythicSim changelog",
+    "url": "https://mythicsim.com/changelog",
+    "confidence": "checked"
+   }
+  ],
+  "unchecked": [
+   "Blizzard has posted no notes for the 30 Oct hotfix (push 113531); players on the forums are asking for them. Everything above comes from datamining sites and MythicSim.",
+   "ForeverChanges alone says Cure Disease and Abolish Disease can now be cast in Shadowform; not added until a second source confirms.",
+   "Ice Barrier's new Frost damage bonus is described differently by ForeverChanges (15% for 1 min, 5% while shielded) and MythicSim (Ice Barrier 5%, Frigid Power 15%), so it is left out.",
+   "MythicSim's Priest page still says #13 of 24 and the Warlock page #8 and #11 of 24; the site follows the 22-spec tier list.",
+   "LFCarry's tier list was updated 30 Oct but its grades for the tracked specs are unchanged (Shadow B, Fire, Arcane and Frost B, Demonology A)."
+  ],
+  "checks": {
+   "verified": 61,
+   "method": "MythicSim tier list, three class pages, eight race boards, eight trinket boards and the changelog read raw with curl, each figure matched in at least two places (tier list, class page and board baseline); hotfix changes matched across ForeverChanges, TalentsForever, MythicSim and Bind on Forever. A separate agent reopened every source and confirmed all 61 ledger rows.",
+   "corrected": [
+    "Frost Mage build 16/3/32 to 14/5/32, Retribution 10/8/33 to 12/8/31, Feral 9/34/8 to 9/32/10 (tier list)",
+    "Frost talent note: Winter's Chill per stack corrected from 40% to 20% (30 Oct hotfix)",
+    "Arcane stat note: Arcane Focus no longer exists; hit comes from Precision",
+    "Removed the outdated Ice Lance +200% and Critical Mass 5 ranks lines from the Mage changes",
+    "Tier note: the change column is since the previous refresh, not since the racial update"
+   ],
+   "flagged": [
+    "30 Oct hotfix has no Blizzard notes; values could change again before launch on 4 Nov",
+    "Ice Barrier hotfix value (sources disagree)",
+    "Cure Disease in Shadowform (single source)"
    ]
   }
  }

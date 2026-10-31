@@ -9,6 +9,26 @@
   },
   "changeLog": [
    {
+    "label": "Hotfix and client 70707 · 30 Oct (no Blizzard notes)",
+    "items": [
+     {
+      "kind": "nerf",
+      "spec": "fire-mage",
+      "text": "Client 70707 talent tree: Critical Mass 3 ranks for up to 6% Fire crit (was 5 ranks, 10%); Incineration 5 ranks; Arcane Focus removed; Precision (was Elemental Precision) 2/4/6% hit with all spells. MythicSim: Fire 917 to 900, Frostfire 804 to 790, Arcane +1.0%, Frost +2.3%."
+     },
+     {
+      "kind": "buff",
+      "spec": "frost-mage",
+      "text": "30 Oct hotfix: Ice Lance deals 300% more to frozen targets (was 200%) but every rank now has an 8 sec cooldown; each Winter's Chill stack adds 20% to your next Cone of Cold (was 5%). MythicSim: about +11%, Frost 677 to 769, C band to B."
+     },
+     {
+      "kind": "neutral",
+      "spec": "arcane-mage",
+      "text": "30 Oct hotfix: Arcane Blast stacks give 12% of your Intellect (was 15%), raise its cost by 100% each (was 175%) and last 18 sec (was 15). Arcane Resilience gets a third rank. Arcane 830 to 845, partly from a Skyborne preset."
+     }
+    ]
+   },
+   {
     "label": "Racial update · 26 Oct",
     "items": [
      {
@@ -182,7 +202,7 @@
   "classCards": [],
   "compare": {
    "cons": [
-    "The best levelling spec, Frost, trails Fire by about 26% and Arcane by about 18% in raid sims",
+    "The best levelling spec, Frost, trails Fire by about 15% and Arcane by about 9% in raid sims",
     "AoE farming was nerfed in Forever",
     "Shares cloth caster loot with Priests and Warlocks"
    ],
@@ -193,7 +213,7 @@
     "note": "Share of characters in a 20 Sept sample of about 5,000 level-20 beta characters."
    },
    "pros": [
-    "Fire sims 917 DPS on the newest run (Arcane 830), second of the three classes after Demonology",
+    "Fire sims 900 DPS on the newest run (Arcane 845), second of the three classes after Demonology",
     "No drinking breaks thanks to conjured water",
     "Portals earn gold and make you popular"
    ],
@@ -267,6 +287,21 @@
   "id": "mage",
   "latestChanges": [
    {
+    "kind": "nerf",
+    "spec": "fire-mage",
+    "text": "Client 70707 talent tree: Critical Mass 3 ranks for up to 6% Fire crit (was 5 ranks, 10%); Incineration 5 ranks; Arcane Focus removed; Precision (was Elemental Precision) 2/4/6% hit with all spells. MythicSim: Fire 917 to 900, Frostfire 804 to 790, Arcane +1.0%, Frost +2.3%."
+   },
+   {
+    "kind": "buff",
+    "spec": "frost-mage",
+    "text": "30 Oct hotfix: Ice Lance deals 300% more to frozen targets (was 200%) but every rank now has an 8 sec cooldown; each Winter's Chill stack adds 20% to your next Cone of Cold (was 5%). MythicSim: about +11%, Frost 677 to 769, C band to B."
+   },
+   {
+    "kind": "neutral",
+    "spec": "arcane-mage",
+    "text": "30 Oct hotfix: Arcane Blast stacks give 12% of your Intellect (was 15%), raise its cost by 100% each (was 175%) and last 18 sec (was 15). Arcane Resilience gets a third rank. Arcane 830 to 845, partly from a Skyborne preset."
+   },
+   {
     "kind": "buff",
     "spec": "all",
     "text": "27 Oct (added to Blizzard's racial notes): Orc Blood Fury every 2 min (was 3), Troll Berserking 15 sec (was 10), Undead Touch of the Grave every 15 sec (was 25). Horde races close up on the Mage boards; Troll moves into the S band for Fire, but Gnome still leads Fire, Arcane and Frostfire."
@@ -299,12 +334,12 @@
    {
     "kind": "buff",
     "spec": "fire-mage",
-    "text": "Critical Mass goes to 5 ranks for 10% Fire crit. Every Fire Blast now adds a Heating Up stack, so a crit Fire Blast gives two."
+    "text": "Every Fire Blast now adds a Heating Up stack, so a crit Fire Blast gives two."
    },
    {
     "kind": "neutral",
     "spec": "arcane-mage",
-    "text": "Arcane Blast redesigned: 1.5 sec cast, 40% less damage, and each cast gives you 15% of your Intellect as spell damage for 15 sec (stacks 4 times). The old +10% to other spells is gone."
+    "text": "Arcane Blast redesigned: 1.5 sec cast, 40% less damage, and each cast gives you spell damage from your Intellect (12% for 18 sec since the 30 Oct hotfix), stacking 4 times. The old +10% to other spells is gone."
    },
    {
     "kind": "buff",
@@ -315,16 +350,6 @@
     "kind": "neutral",
     "spec": "arcane-mage",
     "text": "Missile Barrage moves to row 1 and becomes 2 ranks (40% from Arcane Blast at 2/2, 20% from Arcane Wrath, Fireball, Frostbolt, Frostfire Bolt, 10% per Missiles hit)."
-   },
-   {
-    "kind": "nerf",
-    "spec": "frost-mage",
-    "text": "Ice Lance against frozen targets drops to +200% (was +300%)."
-   },
-   {
-    "kind": "nerf",
-    "spec": "frost-mage",
-    "text": "Winter's Chill no longer adds crit. Each stack now makes your next Cone of Cold hit 40% harder, up to 5 stacks."
    },
    {
     "kind": "buff",
@@ -352,7 +377,7 @@
     "text": "Moonkin Aura (spell crit) is now raid-wide and stacks with Leader of the Pack."
    }
   ],
-  "latestLabel": "Racial update 26 Oct, with 27 Oct additions (Blizzard notes) on top of build 70450 (16 Oct) and the 20 Oct Mage hotfix",
+  "latestLabel": "30 Oct hotfix (no Blizzard notes) and client 70707's Mage talent tree, on top of the 26 Oct racial update",
   "legacy": {
    "recommended": {
     "gourmand": 1,
@@ -406,7 +431,7 @@
   "name": "Mage",
   "opinions": [
    {
-    "date": "29 Oct",
+    "date": "31 Oct",
     "grades": [
      {
       "grade": "A",
@@ -421,11 +446,11 @@
       "spec": "frostfire-mage"
      },
      {
-      "grade": "C",
+      "grade": "B",
       "spec": "frost-mage"
      }
     ],
-    "note": "Sim-based. Fire #6 and Arcane #11 (A), Frostfire #12 (B) and Frost #21 (C) of 22 (engine a667dce, 29 Oct).",
+    "note": "Sim-based. Fire #6 and Arcane #10 (A), Frostfire #15 and Frost #17 (B) of 22 (engine a667dce, 31 Oct).",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -483,8 +508,8 @@
    }
   ],
   "order": 2,
-  "raceNote": "The gaps are tiny: under 2% between best and worst race in every spec. On the 29 Oct boards, after Blizzard's racial changes and their 27 Oct additions, Gnome leads Fire (918.9, Human 0.27% back), Arcane (829.4, Skyborne 0.54% back) and Frostfire (805.3, Human 0.56% back); Skyborne alone leads Frost (677.2) even with Wind Blessed cut to 2% haste. The best Horde race changes by spec but is never more than 1.4% behind. Pick on faction and looks first.",
-  "raceSnapshot": "MythicSim race boards: all four specs on engine e1f81df, matching a667dce (29 Oct, after the 26 Oct racial update and its 27 Oct additions)",
+  "raceNote": "The gaps are tiny: under 2% between best and worst race in every spec. On the 31 Oct boards, after the 30 Oct hotfix and client 70707's talent tree, Gnome leads Fire (899.5, Human 0.23% back) and Frostfire (789.8, Human 0.62% back); Skyborne leads Arcane (844.9, Troll 0.50% back) and Frost (767.9, Troll 0.54% back). The best Horde race is never more than 1.4% behind. Pick on faction and looks first.",
+  "raceSnapshot": "MythicSim race boards: all four specs on Rust engine 1c93d34, matching a667dce (31 Oct, after the 30 Oct hotfix)",
   "specs": [
    {
     "color": "#ff8a3d",
@@ -517,10 +542,10 @@
   ],
   "verdict": {
    "best": "fire-mage",
-   "body": "On MythicSim's newest run (engine a667dce, simmed 29 Oct after Blizzard's 27 Oct racial additions) Fire sims 917 DPS, about 10% ahead of Arcane (830). The experimental Frostfire hybrid sits at 804 and Frost at 677, about 26% behind Fire. The tier list (same run) agrees: Fire #6 and Arcane #11 of 22, both in the A band; Frostfire is #12 (B) and Frost is #21 in the C band. Fire has gained the most since 16 Oct (696 then, 917 now), and MythicSim credits +4.6% to an engine sync where every Fire Blast now adds a Heating Up charge. Fire is the sim pick for raids now; level as Frost.",
+   "body": "On MythicSim's newest run (engine a667dce, simmed 31 Oct on client 70707's Mage talent tree and the 30 Oct hotfix) Fire sims 900 DPS, about 6.5% ahead of Arcane (845). The experimental Frostfire hybrid sits at 790 and Frost at 769, about 15% behind Fire but up from 677 after the hotfix buffed Ice Lance and Winter's Chill. The tier list (same run) agrees: Fire #6 and Arcane #10 of 22, both in the A band; Frostfire is #15 and Frost #17, both B. Fire fell from 917 mainly because Critical Mass dropped to 3 ranks. Fire is still the sim pick for raids; level as Frost.",
    "flavour": "\"The Arcane Blast you knew is gone. Now it feeds every spell you cast next.\"",
-   "headline": "Fire now leads the Mage specs; Arcane drops back",
-   "statsNote": "Big number: newest MythicSim run (Mage page, engine a667dce, 29 Oct). Below: rank, DPS and band on the tier list (same run, 29 Oct)."
+   "headline": "Fire still leads the Mage specs; Frost jumps 14% on the 30 Oct hotfix",
+   "statsNote": "Big number: newest MythicSim run (Mage page, engine a667dce, 31 Oct). Below: rank, DPS and band on the tier list (same run, 31 Oct)."
   },
   "pros": null
  },
@@ -533,6 +558,21 @@
    "tip": "#c27cf4"
   },
   "changeLog": [
+   {
+    "label": "Hotfix · 30 Oct (no Blizzard notes)",
+    "items": [
+     {
+      "kind": "nerf",
+      "spec": "shadow-priest",
+      "text": "30 Oct hotfix: Shadow Word: Death's backlash is 30% of your maximum health if the target survives (was 10%). MythicSim's Shadow number is unchanged at 812."
+     },
+     {
+      "kind": "neutral",
+      "spec": "all",
+      "text": "30 Oct hotfix: Holy Binding (Flash Heal on someone else heals you for 50% as much) replaces Binding Heal in the Holy tree."
+     }
+    ]
+   },
    {
     "label": "Racial update · 26 Oct",
     "items": [
@@ -627,7 +667,7 @@
   "classCards": [],
   "compare": {
    "cons": [
-    "Shadow sits mid-pack in sims (#14 of 22, 812 DPS on the newest run)",
+    "Shadow sits mid-pack in sims (#13 of 22, 812 DPS on the newest run)",
     "Shadow Affinity was removed, so you have no talent threat reduction",
     "Shadow Weaving no longer helps the raid, so raids gain less from bringing you",
     "You must leave Shadowform to heal"
@@ -670,6 +710,16 @@
   "facts": [],
   "id": "priest",
   "latestChanges": [
+   {
+    "kind": "nerf",
+    "spec": "shadow-priest",
+    "text": "30 Oct hotfix: Shadow Word: Death's backlash is 30% of your maximum health if the target survives (was 10%). MythicSim's Shadow number is unchanged at 812."
+   },
+   {
+    "kind": "neutral",
+    "spec": "all",
+    "text": "30 Oct hotfix: Holy Binding (Flash Heal on someone else heals you for 50% as much) replaces Binding Heal in the Holy tree."
+   },
    {
     "kind": "buff",
     "spec": "shadow-priest",
@@ -736,7 +786,7 @@
     "text": "Wands now need you to stand still for 0.5 sec before firing. Matters most while levelling."
    }
   ],
-  "latestLabel": "Racial update 26 Oct, with 27 Oct additions (Blizzard notes) on top of the beta build of 15 Oct",
+  "latestLabel": "30 Oct hotfix (no Blizzard notes; reported by ForeverChanges and TalentsForever) on top of the 26 Oct racial update",
   "legacy": {
    "recommended": {
     "gourmand": 1,
@@ -785,14 +835,14 @@
   "name": "Priest",
   "opinions": [
    {
-    "date": "29 Oct",
+    "date": "31 Oct",
     "grades": [
      {
       "grade": "B",
       "spec": "shadow-priest"
      }
     ],
-    "note": "#14 of 22 at 812 DPS, B band (engine a667dce, 29 Oct), after the 15 Oct buffs and the 26 Oct racial changes.",
+    "note": "#13 of 22 at 812 DPS, B band (engine a667dce, 31 Oct), after the 15 Oct buffs and the 26 Oct racial changes.",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -859,7 +909,7 @@
   ],
   "order": 3,
   "raceNote": "Updated for Blizzard's racial changes (26 Oct, with additions on 27 Oct). The whole spread is only 0.78%, so race barely matters for damage: every race is in the S band. Night Elf still leads on Elune's Light, but Undead (now a 15 sec Touch of the Grave) is only 0.14% back and tied with it in the sim, then Human (0.27%) and Dwarf. Each race also has two Priest racial spells (below), which matter more for utility than damage.",
-  "raceSnapshot": "MythicSim race board, engine e1f81df matching a667dce, 29 Oct (after the 26 Oct racial update and its 27 Oct additions)",
+  "raceSnapshot": "MythicSim race board, Rust engine 1c93d34 matching a667dce, 31 Oct (unchanged from 29 Oct)",
   "specs": [
    {
     "color": "#b48cff",
@@ -871,10 +921,10 @@
   ],
   "verdict": {
    "best": "shadow-priest",
-   "body": "Shadow sits in the middle of the DPS sims: 812 DPS on MythicSim's newest Priest run (engine a667dce, simmed 29 Oct after Blizzard's 27 Oct racial additions), and #14 of 22 on the tier list (same run), in the B band. The 15 Oct build was a clear net buff (Devouring Plague every 24 seconds, Vampiric Embrace every 30, a stronger Contagion) and lifted Shadow from 704. It now sims behind Affliction Warlock (850), Destruction Warlock (837) and Arcane Mage (830), and ahead of the Frostfire Mage hybrid (804). Arms Warrior (817) moved past it on 29 Oct after a rotation fix; Shadow itself did not change.",
+   "body": "Shadow sits in the middle of the DPS sims: 812 DPS on MythicSim's newest Priest run (engine a667dce, simmed 31 Oct), and #13 of 22 on the tier list (same run), in the B band. The 15 Oct build was a clear net buff (Devouring Plague every 24 seconds, Vampiric Embrace every 30, a stronger Contagion) and lifted Shadow from 704. It now sims behind Affliction Warlock (850), Arcane Mage (845), Destruction Warlock (837) and Feral Druid (831), and ahead of Arms Warrior (810) and the Frostfire Mage hybrid (790). Shadow itself has not changed since 29 Oct; it moved back up from #14 because Arms dropped when MythicSim stopped stacking Elixir of Ferocity. The 30 Oct hotfix triples Shadow Word: Death's backlash to 30% of your health, so use it with care.",
    "flavour": "Viable for raids and dungeons. Pick it if you enjoy it; the gap to the middle of the pack is small.",
    "headline": "Still mid-pack in the B band",
-   "statsNote": "Big number: newest MythicSim result (Priest page, engine a667dce, 29 Oct). Below: rank, DPS and band on the tier list (same run, 29 Oct)."
+   "statsNote": "Big number: newest MythicSim result (Priest page, engine a667dce, 31 Oct). Below: rank, DPS and band on the tier list (same run, 31 Oct)."
   }
  },
  "warlock": {
@@ -1316,7 +1366,7 @@
   "name": "Warlock",
   "opinions": [
    {
-    "date": "29 Oct",
+    "date": "31 Oct",
     "grades": [
      {
       "grade": "S",
@@ -1331,7 +1381,7 @@
       "spec": "destruction-warlock"
      }
     ],
-    "note": "Sim-based. Demonology #2 (S), Affliction #8 and Destruction #10 (A) of 22 (engine a667dce, 29 Oct).",
+    "note": "Sim-based. Demonology #2 (S), Affliction #7 and Destruction #9 (A) of 22 (engine a667dce, 31 Oct).",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -1418,7 +1468,7 @@
   ],
   "order": 1,
   "raceNote": "After Blizzard's racial changes (26 Oct, with additions on 27 Oct) Orc tops Demonology (950.4) thanks to Command (+5% pet damage) and a 2 min Blood Fury, with Undead 0.28% and Human 0.35% back. Human is tied for top in Affliction (850.5, Undead 0.13% back), and Undead is now tied for top in Destruction (835.8, Human 0.03% back). Every race is within 1% in all three specs, so choose faction and looks first.",
-  "raceSnapshot": "MythicSim race boards: all three specs on engine e1f81df, matching a667dce (29 Oct, after the 26 Oct racial update and its 27 Oct additions)",
+  "raceSnapshot": "MythicSim race boards: all three specs on Rust engine 1c93d34, matching a667dce (31 Oct, unchanged from 29 Oct)",
   "specs": [
    {
     "color": "#b07cff",
@@ -1444,10 +1494,10 @@
   ],
   "verdict": {
    "best": "demonology-warlock",
-   "body": "On MythicSim's newest run (engine a667dce, simmed 29 Oct after Blizzard's 27 Oct racial additions) Demonology sims 952 DPS, about 12% ahead of Affliction (850) and 14% ahead of Destruction (837). On the tier list (same run) it's #2 of 22 specs, behind only Survival Hunter, and in the S band; Affliction is #8 and Destruction #10, both A. Since the 26 Oct racial update Demonology is down 0.8% and the other two 1.1%, mostly from the Human Ruthless cut (2% to 1% crit); Demonology's reference is now an Orc. Raid as Demonology, level as Affliction.",
+   "body": "On MythicSim's newest run (engine a667dce, simmed 31 Oct) Demonology sims 952 DPS, about 12% ahead of Affliction (850) and 14% ahead of Destruction (837). On the tier list (same run) it's #2 of 22 specs, behind only Survival Hunter, and in the S band; Affliction is #7 and Destruction #9, both A. Since the 26 Oct racial update Demonology is down 0.8% and the other two 1.1%, mostly from the Human Ruthless cut (2% to 1% crit); Demonology's reference is now an Orc. Raid as Demonology, level as Affliction.",
    "flavour": "\"Keep one demon on the leash and another burning in your blood.\"",
    "headline": "Demonology still leads clearly in the S band after the racial changes; Orc is now its top race",
-   "statsNote": "Big number: newest MythicSim run (Warlock page, engine a667dce, 29 Oct). Below: rank, DPS and band on the tier list (same run, 29 Oct)."
+   "statsNote": "Big number: newest MythicSim run (Warlock page, engine a667dce, 31 Oct). Below: rank, DPS and band on the tier list (same run, 31 Oct)."
   }
  }
 }

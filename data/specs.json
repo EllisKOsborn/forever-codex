@@ -39,11 +39,11 @@
   "key": "affliction",
   "name": "Affliction",
   "newDps": 850,
-  "newNote": "MythicSim Warlock page, engine a667dce, simmed 29 Oct after Blizzard's 27 Oct racial additions (tier list and trinket board baseline also 850, same engine)",
+  "newNote": "MythicSim Warlock page, engine a667dce, simmed 31 Oct (tier list and trinket board baseline also 850, same engine)",
   "race": "Human",
   "raceBoard": {
    "note": "Human 850.5 is tied for top (within sim noise of the next race); Undead (0.13%), Orc (0.26%), Gnome (0.40%), Troll (0.45%) are also S.",
-   "snapshot": "Engine e1f81df (matches a667dce), 29 Oct, after the 26 Oct racial update and its 27 Oct additions"
+   "snapshot": "Rust engine 1c93d34 (matches a667dce), 31 Oct, after the 30 Oct hotfix and the 26 Oct racial update"
   },
   "raidRotation": [
    "Curse of the Elements (or your assigned curse) kept up.",
@@ -61,7 +61,7 @@
    "Haste speeds up casts but not DoT or channel ticks.",
    "Stamina matters more than for other casters: it fuels Life Tap and keeps you alive under Soul Link."
   ],
-  "summary": "Second in the sims at 850 DPS on the newest run (#8 of 22 and A band on the tier list), just ahead of Destruction. The 15 Oct build doubled Shadow Mastery to 10% but replaced Malediction (+5% periodic damage) with Grim Reach, which only adds range. Still the best levelling spec and the most mobile in raids.",
+  "summary": "Second in the sims at 850 DPS on the newest run (#7 of 22 and A band on the tier list), just ahead of Destruction. The 15 Oct build doubled Shadow Mastery to 10% but replaced Malediction (+5% periodic damage) with Grim Reach, which only adds range. Still the best levelling spec and the most mobile in raids.",
   "talentNotes": [
    "Shadow Mastery: 2/4/6/8/10% Shadow damage (doubled on 15 Oct).",
    "Malediction (+1–5% to all your periodic damage) was removed on 15 Oct. Grim Reach takes its place: +10/20% Affliction spell range.",
@@ -78,8 +78,8 @@
   ],
   "tierBand": "A",
   "tierDps": 850,
-  "tierRank": 8,
-  "trinketSnapshot": "MythicSim Affliction board, engine a667dce, 29 Oct (baseline 850)",
+  "tierRank": 7,
+  "trinketSnapshot": "MythicSim Affliction board, Rust engine 1c93d34, 31 Oct (baseline 850)",
   "trinkets": [
    {
     "name": "Draconic Infused Emblem",
@@ -139,19 +139,19 @@
   "dungeonTips": [
    "Arcane Explosion is your pack spell; Arcane Impact adds 6% Arcane crit at 3/3.",
    "Arcane Subtlety cuts Arcane threat by 15% per rank, 30% at 2/2. Take it for dungeons.",
-   "Don't over-stack Arcane Blast on trash: each cast costs 175% more than the last.",
+   "Don't over-stack Arcane Blast on trash: each cast costs 100% more than the last (30 Oct hotfix; was 175%).",
    "Improved Channeling makes Missiles uninterruptible and protects Blast and Wrath 70%."
   ],
   "experimental": false,
   "id": "arcane-mage",
   "key": "arcane",
   "name": "Arcane",
-  "newDps": 830,
-  "newNote": "MythicSim Mage page, engine a667dce, simmed 29 Oct after Blizzard's 27 Oct racial additions (tier list and trinket board baseline also 830, same engine)",
-  "race": "Gnome",
+  "newDps": 845,
+  "newNote": "MythicSim Mage page, engine a667dce, simmed 31 Oct (tier list and trinket board baseline also 845, same engine)",
+  "race": "Skyborne",
   "raceBoard": {
-   "note": "Gnome 829.4 leads; Skyborne (0.54%), Human (0.73%) are also S; Undead (1.06%), Orc (1.21%), Troll (1.29%) are A.",
-   "snapshot": "Engine e1f81df (matches a667dce), 29 Oct, after the 26 Oct racial update and its 27 Oct additions"
+   "note": "Skyborne 844.9 leads; Troll (0.50%), Gnome (0.55%), Human (0.87%), Undead (0.89%), Orc (0.94%) are all S.",
+   "snapshot": "Rust engine 1c93d34 (matches a667dce), 31 Oct, after the 30 Oct hotfix and the 26 Oct racial update"
   },
   "raidRotation": [
    "Pre-cast Arcane Blast.",
@@ -163,12 +163,12 @@
    "Arcane Blast as the builder. Arcane Wrath (6 sec cooldown) is untested in the sim; try it as a stack spender on long fights."
   ],
   "stats": [
-   "Hit first. Arcane Focus gives 5% at 5/5.",
+   "Hit first. Arcane Focus is gone in client 70707; Precision (was Elemental Precision) gives 2/4/6% hit with all spells since client 70707.",
    "Intellect is worth more for Arcane than any other spec: Arcane Blast stacks turn it into spell damage and Arcane Wrath scales with max Mana.",
    "Then spell power and crit; Arcane Mind at 5/5 gives 10% Intellect and the same crit damage boost Ice Shards gives Frost.",
    "Spirit/Mp5 for long fights."
   ],
-  "summary": "Arcane Blast is now a setup spell: each cast turns 15% of your Intellect into spell damage for 15 sec, then you cash the stacks with Arcane Missiles or a Presence of Mind Pyroblast. On MythicSim's newest run (engine a667dce, 29 Oct) it sims 830 DPS, about 10% behind Fire, and is #11 of 22 (A band) on the tier list; it fell on the 20 Oct run mainly because Missile Barrage now procs from Frost Blast, per the 19 Oct in-game tooltip. Earlier MythicSim presets didn't cast the new Arcane Wrath, and the site hasn't said whether that has changed.",
+  "summary": "Arcane Blast is now a setup spell: since the 30 Oct hotfix each cast turns 12% of your Intellect into spell damage for 18 sec (was 15% for 15 sec) and raises its cost by 100% (was 175%); you cash the stacks with Arcane Missiles or a Presence of Mind Pyroblast. On MythicSim's newest run (engine a667dce, 31 Oct) it sims 845 DPS, about 6% behind Fire, and is #10 of 22 (A band) on the tier list. Earlier MythicSim presets didn't cast the new Arcane Wrath, and the site hasn't said whether that has changed.",
   "talentNotes": [
    "Arcane Blast and Arcane Wrath are one-point talents; Wrath needs Blast.",
    "Missile Barrage is in row 1 now and needs 2 points for the full 40% from Blast.",
@@ -182,34 +182,39 @@
    "Clearcasting (Arcane Concentration, 10% at 5/5) makes your next spell free; a free Missiles or Blast is ideal."
   ],
   "tierBand": "A",
-  "tierDps": 830,
-  "tierRank": 11,
-  "trinketSnapshot": "MythicSim Arcane board, engine a667dce, 29 Oct (baseline 830)",
+  "tierDps": 845,
+  "tierRank": 10,
+  "trinketSnapshot": "MythicSim Arcane board, Rust engine 1c93d34, 31 Oct (baseline 845)",
   "trinkets": [
    {
     "name": "Talisman of Ephemeral Power",
-    "gain": "+3.22%",
+    "gain": "+3.41%",
     "source": "Magmadar, Molten Core. Molten Core isn't on Forever's announced raid schedule."
    },
    {
-    "name": "Burst of Knowledge",
-    "gain": "+2.59%",
-    "source": "Ambassador Flamelash, BRD"
-   },
-   {
     "name": "Draconic Infused Emblem",
-    "gain": "+2.36%",
+    "gain": "+2.40%",
     "source": "General Drakkisath, Blackrock Spire"
    },
    {
     "name": "Briarwood Reed",
-    "gain": "+2.00%",
+    "gain": "+2.03%",
     "source": "Jed Runewatcher, Blackrock Spire"
    },
    {
-    "name": "Mindtap Talisman",
+    "name": "Weakness Analyzer",
     "gain": "+1.54%",
-    "source": "Magister Kalendris, Dire Maul"
+    "source": "Quest; vendor Pix Xizzix"
+   },
+   {
+    "name": "Frozen Heart of the Mountain",
+    "gain": "+1.14%",
+    "source": "Enchanting"
+   },
+   {
+    "name": "Infernal Lasso",
+    "gain": "+1.13%",
+    "source": "Quest / world"
    }
   ]
  },
@@ -256,11 +261,11 @@
   "key": "demonology",
   "name": "Demonology",
   "newDps": 952,
-  "newNote": "MythicSim Warlock page, engine a667dce, simmed 29 Oct after Blizzard's 27 Oct racial additions (tier list and trinket board baseline also 952, same engine)",
+  "newNote": "MythicSim Warlock page, engine a667dce, simmed 31 Oct (tier list and trinket board baseline also 952, same engine)",
   "race": "Orc",
   "raceBoard": {
    "note": "Orc 950.4 leads; Undead (0.28%), Human (0.35%), Gnome (0.52%), Troll (0.74%) are also S.",
-   "snapshot": "Engine e1f81df (matches a667dce), 29 Oct, after the 26 Oct racial update and its 27 Oct additions"
+   "snapshot": "Rust engine 1c93d34 (matches a667dce), 31 Oct, after the 30 Oct hotfix and the 26 Oct racial update"
   },
   "raidRotation": [
    "Before the pull: summon your Imp and Demonic Sacrifice it for the 2-hour Shadow damage buff, then summon a Succubus or Incubus. Demonic Pact keeps the buff because it's a different demon. Fel Domination makes the resummon quick.",
@@ -279,7 +284,7 @@
    "Haste speeds up casts but not DoT or channel ticks.",
    "Stamina matters more than for other casters: it fuels Life Tap and keeps you alive under Soul Link."
   ],
-  "summary": "The strongest Warlock spec in every MythicSim run: 952 DPS on the newest run (29 Oct), about 12% ahead of Affliction and 14% ahead of Destruction, and #2 of 22 specs on the tier list, in the S band. You sacrifice your Imp for a 2-hour Shadow buff, then fight with a Succubus thanks to Demonic Pact. The 15 Oct build only fixed Soul Link for this spec, so the lead comes from the pet tree itself.",
+  "summary": "The strongest Warlock spec in every MythicSim run: 952 DPS on the newest run (31 Oct), about 12% ahead of Affliction and 14% ahead of Destruction, and #2 of 22 specs on the tier list, in the S band. You sacrifice your Imp for a 2-hour Shadow buff, then fight with a Succubus thanks to Demonic Pact. The 15 Oct build only fixed Soul Link for this spec, so the lead comes from the pet tree itself.",
   "talentNotes": [
    "Demonic Pact (31-point capstone, needs Soul Link): summoning a different demon doesn't cancel Demonic Sacrifice.",
    "Demonic Sacrifice is a 2-hour buff now, and each demon gives something different (the Imp gives Shadow damage).",
@@ -297,7 +302,7 @@
   "tierBand": "S",
   "tierDps": 952,
   "tierRank": 2,
-  "trinketSnapshot": "MythicSim Demonology board, engine a667dce, 29 Oct (baseline 952)",
+  "trinketSnapshot": "MythicSim Demonology board, Rust engine 1c93d34, 31 Oct (baseline 952)",
   "trinkets": [
    {
     "name": "Draconic Infused Emblem",
@@ -381,11 +386,11 @@
   "key": "destruction",
   "name": "Destruction",
   "newDps": 837,
-  "newNote": "MythicSim Warlock page, engine a667dce, simmed 29 Oct after Blizzard's 27 Oct racial additions (tier list and trinket board baseline also 837, same engine)",
+  "newNote": "MythicSim Warlock page, engine a667dce, simmed 31 Oct (tier list and trinket board baseline also 837, same engine)",
   "race": "Human",
   "raceBoard": {
    "note": "Undead 835.8 is tied for top (within sim noise of the next race); Human (0.03%), Orc (0.24%), Gnome (0.31%), Troll (0.39%) are also S.",
-   "snapshot": "Engine e1f81df (matches a667dce), 29 Oct, after the 26 Oct racial update and its 27 Oct additions"
+   "snapshot": "Rust engine 1c93d34 (matches a667dce), 31 Oct, after the 30 Oct hotfix and the 26 Oct racial update"
   },
   "raidRotation": [
    "Before the pull: summon your Succubus and keep it out (MythicSim's 25 Oct reference skips Demonic Sacrifice), and open with a Shadow Bolt cast.",
@@ -403,7 +408,7 @@
    "Haste speeds up casts but not DoT or channel ticks.",
    "Stamina matters more than for other casters: it fuels Life Tap and keeps you alive under Soul Link."
   ],
-  "summary": "Third of the Warlock specs in the sims but now close behind Affliction: 837 DPS on the newest run (29 Oct), #10 of 22 and A band on the tier list. MythicSim's reference is now a 20/0/31 Shadow Bolt build that keeps a Succubus out instead of sacrificing it, which its breakdown credits with +8.5%. Its strength is cleave: Bane of Havoc copies 15% of your damage on other targets to one cursed target. The 15 Oct build only changed Destructive Reach to Destruction spells.",
+  "summary": "Third of the Warlock specs in the sims but now close behind Affliction: 837 DPS on the newest run (31 Oct), #9 of 22 and A band on the tier list. MythicSim's reference is now a 20/0/31 Shadow Bolt build that keeps a Succubus out instead of sacrificing it, which its breakdown credits with +8.5%. Its strength is cleave: Bane of Havoc copies 15% of your damage on other targets to one cursed target. The 15 Oct build only changed Destructive Reach to Destruction spells.",
   "talentNotes": [
    "Destructive Reach now only extends Destruction spells' range by 10/20% (15 Oct).",
    "Incinerate (31-point capstone, needs Bane of Havoc): a Fire filler that hits 25% harder with Immolate up.",
@@ -419,8 +424,8 @@
   ],
   "tierBand": "A",
   "tierDps": 837,
-  "tierRank": 10,
-  "trinketSnapshot": "MythicSim Destruction board, engine a667dce, 29 Oct (baseline 837)",
+  "tierRank": 9,
+  "trinketSnapshot": "MythicSim Destruction board, Rust engine 1c93d34, 31 Oct (baseline 837)",
   "trinkets": [
    {
     "name": "Draconic Infused Emblem",
@@ -477,12 +482,12 @@
   "id": "fire-mage",
   "key": "fire",
   "name": "Fire",
-  "newDps": 917,
-  "newNote": "MythicSim Mage page, engine a667dce, simmed 29 Oct after Blizzard's 27 Oct racial additions (tier list and trinket board baseline also 917, same engine)",
-  "race": "Human",
+  "newDps": 900,
+  "newNote": "MythicSim Mage page, engine a667dce, simmed 31 Oct (tier list and trinket board baseline also 900, same engine)",
+  "race": "Gnome",
   "raceBoard": {
-   "note": "Gnome 918.9 is tied for top (within sim noise of the next race); Human (0.27%), Skyborne (0.35%), Undead (0.67%), Orc (0.87%), Troll (0.91%) are also S.",
-   "snapshot": "Engine e1f81df (matches a667dce), 29 Oct, after the 26 Oct racial update and its 27 Oct additions"
+   "note": "Gnome 899.5 is tied for top with Human (0.23%, within sim noise); Skyborne (0.44%), Undead (0.72%), Orc (0.88%), Troll (0.98%) are also S.",
+   "snapshot": "Rust engine 1c93d34 (matches a667dce), 31 Oct, after the 30 Oct hotfix and the 26 Oct racial update"
   },
   "raidRotation": [
    "Pre-cast Fireball about 3.5 sec before the pull.",
@@ -494,12 +499,12 @@
    "Fireball as your filler. Mana gem below 80% Mana, Evocation below 10%."
   ],
   "stats": [
-   "Hit first: Forever merged spell and melee hit into one stat. Elemental Precision is now 3 ranks after the 20 Oct hotfix; the new hit total isn't confirmed yet.",
+   "Hit first: Forever merged spell and melee hit into one stat. Precision (was Elemental Precision) gives 2/4/6% hit with all spells since client 70707.",
    "Spell power, then crit. Crit feeds Ignite, Heating Up, Master of Elements and Critical Mass.",
    "Fire-only spell damage gear works for Fire and Frostfire, not for Arcane Missiles procs.",
    "Intellect and Spirit after that; Stamina for dangerous fights."
   ],
-  "summary": "LFCarry's raid default. On MythicSim's newest run (engine a667dce, 29 Oct) it is the top Mage spec at 917 DPS, about 10% ahead of Arcane, and #6 of 22 (A band) on the tier list. Fire Power now rewards keeping your own Fire effects on the boss, and Critical Mass at 5 ranks plus Fire Blast feeding Heating Up means more short Pyroblasts. Improved Scorch only buffs you now, so every Fire Mage keeps their own 5 stacks.",
+  "summary": "LFCarry's raid default. On MythicSim's newest run (engine a667dce, 31 Oct) it is the top Mage spec at 900 DPS, about 6.5% ahead of Arcane, and #6 of 22 (A band) on the tier list. Fire Power rewards keeping your own Fire effects on the boss, and every Fire Blast feeding Heating Up means more short Pyroblasts. Client 70707 cut Critical Mass to 3 ranks (6% Fire crit, was 10%), which MythicSim puts at -1.8%. Improved Scorch only buffs you now, so every Fire Mage keeps their own 5 stacks.",
   "talentNotes": [
    "Heating Up (was Hot Streak): crits from Fireball, Frostfire Bolt, Fire Blast and Scorch cut your next Pyroblast's cast by 25%, up to 3 stacks.",
    "Incineration (was Incinerate) sits in row 1 and now covers Ice Lance and Arcane Blast too.",
@@ -513,49 +518,49 @@
    "Mage Armor lets 50% of regen continue while casting. Use it in raids over Molten or Frost Armor."
   ],
   "tierBand": "A",
-  "tierDps": 917,
+  "tierDps": 900,
   "tierRank": 6,
-  "trinketSnapshot": "MythicSim Fire board, engine a667dce, 29 Oct (baseline 917)",
+  "trinketSnapshot": "MythicSim Fire board, Rust engine 1c93d34, 31 Oct (baseline 900)",
   "trinkets": [
    {
     "name": "Talisman of Ephemeral Power",
-    "gain": "+3.12%",
+    "gain": "+3.19%",
     "source": "Magmadar, Molten Core. Molten Core isn't on Forever's announced raid schedule."
    },
    {
     "name": "Draconic Infused Emblem",
-    "gain": "+2.59%",
+    "gain": "+2.60%",
     "source": "General Drakkisath, Blackrock Spire"
    },
    {
     "name": "Briarwood Reed",
-    "gain": "+2.18%",
+    "gain": "+2.19%",
     "source": "Jed Runewatcher, Blackrock Spire"
    },
    {
     "name": "Weakness Analyzer",
-    "gain": "+1.65%",
+    "gain": "+1.66%",
     "source": "Quest; vendor Pix Xizzix"
    },
    {
     "name": "Burst of Knowledge",
-    "gain": "+1.60%",
+    "gain": "+1.34%",
     "source": "Ambassador Flamelash, BRD"
    },
    {
     "name": "Serenity Field",
-    "gain": "+1.35%",
+    "gain": "+1.26%",
     "source": "Vendor: Pix Xizzix"
    },
    {
-    "name": "Infernal Lasso",
-    "gain": "+1.13%",
-    "source": "Quest / world"
+    "name": "Frozen Heart of the Mountain",
+    "gain": "+1.16%",
+    "source": "Enchanting"
    }
   ]
  },
  "frost-mage": {
-  "build": "16/3/32",
+  "build": "14/5/32",
   "cards": [],
   "cls": "mage",
   "consumables": [
@@ -577,12 +582,12 @@
   "id": "frost-mage",
   "key": "frost",
   "name": "Frost",
-  "newDps": 677,
-  "newNote": "MythicSim Mage page, engine a667dce, simmed 29 Oct after Blizzard's 27 Oct racial additions (tier list and trinket board baseline also 677, same engine)",
+  "newDps": 769,
+  "newNote": "MythicSim Mage page, engine a667dce, simmed 31 Oct (tier list and trinket board baseline also 769, same engine)",
   "race": "Skyborne",
   "raceBoard": {
-   "note": "Skyborne 677.2 leads; Troll (0.58%), Undead (0.65%), Gnome (0.81%), Human (0.99%) are also S; Orc (1.07%) is A.",
-   "snapshot": "Engine e1f81df (matches a667dce), 29 Oct, after the 26 Oct racial update and its 27 Oct additions"
+   "note": "Skyborne 767.9 leads; Troll (0.54%), Undead (0.74%), Gnome (0.85%) are also S; Human (1.03%) and Orc (1.13%) are A.",
+   "snapshot": "Rust engine 1c93d34 (matches a667dce), 31 Oct, after the 30 Oct hotfix and the 26 Oct racial update"
   },
   "raidRotation": [
    "Pre-cast Frostbolt about 3 sec before the pull.",
@@ -593,15 +598,15 @@
    "Adds: Cone of Cold at 3+ targets in range, Blizzard at 4+."
   ],
   "stats": [
-   "Hit first; Elemental Precision is now 3 ranks after the 20 Oct hotfix (new hit total not confirmed yet).",
+   "Hit first; precision (was Elemental Precision) gives 2/4/6% hit with all spells since client 70707.",
    "Spell power, then crit (Ice Shards doubles Frost crit damage bonus at 5/5).",
    "Frost-only spell damage gear is fine for pure Frost and Frostfire."
   ],
-  "summary": "The best levelling and trash spec, but last of the four on a raid boss. Bosses can't be frozen, so Frost leans on Fingers of Frost procs for Ice Lance and Shatter, and the Oct 15 build cut Ice Lance to +200% vs frozen and turned Winter's Chill into a Cone of Cold buff.",
+  "summary": "The best levelling and trash spec, but still last of the four on a raid boss (769 DPS, #17 of 22, B band). Bosses can't be frozen, so Frost leans on Fingers of Frost procs for Ice Lance and Shatter. The unannounced 30 Oct hotfix put Ice Lance back to +300% vs frozen targets (with an 8 sec cooldown at every rank) and made each Winter's Chill stack add 20% to your next Cone of Cold (was 5%); MythicSim credits it with +11%.",
   "talentNotes": [
    "Shatter is 3 ranks for 50% crit vs frozen and no longer needs Improved Frost Nova.",
    "Ice Lance is a one-point talent at 20; Fingers of Frost (2 ranks) needs it.",
-   "Winter's Chill: each stack makes your next Cone of Cold 40% stronger, up to 5.",
+   "Winter's Chill: each stack makes your next Cone of Cold 20% stronger, up to 5 (30 Oct hotfix).",
    "Cold Snap moved down two rows and Ice Barrier now hangs off it.",
    "Improved Blizzard slows less than Classic (15/25/40%)."
   ],
@@ -610,44 +615,44 @@
    "Frost gets expensive if you spam. Frost Channeling and Mage Armor are the fixes.",
    "Frostbite and Fingers of Frost can now proc from Frost and Ice Armor when you're hit."
   ],
-  "tierBand": "C",
-  "tierDps": 677,
-  "tierRank": 21,
-  "trinketSnapshot": "MythicSim Frost board, engine a667dce, 29 Oct (baseline 677)",
+  "tierBand": "B",
+  "tierDps": 769,
+  "tierRank": 17,
+  "trinketSnapshot": "MythicSim Frost board, Rust engine 1c93d34, 31 Oct (baseline 769)",
   "trinkets": [
    {
     "name": "Talisman of Ephemeral Power",
-    "gain": "+3.03%",
+    "gain": "+3.12%",
     "source": "Magmadar, Molten Core. Molten Core isn't on Forever's announced raid schedule."
    },
    {
     "name": "Draconic Infused Emblem",
-    "gain": "+2.49%",
+    "gain": "+2.53%",
     "source": "General Drakkisath, Blackrock Spire"
    },
    {
     "name": "Briarwood Reed",
-    "gain": "+2.10%",
+    "gain": "+2.13%",
     "source": "Jed Runewatcher, Blackrock Spire"
    },
    {
     "name": "Weakness Analyzer",
-    "gain": "+1.59%",
+    "gain": "+1.62%",
     "source": "Quest; vendor Pix Xizzix"
    },
    {
-    "name": "Frozen Heart of the Mountain",
-    "gain": "+1.31%",
-    "source": "Enchanting"
-   },
-   {
     "name": "Infernal Lasso",
-    "gain": "+1.21%",
+    "gain": "+1.28%",
     "source": "Quest / world"
    },
    {
+    "name": "Frozen Heart of the Mountain",
+    "gain": "+1.25%",
+    "source": "Enchanting"
+   },
+   {
     "name": "Serenity Field",
-    "gain": "+0.98%",
+    "gain": "+1.02%",
     "source": "Vendor: Pix Xizzix"
    }
   ]
@@ -673,12 +678,12 @@
   "id": "frostfire-mage",
   "key": "frostfire",
   "name": "Frostfire",
-  "newDps": 804,
-  "newNote": "MythicSim Mage page, engine a667dce, simmed 29 Oct after Blizzard's 27 Oct racial additions (tier list and trinket board baseline also 804, same engine)",
+  "newDps": 790,
+  "newNote": "MythicSim Mage page, engine a667dce, simmed 31 Oct (tier list and trinket board baseline also 790, same engine)",
   "race": "Gnome",
   "raceBoard": {
-   "note": "Gnome 805.3 leads; Human (0.56%), Skyborne (0.71%) are also S; Undead (1.36%), Troll (1.55%), Orc (1.67%) are A.",
-   "snapshot": "Engine e1f81df (matches a667dce), 29 Oct, after the 26 Oct racial update and its 27 Oct additions"
+   "note": "Gnome 789.8 leads; Human (0.62%), Skyborne (0.84%) are also S; Undead (1.34%), Troll (1.64%), Orc (1.65%) are A.",
+   "snapshot": "Rust engine 1c93d34 (matches a667dce), 31 Oct, after the 30 Oct hotfix and the 26 Oct racial update"
   },
   "raidRotation": [
    "Scorch until you have 5 Improved Scorch stacks; refresh at 5 sec or less.",
@@ -689,7 +694,7 @@
    "Mana gem below 80% Mana, Evocation below 10%."
   ],
   "stats": [
-   "Hit first (Elemental Precision, now 3 ranks after the 20 Oct hotfix).",
+   "Hit first (Precision (was Elemental Precision) gives 2/4/6% hit with all spells since client 70707).",
    "Spell power and crit; Fire or Frost school damage both work since the bolt uses the higher one.",
    "Crit is worth more here than for pure Frost because of Ignite plus Ice Shards."
   ],
@@ -705,9 +710,9 @@
    "Master of Elements refunds Mana on its crits."
   ],
   "tierBand": "B",
-  "tierDps": 804,
-  "tierRank": 12,
-  "trinketSnapshot": "MythicSim Frostfire board, engine a667dce, 29 Oct (baseline 804)",
+  "tierDps": 790,
+  "tierRank": 15,
+  "trinketSnapshot": "MythicSim Frostfire board, Rust engine 1c93d34, 31 Oct (baseline 790)",
   "trinkets": [
    {
     "name": "Talisman of Ephemeral Power",
@@ -731,12 +736,17 @@
    },
    {
     "name": "Burst of Knowledge",
-    "gain": "+1.93%",
+    "gain": "+1.92%",
     "source": "Ambassador Flamelash, BRD"
    },
    {
+    "name": "Mindtap Talisman",
+    "gain": "+1.61%",
+    "source": "Magister Kalendris, Dire Maul"
+   },
+   {
     "name": "Serenity Field",
-    "gain": "+1.51%",
+    "gain": "+1.61%",
     "source": "Vendor: Pix Xizzix"
    }
   ]
@@ -764,17 +774,17 @@
   "key": "shadow",
   "name": "Shadow",
   "newDps": 812,
-  "newNote": "MythicSim Priest page, engine a667dce, simmed 29 Oct after Blizzard's 27 Oct racial additions (tier list and trinket board baseline also 812, same engine)",
+  "newNote": "MythicSim Priest page, engine a667dce, simmed 31 Oct (tier list and trinket board baseline also 812, same engine)",
   "race": "Night Elf",
   "raceBoard": {
    "note": "Night Elf 812.4 is tied for top (within sim noise of the next race); Undead (0.14%), Human (0.27%), Dwarf (0.42%), Gnome (0.56%), Troll (0.78%) are also S.",
-   "snapshot": "Engine e1f81df (matches a667dce), 29 Oct, after the 26 Oct racial update and its 27 Oct additions"
+   "snapshot": "Rust engine 1c93d34 (matches a667dce), 31 Oct, after the 30 Oct hotfix and the 26 Oct racial update"
   },
   "raidRotation": [
    "Keep Shadow Word: Pain on the boss. Improved Shadow Word: Pain lengthens it.",
    "Devouring Plague on cooldown (now every 24 sec). Its damage heals you.",
    "Mind Blast on cooldown.",
-   "Shadow Word: Death on cooldown when you can afford the backlash (10% of max health if it doesn't kill). Under 20% boss health, Early Demise adds crit.",
+   "Shadow Word: Death on cooldown when you can afford the backlash (30% of max health if it doesn't kill, up from 10% in the 30 Oct hotfix). Under 20% boss health, Early Demise adds crit.",
    "Mind Flay as filler. Let channels finish: later ticks hit harder and a full channel triggers Dark Inspiration.",
    "Vampiric Embrace every 30 sec for party healing."
   ],
@@ -802,8 +812,8 @@
   ],
   "tierBand": "B",
   "tierDps": 812,
-  "tierRank": 14,
-  "trinketSnapshot": "MythicSim Shadow board, engine a667dce, 29 Oct (baseline 812)",
+  "tierRank": 13,
+  "trinketSnapshot": "MythicSim Shadow board, Rust engine 1c93d34, 31 Oct (baseline 812)",
   "trinkets": [
    {
     "name": "Talisman of Ephemeral Power",

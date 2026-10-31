@@ -1,6 +1,6 @@
 {
  "app": {
-  "build": "1.60.1.70630",
+  "build": "1.60.1.70707",
   "compareNote": "Sim DPS is the newest MythicSim run for each spec: 2-minute single-target fight, reference gear, no trinkets. Population is from beta samples and will change at launch.",
   "defaultClass": "priest",
   "dungeonNote": "Enter your level to highlight dungeons around it. Dungeon XP is far below Classic, so run them for gear and quests.",
@@ -17,7 +17,7 @@
    "Blizzard says some layering will remain at launch. It has fixed groups being split on boats and zeppelins and when entering or leaving capital cities (reported by GameSpot, 23 October)."
   ],
   "gearNote": "Levelling picks come from the level-30 beta lists. Trinket gains are MythicSim results and differ by spec. Items marked unverified are level-60 loot whose Forever drop tables aren't confirmed yet (the beta stops at 30). \"Also wanted by\" shows which of your other classes would compete for the same item.",
-  "lastRefreshed": "2026-10-30T08:05:00+00:00",
+  "lastRefreshed": "2026-10-31T08:05:00+00:00",
   "raidFacts": [
    "Onyxia's Lair needs the Drakefire Amulet, earned per character and only needed in your bags (Blizzard raid overview, 20 October). The quest chain matches Classic. Barrow Deeps and Hyjal Summit have no attunement chain.",
    "All raids are currently planned to reset each week (Blizzard raid overview, 20 October).",
@@ -355,7 +355,7 @@
     "url": "https://talentsforever.com/priest/changes"
    }
   ],
-  "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight, in MythicSim's default \"Best of each spec\" view (22 specs). The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Demonology above Fury, Affliction above Beast Mastery, Frostfire above Shadow). All 22 rows are on MythicSim's 28 Oct snapshot (engine a667dce), after the 26 Oct racial update and its 27 Oct additions. The change column is MythicSim's printed change since that racial update, not since yesterday. Bands are MythicSim's own S, A, B and C sections. Specs for the classes you're weighing are highlighted."
+  "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight, in MythicSim's default \"Best of each spec\" view (22 specs). The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Arcane above Beast Mastery). All 22 rows are on MythicSim's 31 Oct snapshot (engine a667dce), after the 30 Oct hotfix. The change column is the change since the previous refresh. Bands are MythicSim's own S, A, B and C sections. Specs for the classes you're weighing are highlighted."
  },
  "crafting": {
   "camping": {
@@ -764,7 +764,7 @@
      {
       "id": "pl-swd",
       "text": "Train Shadow Word: Death at 32.",
-      "why": "Baseline in Forever. Its backlash costs 10% of your max health if the target survives."
+      "why": "Baseline in Forever. Its backlash costs 30% of your max health if the target survives (10% before the 30 Oct hotfix)."
      },
      {
       "id": "pl-shadow-wrath",

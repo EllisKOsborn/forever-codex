@@ -184,7 +184,7 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "Fire +1.60%, Arcane +2.59%, Frost +0.88%, Frostfire +1.93% (26 to 27 Oct boards).",
+    "notes": "Fire +1.34%, Arcane +0.79%, Frost +0.80%, Frostfire +1.92% (31 Oct boards).",
     "specs": []
    },
    "warlock": {
@@ -313,7 +313,7 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "Fire +2.59%, Arcane +2.36%, Frost +2.49%, Frostfire +3.10% (26 to 27 Oct boards).",
+    "notes": "Fire +2.60%, Arcane +2.40%, Frost +2.53%, Frostfire +3.10% (31 Oct boards).",
     "specs": []
    },
    "priest": {
@@ -974,7 +974,7 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "Top sim trinket for every Mage spec: Fire +3.12%, Arcane +3.22%, Frost +3.03%, Frostfire +3.53% (26 to 27 Oct boards), but Molten Core isn't on Forever's announced raid schedule.",
+    "notes": "Top sim trinket for every Mage spec: Fire +3.19%, Arcane +3.41%, Frost +3.12%, Frostfire +3.53% (31 Oct boards), but Molten Core isn't on Forever's announced raid schedule.",
     "specs": [
      "fire-mage",
      "arcane-mage",
@@ -1060,7 +1060,7 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "New Forever trinket. Fire +1.65%, Arcane +1.52%, Frost +1.59%, Frostfire +1.98% (26 to 27 Oct boards).",
+    "notes": "New Forever trinket. Fire +1.66%, Arcane +1.54%, Frost +1.62%, Frostfire +1.98% (31 Oct boards).",
     "specs": []
    }
   },

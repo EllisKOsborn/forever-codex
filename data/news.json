@@ -1,27 +1,4 @@
 {
- "l-n20261016-shadow-mastery": {
-  "classes": [
-   "warlock"
-  ],
-  "date": "2026-10-16",
-  "source": "Blizzard",
-  "summary": "Affliction's Shadow Mastery now gives up to 10% Shadow damage. Malediction, which added up to 5% to all periodic damage, is gone; Grim Reach adds Affliction spell range instead.",
-  "tag": "patch",
-  "title": "Shadow Mastery doubled, Malediction replaced by Grim Reach",
-  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696"
- },
- "l-n20261016-shadow-weaving": {
-  "classes": [
-   "priest",
-   "warlock"
-  ],
-  "date": "2026-10-16",
-  "source": "Blizzard",
-  "summary": "Blizzard's tooltip fix confirms Shadow Weaving only boosts the Priest's own damage, so Warlocks no longer gain from a Shadow Priest.",
-  "tag": "patch",
-  "title": "Shadow Weaving is a personal Priest buff",
-  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696"
- },
  "l-n20261017-affliction-boards": {
   "classes": [
    "warlock"
@@ -32,15 +9,6 @@
   "tag": "sim",
   "title": "MythicSim re-runs Affliction race and trinket boards on client 70425",
   "url": "https://mythicsim.com/wow-forever/best-trinkets/affliction-warlock"
- },
- "l-n20261017-build-70450": {
-  "classes": [],
-  "date": "2026-10-16",
-  "source": "Bind on Forever",
-  "summary": "A second client landed on 16 October. Bind on Forever's report shows Arcane Wrath getting its 6 sec cooldown, a reported Amplify Curse fix, 22 other spell changes and a new item, Crimson Rooster. Sims still run on 70425.",
-  "tag": "datamine",
-  "title": "Found in the files: beta build 70450",
-  "url": "https://bindonforever.com/changes"
  },
  "m-n20261016-barrow-deeps": {
   "classes": [],
@@ -631,5 +599,39 @@
   "classes": [],
   "source": "ForeverChanges",
   "url": "https://foreverchanges.pro/patch-notes"
+ },
+ "n20261031-found-hotfix-swd": {
+  "date": "2026-10-31",
+  "title": "Found in the files: 30 Oct hotfix triples Shadow Word: Death's backlash",
+  "summary": "An unannounced hotfix to build 70707 makes Shadow Word: Death hit you for 30% of your maximum health when the target survives, up from 10%, and swaps Binding Heal in the Holy tree for Holy Binding. ForeverChanges and TalentsForever both list it; Blizzard has posted no notes.",
+  "tag": "datamine",
+  "classes": [
+   "priest"
+  ],
+  "source": "ForeverChanges",
+  "url": "https://foreverchanges.pro/patch-notes"
+ },
+ "n20261031-found-hotfix-mage": {
+  "date": "2026-10-31",
+  "title": "Found in the files: 30 Oct hotfix buffs Ice Lance and Winter's Chill",
+  "summary": "The same unannounced hotfix gives Ice Lance +300% damage on frozen targets again (with an 8 sec cooldown at every rank), lifts Winter's Chill to 20% per stack for your next Cone of Cold, and weakens Arcane Blast's stacks to 12% of Intellect. It also reworks the Paladin and Druid talent trees.",
+  "tag": "datamine",
+  "classes": [
+   "mage"
+  ],
+  "source": "ForeverChanges",
+  "url": "https://foreverchanges.pro/patch-notes"
+ },
+ "n20261031-mythicsim-mage-tree": {
+  "date": "2026-10-31",
+  "title": "MythicSim re-sims Mages: Frost up 14%, Fire down to 900",
+  "summary": "MythicSim moved its Mage references to client 70707's talent tree and the 30 Oct hotfix. Fire drops from 917 to 900 but stays the top Mage spec, Frost climbs from 677 to 769 and out of the C band, and Shadow Priest moves back to #13 as Arms Warrior slips.",
+  "tag": "sim",
+  "classes": [
+   "mage",
+   "priest"
+  ],
+  "source": "MythicSim changelog",
+  "url": "https://mythicsim.com/changelog"
  }
 }

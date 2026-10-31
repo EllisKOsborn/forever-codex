@@ -241,5 +241,23 @@
    "mage": "MythicSim Mage page, engine a667dce (28 Oct, after the 27 Oct racial additions; Gnome preset for Arcane and Frostfire)",
    "priest": "MythicSim Priest page, engine a667dce (28 Oct, after the 27 Oct racial additions; Night Elf preset)"
   }
+ },
+ "2026-10-31": {
+  "date": "2026-10-31",
+  "values": {
+   "affliction-warlock": 850,
+   "arcane-mage": 845,
+   "demonology-warlock": 952,
+   "destruction-warlock": 837,
+   "fire-mage": 900,
+   "frost-mage": 769,
+   "frostfire-mage": 790,
+   "shadow-priest": 812
+  },
+  "labels": {
+   "warlock": "MythicSim Warlock page, engine a667dce (31 Oct; unchanged)",
+   "mage": "MythicSim Mage page, engine a667dce (31 Oct, client 70707 talents and 30 Oct hotfix; Gnome preset for Fire and Frostfire, Skyborne for Arcane and Frost)",
+   "priest": "MythicSim Priest page, engine a667dce (31 Oct; unchanged, Night Elf preset)"
+  }
  }
 }
