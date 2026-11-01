@@ -1,107 +1,4 @@
 {
- "2026-10-18": {
-  "at": "2026-10-18T08:30:00+01:00",
-  "checks": {
-   "corrected": [
-    "Tier list 'change' figures for 14 specs now match the page's printed deltas (for example Fire +11.6%, not +3.6%)",
-    "Smite Priest tier-list build is 19/25/7, not 21/23/7",
-    "Fire Mage summary said +7.7% on the tier list; the page shows +11.6%",
-    "Fire and Demonology race boards were behind the page (Fire Skyborne 796.2, Demonology Human 852.1)",
-    "Priest compare said about 740 DPS; newest is 745",
-    "Demonology trinket board: Briarwood Reed +2.31%, not 2.32%"
-   ],
-   "flagged": [
-    "MythicSim gives no reason for Arcane's 7.9% jump, so the Arcane lead is marked provisional in the verdict"
-   ],
-   "method": "Every changed number read twice from MythicSim with different prompts, then all 12 claim groups re-opened and confirmed by an independent agent",
-   "verified": 17
-  },
-  "date": "2026-10-18",
-  "headline": "MythicSim re-simmed Mage on a 17 Oct engine and Arcane now leads Fire by 5% (837 vs 797), so Arcane takes over as the Mage pick. Demonology Warlock is still your strongest option at 853.",
-  "items": [
-   {
-    "classes": [
-     "mage"
-    ],
-    "confidence": "checked",
-    "kind": "buff",
-    "source": "MythicSim Mage page and Arcane trinket board",
-    "text": "Arcane Mage rises from 776 to 837 DPS on MythicSim's 17 Oct engine (0d17668) and replaces Fire as the Mage verdict. MythicSim hasn't said what changed.",
-    "url": "https://mythicsim.com/wow-forever/mage"
-   },
-   {
-    "classes": [
-     "mage"
-    ],
-    "confidence": "checked",
-    "kind": "buff",
-    "source": "MythicSim Mage page",
-    "text": "Fire Mage goes from 777 to 797 DPS and Frost from 651 to 673; Frostfire stays at 743.",
-    "url": "https://mythicsim.com/wow-forever/mage"
-   },
-   {
-    "classes": [
-     "warlock"
-    ],
-    "confidence": "checked",
-    "kind": "neutral",
-    "source": "MythicSim Warlock page",
-    "text": "Demonology 852 to 853 DPS and Affliction 756 to 757 on the 17 Oct engine; Destruction stays at 704. The order and the 13% and 21% gaps are unchanged.",
-    "url": "https://mythicsim.com/wow-forever/warlock"
-   },
-   {
-    "classes": [
-     "mage"
-    ],
-    "confidence": "checked",
-    "kind": "neutral",
-    "source": "MythicSim race boards",
-    "text": "Skyborne now tops the Arcane race board (837.4, Human 0.08% behind), so it leads all four Mage specs; Human was top of Arcane before.",
-    "url": "https://mythicsim.com/wow-forever/races?class=mage&spec=arcane-mage"
-   },
-   {
-    "classes": [
-     "warlock"
-    ],
-    "confidence": "checked",
-    "kind": "neutral",
-    "source": "MythicSim race boards",
-    "text": "Demonology and Destruction race boards re-run: Human still leads both (852.1 and 704.6), with Orc within 0.81%.",
-    "url": "https://mythicsim.com/wow-forever/races?class=warlock&spec=demonology-warlock"
-   },
-   {
-    "classes": [
-     "mage"
-    ],
-    "confidence": "checked",
-    "kind": "neutral",
-    "source": "MythicSim Arcane trinket board",
-    "text": "Arcane's best trinkets on the new board: Talisman of Ephemeral Power +3.16% (was 3.28%), Cleansed Vilebranch Icon and Jewel of the Guard Captain +2.60% (was 2.57%).",
-    "url": "https://mythicsim.com/wow-forever/best-trinkets/arcane-mage"
-   },
-   {
-    "classes": [],
-    "confidence": "checked",
-    "kind": "neutral",
-    "source": "MythicSim tier list",
-    "text": "The tier list itself has not moved: still the 16 Oct run, with Demonology #6, Fire #10, Arcane #11 and Shadow #14.",
-    "url": "https://mythicsim.com/wow-forever/tier-list"
-   },
-   {
-    "classes": [],
-    "confidence": "checked",
-    "kind": "neutral",
-    "source": "Blizzard forums",
-    "text": "Blizzard (Kaivax) says art datamined from the latest beta build is not meant for WoW Forever.",
-    "url": "https://us.forums.blizzard.com/en/wow/t/datamined-in-the-latest-beta-build/2385060"
-   }
-  ],
-  "unchecked": [
-   "Reddit and X (not reachable by the research tools)",
-   "No new Blizzard development notes or builds since 70450 (16 Oct); TalentsForever, ForeverChanges and Icy Veins show nothing after 16 Oct",
-   "Level-60 loot (beta capped at 30)"
-  ]
- },
  "2026-10-19": {
   "at": "2026-10-19T09:30:00+01:00",
   "checks": {
@@ -1239,6 +1136,64 @@
     "Ice Barrier hotfix value (sources disagree)",
     "Cure Disease in Shadowform (single source)"
    ]
+  }
+ },
+ "2026-11-01": {
+  "date": "2026-11-01",
+  "at": "2026-11-01T08:00:00+00:00",
+  "headline": "No change for Shadow: still 812 DPS, #13 of 22 (B). A new Retribution build on MythicSim (849 to 941) pushes Fire Mage to #7 and Affliction to #8; no Blizzard notes since the 30 Oct hotfix.",
+  "items": [
+   {
+    "kind": "neutral",
+    "classes": [
+     "priest"
+    ],
+    "text": "Shadow Priest unchanged: 812 DPS, #13 of 22, B band, on MythicSim's 1 Nov snapshot (engine a667dce). Race board (Night Elf 812.4 tied for top) and trinket board (baseline 812, Talisman of Ephemeral Power first) unchanged.",
+    "source": "MythicSim tier list",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "Retribution Paladin 849 to 941 (+10.8%), #8 to #4, still A. MythicSim switched its reference to a community Unsealed Wrath build (Seal of Fury twisted with Righteousness, Manual Crowd Pummeler opener, their pre-raid gear): +1.2% on 31 Oct and +9.6% on 1 Nov. A sim build change, not a game change. Read three times (tier list twice, changelog).",
+    "source": "MythicSim changelog",
+    "url": "https://mythicsim.com/changelog",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "mage",
+     "warlock"
+    ],
+    "text": "Knock-on rank moves, no DPS change: Fire Mage #6 to #7 (900, A, still the best Mage), Affliction #7 to #8 (850), Marksmanship #4 to #5, Shockadin #5 to #6. Demonology 952 (#2, S), Destruction 837 (#9), Arcane 845 (#10), Frostfire 790 (#15), Frost 769 (#17) unchanged.",
+    "source": "MythicSim tier list",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "Survival Hunter 1,225 to 1,229 (+0.4% on MythicSim's unrounded 1,224.5 to 1,229.2) after its reference opens with Aspect of the Hawk; still #1. Bands unchanged: S 1 to 2, A 3 to 11, B 12 to 18, C 19 to 22.",
+    "source": "MythicSim changelog",
+    "url": "https://mythicsim.com/changelog",
+    "confidence": "checked"
+   }
+  ],
+  "unchecked": [
+   "Blizzard has still posted no notes for the 30 Oct hotfix, and no new Forever blue posts were found for 31 Oct or 1 Nov.",
+   "Cure Disease and Abolish Disease castable in Shadowform: still ForeverChanges only (TalentsForever doesn't list it), so still held back.",
+   "Warlock and Mage race and trinket boards were not re-read today; their class pages show the same DPS on the 1 Nov run.",
+   "LFCarry tier list not re-checked."
+  ],
+  "checks": {
+   "verified": 9,
+   "method": "MythicSim tier list read twice (raw page text and WebFetch), Retribution change confirmed a third time on the changelog; Priest, Warlock and Mage class pages, Shadow race board and trinket board read from the raw page. The independent re-check was done by me, not a separate agent.",
+   "corrected": [
+    "Engine date on all tier rows and spec notes moved from 31 Oct to 1 Nov (same engine a667dce, newer snapshot)."
+   ],
+   "flagged": []
   }
  }
 }

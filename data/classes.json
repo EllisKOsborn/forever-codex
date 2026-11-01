@@ -450,7 +450,7 @@
       "spec": "frost-mage"
      }
     ],
-    "note": "Sim-based. Fire #6 and Arcane #10 (A), Frostfire #15 and Frost #17 (B) of 22 (engine a667dce, 31 Oct).",
+    "note": "Sim-based. Fire #7 and Arcane #10 (A), Frostfire #15 and Frost #17 (B) of 22 (engine a667dce, 31 Oct).",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -542,7 +542,7 @@
   ],
   "verdict": {
    "best": "fire-mage",
-   "body": "On MythicSim's newest run (engine a667dce, simmed 31 Oct on client 70707's Mage talent tree and the 30 Oct hotfix) Fire sims 900 DPS, about 6.5% ahead of Arcane (845). The experimental Frostfire hybrid sits at 790 and Frost at 769, about 15% behind Fire but up from 677 after the hotfix buffed Ice Lance and Winter's Chill. The tier list (same run) agrees: Fire #6 and Arcane #10 of 22, both in the A band; Frostfire is #15 and Frost #17, both B. Fire fell from 917 mainly because Critical Mass dropped to 3 ranks. Fire is still the sim pick for raids; level as Frost.",
+   "body": "On MythicSim's newest run (engine a667dce, simmed 31 Oct on client 70707's Mage talent tree and the 30 Oct hotfix) Fire sims 900 DPS, about 6.5% ahead of Arcane (845). The experimental Frostfire hybrid sits at 790 and Frost at 769, about 15% behind Fire but up from 677 after the hotfix buffed Ice Lance and Winter's Chill. The tier list (same run) agrees: Fire #7 and Arcane #10 of 22, both in the A band; Frostfire is #15 and Frost #17, both B. Fire fell from 917 mainly because Critical Mass dropped to 3 ranks. Fire is still the sim pick for raids; level as Frost.",
    "flavour": "\"The Arcane Blast you knew is gone. Now it feeds every spell you cast next.\"",
    "headline": "Fire still leads the Mage specs; Frost jumps 14% on the 30 Oct hotfix",
    "statsNote": "Big number: newest MythicSim run (Mage page, engine a667dce, 31 Oct). Below: rank, DPS and band on the tier list (same run, 31 Oct)."
@@ -1381,7 +1381,7 @@
       "spec": "destruction-warlock"
      }
     ],
-    "note": "Sim-based. Demonology #2 (S), Affliction #7 and Destruction #9 (A) of 22 (engine a667dce, 31 Oct).",
+    "note": "Sim-based. Demonology #2 (S), Affliction #8 and Destruction #9 (A) of 22 (engine a667dce, 1 Nov).",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -1494,7 +1494,7 @@
   ],
   "verdict": {
    "best": "demonology-warlock",
-   "body": "On MythicSim's newest run (engine a667dce, simmed 31 Oct) Demonology sims 952 DPS, about 12% ahead of Affliction (850) and 14% ahead of Destruction (837). On the tier list (same run) it's #2 of 22 specs, behind only Survival Hunter, and in the S band; Affliction is #7 and Destruction #9, both A. Since the 26 Oct racial update Demonology is down 0.8% and the other two 1.1%, mostly from the Human Ruthless cut (2% to 1% crit); Demonology's reference is now an Orc. Raid as Demonology, level as Affliction.",
+   "body": "On MythicSim's newest run (engine a667dce, simmed 31 Oct) Demonology sims 952 DPS, about 12% ahead of Affliction (850) and 14% ahead of Destruction (837). On the tier list (same run) it's #2 of 22 specs, behind only Survival Hunter, and in the S band; Affliction is #8 and Destruction #9, both A. Since the 26 Oct racial update Demonology is down 0.8% and the other two 1.1%, mostly from the Human Ruthless cut (2% to 1% crit); Demonology's reference is now an Orc. Raid as Demonology, level as Affliction.",
    "flavour": "\"Keep one demon on the leash and another burning in your blood.\"",
    "headline": "Demonology still leads clearly in the S band after the racial changes; Orc is now its top race",
    "statsNote": "Big number: newest MythicSim run (Warlock page, engine a667dce, 31 Oct). Below: rank, DPS and band on the tier list (same run, 31 Oct)."

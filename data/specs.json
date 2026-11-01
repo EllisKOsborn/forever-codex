@@ -39,7 +39,7 @@
   "key": "affliction",
   "name": "Affliction",
   "newDps": 850,
-  "newNote": "MythicSim Warlock page, engine a667dce, simmed 31 Oct (tier list and trinket board baseline also 850, same engine)",
+  "newNote": "MythicSim Warlock page, engine a667dce, simmed 1 Nov (tier list and trinket board baseline also 850, same engine)",
   "race": "Human",
   "raceBoard": {
    "note": "Human 850.5 is tied for top (within sim noise of the next race); Undead (0.13%), Orc (0.26%), Gnome (0.40%), Troll (0.45%) are also S.",
@@ -61,7 +61,7 @@
    "Haste speeds up casts but not DoT or channel ticks.",
    "Stamina matters more than for other casters: it fuels Life Tap and keeps you alive under Soul Link."
   ],
-  "summary": "Second in the sims at 850 DPS on the newest run (#7 of 22 and A band on the tier list), just ahead of Destruction. The 15 Oct build doubled Shadow Mastery to 10% but replaced Malediction (+5% periodic damage) with Grim Reach, which only adds range. Still the best levelling spec and the most mobile in raids.",
+  "summary": "Second in the sims at 850 DPS on the newest run (#8 of 22 and A band on the tier list), just ahead of Destruction. The 15 Oct build doubled Shadow Mastery to 10% but replaced Malediction (+5% periodic damage) with Grim Reach, which only adds range. Still the best levelling spec and the most mobile in raids.",
   "talentNotes": [
    "Shadow Mastery: 2/4/6/8/10% Shadow damage (doubled on 15 Oct).",
    "Malediction (+1–5% to all your periodic damage) was removed on 15 Oct. Grim Reach takes its place: +10/20% Affliction spell range.",
@@ -78,7 +78,7 @@
   ],
   "tierBand": "A",
   "tierDps": 850,
-  "tierRank": 7,
+  "tierRank": 8,
   "trinketSnapshot": "MythicSim Affliction board, Rust engine 1c93d34, 31 Oct (baseline 850)",
   "trinkets": [
    {
@@ -147,7 +147,7 @@
   "key": "arcane",
   "name": "Arcane",
   "newDps": 845,
-  "newNote": "MythicSim Mage page, engine a667dce, simmed 31 Oct (tier list and trinket board baseline also 845, same engine)",
+  "newNote": "MythicSim Mage page, engine a667dce, simmed 1 Nov (tier list and trinket board baseline also 845, same engine)",
   "race": "Skyborne",
   "raceBoard": {
    "note": "Skyborne 844.9 leads; Troll (0.50%), Gnome (0.55%), Human (0.87%), Undead (0.89%), Orc (0.94%) are all S.",
@@ -261,7 +261,7 @@
   "key": "demonology",
   "name": "Demonology",
   "newDps": 952,
-  "newNote": "MythicSim Warlock page, engine a667dce, simmed 31 Oct (tier list and trinket board baseline also 952, same engine)",
+  "newNote": "MythicSim Warlock page, engine a667dce, simmed 1 Nov (tier list and trinket board baseline also 952, same engine)",
   "race": "Orc",
   "raceBoard": {
    "note": "Orc 950.4 leads; Undead (0.28%), Human (0.35%), Gnome (0.52%), Troll (0.74%) are also S.",
@@ -386,7 +386,7 @@
   "key": "destruction",
   "name": "Destruction",
   "newDps": 837,
-  "newNote": "MythicSim Warlock page, engine a667dce, simmed 31 Oct (tier list and trinket board baseline also 837, same engine)",
+  "newNote": "MythicSim Warlock page, engine a667dce, simmed 1 Nov (tier list and trinket board baseline also 837, same engine)",
   "race": "Human",
   "raceBoard": {
    "note": "Undead 835.8 is tied for top (within sim noise of the next race); Human (0.03%), Orc (0.24%), Gnome (0.31%), Troll (0.39%) are also S.",
@@ -483,7 +483,7 @@
   "key": "fire",
   "name": "Fire",
   "newDps": 900,
-  "newNote": "MythicSim Mage page, engine a667dce, simmed 31 Oct (tier list and trinket board baseline also 900, same engine)",
+  "newNote": "MythicSim Mage page, engine a667dce, simmed 1 Nov (tier list and trinket board baseline also 900, same engine)",
   "race": "Gnome",
   "raceBoard": {
    "note": "Gnome 899.5 is tied for top with Human (0.23%, within sim noise); Skyborne (0.44%), Undead (0.72%), Orc (0.88%), Troll (0.98%) are also S.",
@@ -504,7 +504,7 @@
    "Fire-only spell damage gear works for Fire and Frostfire, not for Arcane Missiles procs.",
    "Intellect and Spirit after that; Stamina for dangerous fights."
   ],
-  "summary": "LFCarry's raid default. On MythicSim's newest run (engine a667dce, 31 Oct) it is the top Mage spec at 900 DPS, about 6.5% ahead of Arcane, and #6 of 22 (A band) on the tier list. Fire Power rewards keeping your own Fire effects on the boss, and every Fire Blast feeding Heating Up means more short Pyroblasts. Client 70707 cut Critical Mass to 3 ranks (6% Fire crit, was 10%), which MythicSim puts at -1.8%. Improved Scorch only buffs you now, so every Fire Mage keeps their own 5 stacks.",
+  "summary": "LFCarry's raid default. On MythicSim's newest run (engine a667dce, 31 Oct) it is the top Mage spec at 900 DPS, about 6.5% ahead of Arcane, and #7 of 22 (A band) on the tier list. Fire Power rewards keeping your own Fire effects on the boss, and every Fire Blast feeding Heating Up means more short Pyroblasts. Client 70707 cut Critical Mass to 3 ranks (6% Fire crit, was 10%), which MythicSim puts at -1.8%. Improved Scorch only buffs you now, so every Fire Mage keeps their own 5 stacks.",
   "talentNotes": [
    "Heating Up (was Hot Streak): crits from Fireball, Frostfire Bolt, Fire Blast and Scorch cut your next Pyroblast's cast by 25%, up to 3 stacks.",
    "Incineration (was Incinerate) sits in row 1 and now covers Ice Lance and Arcane Blast too.",
@@ -519,7 +519,7 @@
   ],
   "tierBand": "A",
   "tierDps": 900,
-  "tierRank": 6,
+  "tierRank": 7,
   "trinketSnapshot": "MythicSim Fire board, Rust engine 1c93d34, 31 Oct (baseline 900)",
   "trinkets": [
    {
@@ -583,7 +583,7 @@
   "key": "frost",
   "name": "Frost",
   "newDps": 769,
-  "newNote": "MythicSim Mage page, engine a667dce, simmed 31 Oct (tier list and trinket board baseline also 769, same engine)",
+  "newNote": "MythicSim Mage page, engine a667dce, simmed 1 Nov (tier list and trinket board baseline also 769, same engine)",
   "race": "Skyborne",
   "raceBoard": {
    "note": "Skyborne 767.9 leads; Troll (0.54%), Undead (0.74%), Gnome (0.85%) are also S; Human (1.03%) and Orc (1.13%) are A.",
@@ -679,7 +679,7 @@
   "key": "frostfire",
   "name": "Frostfire",
   "newDps": 790,
-  "newNote": "MythicSim Mage page, engine a667dce, simmed 31 Oct (tier list and trinket board baseline also 790, same engine)",
+  "newNote": "MythicSim Mage page, engine a667dce, simmed 1 Nov (tier list and trinket board baseline also 790, same engine)",
   "race": "Gnome",
   "raceBoard": {
    "note": "Gnome 789.8 leads; Human (0.62%), Skyborne (0.84%) are also S; Undead (1.34%), Troll (1.64%), Orc (1.65%) are A.",
@@ -774,7 +774,7 @@
   "key": "shadow",
   "name": "Shadow",
   "newDps": 812,
-  "newNote": "MythicSim Priest page, engine a667dce, simmed 31 Oct (tier list and trinket board baseline also 812, same engine)",
+  "newNote": "MythicSim Priest page, engine a667dce, simmed 1 Nov (tier list and trinket board baseline also 812, same engine)",
   "race": "Night Elf",
   "raceBoard": {
    "note": "Night Elf 812.4 is tied for top (within sim noise of the next race); Undead (0.14%), Human (0.27%), Dwarf (0.42%), Gnome (0.56%), Troll (0.78%) are also S.",
