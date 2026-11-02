@@ -10,15 +10,6 @@
   "title": "MythicSim re-runs Affliction race and trinket boards on client 70425",
   "url": "https://mythicsim.com/wow-forever/best-trinkets/affliction-warlock"
  },
- "m-n20261016-encrypted-dungeons": {
-  "classes": [],
-  "date": "2026-10-16",
-  "source": "Bind on Forever",
-  "summary": "Drowned City, Krol'dok Stronghold and Blackmaw Hold have their boss data encrypted, so loot is unknown.",
-  "tag": "datamine",
-  "title": "Three new dungeons still encrypted",
-  "url": "https://bindonforever.com/dungeons"
- },
  "m-n20261016-fire-arcane-tie": {
   "classes": [
    "mage"
@@ -629,6 +620,15 @@
   "date": "2026-11-01",
   "title": "MythicSim adopts a new Retribution build; Ret jumps to #4",
   "summary": "MythicSim's Retribution reference now uses a community Unsealed Wrath build that twists Seal of Fury with Seal of Righteousness, taking it from 859 to 941 DPS. This is a sim build change, not a game change; Shadow stays #13 at 812.",
+  "tag": "sim",
+  "classes": [],
+  "source": "MythicSim changelog",
+  "url": "https://mythicsim.com/changelog"
+ },
+ "n20261102-mythicsim-aq20-book-ranks": {
+  "date": "2026-11-02",
+  "title": "MythicSim drops Ahn'Qiraj book ranks; Shadow rises to #11 and the A band",
+  "summary": "MythicSim's sims no longer use spell ranks taught by Ahn'Qiraj 20 books, since its boards model characters without raid drops. Most DPS specs lose 1% to 5% and Frost Mage 7%, while Shadow Priest is unaffected at 812 and climbs from #13 to #11.",
   "tag": "sim",
   "classes": [],
   "source": "MythicSim changelog",

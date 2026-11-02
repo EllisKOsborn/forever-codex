@@ -9,6 +9,16 @@
   },
   "changeLog": [
    {
+    "label": "MythicSim update · 2 Nov (sim, not game)",
+    "items": [
+     {
+      "kind": "neutral",
+      "spec": "all",
+      "text": "2 Nov (sim change, not a game change): MythicSim dropped Ahn'Qiraj 20 book ranks (Fireball XII, Frostbolt XI, Arcane Missiles VIII). Fire 900 to 886 (#7 to #6), Frost 769 to 715 (#17 to #18); Arcane 845 to 828 with a new 32/10/9 Arcane Wrath reference; Frostfire unchanged at 790."
+     }
+    ]
+   },
+   {
     "label": "Hotfix and client 70707 · 30 Oct (no Blizzard notes)",
     "items": [
      {
@@ -213,7 +223,7 @@
     "note": "Share of characters in a 20 Sept sample of about 5,000 level-20 beta characters."
    },
    "pros": [
-    "Fire sims 900 DPS on the newest run (Arcane 845), second of the three classes after Demonology",
+    "Fire sims 886 DPS on the newest run (Arcane 828), second of the three classes after Demonology",
     "No drinking breaks thanks to conjured water",
     "Portals earn gold and make you popular"
    ],
@@ -431,7 +441,7 @@
   "name": "Mage",
   "opinions": [
    {
-    "date": "31 Oct",
+    "date": "2 Nov",
     "grades": [
      {
       "grade": "A",
@@ -450,7 +460,7 @@
       "spec": "frost-mage"
      }
     ],
-    "note": "Sim-based. Fire #7 and Arcane #10 (A), Frostfire #15 and Frost #17 (B) of 22 (engine a667dce, 31 Oct).",
+    "note": "Sim-based. Fire #6 and Arcane #10 (A), Frostfire #14 and Frost #18 (B) of 22 (engine a667dce, 2 Nov).",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -508,8 +518,8 @@
    }
   ],
   "order": 2,
-  "raceNote": "The gaps are tiny: under 2% between best and worst race in every spec. On the 31 Oct boards, after the 30 Oct hotfix and client 70707's talent tree, Gnome leads Fire (899.5, Human 0.23% back) and Frostfire (789.8, Human 0.62% back); Skyborne leads Arcane (844.9, Troll 0.50% back) and Frost (767.9, Troll 0.54% back). The best Horde race is never more than 1.4% behind. Pick on faction and looks first.",
-  "raceSnapshot": "MythicSim race boards: all four specs on Rust engine 1c93d34, matching a667dce (31 Oct, after the 30 Oct hotfix)",
+  "raceNote": "The gaps are tiny: under 2% between best and worst race in every spec. On the 2 Nov boards Gnome leads Fire (885.1, Human 0.12% back) and Frostfire (789.8, Human 0.62% back); Skyborne leads Arcane (828.2, Gnome 0.57% back) and Frost (715.7, Troll 0.60% back). The best Horde race is never more than 1.4% behind. Pick on faction and looks first.",
+  "raceSnapshot": "MythicSim race boards: all four specs on Rust engine f5cf2de, matching a667dce (2 Nov)",
   "specs": [
    {
     "color": "#ff8a3d",
@@ -542,10 +552,10 @@
   ],
   "verdict": {
    "best": "fire-mage",
-   "body": "On MythicSim's newest run (engine a667dce, simmed 31 Oct on client 70707's Mage talent tree and the 30 Oct hotfix) Fire sims 900 DPS, about 6.5% ahead of Arcane (845). The experimental Frostfire hybrid sits at 790 and Frost at 769, about 15% behind Fire but up from 677 after the hotfix buffed Ice Lance and Winter's Chill. The tier list (same run) agrees: Fire #7 and Arcane #10 of 22, both in the A band; Frostfire is #15 and Frost #17, both B. Fire fell from 917 mainly because Critical Mass dropped to 3 ranks. Fire is still the sim pick for raids; level as Frost.",
+   "body": "On MythicSim's newest run (engine a667dce, simmed 2 Nov on client 70707's Mage talent tree and the 30 Oct hotfix) Fire sims 886 DPS, about 7% ahead of Arcane (828). The experimental Frostfire hybrid sits at 790 and Frost at 715, about 19% behind Fire. The tier list (same run) agrees: Fire #6 and Arcane #10 of 22, both in the A band; Frostfire is #14 and Frost #18, both B. On 2 Nov MythicSim stopped using Ahn'Qiraj 20 book ranks (Fireball XII, Frostbolt XI, Arcane Missiles VIII), which cost Fire 1.6% and Frost 7%; Arcane got a new reference build with Arcane Wrath that offset most of its loss. Fire is still the sim pick for raids; level as Frost.",
    "flavour": "\"The Arcane Blast you knew is gone. Now it feeds every spell you cast next.\"",
-   "headline": "Fire still leads the Mage specs; Frost jumps 14% on the 30 Oct hotfix",
-   "statsNote": "Big number: newest MythicSim run (Mage page, engine a667dce, 31 Oct). Below: rank, DPS and band on the tier list (same run, 31 Oct)."
+   "headline": "Fire still leads the Mage specs; Frost loses 7% as MythicSim drops Ahn'Qiraj book ranks",
+   "statsNote": "Big number: newest MythicSim run (Mage page, engine a667dce, 2 Nov). Below: rank, DPS and band on the tier list (same run, 2 Nov)."
   },
   "pros": null
  },
@@ -558,6 +568,16 @@
    "tip": "#c27cf4"
   },
   "changeLog": [
+   {
+    "label": "MythicSim update · 2 Nov (sim, not game)",
+    "items": [
+     {
+      "kind": "neutral",
+      "spec": "shadow-priest",
+      "text": "2 Nov (sim change, not a game change): MythicSim no longer uses Ahn'Qiraj 20 book ranks. Shadow is unaffected at 812 and rises from #13 to #11, into the A band."
+     }
+    ]
+   },
    {
     "label": "Hotfix · 30 Oct (no Blizzard notes)",
     "items": [
@@ -667,7 +687,7 @@
   "classCards": [],
   "compare": {
    "cons": [
-    "Shadow sits mid-pack in sims (#13 of 22, 812 DPS on the newest run)",
+    "Shadow sits mid-pack in sims (#11 of 22, 812 DPS on the newest run)",
     "Shadow Affinity was removed, so you have no talent threat reduction",
     "Shadow Weaving no longer helps the raid, so raids gain less from bringing you",
     "You must leave Shadowform to heal"
@@ -835,14 +855,14 @@
   "name": "Priest",
   "opinions": [
    {
-    "date": "31 Oct",
+    "date": "2 Nov",
     "grades": [
      {
-      "grade": "B",
+      "grade": "A",
       "spec": "shadow-priest"
      }
     ],
-    "note": "#13 of 22 at 812 DPS, B band (engine a667dce, 31 Oct), after the 15 Oct buffs and the 26 Oct racial changes.",
+    "note": "#11 of 22 at 812 DPS, A band (engine a667dce, 2 Nov), after the 15 Oct buffs, the 26 Oct racial changes and MythicSim dropping AQ20 book ranks.",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -909,7 +929,7 @@
   ],
   "order": 3,
   "raceNote": "Updated for Blizzard's racial changes (26 Oct, with additions on 27 Oct). The whole spread is only 0.78%, so race barely matters for damage: every race is in the S band. Night Elf still leads on Elune's Light, but Undead (now a 15 sec Touch of the Grave) is only 0.14% back and tied with it in the sim, then Human (0.27%) and Dwarf. Each race also has two Priest racial spells (below), which matter more for utility than damage.",
-  "raceSnapshot": "MythicSim race board, Rust engine 1c93d34 matching a667dce, 31 Oct (unchanged from 29 Oct)",
+  "raceSnapshot": "MythicSim race board, Rust engine f5cf2de matching a667dce, 2 Nov (unchanged since 29 Oct)",
   "specs": [
    {
     "color": "#b48cff",
@@ -921,10 +941,10 @@
   ],
   "verdict": {
    "best": "shadow-priest",
-   "body": "Shadow sits in the middle of the DPS sims: 812 DPS on MythicSim's newest Priest run (engine a667dce, simmed 31 Oct), and #13 of 22 on the tier list (same run), in the B band. The 15 Oct build was a clear net buff (Devouring Plague every 24 seconds, Vampiric Embrace every 30, a stronger Contagion) and lifted Shadow from 704. It now sims behind Affliction Warlock (850), Arcane Mage (845), Destruction Warlock (837) and Feral Druid (831), and ahead of Arms Warrior (810) and the Frostfire Mage hybrid (790). Shadow itself has not changed since 29 Oct; it moved back up from #14 because Arms dropped when MythicSim stopped stacking Elixir of Ferocity. The 30 Oct hotfix triples Shadow Word: Death's backlash to 30% of your health, so use it with care.",
+   "body": "Shadow sits in the middle of the DPS sims: 812 DPS on MythicSim's newest Priest run (engine a667dce, simmed 2 Nov), and #11 of 22 on the tier list (same run), at the bottom of the A band. The 15 Oct build was a clear net buff (Devouring Plague every 24 seconds, Vampiric Embrace every 30, a stronger Contagion) and lifted Shadow from 704. It now sims behind Affliction Warlock (837), Arcane Mage (828) and Destruction Warlock (827), and ranks ahead of Beast Mastery Hunter (817 without trinkets, lower with them), Feral Druid (811) and Arms Warrior (798). Shadow itself has not changed since 29 Oct; it rose from #13 on 2 Nov because MythicSim stopped using Ahn'Qiraj 20 book ranks, which cost most other specs 1% to 5% but Shadow nothing. The 30 Oct hotfix triples Shadow Word: Death's backlash to 30% of your health, so use it with care.",
    "flavour": "Viable for raids and dungeons. Pick it if you enjoy it; the gap to the middle of the pack is small.",
-   "headline": "Still mid-pack in the B band",
-   "statsNote": "Big number: newest MythicSim result (Priest page, engine a667dce, 31 Oct). Below: rank, DPS and band on the tier list (same run, 31 Oct)."
+   "headline": "Into the A band at #11, on an unchanged 812",
+   "statsNote": "Big number: newest MythicSim result (Priest page, engine a667dce, 2 Nov). Below: rank, DPS and band on the tier list (same run, 2 Nov)."
   }
  },
  "warlock": {
@@ -936,6 +956,16 @@
    "tip": "#8787ed"
   },
   "changeLog": [
+   {
+    "label": "MythicSim update · 2 Nov (sim, not game)",
+    "items": [
+     {
+      "kind": "neutral",
+      "spec": "all",
+      "text": "2 Nov (sim change, not a game change): MythicSim dropped Ahn'Qiraj 20 book ranks (Shadow Bolt X, Corruption VII, Immolate VIII). Demonology 952 to 942, Affliction 850 to 837, Destruction 837 to 827; ranks unchanged."
+     }
+    ]
+   },
    {
     "label": "Racial update · 26 Oct",
     "items": [
@@ -1148,7 +1178,7 @@
     "note": "Share of characters in a 20 Sept sample of about 5,000 level-20 beta characters. A 14 Oct scan of over 1 million characters had Warlock as the least-played class at about 9%."
    },
    "pros": [
-    "Demonology is the strongest of these specs in sims: 952 DPS on the newest run, #2 of 22 on the tier list, S band",
+    "Demonology is the strongest of these specs in sims: 942 DPS on the newest run, #2 of 22 on the tier list, S band",
     "Least-played class in the 14 Oct scan (about 9%), so raids will want you",
     "Own tier set in the first raids: Demonheart Raiment"
    ],
@@ -1226,7 +1256,7 @@
    {
     "kind": "buff",
     "spec": "all",
-    "text": "27 Oct (added to Blizzard's racial notes): Orc Blood Fury every 2 min (was 3), Troll Berserking 15 sec (was 10), Undead Touch of the Grave every 15 sec (was 25). In MythicSim, Undead now ties Human for top Destruction race and Demonology's reference moves to Orc (952 DPS)."
+    "text": "27 Oct (added to Blizzard's racial notes): Orc Blood Fury every 2 min (was 3), Troll Berserking 15 sec (was 10), Undead Touch of the Grave every 15 sec (was 25). In MythicSim, Undead now ties Human for top Destruction race and Demonology's reference moves to Orc."
    },
    {
     "kind": "buff",
@@ -1366,7 +1396,7 @@
   "name": "Warlock",
   "opinions": [
    {
-    "date": "31 Oct",
+    "date": "2 Nov",
     "grades": [
      {
       "grade": "S",
@@ -1381,7 +1411,7 @@
       "spec": "destruction-warlock"
      }
     ],
-    "note": "Sim-based. Demonology #2 (S), Affliction #8 and Destruction #9 (A) of 22 (engine a667dce, 1 Nov).",
+    "note": "Sim-based. Demonology #2 (S), Affliction #8 and Destruction #9 (A) of 22 (engine a667dce, 2 Nov).",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -1467,8 +1497,8 @@
    }
   ],
   "order": 1,
-  "raceNote": "After Blizzard's racial changes (26 Oct, with additions on 27 Oct) Orc tops Demonology (950.4) thanks to Command (+5% pet damage) and a 2 min Blood Fury, with Undead 0.28% and Human 0.35% back. Human is tied for top in Affliction (850.5, Undead 0.13% back), and Undead is now tied for top in Destruction (835.8, Human 0.03% back). Every race is within 1% in all three specs, so choose faction and looks first.",
-  "raceSnapshot": "MythicSim race boards: all three specs on Rust engine 1c93d34, matching a667dce (31 Oct, unchanged from 29 Oct)",
+  "raceNote": "After Blizzard's racial changes (26 Oct, with additions on 27 Oct) Orc tops Demonology (941.3) thanks to Command (+5% pet damage) and a 2 min Blood Fury, with Undead 0.26% and Human 0.37% back. Undead is tied for top in Affliction (837.5, Human 0.10% back) and in Destruction (826.6, Human 0.10% back). Every race is within 1% in all three specs, so choose faction and looks first.",
+  "raceSnapshot": "MythicSim race boards: all three specs on Rust engine f5cf2de, matching a667dce (2 Nov)",
   "specs": [
    {
     "color": "#b07cff",
@@ -1494,10 +1524,10 @@
   ],
   "verdict": {
    "best": "demonology-warlock",
-   "body": "On MythicSim's newest run (engine a667dce, simmed 31 Oct) Demonology sims 952 DPS, about 12% ahead of Affliction (850) and 14% ahead of Destruction (837). On the tier list (same run) it's #2 of 22 specs, behind only Survival Hunter, and in the S band; Affliction is #8 and Destruction #9, both A. Since the 26 Oct racial update Demonology is down 0.8% and the other two 1.1%, mostly from the Human Ruthless cut (2% to 1% crit); Demonology's reference is now an Orc. Raid as Demonology, level as Affliction.",
+   "body": "On MythicSim's newest run (engine a667dce, simmed 2 Nov) Demonology sims 942 DPS, about 12.5% ahead of Affliction (837) and 14% ahead of Destruction (827). On the tier list (same run) it's #2 of 22 specs, behind only Survival Hunter, and in the S band; Affliction is #8 and Destruction #9, both A. All three fell about 1% to 1.6% on 2 Nov when MythicSim stopped using Ahn'Qiraj 20 book ranks (Shadow Bolt X, Corruption VII, Immolate VIII); Demonology's reference is an Orc. Raid as Demonology, level as Affliction.",
    "flavour": "\"Keep one demon on the leash and another burning in your blood.\"",
-   "headline": "Demonology still leads clearly in the S band after the racial changes; Orc is now its top race",
-   "statsNote": "Big number: newest MythicSim run (Warlock page, engine a667dce, 31 Oct). Below: rank, DPS and band on the tier list (same run, 31 Oct)."
+   "headline": "Demonology still leads clearly in the S band; Orc is its top race",
+   "statsNote": "Big number: newest MythicSim run (Warlock page, engine a667dce, 2 Nov). Below: rank, DPS and band on the tier list (same run, 2 Nov)."
   }
  }
 }

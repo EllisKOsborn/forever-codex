@@ -138,15 +138,15 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "Fire +2.18%, Arcane +2.00%, Frost +2.10%, Frostfire +2.61% (26 to 27 Oct boards).",
+    "notes": "Fire +2.23%, Arcane +2.07%, Frost +2.29%, Frostfire +2.61% (2 Nov boards).",
     "specs": []
    },
    "priest": {
-    "notes": "+1.81% DPS in MythicSim (26 Oct board).",
+    "notes": "+1.81% DPS in MythicSim (2 Nov board).",
     "specs": []
    },
    "warlock": {
-    "notes": "+2.48% Affliction, +2.31% Demonology, +2.34% Destruction (27 Oct boards).",
+    "notes": "+2.54% Affliction, +2.35% Demonology, +2.39% Destruction (2 Nov boards).",
     "specs": [
      "affliction-warlock",
      "demonology-warlock",
@@ -184,11 +184,11 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "Fire +1.34%, Arcane +0.79%, Frost +0.80%, Frostfire +1.92% (31 Oct boards).",
+    "notes": "Fire +1.23%, Arcane +0.94%, Frost +0.92%, Frostfire +1.92% (2 Nov boards).",
     "specs": []
    },
    "warlock": {
-    "notes": "+1.85% Affliction, +1.97% Demonology, +1.88% Destruction (27 Oct boards).",
+    "notes": "+2.02% Affliction, +2.14% Demonology, +1.93% Destruction (2 Nov boards).",
     "specs": []
    }
   },
@@ -222,15 +222,15 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "Fire +1.02%, Arcane +0.93%, Frost +0.93%, Frostfire +1.30% (26 to 27 Oct boards). MythicSim fixed it on 26 Oct to give 8 spell damage (24 in forests) instead of 32, so it is no longer a top pick.",
+    "notes": "Fire +1.01%, Arcane +0.94%, Frost +0.99%, Frostfire +1.40% (2 Nov boards). MythicSim fixed it on 26 Oct to give 8 spell damage (24 in forests) instead of 32, so it is no longer a top pick.",
     "specs": []
    },
    "priest": {
-    "notes": "+0.91% DPS in MythicSim (26 Oct board). MythicSim fixed it on 26 Oct to give 8 spell damage (24 in forests) instead of 32, so it is no longer a top pick.",
+    "notes": "+0.91% DPS in MythicSim (2 Nov board). MythicSim fixed it on 26 Oct to give 8 spell damage (24 in forests) instead of 32, so it is no longer a top pick.",
     "specs": []
    },
    "warlock": {
-    "notes": "+1.20% Affliction, +1.09% Demonology, +1.15% Destruction (27 Oct boards). MythicSim fixed it on 26 Oct to give 8 spell damage (24 in forests) instead of 32, so it is no longer a top pick.",
+    "notes": "+1.21% Affliction, +1.11% Demonology, +1.15% Destruction (2 Nov boards). MythicSim fixed it on 26 Oct to give 8 spell damage (24 in forests) instead of 32, so it is no longer a top pick.",
     "specs": []
    }
   },
@@ -313,15 +313,15 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "Fire +2.60%, Arcane +2.40%, Frost +2.53%, Frostfire +3.10% (31 Oct boards).",
+    "notes": "Fire +2.64%, Arcane +2.45%, Frost +2.71%, Frostfire +3.10% (2 Nov boards).",
     "specs": []
    },
    "priest": {
-    "notes": "+2.16% DPS in MythicSim (26 Oct board).",
+    "notes": "+2.16% DPS in MythicSim (2 Nov board).",
     "specs": []
    },
    "warlock": {
-    "notes": "+2.95% Affliction, +2.75% Demonology, +2.78% Destruction (27 Oct boards). Top sim trinket for all three specs.",
+    "notes": "+3.02% Affliction, +2.79% Demonology, +2.84% Destruction (2 Nov boards). Top sim trinket for all three specs.",
     "specs": [
      "affliction-warlock",
      "demonology-warlock",
@@ -464,7 +464,7 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "Crafted. Fire +1.11%, Arcane +1.20%, Frost +1.31%, Frostfire +1.20% (26 to 27 Oct boards).",
+    "notes": "Crafted. Fire +1.17%, Arcane +1.15%, Frost +1.30%, Frostfire +1.21% (2 Nov boards).",
     "specs": []
    }
   },
@@ -571,15 +571,15 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "Fire +1.02%, Arcane +0.93%, Frost +0.93%, Frostfire +1.30% (26 to 27 Oct boards). MythicSim fixed it on 26 Oct to give 8 spell damage (24 in forests) instead of 32, so it is no longer a top pick.",
+    "notes": "Fire +1.01%, Arcane +0.94%, Frost +0.99%, Frostfire +1.40% (2 Nov boards). MythicSim fixed it on 26 Oct to give 8 spell damage (24 in forests) instead of 32, so it is no longer a top pick.",
     "specs": []
    },
    "priest": {
-    "notes": "+0.91% DPS in MythicSim (26 Oct board). MythicSim fixed it on 26 Oct to give 8 spell damage (24 in forests) instead of 32, so it is no longer a top pick.",
+    "notes": "+0.91% DPS in MythicSim (2 Nov board). MythicSim fixed it on 26 Oct to give 8 spell damage (24 in forests) instead of 32, so it is no longer a top pick.",
     "specs": []
    },
    "warlock": {
-    "notes": "+1.20% Affliction, +1.09% Demonology, +1.15% Destruction (27 Oct boards). MythicSim fixed it on 26 Oct to give 8 spell damage (24 in forests) instead of 32, so it is no longer a top pick.",
+    "notes": "+1.21% Affliction, +1.11% Demonology, +1.15% Destruction (2 Nov boards). MythicSim fixed it on 26 Oct to give 8 spell damage (24 in forests) instead of 32, so it is no longer a top pick.",
     "specs": []
    }
   },
@@ -677,7 +677,7 @@
   "category": "trinket",
   "forClass": {
    "warlock": {
-    "notes": "+1.59% Affliction, +1.70% Demonology, +1.37% Destruction (27 Oct boards).",
+    "notes": "+1.66% Affliction, +1.72% Demonology, +1.48% Destruction (2 Nov boards).",
     "specs": []
    }
   },
@@ -820,7 +820,7 @@
   "category": "trinket",
   "forClass": {
    "warlock": {
-    "notes": "+1.97% Affliction, +1.83% Demonology, +1.85% Destruction (27 Oct boards).",
+    "notes": "+2.01% Affliction, +1.87% Demonology, +1.89% Destruction (2 Nov boards).",
     "specs": []
    }
   },
@@ -974,7 +974,7 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "Top sim trinket for every Mage spec: Fire +3.19%, Arcane +3.41%, Frost +3.12%, Frostfire +3.53% (31 Oct boards), but Molten Core isn't on Forever's announced raid schedule.",
+    "notes": "Top sim trinket for every Mage spec: Fire +3.26%, Arcane +3.45%, Frost +3.35%, Frostfire +3.53% (2 Nov boards), but Molten Core isn't on Forever's announced raid schedule.",
     "specs": [
      "fire-mage",
      "arcane-mage",
@@ -982,11 +982,11 @@
     ]
    },
    "priest": {
-    "notes": "+2.40% DPS in MythicSim (26 Oct board), the top Shadow pick, but Molten Core isn't on Forever's announced raid schedule, so this may not be obtainable.",
+    "notes": "+2.40% DPS in MythicSim (2 Nov board), the top Shadow pick, but Molten Core isn't on Forever's announced raid schedule, so this may not be obtainable.",
     "specs": []
    },
    "warlock": {
-    "notes": "+2.80% Affliction, +2.56% Demonology, +2.53% Destruction (27 Oct boards), but Molten Core isn't on Forever's announced raid schedule, so this may not be obtainable.",
+    "notes": "+2.87% Affliction, +2.65% Demonology, +2.57% Destruction (2 Nov boards), but Molten Core isn't on Forever's announced raid schedule, so this may not be obtainable.",
     "specs": []
    }
   },
@@ -1060,7 +1060,7 @@
   "category": "trinket",
   "forClass": {
    "mage": {
-    "notes": "New Forever trinket. Fire +1.66%, Arcane +1.54%, Frost +1.62%, Frostfire +1.98% (31 Oct boards).",
+    "notes": "New Forever trinket. Fire +1.69%, Arcane +1.57%, Frost +1.74%, Frostfire +1.98% (2 Nov boards).",
     "specs": []
    }
   },

@@ -71,17 +71,17 @@
   ],
   "boards": {
    "arcane-mage": {
-    "dps": 844.9,
+    "dps": 828.2,
     "gap": "",
     "tier": "S"
    },
    "fire-mage": {
-    "dps": 895.6,
-    "gap": "0.44%",
+    "dps": 882.0,
+    "gap": "0.35%",
     "tier": "S"
    },
    "frost-mage": {
-    "dps": 767.9,
+    "dps": 715.7,
     "gap": "",
     "tier": "S"
    },
@@ -126,33 +126,33 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 847.1,
-    "gap": "0.40%",
+    "dps": 836.0,
+    "gap": "0.17%",
     "tier": "S"
    },
    "arcane-mage": {
-    "dps": 840.2,
-    "gap": "0.55%",
+    "dps": 823.5,
+    "gap": "0.57%",
     "tier": "S"
    },
    "demonology-warlock": {
-    "dps": 945.5,
-    "gap": "0.52%",
+    "dps": 936.8,
+    "gap": "0.47%",
     "tier": "S"
    },
    "destruction-warlock": {
-    "dps": 833.2,
-    "gap": "0.31%",
+    "dps": 823.4,
+    "gap": "0.39%",
     "tier": "S"
    },
    "fire-mage": {
-    "dps": 899.5,
+    "dps": 885.1,
     "gap": "",
     "tier": "S"
    },
    "frost-mage": {
-    "dps": 761.3,
-    "gap": "0.85%",
+    "dps": 709.1,
+    "gap": "0.92%",
     "tier": "S"
    },
    "frostfire-mage": {
@@ -216,32 +216,32 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 850.5,
-    "gap": "",
+    "dps": 836.6,
+    "gap": "0.10%",
     "tier": "S"
    },
    "arcane-mage": {
-    "dps": 837.5,
-    "gap": "0.87%",
-    "tier": "S"
+    "dps": 818.4,
+    "gap": "1.18%",
+    "tier": "A"
    },
    "demonology-warlock": {
-    "dps": 947.1,
-    "gap": "0.35%",
+    "dps": 937.8,
+    "gap": "0.37%",
     "tier": "S"
    },
    "destruction-warlock": {
-    "dps": 835.5,
-    "gap": "0.03%",
+    "dps": 825.8,
+    "gap": "0.10%",
     "tier": "S"
    },
    "fire-mage": {
-    "dps": 897.4,
-    "gap": "0.23%",
+    "dps": 884.0,
+    "gap": "0.12%",
     "tier": "S"
    },
    "frost-mage": {
-    "dps": 760.0,
+    "dps": 708.4,
     "gap": "1.03%",
     "tier": "A"
    },
@@ -359,33 +359,33 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 848.3,
-    "gap": "0.26%",
+    "dps": 834.5,
+    "gap": "0.35%",
     "tier": "S"
    },
    "arcane-mage": {
-    "dps": 836.9,
-    "gap": "0.94%",
-    "tier": "S"
+    "dps": 818.5,
+    "gap": "1.18%",
+    "tier": "A"
    },
    "demonology-warlock": {
-    "dps": 950.4,
+    "dps": 941.3,
     "gap": "",
     "tier": "S"
    },
    "destruction-warlock": {
-    "dps": 833.8,
-    "gap": "0.24%",
+    "dps": 824.1,
+    "gap": "0.31%",
     "tier": "S"
    },
    "fire-mage": {
-    "dps": 891.6,
-    "gap": "0.88%",
+    "dps": 878.6,
+    "gap": "0.74%",
     "tier": "S"
    },
    "frost-mage": {
-    "dps": 759.2,
-    "gap": "1.13%",
+    "dps": 708.1,
+    "gap": "1.07%",
     "tier": "A"
    },
    "frostfire-mage": {
@@ -432,33 +432,33 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 846.7,
-    "gap": "0.45%",
+    "dps": 833.6,
+    "gap": "0.47%",
     "tier": "S"
    },
    "arcane-mage": {
-    "dps": 840.7,
-    "gap": "0.50%",
-    "tier": "S"
+    "dps": 819.6,
+    "gap": "1.04%",
+    "tier": "A"
    },
    "demonology-warlock": {
-    "dps": 943.3,
-    "gap": "0.74%",
+    "dps": 933.9,
+    "gap": "0.79%",
     "tier": "S"
    },
    "destruction-warlock": {
-    "dps": 832.6,
-    "gap": "0.39%",
+    "dps": 823.1,
+    "gap": "0.42%",
     "tier": "S"
    },
    "fire-mage": {
-    "dps": 890.7,
-    "gap": "0.98%",
+    "dps": 877.8,
+    "gap": "0.82%",
     "tier": "S"
    },
    "frost-mage": {
-    "dps": 763.7,
-    "gap": "0.54%",
+    "dps": 711.5,
+    "gap": "0.60%",
     "tier": "S"
    },
    "frostfire-mage": {
@@ -524,33 +524,33 @@
   ],
   "boards": {
    "affliction-warlock": {
-    "dps": 849.5,
-    "gap": "0.13%",
+    "dps": 837.5,
+    "gap": "",
     "tier": "S"
    },
    "arcane-mage": {
-    "dps": 837.3,
-    "gap": "0.89%",
-    "tier": "S"
+    "dps": 819.9,
+    "gap": "1.00%",
+    "tier": "A"
    },
    "demonology-warlock": {
-    "dps": 947.7,
-    "gap": "0.28%",
+    "dps": 938.8,
+    "gap": "0.26%",
     "tier": "S"
    },
    "destruction-warlock": {
-    "dps": 835.8,
+    "dps": 826.6,
     "gap": "",
     "tier": "S"
    },
    "fire-mage": {
-    "dps": 893.0,
-    "gap": "0.72%",
+    "dps": 880.5,
+    "gap": "0.52%",
     "tier": "S"
    },
    "frost-mage": {
-    "dps": 762.2,
-    "gap": "0.74%",
+    "dps": 710.8,
+    "gap": "0.68%",
     "tier": "S"
    },
    "frostfire-mage": {
