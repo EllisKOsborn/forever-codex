@@ -10,83 +10,6 @@
   "title": "MythicSim re-runs Affliction race and trinket boards on client 70425",
   "url": "https://mythicsim.com/wow-forever/best-trinkets/affliction-warlock"
  },
- "m-n20261016-fire-arcane-tie": {
-  "classes": [
-   "mage"
-  ],
-  "date": "2026-10-16",
-  "source": "MythicSim",
-  "summary": "The trinket boards on engine 5af1303 put Fire and Arcane within 1 DPS. Frostfire is at 743 and Frost at 651.",
-  "tag": "sim",
-  "title": "Newest engine: Fire and Arcane tie at 777 and 776",
-  "url": "https://mythicsim.com/wow-forever/best-trinkets/fire-mage"
- },
- "m-n20261016-fire-biggest-mage-winner": {
-  "classes": [
-   "mage"
-  ],
-  "date": "2026-10-16",
-  "source": "MythicSim",
-  "summary": "MythicSim re-ran Mages on client 70425. Fire rose from 696 to 750 on the tier list, Frostfire 3.1%, Arcane and Frost barely moved.",
-  "tag": "sim",
-  "title": "Fire Mage gains 7.7% in the re-sim",
-  "url": "https://mythicsim.com/wow-forever/tier-list"
- },
- "m-n20261016-found-cone-of-cold-rank5": {
-  "classes": [
-   "mage"
-  ],
-  "date": "2026-10-16",
-  "source": "TalentsForever",
-  "summary": "The level-58 rank is gone from the beta client's spellbook on build 70425. Blizzard's notes don't mention it.",
-  "tag": "datamine",
-  "title": "Found in the files: Cone of Cold rank 5 is missing",
-  "url": "https://talentsforever.com/mage/changes"
- },
- "m-n20261016-found-frost-blast-talents": {
-  "classes": [
-   "mage"
-  ],
-  "date": "2026-10-16",
-  "source": "Wowhead via Kami Labs",
-  "summary": "Wowhead's datamine shows both talents now name Frost Blast, so it casts faster and reaches further with them.",
-  "tag": "datamine",
-  "title": "Found in the files: Frost Blast uses Improved Frostbolt and Arctic Reach",
-  "url": "https://www.wowhead.com/forever/changes"
- },
- "m-n20261016-found-winters-chill": {
-  "classes": [
-   "mage"
-  ],
-  "date": "2026-10-16",
-  "source": "Kami Labs",
-  "summary": "Blizzard's notes describe 5% plus 7% of spell damage per stack, but the game data gives your next Cone of Cold 40% more damage per stack.",
-  "tag": "datamine",
-  "title": "Found in the files: Winter's Chill is 40% per stack, not 5%",
-  "url": "https://kami-labs.fr/en/wow-forever/patch-notes-15-octobre-races-refaites/"
- },
- "m-n20261016-oct15-mage-rework": {
-  "classes": [
-   "mage"
-  ],
-  "date": "2026-10-16",
-  "source": "Blizzard forums",
-  "summary": "Arcane Blast now turns Intellect into spell damage, Arcane Wrath joins the tree at 16 points and every Mage gets Frost Blast at 24. Fire Power and Critical Mass were reworked.",
-  "tag": "patch",
-  "title": "Oct 15 build: Arcane Blast redesign, Arcane Wrath and Frost Blast",
-  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696/6"
- },
- "m-n20261016-skyborne-human-top-mage-races": {
-  "classes": [
-   "mage"
-  ],
-  "date": "2026-10-16",
-  "source": "MythicSim",
-  "summary": "After the racial rework Skyborne leads Fire, Frost and Frostfire, Human ties for top in Arcane. Undead dropped from first to last in most specs.",
-  "tag": "sim",
-  "title": "Skyborne and Human top the Mage race boards",
-  "url": "https://mythicsim.com/wow-forever/races?class=mage&spec=fire-mage"
- },
  "m-n20261016-wands-stand-still": {
   "classes": [],
   "date": "2026-10-16",
@@ -629,6 +552,75 @@
   "date": "2026-11-02",
   "title": "MythicSim drops Ahn'Qiraj book ranks; Shadow rises to #11 and the A band",
   "summary": "MythicSim's sims no longer use spell ranks taught by Ahn'Qiraj 20 books, since its boards model characters without raid drops. Most DPS specs lose 1% to 5% and Frost Mage 7%, while Shadow Priest is unaffected at 812 and climbs from #13 to #11.",
+  "tag": "sim",
+  "classes": [],
+  "source": "MythicSim changelog",
+  "url": "https://mythicsim.com/changelog"
+ },
+ "n20261103-blizzard-notes-nov2": {
+  "date": "2026-11-03",
+  "title": "Blizzard posts its last beta notes before launch: more damage, more creature health",
+  "summary": "Blizzard's final development notes gather every change since 15 October: classes deal more damage and higher-level creatures have more health to match. It plans no big tuning changes before the raids open, then a large pass once players are past level 30.",
+  "tag": "blizzard",
+  "classes": [],
+  "source": "Blizzard forums (Kaivax)",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+ },
+ "n20261103-blizzard-shadow": {
+  "date": "2026-11-03",
+  "title": "Blizzard confirms the Shadow Word: Death backlash and fixes Cure Disease in Shadowform",
+  "summary": "Shadow Word: Death now costs 30% of your maximum health if the target survives (was 10%), but no longer hurts you on a miss. Cure Disease and Abolish Disease no longer drop you out of Shadowform, and Vampiric Embrace can no longer crit.",
+  "tag": "patch",
+  "classes": [
+   "priest"
+  ],
+  "source": "Blizzard forums (Kaivax)",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+ },
+ "n20261103-blizzard-warlock": {
+  "date": "2026-11-03",
+  "title": "Blizzard notes: Wrack more than doubled, Shadow and Flame doubled, demons lose health",
+  "summary": "Wrack's base damage per second at level 60 rises from 36 to 86 with twice the spell damage coefficient, and Shadow and Flame now gives up to 20%. Demons get far less health from your Stamina, and Spellstones only boost Shadow damage.",
+  "tag": "patch",
+  "classes": [
+   "warlock"
+  ],
+  "source": "Blizzard forums (Kaivax)",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+ },
+ "n20261103-blizzard-mage": {
+  "date": "2026-11-03",
+  "title": "Blizzard notes: Frost Blast removed, Ice Barrier now boosts Frost damage",
+  "summary": "Frost Blast is gone, and Ice Barrier now gives 15% more Frost damage for a minute plus 5% while it holds. Missile Barrage moves to row 2 and Ignite now works on all of Flamestrike.",
+  "tag": "patch",
+  "classes": [
+   "mage"
+  ],
+  "source": "Blizzard forums (Kaivax)",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+ },
+ "n20261103-blizzard-training": {
+  "date": "2026-11-03",
+  "title": "Training 1 to 60 now costs about 207 gold for every class",
+  "summary": "Blizzard evened out training costs so every class pays between 206 and 207 gold for its abilities from 1 to 60. New spells no longer land on your action bars by themselves, and respawns are faster in starting zones for the launch rush.",
+  "tag": "blizzard",
+  "classes": [],
+  "source": "Blizzard forums (Kaivax)",
+  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+ },
+ "n20261103-found-hunter-hotfix": {
+  "date": "2026-11-03",
+  "title": "Found in the files: 3 Nov hotfix raises Hunter damage",
+  "summary": "ForeverChanges reads a 3 Nov hotfix, with no Blizzard notes, that gives back Aspect of the Hawk's attack power, doubles Trueshot Aura and raises Aimed Shot, Arcane Shot, Serpent Sting and Sniper Shot damage. MythicSim's tier list is still on the 30 Oct hotfix, so Hunter ranks may rise when it re-sims.",
+  "tag": "datamine",
+  "classes": [],
+  "source": "ForeverChanges",
+  "url": "https://foreverchanges.pro/patch-notes"
+ },
+ "n20261103-mythicsim-bis": {
+  "date": "2026-11-03",
+  "title": "MythicSim adds pre-raid BiS lists and profession gains",
+  "summary": "MythicSim now has a pre-raid best-in-slot page for every spec and lists what each profession adds. Shadow gains nothing measurable from any profession, while Mages and Warlocks gain 0.9% to 3.2% from Tailoring for their class robe.",
   "tag": "sim",
   "classes": [],
   "source": "MythicSim changelog",

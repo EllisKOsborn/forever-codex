@@ -32,10 +32,10 @@
    {
     "dungeons": "Shadowfang Keep, Blackfathom Deeps, Excavation Site: Wetlands (new), City of Dalaran (new; Frothing Slippers pattern drops from Unstable Sentinel), Razorfen Kraul.",
     "gear": "Swinetusk Shank and Stygian Bone Amulet (Razorfen Kraul), Frothing Slippers and Azure Silk Cloak (Tailoring), Philanthropist's Ring (Library books quest).",
-    "pulls": "Frost Nova then spam Ice Lance: every Lance is a Shatter crit while the Nova holds. Frost Blast replaces rank 1 Frostbolt for cheap slows.",
+    "pulls": "Frost Nova then spam Ice Lance: every Lance is a Shatter crit while the Nova holds.",
     "range": "20–30",
     "spec": "Frost",
-    "spells": "Blink, Blizzard, Evocation, Mana Shield, Fire Ward and city teleports (20), Frost Ward and Scorch (22), Frost Blast and Counterspell (24), Cone of Cold (26), Conjure Mana Agate (28).",
+    "spells": "Blink, Blizzard, Evocation, Mana Shield, Fire Ward and city teleports (20), Frost Ward and Scorch (22), Counterspell (24), Cone of Cold (26), Conjure Mana Agate (28).",
     "talents": "Frostbite 3/3 (20–22), Improved Frost Nova 2/2 (23–24), Ice Lance (25), Shatter 3/3 (26–28), Ice Block (29).",
     "tip": "Class quest at 26 rewards a robe. Start Comprehension scroll drops and the Library book quests now.",
     "title": "Ice Lance and Shatter come online",
@@ -347,7 +347,7 @@
     "items": [
      "Send the Voidwalker in, put Bane of Agony and Corruption on two or three mobs, then channel Drain Life on one.",
      "Fel Concentration stops damage from pushing back Drain Life and Wrack; without it the channel gets interrupted.",
-     "Improved Drains adds up to 20% to Drain Life, Drain Soul and Wrack; Siphon Life and Soul Siphon heal more per Affliction effect.",
+     "Improved Drains adds up to 20% to Drain Life and Drain Soul and raises Drain Mana; since Blizzard's 3 Nov notes it no longer boosts Wrack. Siphon Life and Soul Siphon heal more per Affliction effect.",
      "Stamina gear and Demon Armor make it safer. Life Tap the mana back between pulls instead of drinking.",
      "Thrill of Adventure 5/5 (Legacy) restores 5% health and mana after each kill outside dungeons."
     ],

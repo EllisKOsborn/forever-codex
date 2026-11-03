@@ -1,7 +1,7 @@
 {
  "survival-hunter": {
   "build": "0/20/31",
-  "change": "-4.9% vs last run",
+  "change": "no change",
   "cls": "Hunter",
   "clsId": "hunter",
   "dps": 1169,
@@ -15,7 +15,7 @@
  },
  "demonology-warlock": {
   "build": "2/31/18",
-  "change": "-1.1% vs last run",
+  "change": "no change",
   "cls": "Warlock",
   "clsId": "warlock",
   "dps": 942,
@@ -29,7 +29,7 @@
  },
  "fury-warrior": {
   "build": "18/31/2",
-  "change": "-3.3% vs last run",
+  "change": "no change",
   "cls": "Warrior",
   "clsId": "warrior",
   "dps": 913,
@@ -43,10 +43,10 @@
  },
  "marksmanship-hunter": {
   "build": "5/31/15",
-  "change": "-5.4% vs last run",
+  "change": "+0.7% vs last run",
   "cls": "Hunter",
   "clsId": "hunter",
-  "dps": 884,
+  "dps": 890,
   "engine": "a667dce, 2 Nov",
   "experimental": false,
   "older": false,
@@ -57,7 +57,7 @@
  },
  "shockadin-paladin": {
   "build": "23/0/28",
-  "change": "-1.1% vs last run",
+  "change": "no change",
   "cls": "Paladin",
   "clsId": "paladin",
   "dps": 913,
@@ -71,7 +71,7 @@
  },
  "fire-mage": {
   "build": "16/32/3",
-  "change": "-1.6% vs last run",
+  "change": "no change",
   "cls": "Mage",
   "clsId": "mage",
   "dps": 886,
@@ -85,7 +85,7 @@
  },
  "retribution-paladin": {
   "build": "12/8/31",
-  "change": "+0.3% vs last run",
+  "change": "no change",
   "cls": "Paladin",
   "clsId": "paladin",
   "dps": 944,
@@ -99,7 +99,7 @@
  },
  "affliction-warlock": {
   "build": "30/2/19",
-  "change": "-1.5% vs last run",
+  "change": "no change",
   "cls": "Warlock",
   "clsId": "warlock",
   "dps": 837,
@@ -113,7 +113,7 @@
  },
  "beast-mastery-hunter": {
   "build": "31/20/0",
-  "change": "-4.4% vs last run",
+  "change": "no change",
   "cls": "Hunter",
   "clsId": "hunter",
   "dps": 817,
@@ -127,7 +127,7 @@
  },
  "destruction-warlock": {
   "build": "20/0/31",
-  "change": "-1.2% vs last run",
+  "change": "no change",
   "cls": "Warlock",
   "clsId": "warlock",
   "dps": 827,
@@ -141,7 +141,7 @@
  },
  "arcane-mage": {
   "build": "32/10/9",
-  "change": "-2.0% vs last run",
+  "change": "no change",
   "cls": "Mage",
   "clsId": "mage",
   "dps": 828,
@@ -183,7 +183,7 @@
  },
  "arms-warrior": {
   "build": "39/10/2",
-  "change": "-1.5% vs last run",
+  "change": "no change",
   "cls": "Warrior",
   "clsId": "warrior",
   "dps": 798,
@@ -197,7 +197,7 @@
  },
  "feral-druid": {
   "build": "9/32/10",
-  "change": "-2.4% vs last run",
+  "change": "no change",
   "cls": "Druid",
   "clsId": "druid",
   "dps": 811,
@@ -211,7 +211,7 @@
  },
  "enhancement-shaman": {
   "build": "18/33/0",
-  "change": "-1.9% vs last run",
+  "change": "no change",
   "cls": "Shaman",
   "clsId": "shaman",
   "dps": 769,
@@ -225,7 +225,7 @@
  },
  "combat-rogue": {
   "build": "16/33/2",
-  "change": "-3.3% vs last run",
+  "change": "no change",
   "cls": "Rogue",
   "clsId": "rogue",
   "dps": 684,
@@ -239,7 +239,7 @@
  },
  "balance-druid": {
   "build": "41/0/10",
-  "change": "-1.7% vs last run",
+  "change": "no change",
   "cls": "Druid",
   "clsId": "druid",
   "dps": 736,
@@ -253,7 +253,7 @@
  },
  "subtlety-rogue": {
   "build": "12/8/31",
-  "change": "-0.9% vs last run",
+  "change": "no change",
   "cls": "Rogue",
   "clsId": "rogue",
   "dps": 680,
@@ -267,7 +267,7 @@
  },
  "assassination-rogue": {
   "build": "29/22/0",
-  "change": "-3.1% vs last run",
+  "change": "no change",
   "cls": "Rogue",
   "clsId": "rogue",
   "dps": 661,
@@ -281,7 +281,7 @@
  },
  "frost-mage": {
   "build": "14/5/32",
-  "change": "-7.0% vs last run",
+  "change": "no change",
   "cls": "Mage",
   "clsId": "mage",
   "dps": 715,

@@ -9,6 +9,36 @@
   },
   "changeLog": [
    {
+    "label": "Blizzard notes · 3 Nov",
+    "items": [
+     {
+      "kind": "nerf",
+      "spec": "all",
+      "text": "Blizzard's 3 Nov notes: Frost Blast has been removed."
+     },
+     {
+      "kind": "buff",
+      "spec": "frost-mage",
+      "text": "Blizzard's 3 Nov notes: Ice Barrier now raises your Frost damage by 15% for 1 minute when cast, plus 5% more while the barrier holds."
+     },
+     {
+      "kind": "neutral",
+      "spec": "arcane-mage",
+      "text": "Blizzard's 3 Nov notes: Missile Barrage moves to row 2 and is used at the start of the Arcane Missiles channel; Arcane Missiles can proc Clearcasting again."
+     },
+     {
+      "kind": "buff",
+      "spec": "fire-mage",
+      "text": "Blizzard's 3 Nov notes: Ignite now applies to Flamestrike's damage after its first hit."
+     },
+     {
+      "kind": "buff",
+      "spec": "all",
+      "text": "Blizzard's 3 Nov notes: talents no longer have a lower proc chance from low-rank spells, except Blizzard (a rank more than 12 levels below you still procs Arcane Concentration, Frostbite and Fingers of Frost less)."
+     }
+    ]
+   },
+   {
     "label": "MythicSim update · 2 Nov (sim, not game)",
     "items": [
      {
@@ -298,6 +328,31 @@
   "latestChanges": [
    {
     "kind": "nerf",
+    "spec": "all",
+    "text": "Blizzard's 3 Nov notes: Frost Blast has been removed."
+   },
+   {
+    "kind": "buff",
+    "spec": "frost-mage",
+    "text": "Blizzard's 3 Nov notes: Ice Barrier now raises your Frost damage by 15% for 1 minute when cast, plus 5% more while the barrier holds."
+   },
+   {
+    "kind": "neutral",
+    "spec": "arcane-mage",
+    "text": "Blizzard's 3 Nov notes: Missile Barrage moves to row 2 and is used at the start of the Arcane Missiles channel; Arcane Missiles can proc Clearcasting again."
+   },
+   {
+    "kind": "buff",
+    "spec": "fire-mage",
+    "text": "Blizzard's 3 Nov notes: Ignite now applies to Flamestrike's damage after its first hit."
+   },
+   {
+    "kind": "buff",
+    "spec": "all",
+    "text": "Blizzard's 3 Nov notes: talents no longer have a lower proc chance from low-rank spells, except Blizzard (a rank more than 12 levels below you still procs Arcane Concentration, Frostbite and Fingers of Frost less)."
+   },
+   {
+    "kind": "nerf",
     "spec": "fire-mage",
     "text": "Client 70707 talent tree: Critical Mass 3 ranks for up to 6% Fire crit (was 5 ranks, 10%); Incineration 5 ranks; Arcane Focus removed; Precision (was Elemental Precision) 2/4/6% hit with all spells. MythicSim: Fire 917 to 900, Frostfire 804 to 790, Arcane +1.0%, Frost +2.3%."
    },
@@ -359,12 +414,12 @@
    {
     "kind": "neutral",
     "spec": "arcane-mage",
-    "text": "Missile Barrage moves to row 1 and becomes 2 ranks (40% from Arcane Blast at 2/2, 20% from Arcane Wrath, Fireball, Frostbolt, Frostfire Bolt, 10% per Missiles hit)."
+    "text": "Missile Barrage moves to row 1 and becomes 2 ranks (40% from Arcane Blast at 2/2, 20% from Arcane Wrath, Fireball, Frostbolt, Frostfire Bolt, 10% per Missiles hit). Blizzard's 3 Nov notes move it back to row 2."
    },
    {
-    "kind": "buff",
+    "kind": "neutral",
     "spec": "all",
-    "text": "New Frost Blast at level 24: 1.5 sec cast, 40% slow, uses every Frostbolt talent. Replaces kiting with rank 1 Frostbolt."
+    "text": "Frost Blast, added at level 24 earlier in the beta, has been removed (Blizzard's 3 Nov notes)."
    },
    {
     "kind": "buff",
@@ -387,7 +442,7 @@
     "text": "Moonkin Aura (spell crit) is now raid-wide and stacks with Leader of the Pack."
    }
   ],
-  "latestLabel": "30 Oct hotfix (no Blizzard notes) and client 70707's Mage talent tree, on top of the 26 Oct racial update",
+  "latestLabel": "Blizzard's development notes of 3 Nov (titled \"Updated November 2\"), which confirm the 30 Oct hotfix and client 70707's Mage talent tree, on top of the 26 Oct racial update",
   "legacy": {
    "recommended": {
     "gourmand": 1,
@@ -569,6 +624,31 @@
   },
   "changeLog": [
    {
+    "label": "Blizzard notes · 3 Nov",
+    "items": [
+     {
+      "kind": "buff",
+      "spec": "shadow-priest",
+      "text": "Blizzard's 3 Nov notes: Shadow Word: Death no longer damages you when it misses."
+     },
+     {
+      "kind": "buff",
+      "spec": "shadow-priest",
+      "text": "Blizzard's 3 Nov notes: Cure Disease and Abolish Disease no longer take you out of Shadowform."
+     },
+     {
+      "kind": "nerf",
+      "spec": "shadow-priest",
+      "text": "Blizzard's 3 Nov notes: Vampiric Embrace's healing can no longer be a critical heal."
+     },
+     {
+      "kind": "neutral",
+      "spec": "all",
+      "text": "Blizzard's 3 Nov notes: classes deal more damage across the game and higher-level creatures have more health to match. Blizzard plans no big tuning changes before the raids open, then a large pass once players are past level 30."
+     }
+    ]
+   },
+   {
     "label": "MythicSim update · 2 Nov (sim, not game)",
     "items": [
      {
@@ -731,9 +811,29 @@
   "id": "priest",
   "latestChanges": [
    {
+    "kind": "buff",
+    "spec": "shadow-priest",
+    "text": "Blizzard's 3 Nov notes: Shadow Word: Death no longer damages you when it misses."
+   },
+   {
+    "kind": "buff",
+    "spec": "shadow-priest",
+    "text": "Blizzard's 3 Nov notes: Cure Disease and Abolish Disease no longer take you out of Shadowform."
+   },
+   {
     "kind": "nerf",
     "spec": "shadow-priest",
-    "text": "30 Oct hotfix: Shadow Word: Death's backlash is 30% of your maximum health if the target survives (was 10%). MythicSim's Shadow number is unchanged at 812."
+    "text": "Blizzard's 3 Nov notes: Vampiric Embrace's healing can no longer be a critical heal."
+   },
+   {
+    "kind": "neutral",
+    "spec": "all",
+    "text": "Blizzard's 3 Nov notes: classes deal more damage across the game and higher-level creatures have more health to match. Blizzard plans no big tuning changes before the raids open, then a large pass once players are past level 30."
+   },
+   {
+    "kind": "nerf",
+    "spec": "shadow-priest",
+    "text": "30 Oct hotfix, confirmed in Blizzard's 3 Nov notes: Shadow Word: Death's backlash is 30% of your maximum health if the target survives (was 10%). MythicSim's Shadow number is unchanged at 812."
    },
    {
     "kind": "neutral",
@@ -806,7 +906,7 @@
     "text": "Wands now need you to stand still for 0.5 sec before firing. Matters most while levelling."
    }
   ],
-  "latestLabel": "30 Oct hotfix (no Blizzard notes; reported by ForeverChanges and TalentsForever) on top of the 26 Oct racial update",
+  "latestLabel": "Blizzard's development notes of 3 Nov (titled \"Updated November 2\"), which confirm the 30 Oct hotfix, on top of the 26 Oct racial update",
   "legacy": {
    "recommended": {
     "gourmand": 1,
@@ -956,6 +1056,31 @@
    "tip": "#8787ed"
   },
   "changeLog": [
+   {
+    "label": "Blizzard notes · 3 Nov",
+    "items": [
+     {
+      "kind": "buff",
+      "spec": "affliction-warlock",
+      "text": "Blizzard's 3 Nov notes: Wrack's spell damage coefficient is doubled and its base damage grows by 2.5 per level; at level 60 its base damage per second goes from 36 to 86."
+     },
+     {
+      "kind": "neutral",
+      "spec": "affliction-warlock",
+      "text": "Blizzard's 3 Nov notes: Improved Drains now raises Drain Mana but no longer boosts Wrack. Amplify Curse now works on Curse of Exhaustion and Bane of Agony."
+     },
+     {
+      "kind": "buff",
+      "spec": "destruction-warlock",
+      "text": "Blizzard's 3 Nov notes: Shadow and Flame now gives 4/8/12/16/20% Fire or Shadow damage (was 2/4/6/8/10%)."
+     },
+     {
+      "kind": "nerf",
+      "spec": "all",
+      "text": "Blizzard's 3 Nov notes: demons get 2 health per point of your Stamina (was 7.5); Spellstones raise only Shadow damage (they raised Fire too); Drain Soul grants a Soul Shard from damage (not kills) much less often."
+     }
+    ]
+   },
    {
     "label": "MythicSim update · 2 Nov (sim, not game)",
     "items": [
@@ -1255,6 +1380,26 @@
   "latestChanges": [
    {
     "kind": "buff",
+    "spec": "affliction-warlock",
+    "text": "Blizzard's 3 Nov notes: Wrack's spell damage coefficient is doubled and its base damage grows by 2.5 per level; at level 60 its base damage per second goes from 36 to 86."
+   },
+   {
+    "kind": "neutral",
+    "spec": "affliction-warlock",
+    "text": "Blizzard's 3 Nov notes: Improved Drains now raises Drain Mana but no longer boosts Wrack. Amplify Curse now works on Curse of Exhaustion and Bane of Agony."
+   },
+   {
+    "kind": "buff",
+    "spec": "destruction-warlock",
+    "text": "Blizzard's 3 Nov notes: Shadow and Flame now gives 4/8/12/16/20% Fire or Shadow damage (was 2/4/6/8/10%)."
+   },
+   {
+    "kind": "nerf",
+    "spec": "all",
+    "text": "Blizzard's 3 Nov notes: demons get 2 health per point of your Stamina (was 7.5); Spellstones raise only Shadow damage (they raised Fire too); Drain Soul grants a Soul Shard from damage (not kills) much less often."
+   },
+   {
+    "kind": "buff",
     "spec": "all",
     "text": "27 Oct (added to Blizzard's racial notes): Orc Blood Fury every 2 min (was 3), Troll Berserking 15 sec (was 10), Undead Touch of the Grave every 15 sec (was 25). In MythicSim, Undead now ties Human for top Destruction race and Demonology's reference moves to Orc."
    },
@@ -1329,7 +1474,7 @@
     "text": "Found in the files: beta build 70450 (16 Oct) brings spell and item data changes but no listed Warlock ability changes. A report of an Amplify Curse fix couldn't be confirmed."
    }
   ],
-  "latestLabel": "Racial update 26 Oct, with 27 Oct additions (Blizzard notes) on top of build 70425 (15 Oct)",
+  "latestLabel": "Blizzard's development notes of 3 Nov (titled \"Updated November 2\"), on top of the 26 Oct racial update",
   "legacy": {
    "alternate": {
     "gourmand": 3,

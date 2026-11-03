@@ -1,73 +1,4 @@
 {
- "2026-10-20": {
-  "date": "2026-10-20",
-  "at": "2026-10-20T21:57:00+01:00",
-  "headline": "Fire Mage now leads Arcane (843 v 784) on MythicSim's new 20 Oct engine, but Demonology Warlock (869) is still the top spec of your three classes.",
-  "items": [
-   {
-    "kind": "buff",
-    "classes": [
-     "mage"
-    ],
-    "text": "Fire goes from 851 to 843 DPS but moves from #7 to #6; Arcane drops from 861 to 784 and from #6 to #10. Fire is now the Mage sim pick, about 7% ahead (verdict changed from Arcane to Fire). MythicSim's own breakdown puts the Arcane fall down to the 19 Oct tooltip saying Missile Barrage now procs from Frost Blast (-8.6%).",
-    "source": "MythicSim tier list and Mage page (engine b5c0b8b, 20 Oct)",
-    "url": "https://mythicsim.com/wow-forever/tier-list",
-    "confidence": "checked"
-   },
-   {
-    "kind": "neutral",
-    "classes": [
-     "mage"
-    ],
-    "text": "Frostfire 765 to 761 (#13 to #14), Frost 690 to 670 (#18 to #20); both stay in B.",
-    "source": "MythicSim tier list (engine b5c0b8b, 20 Oct)",
-    "url": "https://mythicsim.com/wow-forever/tier-list",
-    "confidence": "checked"
-   },
-   {
-    "kind": "neutral",
-    "classes": [
-     "warlock"
-    ],
-    "text": "Demonology 873 to 869 (stays #5, A), Affliction 776 to 778 (#12 to #11, now A band), Destruction 721 to 717 (#16, B). Demonology stays the raid pick.",
-    "source": "MythicSim tier list and Warlock page (engine b5c0b8b, 20 Oct)",
-    "url": "https://mythicsim.com/wow-forever/tier-list",
-    "confidence": "checked"
-   },
-   {
-    "kind": "neutral",
-    "classes": [
-     "priest"
-    ],
-    "text": "Shadow 774 to 771, #14 to #13, still B. Smite is 602 (#23, C).",
-    "source": "MythicSim tier list and Priest page (engine b5c0b8b, 20 Oct)",
-    "url": "https://mythicsim.com/wow-forever/tier-list",
-    "confidence": "checked"
-   },
-   {
-    "kind": "neutral",
-    "classes": [],
-    "text": "All 24 tier rows are now on one engine (b5c0b8b), so none are marked older. Big movers elsewhere: Survival Hunter 1,088 (still #1), Shockadin down 9.0% to 905, Retribution down 6.0% to 847.",
-    "source": "MythicSim tier list",
-    "url": "https://mythicsim.com/wow-forever/tier-list",
-    "confidence": "checked"
-   }
-  ],
-  "unchecked": [
-   "Only MythicSim's tier list and the Mage, Warlock and Priest class pages were re-read today. Blizzard notes, Bluetracker, raid guides, opinion sites, TalentsForever, trinket and race boards were not re-checked, so those values are unchanged from the earlier 20 Oct run.",
-   "Rank order is MythicSim's printed order; its Fire (843) sits above Retribution (847) and Affliction (778) above Feral (794)."
-  ],
-  "checks": {
-   "verified": 28,
-   "method": "Tier list fetched twice with different prompts; the Mage, Warlock and Priest class pages fetched once each and matched the tier list on every figure. No separate agent pass (single-site data), done by me.",
-   "corrected": [
-    "Warlock verdict said the other two Warlock specs were in B; Affliction is now in A."
-   ],
-   "flagged": [
-    "MythicSim's Mage page prints Fire as #8 of 24 while its tier list prints #6; the tier list rank is used."
-   ]
-  }
- },
  "2026-10-21": {
   "date": "2026-10-21",
   "at": "2026-10-21T08:03:00+01:00",
@@ -1120,6 +1051,97 @@
     "Priest MythicSim opinion grade B to A; tier note example now Shadow above Beast Mastery."
    ],
    "flagged": []
+  }
+ },
+ "2026-11-03": {
+  "date": "2026-11-03",
+  "at": "2026-11-03T08:00:00+00:00",
+  "headline": "No sim changes for your classes: Shadow stays 812 DPS, #11 of 22, A band. Blizzard's final pre-launch notes officially confirm the Shadow Word: Death backlash (30%), no backlash on a miss, and Cure Disease no longer breaking Shadowform.",
+  "items": [
+   {
+    "kind": "neutral",
+    "classes": [
+     "priest",
+     "warlock",
+     "mage"
+    ],
+    "text": "MythicSim tier list unchanged for every tracked spec (2 Nov snapshot, engine a667dce): Shadow 812 (#11, A), Demonology 942 (#2, S), Fire 886 (#6, A), Affliction 837, Destruction 827, Arcane 828, Frostfire 790, Frost 715. Shadow race and trinket boards unchanged too.",
+    "source": "MythicSim tier list",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "buff",
+    "classes": [
+     "priest"
+    ],
+    "text": "Blizzard's 3 Nov development notes confirm Shadow Word: Death's backlash is 30% of max health if the target survives (was 10%), and add that it no longer hurts you on a miss. Cure Disease and Abolish Disease no longer drop Shadowform (held back until now as single-source). Vampiric Embrace can no longer crit.",
+    "source": "Blizzard forums",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "Blizzard: classes deal more damage and higher-level creatures have more health; no big tuning before raids open on 9 Dec, then a large pass once players are past 30. Training 1 to 60 now costs 206 to 207 gold for every class; new spells no longer auto-fill your bars; bags must be equipped by hand.",
+    "source": "Blizzard forums",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+    "confidence": "checked"
+   },
+   {
+    "kind": "buff",
+    "classes": [
+     "warlock"
+    ],
+    "text": "Warlock: Wrack's level-60 base damage per second 36 to 86 with a doubled coefficient; Shadow and Flame up to 20% (was 10%); demons 2 health per Stamina (was 7.5); Spellstones now Shadow only; Improved Drains no longer boosts Wrack.",
+    "source": "Blizzard forums",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+    "confidence": "checked"
+   },
+   {
+    "kind": "nerf",
+    "classes": [
+     "mage"
+    ],
+    "text": "Mage: Frost Blast removed (levelling guide updated); Ice Barrier now +15% Frost damage for 1 min plus 5% while it holds; Missile Barrage back to row 2.",
+    "source": "Blizzard forums",
+    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "Marksmanship Hunter 884 to 890 (+0.7%, still #7) after MythicSim's preset started using the Major Frenzy Potion. Separately, ForeverChanges reads an unannounced 3 Nov hotfix with big Hunter buffs that MythicSim hasn't simmed yet, so Hunters could climb.",
+    "source": "MythicSim changelog; ForeverChanges",
+    "url": "https://mythicsim.com/changelog",
+    "confidence": "single"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "MythicSim adds pre-raid BiS lists for every spec and profession gains: no profession adds 0.1% for Shadow; Mages and Warlocks gain 0.9% to 3.2% from Tailoring.",
+    "source": "MythicSim changelog",
+    "url": "https://mythicsim.com/changelog",
+    "confidence": "checked"
+   }
+  ],
+  "unchecked": [
+   "ForeverChanges reports a client build 1.60.1.70753 (2 Nov) and a 3 Nov Hunter hotfix; neither has Blizzard notes, so the site build stays 1.60.1.70707 (MythicSim's client).",
+   "Whether MythicSim's 2 Nov sims already include every item in Blizzard's 3 Nov notes (for example Wrack and Ice Barrier) isn't stated; sim numbers are unchanged.",
+   "LFCarry, TalentsForever and Daybreak Forever not re-checked today; no launch census figures yet."
+  ],
+  "checks": {
+   "verified": 9,
+   "method": "MythicSim tier list read from the raw page and again via WebFetch (both agree), plus the changelog, Priest, Warlock and Mage class pages and the Shadow race and trinket boards from raw pages; Blizzard's 3 Nov notes read from the forum JSON and matched against ForeverChanges. A separate fresh agent reopened every ledger URL and confirmed all 9 rows.",
+   "corrected": [
+    "Mage levelling 20 to 29 band no longer suggests Frost Blast (removed in Blizzard's 3 Nov notes); Frost dungeon tip now builds Winter's Chill with Frostbolt and Fingers of Frost Ice Lances.",
+    "Warlock levelling card: Improved Drains no longer boosts Wrack.",
+    "Priest, Warlock and Mage 'latest' labels no longer say the 30 Oct hotfix has no Blizzard notes.",
+    "Mage Missile Barrage and Frost Blast change items updated for Blizzard's 3 Nov notes."
+   ],
+   "flagged": [
+    "3 Nov Hunter hotfix and build 70753 are single-source (ForeverChanges) with no Blizzard notes; kept to news and the digest."
+   ]
   }
  }
 }

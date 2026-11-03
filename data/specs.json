@@ -574,7 +574,7 @@
   ],
   "dungeonTips": [
    "Frost Nova then Ice Lance spam: every Lance is a Shatter crit while the Nova holds.",
-   "Winter's Chill stacks now feed one big Cone of Cold, so build stacks with Frostbolt and Frost Blast, then Cone.",
+   "Winter's Chill stacks now feed one big Cone of Cold, so build stacks with Frostbolt and Fingers of Frost Ice Lances, then Cone.",
    "Cone of Cold slows 40% for 6 sec, the first 4 targets get an extra 10% for 3 more seconds. Big kites are harder than Classic.",
    "Ice Block and Ice Barrier keep you alive when a pull goes wrong; Cold Snap resets both."
   ],
@@ -608,7 +608,8 @@
    "Ice Lance is a one-point talent at 20; Fingers of Frost (2 ranks) needs it.",
    "Winter's Chill: each stack makes your next Cone of Cold 20% stronger, up to 5 (30 Oct hotfix).",
    "Cold Snap moved down two rows and Ice Barrier now hangs off it.",
-   "Improved Blizzard slows less than Classic (15/25/40%)."
+   "Improved Blizzard slows less than Classic (15/25/40%).",
+   "Ice Barrier now raises your Frost damage by 15% for 1 minute when cast, plus 5% while the barrier holds (Blizzard's 3 Nov notes), a reason to go deep Frost."
   ],
   "threatMana": [
    "Frost Channeling cuts Frost threat 10% and cost 5% per rank (30% and 15% at 3/3). Its threat part was bugged until Oct 15.",
