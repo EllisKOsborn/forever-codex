@@ -10,15 +10,6 @@
   "title": "MythicSim re-runs Affliction race and trinket boards on client 70425",
   "url": "https://mythicsim.com/wow-forever/best-trinkets/affliction-warlock"
  },
- "m-n20261016-wands-stand-still": {
-  "classes": [],
-  "date": "2026-10-16",
-  "source": "Blizzard forums",
-  "summary": "Matches early WoW. Affects every Mage while levelling.",
-  "tag": "patch",
-  "title": "Wands need you to stand still for 0.5 sec",
-  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696/6"
- },
  "m-n20261017-manor-mistmantle": {
   "classes": [],
   "date": "2026-10-17",
@@ -27,15 +18,6 @@
   "tag": "datamine",
   "title": "Found in the files: Manor Mistmantle",
   "url": "https://bindonforever.com/whats-new"
- },
- "n20261016-datamined-art": {
-  "classes": [],
-  "date": "2026-10-16",
-  "source": "Blizzard forums (Kaivax)",
-  "summary": "Kaivax said art assets datamined from the latest beta build are not intended for WoW Forever. The post doesn't name the assets.",
-  "tag": "blizzard",
-  "title": "Blizzard: datamined art is not for Forever",
-  "url": "https://us.forums.blizzard.com/en/wow/t/datamined-in-the-latest-beta-build/2385060"
  },
  "n20261018-mythicsim-17oct-resim": {
   "classes": [
@@ -114,26 +96,6 @@
   "summary": "Demonology climbs from #7 to #5 at 873 DPS, Affliction from #13 to #12 and Fire from #8 to #7, while Shadow stays #14 but now at 774. The Hunter rows moved to a 19 Oct run and dropped 6 to 7%, so only Survival is left in S.",
   "tag": "sim",
   "title": "MythicSim tier list moves every Warlock, Mage and Priest row to its 18 Oct engine",
-  "url": "https://mythicsim.com/wow-forever/tier-list"
- },
- "p-n00-2026-10-16": {
-  "classes": [
-   "priest"
-  ],
-  "date": "2026-10-16",
-  "source": "Blizzard forums",
-  "summary": "Devouring Plague and Vampiric Embrace cooldowns cut, Contagion hits 2 targets, Shadow Affinity removed. Human, Dwarf and Orc weapon skills replaced by crit bonuses.",
-  "tag": "patch",
-  "title": "Oct 15 beta build: Shadow buffed, racials reworked",
-  "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696/6"
- },
- "p-n01-2026-10-16": {
-  "classes": [],
-  "date": "2026-10-16",
-  "source": "MythicSim",
-  "summary": "Hunters and Fire Mage gain most from raid-wide buffs. Shadow Priest still shows its Oct 15 result on the tier list.",
-  "tag": "sim",
-  "title": "MythicSim re-sims 10 of 30 specs for build 70425",
   "url": "https://mythicsim.com/wow-forever/tier-list"
  },
  "p-n02-2026-10-16": {
@@ -625,5 +587,45 @@
   "classes": [],
   "source": "MythicSim changelog",
   "url": "https://mythicsim.com/changelog"
+ },
+ "n20261104-mythicsim-2-nov-notes-simmed": {
+  "date": "2026-11-04",
+  "title": "MythicSim sims Blizzard's 2 Nov notes: Shadow falls to #20",
+  "summary": "MythicSim's 4 Nov tier list includes the 2 Nov development notes. Rogues and Shamans jump 30% to 40% and Arcane passes Fire on a new arc fire build, while Shadow stays at 812 DPS and drops from #11 to #20 of 22.",
+  "tag": "sim",
+  "classes": [],
+  "source": "MythicSim tier list",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "n20261104-build-70755-technical": {
+  "date": "2026-11-03",
+  "title": "Client build 70755 is a technical build",
+  "summary": "Build 1.60.1.70755 arrived on 3 Nov. ForeverChanges and Bind on Forever both say it has no spell, talent or item changes compared with build 70753.",
+  "tag": "patch",
+  "classes": [],
+  "source": "ForeverChanges; Bind on Forever",
+  "url": "https://bindonforever.com/changes/1.60.1.70755"
+ },
+ "n20261104-launch-notes-checked": {
+  "date": "2026-11-03",
+  "title": "Fan check: Priest, Mage and Warlock changes from the 2 Nov notes are in",
+  "summary": "Bind on Forever compared build 70755 and live server data with Blizzard's 2 Nov notes and found the Priest, Mage, Warlock and racial changes in. Some Feral Druid, Starfire and tank threat changes were still missing, though threat may be set server-side.",
+  "tag": "patch",
+  "classes": [
+   "priest",
+   "mage",
+   "warlock"
+  ],
+  "source": "Bind on Forever",
+  "url": "https://bindonforever.com/articles/wow-forever-launch-patch-notes-checked"
+ },
+ "n20261104-gamepad": {
+  "date": "2026-11-03",
+  "title": "Blizzard: gamepad support in WoW Forever",
+  "summary": "Blizzard published a guide to playing WoW Forever with a gamepad. Support is in a beta state, with more improvements promised.",
+  "tag": "blizzard",
+  "classes": [],
+  "source": "Blizzard News",
+  "url": "https://news.blizzard.com/en-us/article/24316974/explore-wow-forever-with-a-gamepad"
  }
 }
