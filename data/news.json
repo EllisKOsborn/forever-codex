@@ -98,50 +98,6 @@
   "title": "MythicSim tier list moves every Warlock, Mage and Priest row to its 18 Oct engine",
   "url": "https://mythicsim.com/wow-forever/tier-list"
  },
- "p-n02-2026-10-16": {
-  "classes": [
-   "priest"
-  ],
-  "date": "2026-10-16",
-  "source": "MythicSim",
-  "summary": "New race sims include the reworked racials. Human leads at 747 DPS; the spread across all six races is 1.7%.",
-  "tag": "sim",
-  "title": "Human is now the top Shadow Priest race",
-  "url": "https://mythicsim.com/wow-forever/races?class=priest&spec=shadow-priest"
- },
- "p-n03-2026-10-16": {
-  "classes": [
-   "priest"
-  ],
-  "date": "2026-10-16",
-  "source": "TalentsForever",
-  "summary": "Shadow tree now shows Dark Inspiration; Shadow Affinity, Improved Fade and Improved Vampiric Embrace are gone.",
-  "tag": "talents",
-  "title": "TalentsForever updated to build 70425",
-  "url": "https://talentsforever.com/priest"
- },
- "p-n20261016-found-in-the-files-improved-mind-flay-lost-its-range-and-slo": {
-  "classes": [
-   "priest"
-  ],
-  "date": "2026-10-16",
-  "source": "Wowhead via Kami Labs",
-  "summary": "Wowhead's datamine shows the reworked talent no longer adds 5 yards of range or a 35% slow. Blizzard's notes didn't mention this.",
-  "tag": "datamine",
-  "title": "Found in the files: Improved Mind Flay lost its range and slow",
-  "url": "https://www.wowhead.com/forever/changes"
- },
- "p-n20261016-found-in-the-files-mental-strength-cut-to-2-intellect-per-ra": {
-  "classes": [
-   "priest"
-  ],
-  "date": "2026-10-16",
-  "source": "Wowhead via Kami Labs",
-  "summary": "The Discipline talent moved to row 2 and dropped from 3% to 2% Intellect per rank.",
-  "tag": "datamine",
-  "title": "Found in the files: Mental Strength cut to 2% Intellect per rank",
-  "url": "https://www.wowhead.com/forever/changes"
- },
  "p-n20261016-found-in-the-files-moonkin-aura-and-leader-of-the-pack-now-s": {
   "classes": [],
   "date": "2026-10-16",
@@ -627,5 +583,44 @@
   "classes": [],
   "source": "Blizzard News",
   "url": "https://news.blizzard.com/en-us/article/24316974/explore-wow-forever-with-a-gamepad"
+ },
+ "n20261104-forever-live": {
+  "date": "2026-11-04",
+  "title": "WoW Forever is live; raids open 9 December",
+  "summary": "Blizzard's launch post went up on 4 Nov: there are no realms, you pick a ruleset, and Barrow Deeps, Hyjal Summit and Onyxia's Lair open to level 60s on 9 December. Blizzard's Info and Known Issues thread opened the same night with no issues listed yet.",
+  "tag": "blizzard",
+  "classes": [],
+  "source": "Blizzard News",
+  "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315820"
+ },
+ "n20261105-iaf-hotfix": {
+  "date": "2026-11-05",
+  "title": "Blizzard hotfix lifts Invite-a-Friend restrictions",
+  "summary": "Players who joined with an Invite-a-Friend code were wrongly blocked from levelling past 10, grouping, guilds, trading and some chat channels. Blizzard fixed it overnight; log out and back in if you were affected.",
+  "tag": "blizzard",
+  "classes": [],
+  "source": "Blizzard forums (Kaivax)",
+  "url": "https://us.forums.blizzard.com/en/wow/t/2401646"
+ },
+ "n20261105-launch-client-70790": {
+  "date": "2026-11-04",
+  "title": "Launch client 70790: Druid changes, nothing new for Priests",
+  "summary": "The launch client, build 70790, adds the Feral and Balance changes the servers had not yet sent and confirms the Wrack buff in the files. It has no Priest changes and only tooltip rewording for Mages.",
+  "tag": "patch",
+  "classes": [
+   "warlock",
+   "mage"
+  ],
+  "source": "Bind on Forever; ForeverChanges",
+  "url": "https://bindonforever.com/changes/1.60.1.70790"
+ },
+ "n20261105-mythicsim-variants": {
+  "date": "2026-11-05",
+  "title": "MythicSim tier list grows to 28 rows; Affliction up to 890",
+  "summary": "MythicSim now lists variant builds such as turret Hunters, melee Survival, Elehance, fire Destruction and Smite as separate rows, which moves Shadow from #20 to #23 with its 812 DPS unchanged. Affliction rises from 837 to 890 on a new 35/11/5 reference.",
+  "tag": "sim",
+  "classes": [],
+  "source": "MythicSim tier list",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
  }
 }
