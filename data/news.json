@@ -98,26 +98,6 @@
   "title": "MythicSim tier list moves every Warlock, Mage and Priest row to its 18 Oct engine",
   "url": "https://mythicsim.com/wow-forever/tier-list"
  },
- "p-n20261016-found-in-the-files-moonkin-aura-and-leader-of-the-pack-now-s": {
-  "classes": [],
-  "date": "2026-10-16",
-  "source": "Wowhead via Kami Labs",
-  "summary": "Raids with both Druid auras get both bonuses. Moonkin Aura gives spell crit to every caster, you included.",
-  "tag": "datamine",
-  "title": "Found in the files: Moonkin Aura and Leader of the Pack now stack",
-  "url": "https://www.wowhead.com/forever/changes"
- },
- "p-n20261016-found-in-the-files-shadow-word-death-was-15-sec-not-12": {
-  "classes": [
-   "priest"
-  ],
-  "date": "2026-10-16",
-  "source": "Wowhead via Kami Labs",
-  "summary": "Blizzard's notes say the cooldown rose from 12 to 18 sec, but game data shows it was 15 before the patch.",
-  "tag": "datamine",
-  "title": "Found in the files: Shadow Word: Death was 15 sec, not 12",
-  "url": "https://www.wowhead.com/forever/changes"
- },
  "p-n20261016-server-slam-moved-to-21-october": {
   "classes": [],
   "date": "2026-10-16",
@@ -622,5 +602,27 @@
   "classes": [],
   "source": "MythicSim tier list",
   "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "n20261106-mythicsim-6-nov-run": {
+  "date": "2026-11-06",
+  "title": "MythicSim re-sims every spec on 6 Nov; Shadow stays at 812",
+  "summary": "MythicSim re-ran all 28 specs on engine a667dce on 6 Nov. Shadow is unchanged at 812 (#23, B); Demonology edges up to 938 and Affliction drops into the B band at #15.",
+  "tag": "sim",
+  "classes": [
+   "priest",
+   "warlock",
+   "mage"
+  ],
+  "source": "MythicSim tier list",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "n20261106-hotfixes-5-nov": {
+  "date": "2026-11-06",
+  "title": "Blizzard's first live hotfix list and known issues",
+  "summary": "Blizzard's 5 Nov hotfixes fix NPC respawns, quest text for The Sisterhood of Elune and Plainsrunning stacking in battlegrounds, with no class changes. Its known issues list says the Ashenvale quest Vorsha the Lasher is disabled for now and PvP vendors are unavailable.",
+  "tag": "blizzard",
+  "classes": [],
+  "source": "Blizzard News; Blizzard forums",
+  "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315281/wow-forever-hotfixes-november-5-2026"
  }
 }
