@@ -331,5 +331,23 @@
    "mage": "MythicSim Mage page, engine a667dce (6 Nov run; unchanged)",
    "priest": "MythicSim Priest page, engine a667dce (6 Nov run; unchanged, Night Elf preset)"
   }
+ },
+ "2026-11-07": {
+  "date": "2026-11-07",
+  "values": {
+   "affliction-warlock": 906,
+   "arcane-mage": 926,
+   "demonology-warlock": 943,
+   "destruction-warlock": 897,
+   "fire-mage": 915,
+   "frost-mage": 715,
+   "frostfire-mage": 807,
+   "shadow-priest": 823
+  },
+  "labels": {
+   "warlock": "MythicSim Warlock page, engine a667dce (6 Nov run, revised 7 Nov)",
+   "mage": "MythicSim Mage page, engine a667dce (6 Nov run, revised 7 Nov)",
+   "priest": "MythicSim Priest page, engine a667dce (6 Nov run, revised 7 Nov)"
+  }
  }
 }

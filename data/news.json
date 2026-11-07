@@ -1,15 +1,4 @@
 {
- "l-n20261017-affliction-boards": {
-  "classes": [
-   "warlock"
-  ],
-  "date": "2026-10-17",
-  "source": "MythicSim",
-  "summary": "Human still leads Affliction at 755.7 DPS with Orc 0.81% behind. Cleansed Vilebranch Icon and Jewel of the Guard Captain are now the joint best trinkets at +3.28%.",
-  "tag": "sim",
-  "title": "MythicSim re-runs Affliction race and trinket boards on client 70425",
-  "url": "https://mythicsim.com/wow-forever/best-trinkets/affliction-warlock"
- },
  "m-n20261017-manor-mistmantle": {
   "classes": [],
   "date": "2026-10-17",
@@ -97,15 +86,6 @@
   "tag": "sim",
   "title": "MythicSim tier list moves every Warlock, Mage and Priest row to its 18 Oct engine",
   "url": "https://mythicsim.com/wow-forever/tier-list"
- },
- "p-n20261016-server-slam-moved-to-21-october": {
-  "classes": [],
-  "date": "2026-10-16",
-  "source": "Blizzard",
-  "summary": "Blizzard has pushed the free stress test back two days to 21 October. Europe opens at 19:00 CEST (6pm UK) and Blizzard says it may end early or run late.",
-  "tag": "blizzard",
-  "title": "Server Slam moved to 21 October",
-  "url": "https://worldofwarcraft.blizzard.com/news/24302072/join-the-world-of-warcraft-forever-stress-test"
  },
  "x-n20261017-tier-bonuses": {
   "classes": [
@@ -624,5 +604,30 @@
   "classes": [],
   "source": "Blizzard News; Blizzard forums",
   "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315281/wow-forever-hotfixes-november-5-2026"
+ },
+ "n20261107-hotfixes-6-nov": {
+  "date": "2026-11-07",
+  "title": "Blizzard's 6 Nov hotfixes touch Warlocks and Mages",
+  "summary": "Voidwalkers get about 40 more base health, Soul Siphon no longer wrongly makes Wrack boost its own damage, and Arcane Blast now properly lasts 18 seconds. Zaetar's Spirit in Maraudon spawns again and the Vorsha the Lasher quest no longer lashes everyone in the zone; nothing for Priests.",
+  "tag": "patch",
+  "classes": [
+   "warlock",
+   "mage"
+  ],
+  "source": "Blizzard News",
+  "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315281/wow-forever-hotfixes-november-6-2026"
+ },
+ "n20261107-mythicsim-revised-run": {
+  "date": "2026-11-07",
+  "title": "MythicSim revises its 6 Nov run",
+  "summary": "MythicSim updated its figures without a new engine: Shadow rises from 812 to 823 on new reference rings but drops to #24 of 28 as weave and turret Beast Mastery Hunters climb. Affliction moves up to the A band and Fire Mage down to B.",
+  "tag": "sim",
+  "classes": [
+   "priest",
+   "warlock",
+   "mage"
+  ],
+  "source": "MythicSim",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
  }
 }

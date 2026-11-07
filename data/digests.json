@@ -1,62 +1,4 @@
 {
- "2026-10-24": {
-  "date": "2026-10-24",
-  "at": "2026-10-24T08:30:00+01:00",
-  "headline": "No sim changes overnight: Demonology is still the top spec of your three at 936 DPS (#2 of 24), Fire 915 (#4), Shadow 804 (#11). The beta is now closed.",
-  "items": [
-   {
-    "kind": "neutral",
-    "classes": [
-     "warlock",
-     "mage",
-     "priest"
-    ],
-    "text": "MythicSim tier list, class pages and trinket boards all match yesterday (engine a667dce, snapshot 23 Oct). Every DPS figure and rank for Warlock, Mage and Priest is unchanged.",
-    "source": "MythicSim tier list and class pages",
-    "url": "https://mythicsim.com/wow-forever/tier-list",
-    "confidence": "checked"
-   },
-   {
-    "kind": "neutral",
-    "classes": [],
-    "text": "Blizzard confirms the beta has closed. A few days of priority fixes follow, then character creation (ruleset and names) opens on Tuesday 27 October, ahead of launch on 4 November.",
-    "source": "Blizzard (Kaivax)",
-    "url": "https://us.forums.blizzard.com/en/wow/t/thank-you-for-testing-the-wow-forever-beta/2390466",
-    "confidence": "checked"
-   },
-   {
-    "kind": "neutral",
-    "classes": [
-     "warlock",
-     "priest"
-    ],
-    "text": "LFCarry re-checked its tier list on 23 Oct with no grade changes: Demonology A, Affliction and Destruction B, Shadow Priest B.",
-    "source": "LFCarry",
-    "url": "https://lfcarry.com/guides/wow-forever-tier-list",
-    "confidence": "checked"
-   },
-   {
-    "kind": "neutral",
-    "classes": [],
-    "text": "ForeverChanges lists a final beta build, 1.60.1.70532 (22 Oct), with the same game data as the 16 Oct build; its only later hotfix moves Paladin Righteous Fury to level 10. Not changed on the site until a second source confirms the build.",
-    "source": "ForeverChanges",
-    "url": "https://foreverchanges.pro/patch-notes",
-    "confidence": "single"
-   }
-  ],
-  "unchecked": [
-   "Wowhead and Icy Veins news pages returned 202 or 403 to the fetcher, so anything only reported there is unchecked today.",
-   "Blizzard's post says character creation opens to 'everyone' on 27 Oct; the site keeps the earlier wording (early access for upgrade-pack owners) until that is clarified."
-  ],
-  "checks": {
-   "verified": 4,
-   "method": "MythicSim, LFCarry, ForeverChanges and TalentsForever read as raw HTML with curl and parsed by script, Blizzard's post read from the forum JSON; tier list numbers compared row by row with yesterday's data. A fresh agent independently re-opened every ledger URL and confirmed all 4 rows.",
-   "corrected": [
-    "LFCarry opinion date for Warlock and Priest: 16 Oct to 23 Oct (grades unchanged)."
-   ],
-   "flagged": []
-  }
- },
  "2026-10-25": {
   "date": "2026-10-25",
   "at": "2026-10-25T08:30:00+00:00",
@@ -1146,6 +1088,82 @@
    ],
    "flagged": [
     "Demonology 936 to 938: MythicSim's own change line reads 942 to 938, so the stored 936 may have been a misread; 938 is confirmed on both the tier list and the Warlock page."
+   ]
+  }
+ },
+ "2026-11-07": {
+  "date": "2026-11-07",
+  "at": "2026-11-07T08:30:00+00:00",
+  "headline": "Shadow rises from 812 to 823 DPS on MythicSim's revised 6 Nov run (new reference rings, not a game change) but slips from #23 to #24 of 28, still B band.",
+  "items": [
+   {
+    "kind": "buff",
+    "classes": [
+     "priest"
+    ],
+    "text": "Shadow 812 to 823 (+1.4%), #23 to #24 of 28, B band unchanged. MythicSim credits the rise to new reference rings (Don Julio's Band and Don Rodrigo's Band). Smite 650 to 652, #28 (C).",
+    "source": "MythicSim tier list and Priest page",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "buff",
+    "classes": [
+     "warlock"
+    ],
+    "text": "Demonology 938 to 943 (#9, A) and still the best Warlock spec; Affliction 890 to 906 (#15 to #14, B to A band); Destruction 892 to 897 (#16 to #17, B); fire Destruction 853 to 856 (#19).",
+    "source": "MythicSim tier list and Warlock page",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "mage"
+    ],
+    "text": "Arcane 926 unchanged but #10 to #11 (A), still the best Mage spec; Fire 908 to 915 but #13 to #15 and A to B band; Frostfire 801 to 807 (#22 to #23); Frost 715 (#27, C).",
+    "source": "MythicSim tier list and Mage page",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "Big movers: weave Beast Mastery Hunter 895 to 966 (#18 to #10, B to A), which its card puts down to the 2 Nov Hunter shot ranks (+9.2%) and a new pet damage model (+7.9%); turret Beast Mastery 796 to 871 (#26 to #20, no reason printed). Feral 966 to 990 (#8 to #6), Enhancement 1039 to 1046, Fury 958 to 965, Assassination 911 to 914 (#14 to #16, A to B). Three reads of the list agreed.",
+    "source": "MythicSim tier list and Hunter page",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "warlock",
+     "mage"
+    ],
+    "text": "Blizzard's 6 Nov hotfixes: Voidwalker base health up by about 40, Soul Siphon no longer wrongly makes Wrack raise its own damage, Arcane Blast now properly lasts 18 sec, Mage Research spell fix. Also Zaetar's Spirit spawns again in Maraudon and a Vorsha the Lasher quest fix. No Priest changes.",
+    "source": "Blizzard News",
+    "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315281/wow-forever-hotfixes-november-6-2026",
+    "confidence": "checked"
+   }
+  ],
+  "unchecked": [
+   "MythicSim's page still says it simmed on 6 Nov while a tooltip in its header says updated 7 Nov; the figures changed without a new engine label, so the engine is kept as a667dce, 6 Nov.",
+   "Not re-read today: race boards, trinket boards, LFCarry, TalentsForever, Daybreak Forever, ForeverChanges BiS and the raid guides.",
+   "MythicSim has not said whether Affliction's 906 already reflects the 6 Nov Soul Siphon and Wrack fix.",
+   "Blizzard's known issues post is still the 5 Nov version and still lists Vorsha the Lasher as disabled, despite the 6 Nov quest fix.",
+   "Live level 31 to 60 data, quest wands and gear stats still not confirmed by guides; leveling and gear unchanged. No launch census figures yet. No client build newer than 70790 (Bind on Forever)."
+  ],
+  "checks": {
+   "verified": 46,
+   "method": "MythicSim tier list read three times with different prompts (all 28 rows agreed) and cross-checked against the Priest, Warlock, Mage and Hunter pages; Blizzard's 6 Nov hotfix page read twice. A fresh agent then opened every source URL (MythicSim pages as raw HTML) and confirmed all 6 claim groups, with none wrong.",
+   "corrected": [
+    "Arcane Mage summary said the newest run was 4 Nov; it is the 6 Nov run (revised 7 Nov).",
+    "Affliction and Destruction summaries called each other level as the second Warlock spec; Affliction (906) is now clearly second and Destruction (897) third.",
+    "Shadow verdict flavour gave an unsourced '11% behind the middle of the pack'; now just says behind most specs.",
+    "Priest history label no longer claims a Night Elf preset, which was not re-checked today."
+   ],
+   "flagged": [
+    "MythicSim's figures changed while the page still says simmed 6 Nov; held the engine label at a667dce, 6 Nov rather than guessing a new date."
    ]
   }
  }

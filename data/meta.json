@@ -19,7 +19,7 @@
    "Blizzard raised class damage and higher-level creature health before launch, plans no big tuning changes before the raids open, then a large tuning pass once players are past level 30."
   ],
   "gearNote": "Levelling picks come from the level-30 beta lists. Trinket gains are MythicSim results and differ by spec. Items marked unverified are level-60 loot whose Forever drop tables aren't confirmed yet (the beta stops at 30). \"Also wanted by\" shows which of your other classes would compete for the same item.",
-  "lastRefreshed": "2026-11-06T08:30:00+00:00",
+  "lastRefreshed": "2026-11-07T08:30:00+00:00",
   "raidFacts": [
    "Onyxia's Lair needs the Drakefire Amulet, earned per character and only needed in your bags (Blizzard raid overview, 20 October). The quest chain matches Classic. Barrow Deeps and Hyjal Summit have no attunement chain.",
    "All raids are currently planned to reset each week (Blizzard raid overview, 20 October).",
@@ -361,7 +361,7 @@
     "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
    }
   ],
-  "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight, in MythicSim's default \"Best of each spec\" view (28 specs, including variant builds). The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Frostfire above Shadow). All 28 rows are on MythicSim's 6 Nov run (engine a667dce), which includes Blizzard's 2 Nov development notes and no Ahn'Qiraj 20 book ranks. The change column is MythicSim's printed change since it simmed Blizzard's 2 Nov notes. Bands are MythicSim's own S, A, B and C sections. Specs for the classes you're weighing are highlighted."
+  "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight, in MythicSim's default \"Best of each spec\" view (28 specs, including variant builds). The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Frostfire above Shadow). All 28 rows are on MythicSim's 6 Nov run (engine a667dce), revised on 7 Nov, which includes Blizzard's 2 Nov development notes and no Ahn'Qiraj 20 book ranks. The change column is MythicSim's printed change since it simmed Blizzard's 2 Nov notes. Bands are MythicSim's own S, A, B and C sections. Specs for the classes you're weighing are highlighted."
  },
  "crafting": {
   "camping": {
