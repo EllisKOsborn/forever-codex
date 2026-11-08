@@ -1,13 +1,4 @@
 {
- "m-n20261017-manor-mistmantle": {
-  "classes": [],
-  "date": "2026-10-17",
-  "source": "Bind on Forever",
-  "summary": "Bind on Forever spotted a Manor Mistmantle dungeon in the game files. Blizzard hasn't announced it and nothing confirms it for launch.",
-  "tag": "datamine",
-  "title": "Found in the files: Manor Mistmantle",
-  "url": "https://bindonforever.com/whats-new"
- },
  "n20261018-mythicsim-17oct-resim": {
   "classes": [
    "mage",
@@ -86,18 +77,6 @@
   "tag": "sim",
   "title": "MythicSim tier list moves every Warlock, Mage and Priest row to its 18 Oct engine",
   "url": "https://mythicsim.com/wow-forever/tier-list"
- },
- "x-n20261017-tier-bonuses": {
-  "classes": [
-   "mage",
-   "priest"
-  ],
-  "date": "2026-10-17",
-  "source": "Wowhead / Icy Veins",
-  "summary": "Manaflare Regalia's 5-piece boosts Frostfire Bolt procs and crit during Combustion. Raiments of Conviction's 5-piece cuts Devouring Plague's cooldown by 60 sec, which predates the 24-sec rework.",
-  "tag": "datamine",
-  "title": "Mage and Shadow Priest tier bonuses in the files",
-  "url": "https://www.icy-veins.com/wow-forever/news/wow-forever-crafted-tier-sets-datamined-recipes-costs-and-set-bonuses/"
  },
  "n20261020-mythicsim-fire-overtakes-arcane": {
   "classes": [
@@ -628,6 +607,30 @@
    "mage"
   ],
   "source": "MythicSim",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "n20261108-class-tuning-10-nov": {
+  "date": "2026-11-06",
+  "title": "Blizzard plans class tuning hotfixes for 10 November",
+  "summary": "Kaivax says hotfixes on Tuesday 10 November will make Voidwalkers and Hunter pets more durable as tanks and make Affliction's damage-over-time spells worth casting alongside Wrack, without changing its total damage. Enhancement Shamans will be pushed towards Strength gear; Priests and Mages are not mentioned.",
+  "tag": "blizzard",
+  "classes": [
+   "warlock"
+  ],
+  "source": "Blizzard forums (Kaivax)",
+  "url": "https://us.forums.blizzard.com/en/wow/t/class-tuning-incoming-november-10/2404092"
+ },
+ "n20261108-mythicsim-8-nov-run": {
+  "date": "2026-11-08",
+  "title": "MythicSim re-sims on 8 Nov: Demonology up to 949, Shadow stays at 823",
+  "summary": "MythicSim's 8 Nov run on the same engine nudges Demonology from 943 to 949 and lifts several melee and Hunter specs. Shadow stays at 823 and #24 of 28; Arcane is unchanged at 926 but slips to #13.",
+  "tag": "sim",
+  "classes": [
+   "priest",
+   "warlock",
+   "mage"
+  ],
+  "source": "MythicSim tier list",
   "url": "https://mythicsim.com/wow-forever/tier-list"
  }
 }

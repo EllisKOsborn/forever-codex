@@ -273,7 +273,7 @@
     "note": "Share of characters in a 20 Sept sample of about 5,000 level-20 beta characters."
    },
    "pros": [
-    "Arcane sims 926 DPS on the newest run (Fire 915), second of the three classes after Demonology (943)",
+    "Arcane sims 926 DPS on the newest run (Fire 915), second of the three classes after Demonology (949)",
     "No drinking breaks thanks to conjured water",
     "Portals earn gold and make you popular"
    ],
@@ -346,6 +346,11 @@
   ],
   "id": "mage",
   "latestChanges": [
+   {
+    "kind": "neutral",
+    "spec": "all",
+    "text": "8 Nov (sim change): MythicSim re-simmed. Mage figures unchanged (Arcane 926, Fire 915, Frostfire 807, Frost 715), but Arcane slips from #11 to #13 as Elehance Shaman and melee Survival Hunter move above it on the tier list's with-trinket run."
+   },
    {
     "kind": "neutral",
     "spec": "all",
@@ -560,7 +565,7 @@
       "spec": "frost-mage"
      }
     ],
-    "note": "Sim-based. Arcane #11 (A), Fire #15 and Frostfire #23 (B), Frost #27 (C) of 28 (engine a667dce, 6 Nov run revised 7 Nov).",
+    "note": "Sim-based. Arcane #13 (A), Fire #15 and Frostfire #23 (B), Frost #27 (C) of 28 (engine a667dce, 8 Nov run).",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -652,10 +657,10 @@
   ],
   "verdict": {
    "best": "arcane-mage",
-   "body": "On MythicSim's newest run (engine a667dce, simmed 6 Nov and revised 7 Nov, including Blizzard's 2 Nov notes) Arcane sims 926 DPS, about 1% ahead of Fire (915). Arcane jumped from 828 mostly because MythicSim's reference is now a 32/16/3 \"arc fire\" build that uses Fire Blast and Heating Up for Pyroblasts between Arcane Blast stacks (+8.4%), plus the 2 Nov Clearcasting change (+1.7%) and a Gnome preset (+1.2%). The experimental Frostfire hybrid sits at 807 and Frost at 715, about 23% behind Arcane. On the tier list (28 rows) Arcane is #11 (A band), Fire #15 (B), Frostfire #23 (B) and Frost #27 (C). Arcane and Fire are within about 1%, so either works for raids; level as Frost. Blizzard's 6 Nov hotfix fixed Arcane Blast so its effect properly lasts 18 sec.",
+   "body": "On MythicSim's newest run (engine a667dce, simmed 8 Nov, including Blizzard's 2 Nov notes) Arcane sims 926 DPS, about 1% ahead of Fire (915). Arcane jumped from 828 mostly because MythicSim's reference is now a 32/16/3 \"arc fire\" build that uses Fire Blast and Heating Up for Pyroblasts between Arcane Blast stacks (+8.4%), plus the 2 Nov Clearcasting change (+1.7%) and a Gnome preset (+1.2%). The experimental Frostfire hybrid sits at 807 and Frost at 715, about 23% behind Arcane. On the tier list (28 rows) Arcane is #13 (A band), Fire #15 (B), Frostfire #23 (B) and Frost #27 (C). Arcane and Fire are within about 1%, so either works for raids; level as Frost. Blizzard's 6 Nov hotfix fixed Arcane Blast so its effect properly lasts 18 sec.",
    "flavour": "\"The Arcane Blast you knew is gone. Now it feeds every spell you cast next.\"",
-   "headline": "Arcane stays the top Mage spec at 926 (#11, A); Fire 908 to 915 but #13 to #15 and down to the B band",
-   "statsNote": "Big number: newest MythicSim run (Mage page, engine a667dce, 6 Nov run, revised 7 Nov). Below: rank, DPS and band on the tier list (same run)."
+   "headline": "Arcane stays the top Mage spec at 926 but slips from #11 to #13 (A) on MythicSim's 8 Nov run as others edge up; Fire 915 (#15, B)",
+   "statsNote": "Big number: newest MythicSim run (Mage page, engine a667dce, 8 Nov run). Below: rank, DPS and band on the tier list (same run)."
   },
   "pros": null
  },
@@ -866,6 +871,11 @@
   "id": "priest",
   "latestChanges": [
    {
+    "kind": "neutral",
+    "spec": "all",
+    "text": "8 Nov (sim change): MythicSim re-simmed. Shadow unchanged at 823 (#24 of 28, B) and Smite 652 (#28). Blizzard's 10 Nov class tuning plan does not mention Priests."
+   },
+   {
     "kind": "buff",
     "spec": "shadow-priest",
     "text": "7 Nov (sim change, not a game change): MythicSim revised its 6 Nov run. Shadow 812 to 823 from new reference rings (Don Julio's Band and Don Rodrigo's Band), but #23 to #24 of 28, still B band."
@@ -1032,7 +1042,7 @@
       "spec": "shadow-priest"
      }
     ],
-    "note": "#24 of 28 at 823 DPS, B band (engine a667dce, 6 Nov run revised 7 Nov). Shadow's small rise is a reference ring change; most other specs rose when MythicSim simmed Blizzard's 2 Nov notes, and the list has 28 rows.",
+    "note": "#24 of 28 at 823 DPS, B band (engine a667dce, 8 Nov run). Shadow's small rise is a reference ring change; most other specs rose when MythicSim simmed Blizzard's 2 Nov notes, and the list has 28 rows.",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -1111,10 +1121,10 @@
   ],
   "verdict": {
    "best": "shadow-priest",
-   "body": "Shadow is in the lower part of the DPS sims: 823 DPS on MythicSim's newest Priest run (engine a667dce, simmed 6 Nov, revised 7 Nov), and #24 of 28 on the tier list (same run), in the B band. The rise from 812 is not a game change: MythicSim's card credits it to new reference rings (Don Julio's Band and Don Rodrigo's Band in place of Blessed Band of Light and Songstone of Ironforge). Shadow fell from #11 because MythicSim's 4 Nov run includes Blizzard's 2 Nov development notes, which raised most other specs (Rogues and Shamans by roughly 25% to 35%) but left Shadow's number the same; the list then grew from 22 to 28 rows as MythicSim added variant builds, and on the revised run the turret Beast Mastery Hunter moved above Shadow. On the tier list it sits just below Frostfire Mage and above Elemental Shaman, Balance Druid and Frost Mage; without trinkets its 823 is ahead of Frostfire (807), Elemental (794) and Balance (789). Shadow Word: Death's backlash is 30% of your health if the target survives (nothing on a miss), so use it with care.",
+   "body": "Shadow is in the lower part of the DPS sims: 823 DPS on MythicSim's newest Priest run (engine a667dce, simmed 8 Nov), and #24 of 28 on the tier list (same run), in the B band. The rise from 812 is not a game change: MythicSim's card credits it to new reference rings (Don Julio's Band and Don Rodrigo's Band in place of Blessed Band of Light and Songstone of Ironforge). Shadow fell from #11 because MythicSim's 4 Nov run includes Blizzard's 2 Nov development notes, which raised most other specs (Rogues and Shamans by roughly 25% to 35%) but left Shadow's number the same; the list then grew from 22 to 28 rows as MythicSim added variant builds, and on the revised run the turret Beast Mastery Hunter moved above Shadow. On the tier list it sits just below Frostfire Mage and above Elemental Shaman, Balance Druid and Frost Mage; without trinkets its 823 is ahead of Frostfire (807), Elemental (794) and Balance (789). Shadow Word: Death's backlash is 30% of your health if the target survives (nothing on a miss), so use it with care.",
    "flavour": "Viable for raids and dungeons, but behind most specs in the sims after other classes' 2 Nov buffs. Pick it if you enjoy it.",
    "headline": "Shadow 812 to 823 on MythicSim's revised 6 Nov run (a reference ring change), but #23 to #24 of 28, still B band",
-   "statsNote": "Big number: newest MythicSim result (Priest page, engine a667dce, 6 Nov run, revised 7 Nov). Below: rank, DPS and band on the tier list (same run)."
+   "statsNote": "Big number: newest MythicSim result (Priest page, engine a667dce, 8 Nov run). Below: rank, DPS and band on the tier list (same run)."
   }
  },
  "warlock": {
@@ -1393,7 +1403,7 @@
     "note": "Share of characters in a 20 Sept sample of about 5,000 level-20 beta characters. A 14 Oct scan of over 1 million characters had Warlock as the least-played class at about 9%."
    },
    "pros": [
-    "Demonology is the strongest of these specs in sims: 943 DPS on the newest run, #9 of 28 on the tier list, A band",
+    "Demonology is the strongest of these specs in sims: 949 DPS on the newest run, #9 of 28 on the tier list, A band",
     "Least-played class in the 14 Oct scan (about 9%), so raids will want you",
     "Own tier set in the first raids: Demonheart Raiment"
    ],
@@ -1468,6 +1478,21 @@
   ],
   "id": "warlock",
   "latestChanges": [
+   {
+    "kind": "neutral",
+    "spec": "affliction-warlock",
+    "text": "Planned for 10 Nov (Blizzard, not live yet): Siphon Life, Corruption and Bane of Agony to become worth casting alongside Wrack, without changing Affliction's total damage."
+   },
+   {
+    "kind": "neutral",
+    "spec": "all",
+    "text": "Planned for 10 Nov (Blizzard, not live yet): Voidwalkers, like Hunter pets, to be made more durable as tanks, roughly as in Classic Era."
+   },
+   {
+    "kind": "buff",
+    "spec": "demonology-warlock",
+    "text": "8 Nov (sim change, not a game change): MythicSim re-simmed. Demonology 943 to 949 (#9, A); Affliction 906 (#14) and Destruction 897 (#17) unchanged."
+   },
    {
     "kind": "neutral",
     "spec": "all",
@@ -1671,7 +1696,7 @@
       "spec": "destruction-warlock"
      }
     ],
-    "note": "Sim-based. Demonology #9 and Affliction #14 (A), Destruction #17 (B) of 28 (engine a667dce, 6 Nov run revised 7 Nov).",
+    "note": "Sim-based. Demonology #9 and Affliction #14 (A), Destruction #17 (B) of 28 (engine a667dce, 8 Nov run).",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -1784,10 +1809,10 @@
   ],
   "verdict": {
    "best": "demonology-warlock",
-   "body": "On MythicSim's newest run (engine a667dce, simmed 6 Nov and revised 7 Nov, including Blizzard's 2 Nov notes) Demonology sims 943 DPS, about 4% ahead of Affliction (906) and 5% ahead of Destruction (897). On the tier list (28 rows) it's #9, in the A band; Affliction is #14 (A) and Destruction #17 (B). Affliction rose from 837 when MythicSim moved its reference to a 35/11/5 Wrack build; Blizzard's 6 Nov hotfix stops Soul Siphon wrongly making Wrack raise its own damage, and MythicSim has not said whether its figure reflects that. Demonology slipped 0.5% on 4 Nov because MythicSim now reads Orc's Command from the live client as +5% on the Imp's Firebolt and the Succubus' Lash of Pain only, so its reference moved from Orc to Undead. Destruction gained 7.9% from Shadow and Flame (now up to 20%). Raid as Demonology, level as Affliction.",
+   "body": "On MythicSim's newest run (engine a667dce, simmed 8 Nov, including Blizzard's 2 Nov notes) Demonology sims 949 DPS, about 5% ahead of Affliction (906) and 6% ahead of Destruction (897). On the tier list (28 rows) it's #9, in the A band; Affliction is #14 (A) and Destruction #17 (B). Affliction rose from 837 when MythicSim moved its reference to a 35/11/5 Wrack build; Blizzard's 6 Nov hotfix stops Soul Siphon wrongly making Wrack raise its own damage, and MythicSim has not said whether its figure reflects that. Demonology slipped 0.5% on 4 Nov because MythicSim now reads Orc's Command from the live client as +5% on the Imp's Firebolt and the Succubus' Lash of Pain only, so its reference moved from Orc to Undead. Destruction gained 7.9% from Shadow and Flame (now up to 20%). Blizzard plans a 10 Nov hotfix to make Siphon Life, Corruption and Bane of Agony worth casting alongside Wrack without changing Affliction's total damage, and to make Voidwalkers more durable as tanks. Raid as Demonology, level as Affliction.",
    "flavour": "\"Keep one demon on the leash and another burning in your blood.\"",
-   "headline": "Demonology still leads the Warlock specs (943, #9, A band); Affliction (906) rises to #14 and the A band, Destruction (897) is #17 (B)",
-   "statsNote": "Big number: newest MythicSim run (Warlock page, engine a667dce, 6 Nov run, revised 7 Nov). Below: rank, DPS and band on the tier list (same run)."
+   "headline": "Demonology still leads the Warlock specs (943 to 949, #9, A band); Affliction (906) is #14 (A), Destruction (897) #17 (B); Blizzard plans Affliction and Voidwalker tuning on 10 Nov",
+   "statsNote": "Big number: newest MythicSim run (Warlock page, engine a667dce, 8 Nov run). Below: rank, DPS and band on the tier list (same run)."
   }
  }
 }

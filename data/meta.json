@@ -19,7 +19,7 @@
    "Blizzard raised class damage and higher-level creature health before launch, plans no big tuning changes before the raids open, then a large tuning pass once players are past level 30."
   ],
   "gearNote": "Levelling picks come from the level-30 beta lists. Trinket gains are MythicSim results and differ by spec. Items marked unverified are level-60 loot whose Forever drop tables aren't confirmed yet (the beta stops at 30). \"Also wanted by\" shows which of your other classes would compete for the same item.",
-  "lastRefreshed": "2026-11-07T08:30:00+00:00",
+  "lastRefreshed": "2026-11-08T08:30:00+00:00",
   "raidFacts": [
    "Onyxia's Lair needs the Drakefire Amulet, earned per character and only needed in your bags (Blizzard raid overview, 20 October). The quest chain matches Classic. Barrow Deeps and Hyjal Summit have no attunement chain.",
    "All raids are currently planned to reset each week (Blizzard raid overview, 20 October).",
@@ -544,6 +544,11 @@
     "label": "Launch",
     "note": "3pm PST / 11pm UK",
     "showTime": true
+   },
+   {
+    "iso": "2026-11-10T00:00:00+00:00",
+    "label": "Class tuning hotfixes",
+    "note": "Affliction, Voidwalker, Hunter pet and Enhancement changes (Blizzard)"
    },
    {
     "iso": "2026-12-09T00:00:00+00:00",
