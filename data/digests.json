@@ -1,124 +1,4 @@
 {
- "2026-10-27": {
-  "date": "2026-10-27",
-  "at": "2026-10-27T09:45:00+00:00",
-  "headline": "Blizzard's final racial pass is in and MythicSim has re-simmed: Demonology still leads at 949 (#2, S) with Orc now its top race; Fire 917 (#6, A); Shadow 812 (#13, B).",
-  "items": [
-   {
-    "kind": "nerf",
-    "classes": [
-     "warlock",
-     "mage",
-     "priest"
-    ],
-    "text": "Blizzard's final racial pass (26 Oct): Human Ruthless 2% to 1% crit, The Human Spirit 5% to 10% Spirit; Orc Savage (+1% crit) replaced by Command (+5% Warlock and Hunter pet damage); Dwarf Earth Fury replaced by Artisan's Precision (+1% hit); Skyborne Wind Blessed 3% to 2% haste and Read Leyline 100% to 50% regen (100% while Attuned).",
-    "source": "Blizzard beta development notes",
-    "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-26/2360696/7",
-    "confidence": "checked"
-   },
-   {
-    "kind": "neutral",
-    "classes": [
-     "warlock"
-    ],
-    "text": "Warlock sims re-run for the racials: Demonology 959 to 949 (still #2, S), Affliction 860 to 850 (#8, A), Destruction 847 to 837 (#9 to #10, A). Demonology remains the pick.",
-    "source": "MythicSim tier list and Warlock page",
-    "url": "https://mythicsim.com/wow-forever/tier-list",
-    "confidence": "checked"
-   },
-   {
-    "kind": "neutral",
-    "classes": [
-     "mage"
-    ],
-    "text": "Mage: Fire 916 to 917 but #5 to #6 (A) as Shockadin moved up; Arcane 827 to 830 (#11, A); Frostfire 809 to 804 (#12, B); Frost 683 to 677 (#21, C). New Targetdummy openers added about 0.5 to 0.7% to Fire and Arcane.",
-    "source": "MythicSim tier list and Mage page",
-    "url": "https://mythicsim.com/wow-forever/tier-list",
-    "confidence": "checked"
-   },
-   {
-    "kind": "neutral",
-    "classes": [
-     "priest"
-    ],
-    "text": "Shadow 816 to 812, still #13 and B band.",
-    "source": "MythicSim tier list and Priest page",
-    "url": "https://mythicsim.com/wow-forever/tier-list",
-    "confidence": "checked"
-   },
-   {
-    "kind": "neutral",
-    "classes": [
-     "warlock",
-     "mage",
-     "priest"
-    ],
-    "text": "Tier list now shows 22 specs in its default view (was 24): Smite Priest and Elehance Shaman moved to the All playstyles view, so ranks below #3 are out of 22. Fury Warrior moved up into the S band.",
-    "source": "MythicSim tier list",
-    "url": "https://mythicsim.com/wow-forever/tier-list",
-    "confidence": "checked"
-   },
-   {
-    "kind": "neutral",
-    "classes": [
-     "warlock",
-     "mage",
-     "priest"
-    ],
-    "text": "Race boards re-simmed: Orc now tops Demonology (949.1, Human 0.22% back); Human still leads Affliction and Destruction. Gnome now leads Fire, Arcane and Frostfire (was Human or Skyborne); Skyborne still leads Frost. Night Elf now leads Shadow (Human was top). Every gap is under 2%.",
-    "source": "MythicSim race boards",
-    "url": "https://mythicsim.com/wow-forever/races?class=warlock&spec=demonology-warlock",
-    "confidence": "checked"
-   },
-   {
-    "kind": "nerf",
-    "classes": [
-     "warlock",
-     "mage",
-     "priest"
-    ],
-    "text": "Trinkets: MythicSim fixed Cleansed Vilebranch Icon and Jewel of the Guard Captain to 8 spell damage (was 32), so they fall from joint best (about 3%) to about 1%. Draconic Infused Emblem now tops every Warlock board (Demonology +2.75%); Talisman of Ephemeral Power tops Mage and Shadow.",
-    "source": "MythicSim trinket boards and changelog",
-    "url": "https://mythicsim.com/wow-forever/best-trinkets/demonology-warlock",
-    "confidence": "checked"
-   },
-   {
-    "kind": "neutral",
-    "classes": [
-     "warlock",
-     "mage"
-    ],
-    "text": "Found in the files (client 70630, 26 Oct): MythicSim says the Spellstone is now Shadow only and Winter's Chill was reworked. TalentsForever confirms build 70630 but lists no Mage change, so this stays out of the advice for now.",
-    "source": "MythicSim changelog, TalentsForever",
-    "url": "https://mythicsim.com/changelog",
-    "confidence": "single"
-   },
-   {
-    "kind": "neutral",
-    "classes": [],
-    "text": "Name reservation opens today, 27 Oct, at 18:00 CET (5pm UK) for upgrade-pack owners, up to three characters. Launch still 4 Nov, 11pm UK. LFCarry tier list unchanged (25 Oct).",
-    "source": "Blizzard / LFCarry",
-    "url": "https://news.blizzard.com/en-us/article/24304161/create-a-name-of-your-own-in-wow-forever",
-    "confidence": "checked"
-   }
-  ],
-  "unchecked": [
-   "Wowhead and Icy Veins pages blocked the fetcher (403), so their racial write-ups weren't read; Blizzard's own notes were used instead.",
-   "Client 70630 spell changes (Spellstone, Winter's Chill, Hunter's Mark) have only MythicSim as a source."
-  ],
-  "checks": {
-   "verified": 53,
-   "method": "Raw page HTML read with curl and parsed, then cross-checked with a second WebFetch read (tier list, two race boards, a trinket board); a separate agent then reopened all 53 ledger URLs and confirmed every row.",
-   "corrected": [
-    "Race notes for Demonology, Destruction and Fire now say \"tied for top\" (MythicSim marks the top two as a tie within sim noise).",
-    "Tier list trimmed to the 22 specs in MythicSim's default view; Smite Priest and Elehance Shaman removed (now only in All playstyles).",
-    "Cleansed Vilebranch Icon and Jewel of the Guard Captain no longer recommended for Warlocks after MythicSim's 26 Oct item fix."
-   ],
-   "flagged": [
-    "Client 70630 Spellstone and Winter's Chill changes: MythicSim only, and TalentsForever lists no Mage change in 70630."
-   ]
-  }
- },
  "2026-10-28": {
   "date": "2026-10-28",
   "at": "2026-10-28T10:30:00+00:00",
@@ -1108,6 +988,94 @@
     "Feral Druid tier row updated to 1008 and #6; Marksmanship weave to #5."
    ],
    "flagged": []
+  }
+ },
+ "2026-11-10": {
+  "date": "2026-11-10",
+  "at": "2026-11-10T08:30:00+00:00",
+  "headline": "Shadow 823 to 822 (#24 to #25 of 28, still B) on MythicSim's 10 Nov re-sim; Blizzard's 9 Nov hotfixes add 50% dungeon kill XP and stop Fear Ward breaking Shadowform. The 10 Nov class tuning is not posted yet.",
+  "items": [
+   {
+    "kind": "nerf",
+    "classes": [
+     "priest"
+    ],
+    "text": "Shadow 823 to 822 (live Forever gear stats, -0.2%), #24 to #25 of 28 as Frost Mage climbs past; still B band. Smite 652 to 651 (#28, C). New snapshot 10 Nov, engine a667dce, client 70862, including the 9 Nov hotfixes.",
+    "source": "MythicSim tier list",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "buff",
+    "classes": [
+     "priest"
+    ],
+    "text": "Blizzard's 9 Nov hotfixes: Shadowform no longer breaks when you cast Fear Ward, and Power Infusion now persists on allies.",
+    "source": "Blizzard forums (Kaivax)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/2403040",
+    "confidence": "checked"
+   },
+   {
+    "kind": "buff",
+    "classes": [],
+    "text": "Blizzard's 9 Nov hotfixes: XP from every dungeon enemy kill up 50%; the Drowned City's creatures no longer hit about 30% too hard; Deathless Marrow encounter made easier; Shaper's Terrace rares now drop loot. Levelling and dungeon tips updated to match.",
+    "source": "Blizzard forums (Kaivax)",
+    "url": "https://us.forums.blizzard.com/en/wow/t/2403040",
+    "confidence": "checked"
+   },
+   {
+    "kind": "buff",
+    "classes": [
+     "warlock"
+    ],
+    "text": "Demonology 949 to 963, #9 to #8 (A), still the best Warlock spec. Affliction 906 to 910 stays #14 but moves from A to B as the band lines shift; Destruction 897 to 896 (#17 to #16, B); Destruction on Incinerate 859 to 857 (#19 to #21).",
+    "source": "MythicSim tier list",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "buff",
+    "classes": [
+     "mage"
+    ],
+    "text": "Arcane 926 to 929 (#13 to #10, A), still the best Mage spec but only 1 DPS ahead of Fire; Fire 915 to 928 (#15 to #13, B to A); Frostfire 807 to 820 (#23 to #22). Frost 715 to 816 (+14%, #27 to #24, C to B): MythicSim credits +12.9% to a new reference that stands in Cone of Cold range and casts it at five Winter's Chill stacks, a sim change not a game change. Blizzard's 9 Nov Arcane Concentration fix costs Arcane 1.2% in the sim.",
+    "source": "MythicSim tier list",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "Elsewhere on the list: Retribution 1065 to 1028 (S to A, leaving Survival weave the only S spec); Shockadin 1004 to 982 (#4 to #7); melee Survival 923 to 911 (#12 to #17, A to B); Combat Rogue 858 to 904 (#21 to #18) on a new 21/30/0 reference. MythicSim's melee cards list a new Windfury Totem model (Retribution -3.5%, Shockadin -2.8%) and live Forever gear stats; melee Survival's card gives no breakdown.",
+    "source": "MythicSim tier list",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [
+     "warlock"
+    ],
+    "text": "Blizzard's Affliction, Voidwalker, Hunter pet and Enhancement tuning is still planned for Tuesday 10 Nov; no staff post says it is live yet.",
+    "source": "Blizzard forums",
+    "url": "https://us.forums.blizzard.com/en/wow/t/class-tuning-incoming-november-10/2404092",
+    "confidence": "checked"
+   }
+  ],
+  "unchecked": [
+   "Not re-read today: trinket boards (except the Shadow baseline quoted on the Priest page), Warlock and Mage race boards, LFCarry, TalentsForever, Daybreak Forever, ForeverChanges BiS and the raid guides.",
+   "Live level 31 to 60 data, quest wands and gear stats still not confirmed; no launch census figures found (only beta censuses and Blizzard's unquantified 'biggest launch' claim)."
+  ],
+  "checks": {
+   "verified": 45,
+   "method": "MythicSim tier list read three times (WebFetch twice with different prompts, plus the raw HTML parsed for all 28 rows); Shadow race board read twice (raw HTML and WebFetch); Priest, Warlock and Mage pages read once each and cross-checked against the tier list; Blizzard's 9 Nov hotfix post and the 10 Nov tuning thread read as forum JSON. A fresh agent then re-opened every source as raw HTML or JSON: race boards, class pages and all hotfix items confirmed; it caught six tier-list rows that MythicSim changed during the run, which were re-read and corrected.",
+   "corrected": [
+    "Tier list rows re-read after MythicSim updated mid-morning: Arcane 940 to 929, Shockadin #8 to #7, Demonology #7 to #8, melee Survival #18 to #17, Combat 902 to 904 and #17 to #18, Destruction (fire) 858 to 857, Balance 797 to 798.",
+    "'Dungeon XP is far below Classic' tips and facts rewritten for Blizzard's 9 Nov +50% dungeon kill XP hotfix."
+   ],
+   "flagged": [
+    "Arcane Mage: MythicSim's tier list changed from 940 to 929 during the run (card now says 828 to 929, +12.3%) while the Mage page still shows 940. The Codex uses the tier-list 929; recheck tomorrow."
+   ]
   }
  }
 }

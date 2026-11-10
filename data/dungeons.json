@@ -190,7 +190,7 @@
   "max": 40,
   "min": 35,
   "name": "Drowned City",
-  "note": "New. Boss data is still encrypted in the game files.",
+  "note": "New. Boss data is still encrypted in the game files. Blizzard's 9 Nov hotfix fixed its creatures dealing about 30% more damage than intended.",
   "type": "dungeon"
  },
  "excavation-site": {
@@ -454,7 +454,7 @@
   "max": 60,
   "min": 58,
   "name": "Shaper's Terrace",
-  "note": "New. Loot not yet verified.",
+  "note": "New. Loot not yet verified. Blizzard's 9 Nov hotfix: Vitrix, Snowtalon and Cinder now drop loot and higher-level skinning materials.",
   "type": "dungeon"
  },
  "stormwind-stockade": {

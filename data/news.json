@@ -1,25 +1,4 @@
 {
- "n20261018-mythicsim-17oct-resim": {
-  "classes": [
-   "mage",
-   "warlock"
-  ],
-  "date": "2026-10-18",
-  "source": "MythicSim",
-  "summary": "Arcane jumps to 837 DPS and now leads Fire (797) by 5%; Frost rises to 673. Demonology (853) and Affliction (757) barely move, and the tier list still shows the 16 Oct run.",
-  "tag": "sim",
-  "title": "MythicSim re-sims Mage and Warlock on a 17 Oct engine",
-  "url": "https://mythicsim.com/wow-forever/mage"
- },
- "n20261019-capital-city-fixes": {
-  "classes": [],
-  "date": "2026-10-19",
-  "source": "Icy Veins",
-  "summary": "Darnassus gets a mailbox next to its Auction House, and an invisible wall between the Stormwind barber shop area and the Auction House has been removed.",
-  "tag": "blizzard",
-  "title": "Small capital city fixes in the beta",
-  "url": "https://www.icy-veins.com/wow-forever/news/wow-forever-gives-its-capital-cities-some-much-needed-love/"
- },
  "n20261019-forever-open-warlocks": {
   "classes": [
    "warlock",
@@ -624,6 +603,28 @@
   "date": "2026-11-08",
   "title": "MythicSim re-sims on 8 Nov: Demonology up to 949, Shadow stays at 823",
   "summary": "MythicSim's 8 Nov run on the same engine nudges Demonology from 943 to 949 and lifts several melee and Hunter specs. Shadow stays at 823 and #24 of 28; Arcane is unchanged at 926 but slips to #13.",
+  "tag": "sim",
+  "classes": [
+   "priest",
+   "warlock",
+   "mage"
+  ],
+  "source": "MythicSim tier list",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "n20261110-hotfixes-9-nov": {
+  "date": "2026-11-10",
+  "title": "Blizzard's 9 Nov hotfixes: 50% more dungeon XP, Fear Ward fix for Shadow",
+  "summary": "Every enemy kill in a dungeon now gives 50% more experience, and Fear Ward no longer knocks a Priest out of Shadowform; Power Infusion now persists on allies. Mages lose the double Arcane Concentration roll on Arcane Missiles, Incinerate is locked to Destruction, and the Drowned City and Deathless Marrow get easier.",
+  "tag": "patch",
+  "classes": [],
+  "source": "Blizzard forums (Kaivax)",
+  "url": "https://us.forums.blizzard.com/en/wow/t/2403040"
+ },
+ "n20261110-mythicsim-10-nov-run": {
+  "date": "2026-11-10",
+  "title": "MythicSim re-sims on client 70862: Frost Mage up to 816, Shadow 822",
+  "summary": "MythicSim's 10 Nov run adds the 9 Nov hotfixes and live Forever gear stats. Shadow dips to 822 and #25 of 28; Demonology rises to 963, Arcane to 929, Fire to 928 (A band) and Frost to 816 on a new Cone of Cold reference.",
   "tag": "sim",
   "classes": [
    "priest",

@@ -1,9 +1,9 @@
 {
  "app": {
-  "build": "1.60.1.70707",
+  "build": "1.60.1.70862",
   "compareNote": "Sim DPS is the newest MythicSim run for each spec: 2-minute single-target fight, reference gear, no trinkets. Population is from beta samples and will change at launch.",
   "defaultClass": "priest",
-  "dungeonNote": "Enter your level to highlight dungeons around it. Dungeon XP is far below Classic, so run them for gear and quests.",
+  "dungeonNote": "Enter your level to highlight dungeons around it. Blizzard's 9 Nov hotfix raised XP from every dungeon kill by 50%, but run them mainly for gear and quests.",
   "facts": [
    "Included with any WoW subscription or Game Time. The Skyborne race needs an upgrade pack.",
    "Launch 4 November at 11pm UK. No raids at launch: Barrow Deeps (10), Hyjal Summit (20) and Onyxia's Lair (40) open 9 December.",
@@ -11,7 +11,7 @@
    "Level cap 60. No flying and no level scaling. No traditional realms.",
    "Hardcore won't be available at launch.",
    "World buffs don't work in Forever raids.",
-   "Dungeon XP is far below Classic, so quest in the open world and run dungeons for gear.",
+   "Dungeon kills give 50% more XP since Blizzard's 9 Nov hotfix; dungeons are also where your quest rewards and pre-raid gear are.",
    "Wands and Auto Shot need you to stand still for 0.5 sec before firing.",
    "The beta closed on 23 October and nothing from it carries over. Early name reservation for upgrade-pack owners runs until 3 November; everyone else creates characters at launch.",
    "Blizzard says some layering will remain at launch. It has fixed groups being split on boats and zeppelins and when entering or leaving capital cities (reported by GameSpot, 23 October).",
@@ -19,7 +19,7 @@
    "Blizzard raised class damage and higher-level creature health before launch, plans no big tuning changes before the raids open, then a large tuning pass once players are past level 30."
   ],
   "gearNote": "Levelling picks come from the level-30 beta lists. Trinket gains are MythicSim results and differ by spec. Items marked unverified are level-60 loot whose Forever drop tables aren't confirmed yet (the beta stops at 30). \"Also wanted by\" shows which of your other classes would compete for the same item.",
-  "lastRefreshed": "2026-11-09T08:30:00+00:00",
+  "lastRefreshed": "2026-11-10T08:30:00+00:00",
   "raidFacts": [
    "Onyxia's Lair needs the Drakefire Amulet, earned per character and only needed in your bags (Blizzard raid overview, 20 October). The quest chain matches Classic. Barrow Deeps and Hyjal Summit have no attunement chain.",
    "All raids are currently planned to reset each week (Blizzard raid overview, 20 October).",
@@ -739,7 +739,7 @@
      {
       "id": "pl-bfd",
       "text": "Run Blackfathom Deeps for the Gravestone Scepter quest wand (18–25).",
-      "why": "It boosts Shadow Word: Pain. Dungeon XP is low in Forever, so run dungeons for gear and quests."
+      "why": "It boosts Shadow Word: Pain. Blizzard's 9 Nov hotfix raised XP from dungeon kills by 50%, so the run now pays better too."
      },
      {
       "id": "pl-20",
