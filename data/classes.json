@@ -9,6 +9,16 @@
   },
   "changeLog": [
    {
+    "label": "Blizzard 10 Nov tuning and MythicSim 11 Nov run",
+    "items": [
+     {
+      "kind": "nerf",
+      "spec": "all",
+      "text": "11 Nov (sim change, not a game change): MythicSim re-simmed (no Mage changes in Blizzard's 10 Nov tuning). Arcane 929 to 916 (#10 to #12, A), Fire 928 to 916 (#13 to #14, A to B), Frostfire 820 to 810 (#22), Frost 816 to 805 (#24 to #25, B), mostly from gear hit and crit now counted once."
+     }
+    ]
+   },
+   {
     "label": "MythicSim update · 4 Nov (sim, not game)",
     "items": [
      {
@@ -273,7 +283,7 @@
     "note": "Share of characters in a 20 Sept sample of about 5,000 level-20 beta characters."
    },
    "pros": [
-    "Arcane sims 929 DPS on the newest tier-list run (Fire 928), second of the three classes after Demonology (963)",
+    "Arcane and Fire both sim 916 DPS on the newest run, third of the three classes behind Demonology (947) and Affliction (943)",
     "No drinking breaks thanks to conjured water",
     "Portals earn gold and make you popular"
    ],
@@ -346,6 +356,11 @@
   ],
   "id": "mage",
   "latestChanges": [
+   {
+    "kind": "nerf",
+    "spec": "all",
+    "text": "11 Nov (sim change, not a game change): MythicSim re-simmed (no Mage changes in Blizzard's 10 Nov tuning). Arcane 929 to 916 (#10 to #12, A), Fire 928 to 916 (#13 to #14, A to B), Frostfire 820 to 810 (#22), Frost 816 to 805 (#24 to #25, B), mostly from gear hit and crit now counted once."
+   },
    {
     "kind": "nerf",
     "spec": "arcane-mage",
@@ -507,7 +522,7 @@
     "text": "Moonkin Aura (spell crit) is now raid-wide and stacks with Leader of the Pack."
    }
   ],
-  "latestLabel": "Blizzard's 9 Nov hotfixes and MythicSim's 10 Nov run (client 70862), on top of the 3 Nov development notes and 26 Oct racial update",
+  "latestLabel": "Blizzard's 10 Nov class tuning and MythicSim's 11 Nov run (client 70862), on top of the 9 Nov hotfixes, 3 Nov development notes and 26 Oct racial update",
   "legacy": {
    "recommended": {
     "gourmand": 1,
@@ -561,7 +576,7 @@
   "name": "Mage",
   "opinions": [
    {
-    "date": "7 Nov",
+    "date": "11 Nov",
     "grades": [
      {
       "grade": "A",
@@ -576,11 +591,11 @@
       "spec": "frostfire-mage"
      },
      {
-      "grade": "C",
+      "grade": "B",
       "spec": "frost-mage"
      }
     ],
-    "note": "Sim-based. Arcane #13 (A), Fire #15 and Frostfire #23 (B), Frost #27 (C) of 28 (engine a667dce, 8 Nov run).",
+    "note": "Sim-based. Arcane #12 (A), Fire #14, Frostfire #22 and Frost #25 (B) of 28 (engine a667dce, 11 Nov run).",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -672,10 +687,10 @@
   ],
   "verdict": {
    "best": "arcane-mage",
-   "body": "On MythicSim's newest run (engine a667dce, simmed 10 Nov on client 70862, including Blizzard's 2 Nov notes and 9 Nov hotfixes) Arcane sims 929 DPS on the tier list (the Mage page still prints 940), level with Fire (928). Arcane jumped from 828 mostly because MythicSim's reference is now a 32/16/3 \"arc fire\" build that uses Fire Blast and Heating Up for Pyroblasts between Arcane Blast stacks (+8.4%), plus the 2 Nov Clearcasting change (+1.7%), live Forever gear stats (+1.6%) and a Gnome preset (+1.2%); Blizzard's 9 Nov fix that splits Arcane Concentration's chance across the cast and its missiles costs it 1.2%. The experimental Frostfire hybrid sits at 820 and Frost at 816, about 12% behind Arcane; Frost rose from 715 because MythicSim's reference now stands in Cone of Cold range and casts it at five Winter's Chill stacks with Improved Cone of Cold 3/3 (+12.9%), which is a sim change, not a game change. On the tier list (28 rows) Arcane is #10 (A band), Fire #13 (A), Frostfire #22 (B) and Frost #24 (B). Arcane and Fire are within 0.1%, so either works for raids; level as Frost.",
+   "body": "On MythicSim's newest run (engine a667dce, simmed 11 Nov on client 70862, including Blizzard's 2 Nov notes and 9 Nov hotfixes; the 10 Nov tuning had no Mage changes) Arcane and Fire both sim 916 DPS, and the Mage page and tier list now agree. Both dipped mostly because MythicSim now counts gear hit and crit once where a Forever tooltip states them (Arcane -2.5%, Fire -2.2%), a sim change. Arcane's rise from 828 comes mostly from MythicSim's 32/16/3 \"arc fire\" reference that uses Fire Blast and Heating Up for Pyroblasts between Arcane Blast stacks (+8.4%), plus the 2 Nov Clearcasting change (+1.7%), live Forever gear stats (+1.6% and +1.1%) and a Gnome preset (+1.2%); Blizzard's 9 Nov Arcane Concentration fix costs it 1.2%. The experimental Frostfire hybrid sits at 810 and Frost at 805, about 12% behind; Frost's rise from 715 is MythicSim's reference standing in Cone of Cold range and casting it at five Winter's Chill stacks (+12.9%), a sim change, not a game change. On the tier list (28 rows) Arcane is #12 (A band), Fire #14 (B), Frostfire #22 (B) and Frost #25 (B). Arcane and Fire are level, so either works for raids; level as Frost.",
    "flavour": "\"The Arcane Blast you knew is gone. Now it feeds every spell you cast next.\"",
-   "headline": "Arcane stays the top Mage spec but only just (926 to 929, #13 to #10, A); Fire 915 to 928 moves to #13 and the A band; Frost jumps 715 to 816 on a new MythicSim Cone of Cold reference",
-   "statsNote": "Big number: newest MythicSim run (Mage page, engine a667dce, 10 Nov run). Below: rank, DPS and band on the tier list (same run)."
+   "headline": "Arcane and Fire now tie at 916 on MythicSim's 11 Nov run; Arcane stays the pick at #12 (A), Fire #14 drops to B; Frost 816 to 805 (#25)",
+   "statsNote": "Big number: newest MythicSim run (Mage page, engine a667dce, 11 Nov run). Below: rank, DPS and band on the tier list (same run)."
   },
   "pros": null
  },
@@ -688,6 +703,21 @@
    "tip": "#c27cf4"
   },
   "changeLog": [
+   {
+    "label": "Blizzard 10 Nov tuning and MythicSim 11 Nov run",
+    "items": [
+     {
+      "kind": "neutral",
+      "spec": "all",
+      "text": "Blizzard's 10 Nov hotfix: the Revelation enchant is no longer triggered by Vampiric Embrace healing."
+     },
+     {
+      "kind": "nerf",
+      "spec": "all",
+      "text": "11 Nov (sim change, not a game change): MythicSim re-simmed with Blizzard's 10 Nov tuning. Shadow 822 to 817 (gear hit and crit counted once, -0.8%) but #25 to #24 of 28, still B; Smite 651 to 650 (#28, C)."
+     }
+    ]
+   },
    {
     "label": "MythicSim update · 4 Nov (sim, not game)",
     "items": [
@@ -842,7 +872,7 @@
   "classCards": [],
   "compare": {
    "cons": [
-    "Shadow sits low in sims (#25 of 28, 822 DPS on the newest run)",
+    "Shadow sits low in sims (#24 of 28, 817 DPS on the newest run)",
     "Shadow Affinity was removed, so you have no talent threat reduction",
     "Shadow Weaving no longer helps the raid, so raids gain less from bringing you",
     "You must leave Shadowform to heal"
@@ -885,6 +915,16 @@
   "facts": [],
   "id": "priest",
   "latestChanges": [
+   {
+    "kind": "neutral",
+    "spec": "all",
+    "text": "Blizzard's 10 Nov hotfix: the Revelation enchant is no longer triggered by Vampiric Embrace healing."
+   },
+   {
+    "kind": "nerf",
+    "spec": "all",
+    "text": "11 Nov (sim change, not a game change): MythicSim re-simmed with Blizzard's 10 Nov tuning. Shadow 822 to 817 (gear hit and crit counted once, -0.8%) but #25 to #24 of 28, still B; Smite 651 to 650 (#28, C)."
+   },
    {
     "kind": "buff",
     "spec": "shadow-priest",
@@ -1016,7 +1056,7 @@
     "text": "Wands now need you to stand still for 0.5 sec before firing. Matters most while levelling."
    }
   ],
-  "latestLabel": "Blizzard's 9 Nov hotfixes and MythicSim's 10 Nov run (client 70862), on top of the 3 Nov development notes and 26 Oct racial update",
+  "latestLabel": "Blizzard's 10 Nov class tuning and MythicSim's 11 Nov run (client 70862), on top of the 9 Nov hotfixes, 3 Nov development notes and 26 Oct racial update",
   "legacy": {
    "recommended": {
     "gourmand": 1,
@@ -1065,14 +1105,14 @@
   "name": "Priest",
   "opinions": [
    {
-    "date": "7 Nov",
+    "date": "11 Nov",
     "grades": [
      {
       "grade": "B",
       "spec": "shadow-priest"
      }
     ],
-    "note": "#24 of 28 at 823 DPS, B band (engine a667dce, 8 Nov run). Shadow's small rise is a reference ring change; most other specs rose when MythicSim simmed Blizzard's 2 Nov notes, and the list has 28 rows.",
+    "note": "#24 of 28 at 817 DPS, B band (engine a667dce, 11 Nov run). Shadow's small dip is MythicSim counting gear hit and crit once; most other specs rose when MythicSim simmed Blizzard's 2 Nov notes, and the list has 28 rows.",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -1139,7 +1179,7 @@
   ],
   "order": 3,
   "raceNote": "Updated for Blizzard's racial changes (26 Oct, with additions on 27 Oct). The whole spread is only 0.78%, so race barely matters for damage: every race is in the S band. Night Elf still leads on Elune's Light, but Undead (now a 15 sec Touch of the Grave) is only 0.14% back and tied with it in the sim, then Human (0.27%) and Dwarf. Each race also has two Priest racial spells (below), which matter more for utility than damage.",
-  "raceSnapshot": "MythicSim race board, Rust engine 3db5a4f matching a667dce, 4 Nov (unchanged since 29 Oct)",
+  "raceSnapshot": "MythicSim race board, Rust engine 9749da8 matching a667dce, 11 Nov",
   "specs": [
    {
     "color": "#b48cff",
@@ -1151,10 +1191,10 @@
   ],
   "verdict": {
    "best": "shadow-priest",
-   "body": "Shadow is in the lower part of the DPS sims: 822 DPS on MythicSim's newest Priest run (engine a667dce, simmed 10 Nov on client 70862, including Blizzard's 9 Nov hotfixes), and #25 of 28 on the tier list (same run), in the B band. The 1 DPS dip is MythicSim switching the reference gear to live Forever stats (-0.2%), not a Priest change; the earlier rise from 812 came from new reference rings (Don Julio's Band and Don Rodrigo's Band). Shadow fell from #11 because MythicSim's 4 Nov run includes Blizzard's 2 Nov development notes, which raised most other specs (Rogues and Shamans by roughly 30% to 38%) but left Shadow's number almost the same; the list then grew from 22 to 28 rows as MythicSim added variant builds. On the tier list it now sits just below Frost Mage and above Elemental Shaman and Balance Druid; without trinkets its 822 is ahead of Frostfire (820), Frost (816), Elemental (804) and Balance (797). Blizzard's 9 Nov hotfixes stop Fear Ward breaking Shadowform and make Power Infusion persist on allies. Shadow Word: Death's backlash is 30% of your health if the target survives (nothing on a miss), so use it with care.",
+   "body": "Shadow is in the lower part of the DPS sims: 817 DPS on MythicSim's newest Priest run (engine a667dce, simmed 11 Nov on client 70862, including Blizzard's 9 Nov hotfixes and 10 Nov class tuning), and #24 of 28 on the tier list (same run), in the B band. The 5 DPS dip is MythicSim counting gear hit and crit only once where a Forever tooltip states them (-0.8%), not a Priest change; the earlier rise from 812 came from new reference rings (Don Julio's Band and Don Rodrigo's Band). Shadow fell from #11 because MythicSim's 4 Nov run includes Blizzard's 2 Nov development notes, which raised most other specs (Rogues and Shamans by roughly 30% to 38%) but left Shadow's number almost the same; the list then grew from 22 to 28 rows as MythicSim added variant builds. On the tier list it now sits just below Arms Warrior and above Frost Mage, Elemental Shaman and Balance Druid; without trinkets its 817 is ahead of Frostfire (810), Frost (805), Elemental (794) and Balance (788). Blizzard's 9 Nov hotfixes stop Fear Ward breaking Shadowform and make Power Infusion persist on allies; the 10 Nov tuning only stops Vampiric Embrace healing from triggering the Revelation enchant. Shadow Word: Death's backlash is 30% of your health if the target survives (nothing on a miss), so use it with care.",
    "flavour": "Viable for raids and dungeons, but behind most specs in the sims after other classes' 2 Nov buffs. Pick it if you enjoy it.",
-   "headline": "Shadow 823 to 822 on MythicSim's 10 Nov run (client 70862, with the 9 Nov hotfixes) and #24 to #25 of 28 as Frost Mage climbs past; still B band",
-   "statsNote": "Big number: newest MythicSim result (Priest page, engine a667dce, 10 Nov run). Below: rank, DPS and band on the tier list (same run)."
+   "headline": "Shadow 822 to 817 on MythicSim's 11 Nov run (a sim change to how gear hit and crit count, not a Priest nerf) but back up from #25 to #24 of 28 as Frost Mage drops below; still B band",
+   "statsNote": "Big number: newest MythicSim result (Priest page, engine a667dce, 11 Nov run). Below: rank, DPS and band on the tier list (same run)."
   }
  },
  "warlock": {
@@ -1166,6 +1206,31 @@
    "tip": "#8787ed"
   },
   "changeLog": [
+   {
+    "label": "Blizzard 10 Nov tuning and MythicSim 11 Nov run",
+    "items": [
+     {
+      "kind": "nerf",
+      "spec": "affliction-warlock",
+      "text": "Blizzard's 10 Nov hotfix: Wrack damage reduced by 30% and it no longer increases your other periodic damage by 10%; while you channel it, Siphon Life, Corruption and Bane of Agony now tick 100% faster. Soul Siphon now boosts Drain Life, Drain Soul and Wrack per Affliction effect on the target. MythicSim puts the Wrack change at -7.0%."
+     },
+     {
+      "kind": "buff",
+      "spec": "all",
+      "text": "Blizzard's 10 Nov hotfix: Imp, Voidwalker, Incubus and Succubus base health up about 15%; the Imp's Firebolt deals more base damage at ranks 1 to 4."
+     },
+     {
+      "kind": "neutral",
+      "spec": "destruction-warlock",
+      "text": "Blizzard's 10 Nov hotfix: Bane of Havoc now triggers the global cooldown."
+     },
+     {
+      "kind": "neutral",
+      "spec": "all",
+      "text": "11 Nov (sim change): MythicSim re-simmed with the 10 Nov tuning. Demonology 963 to 947 (#8 to #9, A; gear hit and crit counted once, -2.1%), Affliction 910 to 943 (#14 to #10, B to A; new Bane of Agony rotation +12.5% outweighs the Wrack cut), Destruction 896 to 890 (#16 to #18, B), Destruction on Incinerate 857 (#21)."
+     }
+    ]
+   },
    {
     "label": "MythicSim update · 4 Nov (sim, not game)",
     "items": [
@@ -1433,7 +1498,7 @@
     "note": "Share of characters in a 20 Sept sample of about 5,000 level-20 beta characters. A 14 Oct scan of over 1 million characters had Warlock as the least-played class at about 9%."
    },
    "pros": [
-    "Demonology is the strongest of these specs in sims: 963 DPS on the newest run, #8 of 28 on the tier list, A band",
+    "Demonology is the strongest of these specs in sims: 947 DPS on the newest run, #9 of 28 on the tier list, A band (Affliction 943, #10)",
     "Least-played class in the 14 Oct scan (about 9%), so raids will want you",
     "Own tier set in the first raids: Demonheart Raiment"
    ],
@@ -1509,6 +1574,26 @@
   "id": "warlock",
   "latestChanges": [
    {
+    "kind": "nerf",
+    "spec": "affliction-warlock",
+    "text": "Blizzard's 10 Nov hotfix: Wrack damage reduced by 30% and it no longer increases your other periodic damage by 10%; while you channel it, Siphon Life, Corruption and Bane of Agony now tick 100% faster. Soul Siphon now boosts Drain Life, Drain Soul and Wrack per Affliction effect on the target. MythicSim puts the Wrack change at -7.0%."
+   },
+   {
+    "kind": "buff",
+    "spec": "all",
+    "text": "Blizzard's 10 Nov hotfix: Imp, Voidwalker, Incubus and Succubus base health up about 15%; the Imp's Firebolt deals more base damage at ranks 1 to 4."
+   },
+   {
+    "kind": "neutral",
+    "spec": "destruction-warlock",
+    "text": "Blizzard's 10 Nov hotfix: Bane of Havoc now triggers the global cooldown."
+   },
+   {
+    "kind": "neutral",
+    "spec": "all",
+    "text": "11 Nov (sim change): MythicSim re-simmed with the 10 Nov tuning. Demonology 963 to 947 (#8 to #9, A; gear hit and crit counted once, -2.1%), Affliction 910 to 943 (#14 to #10, B to A; new Bane of Agony rotation +12.5% outweighs the Wrack cut), Destruction 896 to 890 (#16 to #18, B), Destruction on Incinerate 857 (#21)."
+   },
+   {
     "kind": "neutral",
     "spec": "all",
     "text": "10 Nov (sim change): MythicSim re-simmed on client 70862 with the 9 Nov hotfixes. Demonology 949 to 963 (#9 to #8, A), Affliction 906 to 910 (#14, A to B band as the band lines moved), Destruction 897 to 896 (#17 to #16, B), Destruction on Incinerate 859 to 857 (#19 to #21)."
@@ -1517,16 +1602,6 @@
     "kind": "neutral",
     "spec": "all",
     "text": "Blizzard's 9 Nov hotfix: Incinerate is no longer available to non-Destruction specs; completing \"Summon Felsteed\" now grants the riding skill."
-   },
-   {
-    "kind": "neutral",
-    "spec": "affliction-warlock",
-    "text": "Planned for 10 Nov (Blizzard, not live yet): Siphon Life, Corruption and Bane of Agony to become worth casting alongside Wrack, without changing Affliction's total damage."
-   },
-   {
-    "kind": "neutral",
-    "spec": "all",
-    "text": "Planned for 10 Nov (Blizzard, not live yet): Voidwalkers, like Hunter pets, to be made more durable as tanks, roughly as in Classic Era."
    },
    {
     "kind": "buff",
@@ -1654,7 +1729,7 @@
     "text": "Found in the files: beta build 70450 (16 Oct) brings spell and item data changes but no listed Warlock ability changes. A report of an Amplify Curse fix couldn't be confirmed."
    }
   ],
-  "latestLabel": "Blizzard's 9 Nov hotfixes and MythicSim's 10 Nov run (client 70862), on top of the 3 Nov development notes and 26 Oct racial update",
+  "latestLabel": "Blizzard's 10 Nov class tuning and MythicSim's 11 Nov run (client 70862), on top of the 9 Nov hotfixes, 3 Nov development notes and 26 Oct racial update",
   "legacy": {
    "alternate": {
     "gourmand": 3,
@@ -1721,7 +1796,7 @@
   "name": "Warlock",
   "opinions": [
    {
-    "date": "7 Nov",
+    "date": "11 Nov",
     "grades": [
      {
       "grade": "A",
@@ -1736,7 +1811,7 @@
       "spec": "destruction-warlock"
      }
     ],
-    "note": "Sim-based. Demonology #9 and Affliction #14 (A), Destruction #17 (B) of 28 (engine a667dce, 8 Nov run).",
+    "note": "Sim-based. Demonology #9 and Affliction #10 (A), Destruction #18 (B) of 28 (engine a667dce, 11 Nov run).",
     "site": "MythicSim",
     "url": "https://mythicsim.com/wow-forever/tier-list"
    },
@@ -1849,10 +1924,10 @@
   ],
   "verdict": {
    "best": "demonology-warlock",
-   "body": "On MythicSim's newest run (engine a667dce, simmed 10 Nov on client 70862, including Blizzard's 2 Nov notes and 9 Nov hotfixes) Demonology sims 963 DPS, about 6% ahead of Affliction (910) and 7% ahead of Destruction (896). On the tier list (28 rows) it's #8, in the A band; Affliction is #14 (B) and Destruction #16 (B). Demonology's rise from 949 comes mostly from live Forever stats on the reference gear (+1.2%) and a new reference ring. Affliction rose from 837 when MythicSim moved its reference to a 35/11/5 Wrack build; Blizzard's 6 Nov hotfix stops Soul Siphon wrongly making Wrack raise its own damage, and MythicSim has not said whether its figure reflects that. Demonology slipped 0.5% on 4 Nov because MythicSim now reads Orc's Command from the live client as +5% on the Imp's Firebolt and the Succubus' Lash of Pain only, so its reference moved from Orc to Undead. Destruction gained 7.9% from Shadow and Flame (now up to 20%). Blizzard plans 10 Nov hotfixes (not posted when this was checked) to make Siphon Life, Corruption and Bane of Agony worth casting alongside Wrack without changing Affliction's total damage, and to make Voidwalkers more durable as tanks. Raid as Demonology, level as Affliction.",
+   "body": "On MythicSim's newest run (engine a667dce, simmed 11 Nov on client 70862, including Blizzard's 2 Nov notes, 9 Nov hotfixes and 10 Nov class tuning) Demonology sims 947 DPS, only about 0.4% ahead of Affliction (943) and 6% ahead of Destruction (890). On the tier list (28 rows) Demonology is #9 and Affliction #10, both A band; Destruction is #18 (B). Demonology's drop from 963 is mostly MythicSim counting gear hit and crit once where a Forever tooltip states them (-2.1%), a sim change. Blizzard's 10 Nov hotfix cut Wrack's damage by 30% and removed its 10% boost to your other DoTs; instead Corruption, Siphon Life and Bane of Agony tick 100% faster while you channel it, and Soul Siphon now boosts Drain Life, Drain Soul and Wrack. MythicSim puts that at -7.0% for Affliction, but a new reference rotation that keeps Bane of Agony up for the whole fight (+12.5%) more than makes up for it. The same hotfix raised Imp, Voidwalker, Incubus and Succubus base health by about 15% and gave Bane of Havoc a global cooldown. Destruction gained 7.7% from Shadow and Flame (now up to 20%). With Demonology and Affliction this close, either works for raids; level as Affliction.",
    "flavour": "\"Keep one demon on the leash and another burning in your blood.\"",
-   "headline": "Demonology still leads the Warlock specs (949 to 963, #9 to #8, A band); Affliction (910) is #14 but drops to B, Destruction (896) #16 (B); Blizzard's 10 Nov Affliction and Voidwalker tuning not posted yet",
-   "statsNote": "Big number: newest MythicSim run (Warlock page, engine a667dce, 10 Nov run). Below: rank, DPS and band on the tier list (same run)."
+   "headline": "Demonology still leads the Warlock specs but only just (963 to 947, #8 to #9, A); Affliction jumps 910 to 943 (#14 to #10, B to A) despite Blizzard's 10 Nov 30% Wrack cut; Destruction 890 (#18, B)",
+   "statsNote": "Big number: newest MythicSim run (Warlock page, engine a667dce, 11 Nov run). Below: rank, DPS and band on the tier list (same run)."
   }
  }
 }

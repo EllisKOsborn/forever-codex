@@ -12,6 +12,7 @@
    "Hardcore won't be available at launch.",
    "World buffs don't work in Forever raids.",
    "Dungeon kills give 50% more XP since Blizzard's 9 Nov hotfix; dungeons are also where your quest rewards and pre-raid gear are.",
+   "Since Blizzard's 10 Nov hotfix most quests from level 48 up also reward gold, so there is no reason to save quests to hand in at 60.",
    "Wands and Auto Shot need you to stand still for 0.5 sec before firing.",
    "The beta closed on 23 October and nothing from it carries over. Early name reservation for upgrade-pack owners runs until 3 November; everyone else creates characters at launch.",
    "Blizzard says some layering will remain at launch. It has fixed groups being split on boats and zeppelins and when entering or leaving capital cities (reported by GameSpot, 23 October).",
@@ -19,7 +20,7 @@
    "Blizzard raised class damage and higher-level creature health before launch, plans no big tuning changes before the raids open, then a large tuning pass once players are past level 30."
   ],
   "gearNote": "Levelling picks come from the level-30 beta lists. Trinket gains are MythicSim results and differ by spec. Items marked unverified are level-60 loot whose Forever drop tables aren't confirmed yet (the beta stops at 30). \"Also wanted by\" shows which of your other classes would compete for the same item.",
-  "lastRefreshed": "2026-11-10T08:30:00+00:00",
+  "lastRefreshed": "2026-11-11T08:30:00+00:00",
   "raidFacts": [
    "Onyxia's Lair needs the Drakefire Amulet, earned per character and only needed in your bags (Blizzard raid overview, 20 October). The quest chain matches Classic. Barrow Deeps and Hyjal Summit have no attunement chain.",
    "All raids are currently planned to reset each week (Blizzard raid overview, 20 October).",
@@ -359,6 +360,10 @@
    {
     "name": "Blizzard development notes, updated 2 Nov (posted 3 Nov)",
     "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-november-2/2360696/9"
+   },
+   {
+    "name": "Blizzard: WoW Forever hotfixes",
+    "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315281"
    }
   ],
   "tierNote": "MythicSim reference builds, level 60, 2-minute single-target fight, in MythicSim's default \"Best of each spec\" view (28 specs, including variant builds). The DPS shown is MythicSim's no-trinket figure; the rank follows MythicSim's order, which uses its with-trinkets headline number, so a spec can sit above one with slightly higher DPS here (Frostfire above Shadow). All 28 rows are on MythicSim's 6 Nov run (engine a667dce), revised on 7 Nov, which includes Blizzard's 2 Nov development notes and no Ahn'Qiraj 20 book ranks. The change column is MythicSim's printed change since it simmed Blizzard's 2 Nov notes. Bands are MythicSim's own S, A, B and C sections. Specs for the classes you're weighing are highlighted."
@@ -548,7 +553,7 @@
    {
     "iso": "2026-11-10T00:00:00+00:00",
     "label": "Class tuning hotfixes",
-    "note": "Affliction, Voidwalker, Hunter pet and Enhancement changes (Blizzard)"
+    "note": "Live: Wrack -30% with faster DoT ticks, demon pet health +15%, Hunter pet and Enhancement changes (Blizzard)"
    },
    {
     "iso": "2026-12-09T00:00:00+00:00",

@@ -20,8 +20,8 @@
   ],
   "boards": {
    "shadow-priest": {
-    "dps": 820.2,
-    "gap": "0.39%",
+    "dps": 815.2,
+    "gap": "0.38%",
     "tier": "S"
    }
   },
@@ -161,8 +161,8 @@
     "tier": "S"
    },
    "shadow-priest": {
-    "dps": 818.5,
-    "gap": "0.59%",
+    "dps": 813.4,
+    "gap": "0.60%",
     "tier": "S"
    }
   },
@@ -251,8 +251,8 @@
     "tier": "S"
    },
    "shadow-priest": {
-    "dps": 820.7,
-    "gap": "0.32%",
+    "dps": 815.6,
+    "gap": "0.33%",
     "tier": "S"
    }
   },
@@ -308,7 +308,7 @@
   ],
   "boards": {
    "shadow-priest": {
-    "dps": 823.4,
+    "dps": 818.3,
     "gap": "",
     "tier": "S"
    }
@@ -467,7 +467,7 @@
     "tier": "S"
    },
    "shadow-priest": {
-    "dps": 816.7,
+    "dps": 811.7,
     "gap": "0.81%",
     "tier": "S"
    }
@@ -559,8 +559,8 @@
     "tier": "A"
    },
    "shadow-priest": {
-    "dps": 822.6,
-    "gap": "0.10%",
+    "dps": 817.8,
+    "gap": "0.06%",
     "tier": "S"
    }
   },

@@ -1,29 +1,4 @@
 {
- "n20261019-forever-open-warlocks": {
-  "classes": [
-   "warlock",
-   "mage"
-  ],
-  "date": "2026-10-19",
-  "source": "Icy Veins",
-  "summary": "A Warlock won the $50,000 top prize at the level-30 Forever Open, and Warlocks took first and second place. Icy Veins says Mages gave them their hardest matches.",
-  "tag": "blizzard",
-  "title": "Warlocks win the Forever Open duel tournament",
-  "url": "https://www.icy-veins.com/wow-forever/news/warlocks-dominate-the-100000-forever-dueling-tournament/"
- },
- "n20261019-mythicsim-tier-resim": {
-  "classes": [
-   "warlock",
-   "mage",
-   "priest"
-  ],
-  "date": "2026-10-19",
-  "source": "MythicSim",
-  "summary": "The tier list moved to an 18 Oct engine and the Warlock and Mage pages to a 19 Oct one. Arcane (861) and Fire (851) climb to #6 and #8, Demonology sims 873 on the newest Warlock run, and Shadow reaches 774 on its newest board.",
-  "tag": "sim",
-  "title": "MythicSim re-runs the tier list and Warlock and Mage pages",
-  "url": "https://mythicsim.com/wow-forever/tier-list"
- },
  "n20261019-new-zones-video": {
   "classes": [],
   "date": "2026-10-19",
@@ -625,6 +600,28 @@
   "date": "2026-11-10",
   "title": "MythicSim re-sims on client 70862: Frost Mage up to 816, Shadow 822",
   "summary": "MythicSim's 10 Nov run adds the 9 Nov hotfixes and live Forever gear stats. Shadow dips to 822 and #25 of 28; Demonology rises to 963, Arcane to 929, Fire to 928 (A band) and Frost to 816 on a new Cone of Cold reference.",
+  "tag": "sim",
+  "classes": [
+   "priest",
+   "warlock",
+   "mage"
+  ],
+  "source": "MythicSim tier list",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "n20261111-hotfixes-10-nov": {
+  "date": "2026-11-11",
+  "title": "Blizzard's 10 Nov class tuning: Wrack cut 30%, demon pets tougher, gold from level 48 quests",
+  "summary": "Affliction's Wrack deals 30% less damage and no longer boosts other DoTs, but makes Corruption, Siphon Life and Bane of Agony tick twice as fast while channelled; Warlock demons get about 15% more health. Most quests from level 48 now also give gold, and the Revelation enchant no longer procs from Vampiric Embrace healing.",
+  "tag": "patch",
+  "classes": [],
+  "source": "Blizzard (WoW: Forever Hotfixes)",
+  "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315281"
+ },
+ "n20261111-mythicsim-11-nov-run": {
+  "date": "2026-11-11",
+  "title": "MythicSim re-sims with the 10 Nov tuning: Affliction up to 943, Shadow 817",
+  "summary": "MythicSim's 11 Nov run adds Blizzard's class tuning and now counts gear hit and crit only once, which trims most caster numbers. Affliction climbs to #10 on a new Bane of Agony rotation, just behind Demonology (947); Shadow is 817 but #24 of 28.",
   "tag": "sim",
   "classes": [
    "priest",
