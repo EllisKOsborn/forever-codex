@@ -61,7 +61,7 @@
    "Haste speeds up casts but not DoT or channel ticks.",
    "Stamina matters more than for other casters: it fuels Life Tap and keeps you alive under Soul Link."
   ],
-  "summary": "Now level with Demonology in the sims: 943 DPS on the newest run (#10 of 28 and A band on the tier list, 11 Nov run), up from 837 after MythicSim moved its reference to a 35/11/5 Wrack build and, on 11 Nov, to Bane of Agony for the whole fight. Blizzard's 10 Nov hotfix cut Wrack's damage by 30% and stopped it raising your other DoTs by 10%; instead, while you channel it, Corruption, Siphon Life and Bane of Agony tick 100% faster, and Soul Siphon now boosts Drain Life, Drain Soul and Wrack. MythicSim puts the Wrack change at -7.0%, offset by its new rotation. The 15 Oct build doubled Shadow Mastery to 10% but replaced Malediction (+5% periodic damage) with Grim Reach, which only adds range. Still the best levelling spec and the most mobile in raids.",
+  "summary": "Now level with Demonology in the sims: 943 DPS on the newest run (#9 of 28 and A band on the tier list, 11 Nov run), up from 837 after MythicSim moved its reference to a 35/11/5 Wrack build and, on 11 Nov, to Bane of Agony for the whole fight. Blizzard's 10 Nov hotfix cut Wrack's damage by 30% and stopped it raising your other DoTs by 10%; instead, while you channel it, Corruption, Siphon Life and Bane of Agony tick 100% faster, and Soul Siphon now boosts Drain Life, Drain Soul and Wrack. MythicSim puts the Wrack change at -7.0%, offset by its new rotation. The 15 Oct build doubled Shadow Mastery to 10% but replaced Malediction (+5% periodic damage) with Grim Reach, which only adds range. Still the best levelling spec and the most mobile in raids.",
   "talentNotes": [
    "Shadow Mastery: 2/4/6/8/10% Shadow damage (doubled on 15 Oct).",
    "Malediction (+1–5% to all your periodic damage) was removed on 15 Oct. Grim Reach takes its place: +10/20% Affliction spell range.",
@@ -78,7 +78,7 @@
   ],
   "tierBand": "A",
   "tierDps": 943,
-  "tierRank": 10,
+  "tierRank": 9,
   "trinketSnapshot": "MythicSim Affliction board, Rust engine 3db5a4f, 4 Nov (baseline 837)",
   "trinkets": [
    {
@@ -168,7 +168,7 @@
    "Then spell power and crit; Arcane Mind at 5/5 gives 10% Intellect and the same crit damage boost Ice Shards gives Frost.",
    "Spirit/Mp5 for long fights."
   ],
-  "summary": "Arcane Blast is now a setup spell: since the 30 Oct hotfix each cast turns 12% of your Intellect into spell damage for 18 sec (was 15% for 15 sec) and raises its cost by 100% (was 175%); you cash the stacks with Arcane Missiles or a Presence of Mind Pyroblast. On MythicSim's newest run (engine a667dce, 11 Nov) it ties Fire at 916 DPS and is #12 of 28 (A band) on the tier list, two places above Fire. Blizzard's 9 Nov hotfix splits Arcane Concentration's chance across the Missiles cast and its bolts, which MythicSim puts at -1.2%. Blizzard's 6 Nov hotfix fixed Arcane Blast's duration so it properly lasts 18 sec. Since 4 Nov MythicSim's reference is a 32/16/3 \"arc fire\" build (Heating Up and Improved Fire Blast in place of Improved Frostbolt) that uses Fire Blast to build Heating Up for Pyroblasts between Arcane Blast stacks.",
+  "summary": "Arcane Blast is now a setup spell: since the 30 Oct hotfix each cast turns 12% of your Intellect into spell damage for 18 sec (was 15% for 15 sec) and raises its cost by 100% (was 175%); you cash the stacks with Arcane Missiles or a Presence of Mind Pyroblast. On MythicSim's newest run (engine a667dce, 11 Nov) it ties Fire at 916 DPS and is #12 of 28 (A band) on the tier list, one place above Fire. Blizzard's 9 Nov hotfix splits Arcane Concentration's chance across the Missiles cast and its bolts, which MythicSim puts at -1.2%. Blizzard's 6 Nov hotfix fixed Arcane Blast's duration so it properly lasts 18 sec. Since 4 Nov MythicSim's reference is a 32/16/3 \"arc fire\" build (Heating Up and Improved Fire Blast in place of Improved Frostbolt) that uses Fire Blast to build Heating Up for Pyroblasts between Arcane Blast stacks.",
   "talentNotes": [
    "Arcane Blast and Arcane Wrath are one-point talents; Wrath needs Blast.",
    "Missile Barrage is in row 1 now and needs 2 points for the full 40% from Blast.",
@@ -284,7 +284,7 @@
    "Haste speeds up casts but not DoT or channel ticks.",
    "Stamina matters more than for other casters: it fuels Life Tap and keeps you alive under Soul Link."
   ],
-  "summary": "The strongest Warlock spec in every MythicSim run: 947 DPS on the newest run (11 Nov), but now only about 0.4% ahead of Affliction (943) and 6% ahead of Destruction (890), and #9 of 28 on the tier list, in the A band. You sacrifice your Imp for a 2-hour Shadow buff, then fight with a Succubus thanks to Demonic Pact. The 15 Oct build only fixed Soul Link for this spec, so the lead comes from the pet tree itself.",
+  "summary": "The strongest Warlock spec in every MythicSim run: 947 DPS on the newest run (11 Nov), but now only about 0.4% ahead of Affliction (943) and 6% ahead of Destruction (890), and #8 of 28 on the tier list, in the A band. You sacrifice your Imp for a 2-hour Shadow buff, then fight with a Succubus thanks to Demonic Pact. The 15 Oct build only fixed Soul Link for this spec, so the lead comes from the pet tree itself.",
   "talentNotes": [
    "Demonic Pact (31-point capstone, needs Soul Link): summoning a different demon doesn't cancel Demonic Sacrifice.",
    "Demonic Sacrifice is a 2-hour buff now, and each demon gives something different (the Imp gives Shadow damage).",
@@ -301,7 +301,7 @@
   ],
   "tierBand": "A",
   "tierDps": 947,
-  "tierRank": 9,
+  "tierRank": 8,
   "trinketSnapshot": "MythicSim Demonology board, Rust engine 3db5a4f, 4 Nov (baseline 936)",
   "trinkets": [
    {
@@ -408,7 +408,7 @@
    "Haste speeds up casts but not DoT or channel ticks.",
    "Stamina matters more than for other casters: it fuels Life Tap and keeps you alive under Soul Link."
   ],
-  "summary": "Third of the Warlock specs in the sims, after Blizzard's 2 Nov notes doubled Shadow and Flame to 20%: 890 DPS on the newest run (11 Nov), #18 of 28 and B band on the tier list. MythicSim's reference is now a 20/0/31 Shadow Bolt build that keeps a Succubus out instead of sacrificing it, which its breakdown credited with +8.5%. Its strength is cleave: Bane of Havoc copies 15% of your damage on other targets to one cursed target. The 15 Oct build only changed Destructive Reach to Destruction spells.",
+  "summary": "Third of the Warlock specs in the sims, after Blizzard's 2 Nov notes doubled Shadow and Flame to 20%: 890 DPS on the newest run (11 Nov), #16 of 28 and B band on the tier list. MythicSim's reference is now a 20/0/31 Shadow Bolt build that keeps a Succubus out instead of sacrificing it, which its breakdown credited with +8.5%. Its strength is cleave: Bane of Havoc copies 15% of your damage on other targets to one cursed target. The 15 Oct build only changed Destructive Reach to Destruction spells.",
   "talentNotes": [
    "Destructive Reach now only extends Destruction spells' range by 10/20% (15 Oct).",
    "Incinerate (31-point capstone, needs Bane of Havoc): a Fire filler that hits 25% harder with Immolate up.",
@@ -424,7 +424,7 @@
   ],
   "tierBand": "B",
   "tierDps": 890,
-  "tierRank": 18,
+  "tierRank": 16,
   "trinketSnapshot": "MythicSim Destruction board, Rust engine 3db5a4f, 4 Nov (baseline 890)",
   "trinkets": [
    {
@@ -504,7 +504,7 @@
    "Fire-only spell damage gear works for Fire and Frostfire, not for Arcane Missiles procs.",
    "Intellect and Spirit after that; Stamina for dangerous fights."
   ],
-  "summary": "LFCarry's raid default. On MythicSim's newest run (engine a667dce, 11 Nov) it sims 916 DPS, level with Arcane, and is #14 of 28 on the tier list, in the B band. Fire Power rewards keeping your own Fire effects on the boss, and every Fire Blast feeding Heating Up means more short Pyroblasts. Client 70707 cut Critical Mass to 3 ranks (6% Fire crit, was 10%), which MythicSim puts at -1.8%. Improved Scorch only buffs you now, so every Fire Mage keeps their own 5 stacks.",
+  "summary": "LFCarry's raid default. On MythicSim's newest run (engine a667dce, 11 Nov) it sims 916 DPS, level with Arcane, and is #13 of 28 on the tier list, back in the A band. Fire Power rewards keeping your own Fire effects on the boss, and every Fire Blast feeding Heating Up means more short Pyroblasts. Client 70707 cut Critical Mass to 3 ranks (6% Fire crit, was 10%), which MythicSim puts at -1.8%. Improved Scorch only buffs you now, so every Fire Mage keeps their own 5 stacks.",
   "talentNotes": [
    "Heating Up (was Hot Streak): crits from Fireball, Frostfire Bolt, Fire Blast and Scorch cut your next Pyroblast's cast by 25%, up to 3 stacks.",
    "Incineration (was Incinerate) sits in row 1 and now covers Ice Lance and Arcane Blast too.",
@@ -517,9 +517,9 @@
    "Master of Elements refunds 30% of base cost on Fire and Frost crits at 3/3, so crit is also Mana.",
    "Mage Armor lets 50% of regen continue while casting. Use it in raids over Molten or Frost Armor."
   ],
-  "tierBand": "B",
+  "tierBand": "A",
   "tierDps": 916,
-  "tierRank": 14,
+  "tierRank": 13,
   "trinketSnapshot": "MythicSim Fire board, Rust engine 3db5a4f, 4 Nov (baseline 908)",
   "trinkets": [
    {

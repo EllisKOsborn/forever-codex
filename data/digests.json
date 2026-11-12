@@ -1,54 +1,4 @@
 {
- "2026-10-29": {
-  "date": "2026-10-29",
-  "at": "2026-10-29T10:30:00+00:00",
-  "headline": "No sim changes: Shadow stays 812 DPS (#13, B) on MythicSim's 28 Oct snapshot. A single unofficial datamine of build 70685 shows a Mage talent reshuffle; nothing for Priest.",
-  "items": [
-   {
-    "kind": "neutral",
-    "classes": [
-     "priest",
-     "mage",
-     "warlock"
-    ],
-    "text": "MythicSim tier list, class pages, race boards and trinket boards unchanged since yesterday (snapshot 28 Oct, engine a667dce): Shadow 812 (#13, B), Fire 917 (#6, A), Demonology 952 (#2, S).",
-    "source": "MythicSim tier list",
-    "url": "https://mythicsim.com/wow-forever/tier-list",
-    "confidence": "checked"
-   },
-   {
-    "kind": "neutral",
-    "classes": [
-     "mage"
-    ],
-    "text": "Found in the files (unofficial, one source): server build 70685 of 28 Oct makes Precision 2/4/6% hit for all spells, Incineration 5 ranks up to 10% crit (was 3 ranks), Critical Mass 3 ranks up to 6% (was 5 ranks, 10%), gives Ice Lance an 8 sec cooldown and removes Arcane Focus and Frost Blast. Not applied to the Mage pages until Blizzard or a second site confirms.",
-    "source": "ForeverChanges",
-    "url": "https://foreverchanges.pro/patch-notes",
-    "confidence": "single"
-   },
-   {
-    "kind": "buff",
-    "classes": [],
-    "text": "Found in the files (unofficial, one source): the Adventurer's Tent in build 70685 raises Rested experience for you and nearby party members to 20% of a level (was a 15 min tent).",
-    "source": "ForeverChanges",
-    "url": "https://foreverchanges.pro/patch-notes",
-    "confidence": "single"
-   }
-  ],
-  "unchecked": [
-   "No Blizzard hotfix or class post for Forever since the 27 Oct racial addition; recent blue posts cover name reservation fixes and a new-player guide.",
-   "Icy Veins news page refused the fetch (403); Bind on Forever shows nothing after build 70634.",
-   "MythicSim's Priest page says Shadow is #12 of 24 while the tier list shows #13 of 22 tracked rows (#15 of 28 including variants); the site keeps #13."
-  ],
-  "checks": {
-   "verified": 4,
-   "method": "MythicSim pages read raw with curl (tier list, Priest page, Shadow race and trinket boards) plus WebFetch; ForeverChanges build 70685 read twice with different prompts; a separate agent reopened every source and confirmed all 4 ledger rows.",
-   "corrected": [],
-   "flagged": [
-    "Mage talent changes in build 70685 are single-source and unofficial, so the Mage talent and spec data are left as they were."
-   ]
-  }
- },
  "2026-10-30": {
   "date": "2026-10-30",
   "at": "2026-10-30T08:05:00+00:00",
@@ -1084,6 +1034,83 @@
     "Affliction raid rotation said Wrack wasn't in MythicSim's preset; its reference has been a 35/11/5 Wrack build since 5 Nov.",
     "Warlock 'planned for 10 Nov' lines replaced with the posted hotfix; date note updated.",
     "MythicSim opinion grade for Frost Mage C to B, matching the tier list."
+   ],
+   "flagged": []
+  }
+ },
+ "2026-11-12": {
+  "date": "2026-11-12",
+  "at": "2026-11-12T08:05:00+00:00",
+  "headline": "Shadow unchanged at 817, still #24 of 28 (B); Blizzard's 11 Nov hotfixes make Confounding Flash and Twilight Focus work in Shadowform, and MythicSim's Shaman re-sim lifts Demonology to #8 and Fire Mage back to A.",
+  "items": [
+   {
+    "kind": "neutral",
+    "classes": [
+     "priest"
+    ],
+    "text": "Shadow unchanged at 817 (#24 of 28, B) and Smite 650 (#28, C) on the tier list; the Priest page still shows 817 on engine a667dce, simmed 11 Nov.",
+    "source": "MythicSim tier list and Priest page",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "buff",
+    "classes": [
+     "priest"
+    ],
+    "text": "Blizzard's 11 Nov hotfix: Confounding Flash (Gnome) can now be used in Shadowform, and the Holy talent Twilight Focus now works in Shadowform. No Priest damage changes.",
+    "source": "Blizzard hotfixes",
+    "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315281",
+    "confidence": "checked"
+   },
+   {
+    "kind": "buff",
+    "classes": [
+     "warlock"
+    ],
+    "text": "Warlock figures unchanged (Demonology 947, Affliction 943, Destruction 890) but ranks move: Demonology #9 to #8, Affliction #10 to #9 (both A), Destruction #18 to #16 (B), Destruction on Incinerate #21 to #20.",
+    "source": "MythicSim tier list and Warlock page",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "buff",
+    "classes": [
+     "mage"
+    ],
+    "text": "Mage figures unchanged (Arcane and Fire 916, Frostfire 810, Frost 805); Fire #14 to #13 and B to A band (MythicSim opinion grade B to A); Arcane stays #12 (A), Frostfire #22, Frost #25.",
+    "source": "MythicSim tier list and Mage page",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "nerf",
+    "classes": [],
+    "text": "MythicSim now sims Blizzard's 10 Nov Shaman tuning: Enhancement 1027 to 916 (#3 to #15, A to B; the page shows 1,033 to 916, -11.3%, with -17.7% from the Stormstrike, Maelstrom Weapon and Mental Dexterity changes) and Elehance 926 to 847 (#13 to #21). Beast Mastery (weave) 979 to 1007 (#8 to #5) on a Summon Hawk rotation; Beast Mastery (turret) 915 to 946 (#15 to #11, B to A); Fury 954 to 956; Arms 832 to 833; Feral 998 to 997.",
+    "source": "MythicSim tier list",
+    "url": "https://mythicsim.com/wow-forever/tier-list",
+    "confidence": "checked"
+   },
+   {
+    "kind": "neutral",
+    "classes": [],
+    "text": "Also in the 11 Nov hotfixes: Item Restoration is switched off while Blizzard fixes a critical bug, and the Twilight Enforcer's Smash in Riverglades hits much less hard.",
+    "source": "Blizzard hotfixes",
+    "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315281",
+    "confidence": "checked"
+   }
+  ],
+  "unchecked": [
+   "Race and trinket boards not re-read today (Priest page and tier list unchanged).",
+   "Levelling bands 30 to 60, quest wands and pre-raid gear not re-checked today.",
+   "LFCarry, TalentsForever, ForeverChanges, Bind on Forever, Icy Veins and Kami Labs not re-read; Warcraft Tavern's news list and a news search found nothing dated 11 or 12 Nov beyond the hotfixes."
+  ],
+  "checks": {
+   "verified": 6,
+   "method": "Each MythicSim page read twice with different prompts (tier list three times, for Enhancement's 11% drop and the Fire Mage band); Blizzard's hotfix post read twice (official source); a fresh agent then re-read all 6 ledger rows from the pages and confirmed every one, including Fire Mage under the A heading.",
+   "corrected": [
+    "Launch date removed from the dates card now it is more than a week past.",
+    "Tier list 'change' text for the specs whose figure moved now reads against the last run."
    ],
    "flagged": []
   }

@@ -1,13 +1,4 @@
 {
- "n20261019-new-zones-video": {
-  "classes": [],
-  "date": "2026-10-19",
-  "source": "Icy Veins",
-  "summary": "A new Blizzard video previews two new levelling zones: the Riverglades, reached by a new path from Redridge Mountains, and Mount Hyjal. No level ranges were given.",
-  "tag": "blizzard",
-  "title": "Blizzard video shows the Riverglades and Mount Hyjal zones",
-  "url": "https://www.icy-veins.com/wow-forever/news/new-leveling-zones-in-wow-forever-riverglades-mount-hyjal/"
- },
  "n20261020-mythicsim-mage-race-boards": {
   "classes": [
    "mage"
@@ -30,19 +21,6 @@
   "summary": "Demonology climbs from #7 to #5 at 873 DPS, Affliction from #13 to #12 and Fire from #8 to #7, while Shadow stays #14 but now at 774. The Hunter rows moved to a 19 Oct run and dropped 6 to 7%, so only Survival is left in S.",
   "tag": "sim",
   "title": "MythicSim tier list moves every Warlock, Mage and Priest row to its 18 Oct engine",
-  "url": "https://mythicsim.com/wow-forever/tier-list"
- },
- "n20261020-mythicsim-fire-overtakes-arcane": {
-  "classes": [
-   "mage",
-   "warlock",
-   "priest"
-  ],
-  "date": "2026-10-20",
-  "source": "MythicSim",
-  "summary": "MythicSim's tier list and class pages moved to engine b5c0b8b on 20 Oct. Fire Mage rises to 843 DPS (#6) while Arcane falls to 784 (#10); Demonology Warlock is 869 (#5) and Shadow Priest 771 (#13).",
-  "tag": "sim",
-  "title": "MythicSim 20 Oct run: Fire Mage overtakes Arcane",
   "url": "https://mythicsim.com/wow-forever/tier-list"
  },
  "n20261021-mage-hotfix": {
@@ -622,6 +600,30 @@
   "date": "2026-11-11",
   "title": "MythicSim re-sims with the 10 Nov tuning: Affliction up to 943, Shadow 817",
   "summary": "MythicSim's 11 Nov run adds Blizzard's class tuning and now counts gear hit and crit only once, which trims most caster numbers. Affliction climbs to #10 on a new Bane of Agony rotation, just behind Demonology (947); Shadow is 817 but #24 of 28.",
+  "tag": "sim",
+  "classes": [
+   "priest",
+   "warlock",
+   "mage"
+  ],
+  "source": "MythicSim tier list",
+  "url": "https://mythicsim.com/wow-forever/tier-list"
+ },
+ "n20261112-hotfixes-11-nov": {
+  "date": "2026-11-12",
+  "title": "Blizzard's 11 Nov hotfixes: Confounding Flash and Twilight Focus work in Shadowform",
+  "summary": "Gnome Priests can now use Confounding Flash in Shadowform, and the Holy talent Twilight Focus now works in Shadowform too. Blizzard also switched off Item Restoration while it fixes a critical bug and toned down the Twilight Enforcer's Smash in Riverglades.",
+  "tag": "patch",
+  "classes": [
+   "priest"
+  ],
+  "source": "Blizzard (WoW: Forever Hotfixes)",
+  "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315281"
+ },
+ "n20261112-mythicsim-shaman-drop": {
+  "date": "2026-11-12",
+  "title": "MythicSim adds the 10 Nov Shaman tuning: Enhancement falls to #15",
+  "summary": "MythicSim now sims Blizzard's 10 Nov Stormstrike and Maelstrom Weapon changes, taking Enhancement from 1,033 to 916 and Elehance to 847. That lifts Demonology to #8, Affliction to #9 and Fire Mage back into A at #13; Shadow stays 817 at #24.",
   "tag": "sim",
   "classes": [
    "priest",
